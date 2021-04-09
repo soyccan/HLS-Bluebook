@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1617832203781">
+  <ports id="1" name="din_V" type="PortType" originalName="__Val2__" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="11" name="ap_return_0" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="12" name="ap_return_1" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <edges id="113" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.0"/>
+  <edges id="120" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="121" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="127" edge_type="CtrlEdge" source_obj="//@blocks.2" sink_obj="//@blocks.1/@node_objs.0"/>
+  <edges id="128" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.1/@node_objs.0"/>
+  <edges id="134" edge_type="CtrlEdge" source_obj="//@blocks.3" sink_obj="//@blocks.2/@node_objs.0"/>
+  <edges id="135" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.2/@node_objs.0"/>
+  <edges id="141" edge_type="CtrlEdge" source_obj="//@blocks.4" sink_obj="//@blocks.3/@node_objs.0"/>
+  <edges id="142" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.3/@node_objs.0"/>
+  <edges id="148" edge_type="CtrlEdge" source_obj="//@blocks.5" sink_obj="//@blocks.4/@node_objs.0"/>
+  <edges id="149" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.4/@node_objs.0"/>
+  <edges id="155" edge_type="CtrlEdge" source_obj="//@blocks.6" sink_obj="//@blocks.5/@node_objs.0"/>
+  <edges id="156" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.5/@node_objs.0"/>
+  <edges id="162" edge_type="CtrlEdge" source_obj="//@blocks.7" sink_obj="//@blocks.6/@node_objs.0"/>
+  <edges id="163" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.6/@node_objs.0"/>
+  <edges id="169" edge_type="CtrlEdge" source_obj="//@blocks.8" sink_obj="//@blocks.7/@node_objs.0"/>
+  <edges id="170" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.7/@node_objs.0"/>
+  <edges id="176" edge_type="CtrlEdge" source_obj="//@blocks.9" sink_obj="//@blocks.8/@node_objs.0"/>
+  <edges id="177" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.8/@node_objs.0"/>
+  <edges id="183" edge_type="CtrlEdge" source_obj="//@blocks.10" sink_obj="//@blocks.9/@node_objs.0"/>
+  <edges id="184" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.9/@node_objs.0"/>
+  <edges id="190" edge_type="CtrlEdge" source_obj="//@blocks.11" sink_obj="//@blocks.10/@node_objs.0"/>
+  <edges id="191" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.10/@node_objs.0"/>
+  <edges id="197" edge_type="CtrlEdge" source_obj="//@blocks.12" sink_obj="//@blocks.11/@node_objs.0"/>
+  <edges id="198" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.11/@node_objs.0"/>
+  <edges id="204" edge_type="CtrlEdge" source_obj="//@blocks.13" sink_obj="//@blocks.12/@node_objs.0"/>
+  <edges id="205" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.12/@node_objs.0"/>
+  <edges id="211" edge_type="CtrlEdge" source_obj="//@blocks.14" sink_obj="//@blocks.13/@node_objs.0"/>
+  <edges id="212" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.13/@node_objs.0"/>
+  <edges id="218" edge_type="CtrlEdge" source_obj="//@blocks.15" sink_obj="//@blocks.14/@node_objs.0"/>
+  <edges id="219" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.14/@node_objs.0"/>
+  <edges id="229" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.15/@node_objs.1"/>
+  <edges id="235" edge_type="CtrlEdge" source_obj="//@blocks.18" sink_obj="//@blocks.17/@node_objs.0"/>
+  <edges id="236" edge_type="CtrlEdge" source_obj="//@blocks.31" sink_obj="//@blocks.17/@node_objs.0"/>
+  <edges id="239" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="242" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="245" edge_type="CtrlEdge" source_obj="//@blocks.2" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="248" edge_type="CtrlEdge" source_obj="//@blocks.3" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="251" edge_type="CtrlEdge" source_obj="//@blocks.4" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="254" edge_type="CtrlEdge" source_obj="//@blocks.5" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="257" edge_type="CtrlEdge" source_obj="//@blocks.6" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="260" edge_type="CtrlEdge" source_obj="//@blocks.7" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="263" edge_type="CtrlEdge" source_obj="//@blocks.8" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="266" edge_type="CtrlEdge" source_obj="//@blocks.9" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="269" edge_type="CtrlEdge" source_obj="//@blocks.10" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="272" edge_type="CtrlEdge" source_obj="//@blocks.11" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="275" edge_type="CtrlEdge" source_obj="//@blocks.12" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="278" edge_type="CtrlEdge" source_obj="//@blocks.13" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="281" edge_type="CtrlEdge" source_obj="//@blocks.14" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="282" source_obj="//@blocks.15/@node_objs.0" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="283" edge_type="CtrlEdge" source_obj="//@blocks.15" sink_obj="//@blocks.16/@node_objs.0"/>
+  <edges id="286" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="288" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="290" edge_type="CtrlEdge" source_obj="//@blocks.2" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="292" edge_type="CtrlEdge" source_obj="//@blocks.3" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="294" edge_type="CtrlEdge" source_obj="//@blocks.4" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="296" edge_type="CtrlEdge" source_obj="//@blocks.5" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="298" edge_type="CtrlEdge" source_obj="//@blocks.6" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="300" edge_type="CtrlEdge" source_obj="//@blocks.7" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="302" edge_type="CtrlEdge" source_obj="//@blocks.8" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="304" edge_type="CtrlEdge" source_obj="//@blocks.9" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="306" edge_type="CtrlEdge" source_obj="//@blocks.10" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="308" edge_type="CtrlEdge" source_obj="//@blocks.11" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="310" edge_type="CtrlEdge" source_obj="//@blocks.12" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="312" edge_type="CtrlEdge" source_obj="//@blocks.13" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="314" edge_type="CtrlEdge" source_obj="//@blocks.14" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="316" edge_type="CtrlEdge" source_obj="//@blocks.15" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="322" edge_type="CtrlEdge" source_obj="//@blocks.17" sink_obj="//@blocks.16/@node_objs.2"/>
+  <edges id="323" edge_type="CtrlEdge" source_obj="//@blocks.31" sink_obj="//@blocks.16/@node_objs.2"/>
+  <edges id="329" edge_type="CtrlEdge" source_obj="//@blocks.19" sink_obj="//@blocks.18/@node_objs.0"/>
+  <edges id="330" edge_type="CtrlEdge" source_obj="//@blocks.31" sink_obj="//@blocks.18/@node_objs.0"/>
+  <edges id="336" edge_type="CtrlEdge" source_obj="//@blocks.20" sink_obj="//@blocks.19/@node_objs.0"/>
+  <edges id="337" edge_type="CtrlEdge" source_obj="//@blocks.31" sink_obj="//@blocks.19/@node_objs.0"/>
+  <edges id="343" edge_type="CtrlEdge" source_obj="//@blocks.21" sink_obj="//@blocks.20/@node_objs.0"/>
+  <edges id="344" edge_type="CtrlEdge" source_obj="//@blocks.31" sink_obj="//@blocks.20/@node_objs.0"/>
+  <edges id="350" edge_type="CtrlEdge" source_obj="//@blocks.22" sink_obj="//@blocks.21/@node_objs.0"/>
+  <edges id="351" edge_type="CtrlEdge" source_obj="//@blocks.31" sink_obj="//@blocks.21/@node_objs.0"/>
+  <edges id="357" edge_type="CtrlEdge" source_obj="//@blocks.23" sink_obj="//@blocks.22/@node_objs.0"/>
+  <edges id="358" edge_type="CtrlEdge" source_obj="//@blocks.31" sink_obj="//@blocks.22/@node_objs.0"/>
+  <edges id="364" edge_type="CtrlEdge" source_obj="//@blocks.24" sink_obj="//@blocks.23/@node_objs.0"/>
+  <edges id="365" edge_type="CtrlEdge" source_obj="//@blocks.31" sink_obj="//@blocks.23/@node_objs.0"/>
+  <edges id="371" edge_type="CtrlEdge" source_obj="//@blocks.25" sink_obj="//@blocks.24/@node_objs.0"/>
+  <edges id="372" edge_type="CtrlEdge" source_obj="//@blocks.31" sink_obj="//@blocks.24/@node_objs.0"/>
+  <edges id="378" edge_type="CtrlEdge" source_obj="//@blocks.26" sink_obj="//@blocks.25/@node_objs.0"/>
+  <edges id="379" edge_type="CtrlEdge" source_obj="//@blocks.31" sink_obj="//@blocks.25/@node_objs.0"/>
+  <edges id="385" edge_type="CtrlEdge" source_obj="//@blocks.27" sink_obj="//@blocks.26/@node_objs.0"/>
+  <edges id="386" edge_type="CtrlEdge" source_obj="//@blocks.31" sink_obj="//@blocks.26/@node_objs.0"/>
+  <edges id="392" edge_type="CtrlEdge" source_obj="//@blocks.28" sink_obj="//@blocks.27/@node_objs.0"/>
+  <edges id="393" edge_type="CtrlEdge" source_obj="//@blocks.31" sink_obj="//@blocks.27/@node_objs.0"/>
+  <edges id="399" edge_type="CtrlEdge" source_obj="//@blocks.29" sink_obj="//@blocks.28/@node_objs.0"/>
+  <edges id="400" edge_type="CtrlEdge" source_obj="//@blocks.31" sink_obj="//@blocks.28/@node_objs.0"/>
+  <edges id="406" edge_type="CtrlEdge" source_obj="//@blocks.30" sink_obj="//@blocks.29/@node_objs.0"/>
+  <edges id="407" edge_type="CtrlEdge" source_obj="//@blocks.31" sink_obj="//@blocks.29/@node_objs.0"/>
+  <edges id="416" edge_type="CtrlEdge" source_obj="//@blocks.31" sink_obj="//@blocks.30/@node_objs.1"/>
+  <edges id="419" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="422" edge_type="CtrlEdge" source_obj="//@blocks.17" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="425" edge_type="CtrlEdge" source_obj="//@blocks.18" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="428" edge_type="CtrlEdge" source_obj="//@blocks.19" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="431" edge_type="CtrlEdge" source_obj="//@blocks.20" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="434" edge_type="CtrlEdge" source_obj="//@blocks.21" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="437" edge_type="CtrlEdge" source_obj="//@blocks.22" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="440" edge_type="CtrlEdge" source_obj="//@blocks.23" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="443" edge_type="CtrlEdge" source_obj="//@blocks.24" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="446" edge_type="CtrlEdge" source_obj="//@blocks.25" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="449" edge_type="CtrlEdge" source_obj="//@blocks.26" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="452" edge_type="CtrlEdge" source_obj="//@blocks.27" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="455" edge_type="CtrlEdge" source_obj="//@blocks.28" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="458" edge_type="CtrlEdge" source_obj="//@blocks.29" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="460" edge_type="CtrlEdge" source_obj="//@blocks.30" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="462" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="464" edge_type="CtrlEdge" source_obj="//@blocks.17" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="466" edge_type="CtrlEdge" source_obj="//@blocks.18" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="468" edge_type="CtrlEdge" source_obj="//@blocks.19" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="470" edge_type="CtrlEdge" source_obj="//@blocks.20" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="472" edge_type="CtrlEdge" source_obj="//@blocks.21" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="474" edge_type="CtrlEdge" source_obj="//@blocks.22" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="476" edge_type="CtrlEdge" source_obj="//@blocks.23" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="478" edge_type="CtrlEdge" source_obj="//@blocks.24" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="480" edge_type="CtrlEdge" source_obj="//@blocks.25" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="482" edge_type="CtrlEdge" source_obj="//@blocks.26" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="484" edge_type="CtrlEdge" source_obj="//@blocks.27" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="486" edge_type="CtrlEdge" source_obj="//@blocks.28" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="488" edge_type="CtrlEdge" source_obj="//@blocks.29" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="489" source_obj="//@blocks.30/@node_objs.0" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="490" edge_type="CtrlEdge" source_obj="//@blocks.30" sink_obj="//@blocks.31/@node_objs.1"/>
+  <edges id="492" source_obj="//@blocks.16/@node_objs.1" sink_obj="//@blocks.31/@node_objs.2"/>
+  <edges id="493" source_obj="//@blocks.16/@node_objs.0" sink_obj="//@blocks.31/@node_objs.2"/>
+  <edges id="495" source_obj="//@blocks.16/@node_objs.1" sink_obj="//@blocks.31/@node_objs.3"/>
+  <edges id="496" source_obj="//@blocks.31/@node_objs.1" sink_obj="//@blocks.31/@node_objs.3"/>
+  <edges id="503" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@blocks.16"/>
+  <edges id="504" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@blocks.1"/>
+  <edges id="505" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@blocks.16"/>
+  <edges id="506" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@blocks.2"/>
+  <edges id="507" edge_type="CtrlEdge" source_obj="//@blocks.2" sink_obj="//@blocks.16"/>
+  <edges id="508" edge_type="CtrlEdge" source_obj="//@blocks.2" sink_obj="//@blocks.3"/>
+  <edges id="509" edge_type="CtrlEdge" source_obj="//@blocks.3" sink_obj="//@blocks.16"/>
+  <edges id="510" edge_type="CtrlEdge" source_obj="//@blocks.3" sink_obj="//@blocks.4"/>
+  <edges id="511" edge_type="CtrlEdge" source_obj="//@blocks.4" sink_obj="//@blocks.16"/>
+  <edges id="512" edge_type="CtrlEdge" source_obj="//@blocks.4" sink_obj="//@blocks.5"/>
+  <edges id="513" edge_type="CtrlEdge" source_obj="//@blocks.5" sink_obj="//@blocks.16"/>
+  <edges id="514" edge_type="CtrlEdge" source_obj="//@blocks.5" sink_obj="//@blocks.6"/>
+  <edges id="515" edge_type="CtrlEdge" source_obj="//@blocks.6" sink_obj="//@blocks.16"/>
+  <edges id="516" edge_type="CtrlEdge" source_obj="//@blocks.6" sink_obj="//@blocks.7"/>
+  <edges id="517" edge_type="CtrlEdge" source_obj="//@blocks.7" sink_obj="//@blocks.16"/>
+  <edges id="518" edge_type="CtrlEdge" source_obj="//@blocks.7" sink_obj="//@blocks.8"/>
+  <edges id="519" edge_type="CtrlEdge" source_obj="//@blocks.8" sink_obj="//@blocks.16"/>
+  <edges id="520" edge_type="CtrlEdge" source_obj="//@blocks.8" sink_obj="//@blocks.9"/>
+  <edges id="521" edge_type="CtrlEdge" source_obj="//@blocks.9" sink_obj="//@blocks.16"/>
+  <edges id="522" edge_type="CtrlEdge" source_obj="//@blocks.9" sink_obj="//@blocks.10"/>
+  <edges id="523" edge_type="CtrlEdge" source_obj="//@blocks.10" sink_obj="//@blocks.16"/>
+  <edges id="524" edge_type="CtrlEdge" source_obj="//@blocks.10" sink_obj="//@blocks.11"/>
+  <edges id="525" edge_type="CtrlEdge" source_obj="//@blocks.11" sink_obj="//@blocks.16"/>
+  <edges id="526" edge_type="CtrlEdge" source_obj="//@blocks.11" sink_obj="//@blocks.12"/>
+  <edges id="527" edge_type="CtrlEdge" source_obj="//@blocks.12" sink_obj="//@blocks.16"/>
+  <edges id="528" edge_type="CtrlEdge" source_obj="//@blocks.12" sink_obj="//@blocks.13"/>
+  <edges id="529" edge_type="CtrlEdge" source_obj="//@blocks.13" sink_obj="//@blocks.16"/>
+  <edges id="530" edge_type="CtrlEdge" source_obj="//@blocks.13" sink_obj="//@blocks.14"/>
+  <edges id="531" edge_type="CtrlEdge" source_obj="//@blocks.14" sink_obj="//@blocks.16"/>
+  <edges id="532" edge_type="CtrlEdge" source_obj="//@blocks.14" sink_obj="//@blocks.15"/>
+  <edges id="533" edge_type="CtrlEdge" source_obj="//@blocks.15" sink_obj="//@blocks.16"/>
+  <edges id="534" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.31"/>
+  <edges id="535" edge_type="CtrlEdge" source_obj="//@blocks.16" sink_obj="//@blocks.17"/>
+  <edges id="536" edge_type="CtrlEdge" source_obj="//@blocks.17" sink_obj="//@blocks.31"/>
+  <edges id="537" edge_type="CtrlEdge" source_obj="//@blocks.17" sink_obj="//@blocks.18"/>
+  <edges id="538" edge_type="CtrlEdge" source_obj="//@blocks.18" sink_obj="//@blocks.31"/>
+  <edges id="539" edge_type="CtrlEdge" source_obj="//@blocks.18" sink_obj="//@blocks.19"/>
+  <edges id="540" edge_type="CtrlEdge" source_obj="//@blocks.19" sink_obj="//@blocks.31"/>
+  <edges id="541" edge_type="CtrlEdge" source_obj="//@blocks.19" sink_obj="//@blocks.20"/>
+  <edges id="542" edge_type="CtrlEdge" source_obj="//@blocks.20" sink_obj="//@blocks.31"/>
+  <edges id="543" edge_type="CtrlEdge" source_obj="//@blocks.20" sink_obj="//@blocks.21"/>
+  <edges id="544" edge_type="CtrlEdge" source_obj="//@blocks.21" sink_obj="//@blocks.31"/>
+  <edges id="545" edge_type="CtrlEdge" source_obj="//@blocks.21" sink_obj="//@blocks.22"/>
+  <edges id="546" edge_type="CtrlEdge" source_obj="//@blocks.22" sink_obj="//@blocks.31"/>
+  <edges id="547" edge_type="CtrlEdge" source_obj="//@blocks.22" sink_obj="//@blocks.23"/>
+  <edges id="548" edge_type="CtrlEdge" source_obj="//@blocks.23" sink_obj="//@blocks.31"/>
+  <edges id="549" edge_type="CtrlEdge" source_obj="//@blocks.23" sink_obj="//@blocks.24"/>
+  <edges id="550" edge_type="CtrlEdge" source_obj="//@blocks.24" sink_obj="//@blocks.31"/>
+  <edges id="551" edge_type="CtrlEdge" source_obj="//@blocks.24" sink_obj="//@blocks.25"/>
+  <edges id="552" edge_type="CtrlEdge" source_obj="//@blocks.25" sink_obj="//@blocks.31"/>
+  <edges id="553" edge_type="CtrlEdge" source_obj="//@blocks.25" sink_obj="//@blocks.26"/>
+  <edges id="554" edge_type="CtrlEdge" source_obj="//@blocks.26" sink_obj="//@blocks.31"/>
+  <edges id="555" edge_type="CtrlEdge" source_obj="//@blocks.26" sink_obj="//@blocks.27"/>
+  <edges id="556" edge_type="CtrlEdge" source_obj="//@blocks.27" sink_obj="//@blocks.31"/>
+  <edges id="557" edge_type="CtrlEdge" source_obj="//@blocks.27" sink_obj="//@blocks.28"/>
+  <edges id="558" edge_type="CtrlEdge" source_obj="//@blocks.28" sink_obj="//@blocks.31"/>
+  <edges id="559" edge_type="CtrlEdge" source_obj="//@blocks.28" sink_obj="//@blocks.29"/>
+  <edges id="560" edge_type="CtrlEdge" source_obj="//@blocks.29" sink_obj="//@blocks.31"/>
+  <edges id="561" edge_type="CtrlEdge" source_obj="//@blocks.29" sink_obj="//@blocks.30"/>
+  <edges id="562" edge_type="CtrlEdge" source_obj="//@blocks.30" sink_obj="//@blocks.31"/>
+  <edges source_obj="//@blocks.31/@node_objs.4" sink_obj="//@ports.1"/>
+  <edges source_obj="//@blocks.31/@node_objs.4" sink_obj="//@ports.2"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.1/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.2/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.3/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.4/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.5/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.6/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.7/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.8/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.9/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.10/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.11/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.12/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.13/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.14/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.15/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.16/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.16/@node_objs.2"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.17/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.18/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.19/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.20/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.21/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.22/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.23/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.24/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.25/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.26/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.27/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.28/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.29/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.31/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.30/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.30/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.31/@node_objs.0" sink_obj="//@blocks.31/@node_objs.2"/>
+  <edges id="-1" source_obj="//@blocks.31/@node_objs.3" sink_obj="//@blocks.31/@node_objs.4"/>
+  <edges id="-1" source_obj="//@blocks.31/@node_objs.2" sink_obj="//@blocks.31/@node_objs.4"/>
+  <blocks id="5" name="block_5" type="BlockType">
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <controlOutputObjs>block_8</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="2" name="din_V_read" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" bitwidth="32" opcode="read" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>din_V</dataInputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>phi</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <dataOutputObjs>phi</dataOutputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="4" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_8</controlInputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="8" name="block_8" type="BlockType">
+    <controlInputObjs>block_5</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <controlOutputObjs>block_11</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="7" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_11</controlInputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="11" name="block_11" type="BlockType">
+    <controlInputObjs>block_8</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <controlOutputObjs>block_14</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="10" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="7" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_14</controlInputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="14" name="block_14" type="BlockType">
+    <controlInputObjs>block_11</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <controlOutputObjs>block_17</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="9" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_17</controlInputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="17" name="block_17" type="BlockType">
+    <controlInputObjs>block_14</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <controlOutputObjs>block_20</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="16" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="11" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_20</controlInputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="20" name="block_20" type="BlockType">
+    <controlInputObjs>block_17</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <controlOutputObjs>block_23</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="19" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="13" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_23</controlInputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="23" name="block_23" type="BlockType">
+    <controlInputObjs>block_20</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <controlOutputObjs>block_26</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="22" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="15" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_26</controlInputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="26" name="block_26" type="BlockType">
+    <controlInputObjs>block_23</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <controlOutputObjs>block_29</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="25" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="17" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_29</controlInputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="29" name="block_29" type="BlockType">
+    <controlInputObjs>block_26</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <controlOutputObjs>block_32</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="28" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="19" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_32</controlInputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="32" name="block_32" type="BlockType">
+    <controlInputObjs>block_29</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <controlOutputObjs>block_35</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="31" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="21" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_35</controlInputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="35" name="block_35" type="BlockType">
+    <controlInputObjs>block_32</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <controlOutputObjs>block_38</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="34" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="23" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_38</controlInputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="38" name="block_38" type="BlockType">
+    <controlInputObjs>block_35</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <controlOutputObjs>block_41</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="37" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="25" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_41</controlInputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="41" name="block_41" type="BlockType">
+    <controlInputObjs>block_38</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <controlOutputObjs>block_44</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="40" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="27" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_44</controlInputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="44" name="block_44" type="BlockType">
+    <controlInputObjs>block_41</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <controlOutputObjs>block_47</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="43" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="29" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_47</controlInputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="47" name="block_47" type="BlockType">
+    <controlInputObjs>block_44</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <controlOutputObjs>block_51</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="46" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="31" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_51</controlInputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="51" name="block_51" type="BlockType">
+    <controlInputObjs>block_47</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit26</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="49" name="select_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." rtlName="select_ln13_fu_503_p3" contextFuncName="leading_ones_bruteforce" bitwidth="5" opcode="select" m_display="0" m_delay="1.21" m_topoIndex="33" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>phi</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="50" name="_ln13" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" m_display="0" m_delay="2.19" m_topoIndex="34" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="56" name=".loopexit26" type="BlockType">
+    <controlInputObjs>block_5</controlInputObjs>
+    <controlInputObjs>block_8</controlInputObjs>
+    <controlInputObjs>block_11</controlInputObjs>
+    <controlInputObjs>block_14</controlInputObjs>
+    <controlInputObjs>block_17</controlInputObjs>
+    <controlInputObjs>block_20</controlInputObjs>
+    <controlInputObjs>block_23</controlInputObjs>
+    <controlInputObjs>block_26</controlInputObjs>
+    <controlInputObjs>block_29</controlInputObjs>
+    <controlInputObjs>block_32</controlInputObjs>
+    <controlInputObjs>block_35</controlInputObjs>
+    <controlInputObjs>block_38</controlInputObjs>
+    <controlInputObjs>block_41</controlInputObjs>
+    <controlInputObjs>block_44</controlInputObjs>
+    <controlInputObjs>block_47</controlInputObjs>
+    <controlInputObjs>block_51</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <controlOutputObjs>block_59</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="52" name="phi_ln25" lineNumber="25" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" bitwidth="5" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="35" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>select</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <controlInputObjs>block_5</controlInputObjs>
+      <controlInputObjs>block_8</controlInputObjs>
+      <controlInputObjs>block_11</controlInputObjs>
+      <controlInputObjs>block_14</controlInputObjs>
+      <controlInputObjs>block_17</controlInputObjs>
+      <controlInputObjs>block_20</controlInputObjs>
+      <controlInputObjs>block_23</controlInputObjs>
+      <controlInputObjs>block_26</controlInputObjs>
+      <controlInputObjs>block_29</controlInputObjs>
+      <controlInputObjs>block_32</controlInputObjs>
+      <controlInputObjs>block_35</controlInputObjs>
+      <controlInputObjs>block_38</controlInputObjs>
+      <controlInputObjs>block_41</controlInputObjs>
+      <controlInputObjs>block_44</controlInputObjs>
+      <controlInputObjs>block_47</controlInputObjs>
+      <controlInputObjs>block_51</controlInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="53" name="flagu_0" lineNumber="13" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" bitwidth="1" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="36" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+      <controlInputObjs>block_5</controlInputObjs>
+      <controlInputObjs>block_8</controlInputObjs>
+      <controlInputObjs>block_11</controlInputObjs>
+      <controlInputObjs>block_14</controlInputObjs>
+      <controlInputObjs>block_17</controlInputObjs>
+      <controlInputObjs>block_20</controlInputObjs>
+      <controlInputObjs>block_23</controlInputObjs>
+      <controlInputObjs>block_26</controlInputObjs>
+      <controlInputObjs>block_29</controlInputObjs>
+      <controlInputObjs>block_32</controlInputObjs>
+      <controlInputObjs>block_35</controlInputObjs>
+      <controlInputObjs>block_38</controlInputObjs>
+      <controlInputObjs>block_41</controlInputObjs>
+      <controlInputObjs>block_44</controlInputObjs>
+      <controlInputObjs>block_47</controlInputObjs>
+      <controlInputObjs>block_51</controlInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="55" name="_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" nodeLabel="1.0" m_display="0" m_delay="2.17" m_topoIndex="38" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_59</controlInputObjs>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>25</validLinenumbers>
+      <validLinenumbers>13</validLinenumbers>
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="59" name="block_59" type="BlockType">
+    <controlInputObjs>.loopexit26</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <controlOutputObjs>block_62</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="58" name="_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" nodeLabel="1.0" m_display="0" m_delay="2.17" m_topoIndex="40" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_62</controlInputObjs>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="62" name="block_62" type="BlockType">
+    <controlInputObjs>block_59</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <controlOutputObjs>block_65</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="61" name="_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" nodeLabel="1.0" m_display="0" m_delay="2.17" m_topoIndex="42" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_65</controlInputObjs>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="65" name="block_65" type="BlockType">
+    <controlInputObjs>block_62</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <controlOutputObjs>block_68</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="64" name="_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" nodeLabel="1.0" m_display="0" m_delay="2.17" m_topoIndex="44" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_68</controlInputObjs>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="68" name="block_68" type="BlockType">
+    <controlInputObjs>block_65</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <controlOutputObjs>block_71</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="67" name="_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" nodeLabel="1.0" m_display="0" m_delay="2.17" m_topoIndex="46" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_71</controlInputObjs>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="71" name="block_71" type="BlockType">
+    <controlInputObjs>block_68</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <controlOutputObjs>block_74</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="70" name="_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" nodeLabel="1.0" m_display="0" m_delay="2.17" m_topoIndex="48" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_74</controlInputObjs>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="74" name="block_74" type="BlockType">
+    <controlInputObjs>block_71</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <controlOutputObjs>block_77</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="73" name="_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" nodeLabel="1.0" m_display="0" m_delay="2.17" m_topoIndex="50" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_77</controlInputObjs>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="77" name="block_77" type="BlockType">
+    <controlInputObjs>block_74</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <controlOutputObjs>block_80</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="76" name="_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" nodeLabel="1.0" m_display="0" m_delay="2.17" m_topoIndex="52" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_80</controlInputObjs>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="80" name="block_80" type="BlockType">
+    <controlInputObjs>block_77</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <controlOutputObjs>block_83</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="79" name="_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" nodeLabel="1.0" m_display="0" m_delay="2.17" m_topoIndex="54" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_83</controlInputObjs>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="83" name="block_83" type="BlockType">
+    <controlInputObjs>block_80</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <controlOutputObjs>block_86</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="82" name="_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" nodeLabel="1.0" m_display="0" m_delay="2.17" m_topoIndex="56" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_86</controlInputObjs>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="86" name="block_86" type="BlockType">
+    <controlInputObjs>block_83</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <controlOutputObjs>block_89</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="85" name="_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" nodeLabel="1.0" m_display="0" m_delay="2.17" m_topoIndex="58" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_89</controlInputObjs>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="89" name="block_89" type="BlockType">
+    <controlInputObjs>block_86</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <controlOutputObjs>block_92</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="88" name="_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" nodeLabel="1.0" m_display="0" m_delay="2.17" m_topoIndex="60" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_92</controlInputObjs>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="92" name="block_92" type="BlockType">
+    <controlInputObjs>block_89</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <controlOutputObjs>block_95</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="91" name="_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" nodeLabel="1.0" m_display="0" m_delay="2.17" m_topoIndex="62" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_95</controlInputObjs>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="95" name="block_95" type="BlockType">
+    <controlInputObjs>block_92</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <controlOutputObjs>block_101</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="94" name="_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" nodeLabel="1.0" m_display="0" m_delay="2.17" m_topoIndex="64" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <controlInputObjs>block_101</controlInputObjs>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="101" name="block_101" type="BlockType">
+    <controlInputObjs>block_95</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>.loopexit</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="99" name="or_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." rtlName="or_ln20_fu_623_p2" contextFuncName="leading_ones_bruteforce" bitwidth="1" opcode="or" nodeLabel="1.0" m_display="0" m_delay="0.97" m_topoIndex="68" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>phi</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="100" name="_ln20" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="br" nodeLabel="1.0" m_display="0" m_delay="2.17" m_topoIndex="69" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <controlInputObjs>.loopexit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>20</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="110" name=".loopexit" type="BlockType">
+    <controlInputObjs>.loopexit26</controlInputObjs>
+    <controlInputObjs>block_59</controlInputObjs>
+    <controlInputObjs>block_62</controlInputObjs>
+    <controlInputObjs>block_65</controlInputObjs>
+    <controlInputObjs>block_68</controlInputObjs>
+    <controlInputObjs>block_71</controlInputObjs>
+    <controlInputObjs>block_74</controlInputObjs>
+    <controlInputObjs>block_77</controlInputObjs>
+    <controlInputObjs>block_80</controlInputObjs>
+    <controlInputObjs>block_83</controlInputObjs>
+    <controlInputObjs>block_86</controlInputObjs>
+    <controlInputObjs>block_89</controlInputObjs>
+    <controlInputObjs>block_92</controlInputObjs>
+    <controlInputObjs>block_95</controlInputObjs>
+    <controlInputObjs>block_101</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="102" name="phi_ln25_1" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" bitwidth="4" opcode="phi" nodeLabel="2.0" m_display="0" m_topoIndex="70" m_clusterGroupNumber="1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+      <controlInputObjs>block_59</controlInputObjs>
+      <controlInputObjs>block_62</controlInputObjs>
+      <controlInputObjs>block_65</controlInputObjs>
+      <controlInputObjs>block_68</controlInputObjs>
+      <controlInputObjs>block_71</controlInputObjs>
+      <controlInputObjs>block_74</controlInputObjs>
+      <controlInputObjs>block_77</controlInputObjs>
+      <controlInputObjs>block_80</controlInputObjs>
+      <controlInputObjs>block_83</controlInputObjs>
+      <controlInputObjs>block_86</controlInputObjs>
+      <controlInputObjs>block_89</controlInputObjs>
+      <controlInputObjs>block_92</controlInputObjs>
+      <controlInputObjs>block_95</controlInputObjs>
+      <controlInputObjs>block_101</controlInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="103" name="flagl_0" lineNumber="20" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" bitwidth="1" opcode="phi" nodeLabel="2.0" m_display="0" m_topoIndex="71" m_clusterGroupNumber="2">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>or</dataInputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+      <controlInputObjs>.loopexit26</controlInputObjs>
+      <controlInputObjs>block_59</controlInputObjs>
+      <controlInputObjs>block_62</controlInputObjs>
+      <controlInputObjs>block_65</controlInputObjs>
+      <controlInputObjs>block_68</controlInputObjs>
+      <controlInputObjs>block_71</controlInputObjs>
+      <controlInputObjs>block_74</controlInputObjs>
+      <controlInputObjs>block_77</controlInputObjs>
+      <controlInputObjs>block_80</controlInputObjs>
+      <controlInputObjs>block_83</controlInputObjs>
+      <controlInputObjs>block_86</controlInputObjs>
+      <controlInputObjs>block_89</controlInputObjs>
+      <controlInputObjs>block_92</controlInputObjs>
+      <controlInputObjs>block_95</controlInputObjs>
+      <controlInputObjs>block_101</controlInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="105" name="select_ln25" lineNumber="25" originalName="ssdm_int&amp;lt;5 + 1024 * 0, false&amp;gt;.V" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." rtlName="select_ln25_fu_633_p3" contextFuncName="leading_ones_bruteforce" bitwidth="5" opcode="select" nodeLabel="2.0" m_display="0" m_delay="1.21" m_topoIndex="73" m_clusterGroupNumber="1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="106" name="or_ln26" lineNumber="26" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." rtlName="or_ln26_fu_641_p2" contextFuncName="leading_ones_bruteforce" bitwidth="1" opcode="or" nodeLabel="2.0" m_display="0" m_delay="0.97" m_topoIndex="74" m_clusterGroupNumber="2">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="109" name="_ln26" lineNumber="26" fileName="Multiplexor/leading_ones_bruteforce.cpp" fileDirectory=".." contextFuncName="leading_ones_bruteforce" opcode="ret" nodeLabel="2.0" m_display="0" m_topoIndex="77" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_bruteforce.cpp" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_bruteforce"/>
+      <dataInputObjs>or</dataInputObjs>
+      <dataInputObjs>select</dataInputObjs>
+      <dataOutputObjs>ap_return_0</dataOutputObjs>
+      <dataOutputObjs>ap_return_1</dataOutputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_bruteforce.cpp">
+      <validLinenumbers>20</validLinenumbers>
+      <validLinenumbers>25</validLinenumbers>
+      <validLinenumbers>26</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <ScheduleInfo time="2"/>
+  <regnodes realName="or_ln20_reg_781">
+    <nodeIds>99</nodeIds>
+  </regnodes>
+  <regnodes realName="flagu_0_reg_208">
+    <nodeIds>53</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_17_reg_724">
+    <nodeIds>48</nodeIds>
+  </regnodes>
+  <regnodes realName="phi_ln25_1_reg_262">
+    <nodeIds>102</nodeIds>
+  </regnodes>
+  <regnodes realName="zext_ln20_reg_776">
+    <nodeIds>98</nodeIds>
+  </regnodes>
+  <regnodes realName="flagl_0_reg_325">
+    <nodeIds>103</nodeIds>
+  </regnodes>
+  <regnodes realName="din_V_read_reg_659">
+    <nodeIds>2</nodeIds>
+  </regnodes>
+  <regnodes realName="phi_ln25_reg_140">
+    <nodeIds>52</nodeIds>
+  </regnodes>
+  <regnodes realName="select_ln13_reg_729">
+    <nodeIds>49</nodeIds>
+  </regnodes>
+  <expressionNodes realName="tmp_fu_375">
+    <nodeIds>3</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_11_fu_447">
+    <nodeIds>30</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="phi_ln25_1_phi_fu_279">
+    <nodeIds>102</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_20_fu_525">
+    <nodeIds>60</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln25_fu_633">
+    <nodeIds>105</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="phi_ln25_phi_fu_158">
+    <nodeIds>52</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_31_fu_602">
+    <nodeIds>93</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_5_fu_399">
+    <nodeIds>12</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_32_fu_609">
+    <nodeIds>96</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_14_fu_471">
+    <nodeIds>39</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln13_fu_503">
+    <nodeIds>49</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_18_fu_511">
+    <nodeIds>54</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_19_fu_518">
+    <nodeIds>57</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_4_fu_391">
+    <nodeIds>9</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln791_fu_616">
+    <nodeIds>97</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_8_fu_423">
+    <nodeIds>21</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_17_fu_495">
+    <nodeIds>48</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln25_fu_629">
+    <nodeIds>104</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_12_fu_455">
+    <nodeIds>33</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_10_fu_439">
+    <nodeIds>27</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_30_fu_595">
+    <nodeIds>90</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_6_fu_407">
+    <nodeIds>15</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_15_fu_479">
+    <nodeIds>42</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_27_fu_574">
+    <nodeIds>81</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_21_fu_532">
+    <nodeIds>63</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_24_fu_553">
+    <nodeIds>72</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln20_fu_623">
+    <nodeIds>99</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_28_fu_581">
+    <nodeIds>84</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln20_fu_619">
+    <nodeIds>98</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_22_fu_539">
+    <nodeIds>66</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_1_fu_653">
+    <nodeIds>108</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_3_fu_383">
+    <nodeIds>6</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_16_fu_487">
+    <nodeIds>45</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_26_fu_567">
+    <nodeIds>78</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln26_fu_641">
+    <nodeIds>106</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="flagu_0_phi_fu_212">
+    <nodeIds>53</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_fu_647">
+    <nodeIds>107</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_9_fu_431">
+    <nodeIds>24</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_13_fu_463">
+    <nodeIds>36</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_29_fu_588">
+    <nodeIds>87</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_7_fu_415">
+    <nodeIds>18</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_23_fu_546">
+    <nodeIds>69</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_25_fu_560">
+    <nodeIds>75</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="flagl_0_phi_fu_329">
+    <nodeIds>103</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="din_V_read_read_fu_134">
+    <nodeIds>2</nodeIds>
+  </ioNodes>
+  <ioPorts name="din_V">
+    <contents name="read">
+      <nodeIds>2</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_0">
+    <contents name="ret">
+      <nodeIds>109</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_1">
+    <contents name="ret">
+      <nodeIds>109</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="2" stage="1" latency="1"/>
+      <operations id="3" stage="1" latency="1"/>
+      <operations id="4" stage="1" latency="1"/>
+      <operations id="6" stage="1" latency="1"/>
+      <operations id="7" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="42" stage="1" latency="1"/>
+      <operations id="43" stage="1" latency="1"/>
+      <operations id="45" stage="1" latency="1"/>
+      <operations id="46" stage="1" latency="1"/>
+      <operations id="48" stage="1" latency="1"/>
+      <operations id="49" stage="1" latency="1"/>
+      <operations id="50" stage="1" latency="1"/>
+    </states>
+    <states id="2">
+      <operations id="52" stage="1" latency="1"/>
+      <operations id="53" stage="1" latency="1"/>
+      <operations id="54" stage="1" latency="1"/>
+      <operations id="55" stage="1" latency="1"/>
+      <operations id="57" stage="1" latency="1"/>
+      <operations id="58" stage="1" latency="1"/>
+      <operations id="60" stage="1" latency="1"/>
+      <operations id="61" stage="1" latency="1"/>
+      <operations id="63" stage="1" latency="1"/>
+      <operations id="64" stage="1" latency="1"/>
+      <operations id="66" stage="1" latency="1"/>
+      <operations id="67" stage="1" latency="1"/>
+      <operations id="69" stage="1" latency="1"/>
+      <operations id="70" stage="1" latency="1"/>
+      <operations id="72" stage="1" latency="1"/>
+      <operations id="73" stage="1" latency="1"/>
+      <operations id="75" stage="1" latency="1"/>
+      <operations id="76" stage="1" latency="1"/>
+      <operations id="78" stage="1" latency="1"/>
+      <operations id="79" stage="1" latency="1"/>
+      <operations id="81" stage="1" latency="1"/>
+      <operations id="82" stage="1" latency="1"/>
+      <operations id="84" stage="1" latency="1"/>
+      <operations id="85" stage="1" latency="1"/>
+      <operations id="87" stage="1" latency="1"/>
+      <operations id="88" stage="1" latency="1"/>
+      <operations id="90" stage="1" latency="1"/>
+      <operations id="91" stage="1" latency="1"/>
+      <operations id="93" stage="1" latency="1"/>
+      <operations id="94" stage="1" latency="1"/>
+      <operations id="96" stage="1" latency="1"/>
+      <operations id="97" stage="1" latency="1"/>
+      <operations id="98" stage="1" latency="1"/>
+      <operations id="99" stage="1" latency="1"/>
+      <operations id="100" stage="1" latency="1"/>
+    </states>
+    <states id="3">
+      <operations id="102" stage="1" latency="1"/>
+      <operations id="103" stage="1" latency="1"/>
+      <operations id="104" stage="1" latency="1"/>
+      <operations id="105" stage="1" latency="1"/>
+      <operations id="106" stage="1" latency="1"/>
+      <operations id="107" stage="1" latency="1"/>
+      <operations id="108" stage="1" latency="1"/>
+      <operations id="109" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="2" outState="3">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="leading_ones_brutefo" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="2" mMaxLatency="2">
+      <basicBlocks>5</basicBlocks>
+      <basicBlocks>8</basicBlocks>
+      <basicBlocks>11</basicBlocks>
+      <basicBlocks>14</basicBlocks>
+      <basicBlocks>17</basicBlocks>
+      <basicBlocks>20</basicBlocks>
+      <basicBlocks>23</basicBlocks>
+      <basicBlocks>26</basicBlocks>
+      <basicBlocks>29</basicBlocks>
+      <basicBlocks>32</basicBlocks>
+      <basicBlocks>35</basicBlocks>
+      <basicBlocks>38</basicBlocks>
+      <basicBlocks>41</basicBlocks>
+      <basicBlocks>44</basicBlocks>
+      <basicBlocks>47</basicBlocks>
+      <basicBlocks>51</basicBlocks>
+      <basicBlocks>56</basicBlocks>
+      <basicBlocks>59</basicBlocks>
+      <basicBlocks>62</basicBlocks>
+      <basicBlocks>65</basicBlocks>
+      <basicBlocks>68</basicBlocks>
+      <basicBlocks>71</basicBlocks>
+      <basicBlocks>74</basicBlocks>
+      <basicBlocks>77</basicBlocks>
+      <basicBlocks>80</basicBlocks>
+      <basicBlocks>83</basicBlocks>
+      <basicBlocks>86</basicBlocks>
+      <basicBlocks>89</basicBlocks>
+      <basicBlocks>92</basicBlocks>
+      <basicBlocks>95</basicBlocks>
+      <basicBlocks>101</basicBlocks>
+      <basicBlocks>110</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

@@ -1,0 +1,1668 @@
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/top.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_onehot_if.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_onehot.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary_opt.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary2onehot_opt.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_2to1.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/max_algorithmic.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/max.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_template.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_log2.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_bruteforce.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:02 ; elapsed = 00:01:33 . Memory (MB): peak = 177.211 ; gain = 87.785
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:02 ; elapsed = 00:01:33 . Memory (MB): peak = 177.211 ; gain = 87.785
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:01:34 . Memory (MB): peak = 177.211 ; gain = 87.785
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'leading_ones<1>' into 'leading_ones<2>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<2>' into 'leading_ones<4>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<32>' into 'leading_ones_template' (Multiplexor/leading_ones_template.cpp:7) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<1>::max<int>' into 'max_s<2>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<2>::max<int>' into 'max_s<4>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<4>::max<int>' into 'max_s<8>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<8>::max<int>' into 'max<8, int>' (Multiplexor/max_tmpl.h:25) automatically.
+INFO: [XFORM 203-602] Inlining function 'max<8, int>' into 'max' (Multiplexor/max.cpp:5) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones' into 'top' (Multiplexor/top.cpp:18) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones_template' into 'top' (Multiplexor/top.cpp:30) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_2to1' into 'top' (Multiplexor/top.cpp:34) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary' into 'top' (Multiplexor/top.cpp:38) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary2onehot_opt' into 'top' (Multiplexor/top.cpp:50) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary_opt' into 'top' (Multiplexor/top.cpp:54) automatically.
+INFO: [XFORM 203-602] Inlining function 'max' into 'top' (Multiplexor/top.cpp:58) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_algorithmic' into 'top' (Multiplexor/top.cpp:62) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:03 ; elapsed = 00:01:35 . Memory (MB): peak = 177.211 ; gain = 87.785
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones_log2.cpp:17) in function 'leading_ones_log2' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones_bruteforce.cpp:10) in function 'leading_ones_bruteforce' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Loop-2' (Multiplexor/leading_ones_bruteforce.cpp:17) in function 'leading_ones_bruteforce' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones.cpp:8) in function 'leading_ones' completely with a factor of 32.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/max_algorithmic.cpp:8) in function 'max_algorithmic' completely with a factor of 8.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<1>' into 'leading_ones<2>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<2>' into 'leading_ones<4>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<4>' into 'leading_ones<8>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<16>' into 'leading_ones<32>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<1>::max<int>' into 'max_s<2>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<2>::max<int>' into 'max_s<4>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<4>::max<int>' into 'max_s<8>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<8>::max<int>' into 'max<8, int>' (Multiplexor/max_tmpl.h:25) automatically.
+INFO: [XFORM 203-602] Inlining function 'max<8, int>' into 'max' (Multiplexor/max.cpp:5) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones_log2' into 'top' (Multiplexor/top.cpp:26) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones_template' into 'top' (Multiplexor/top.cpp:30) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_2to1' into 'top' (Multiplexor/top.cpp:34) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary' into 'top' (Multiplexor/top.cpp:38) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary2onehot_opt' into 'top' (Multiplexor/top.cpp:50) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary_opt' into 'top' (Multiplexor/top.cpp:54) automatically.
+INFO: [XFORM 203-602] Inlining function 'max' into 'top' (Multiplexor/top.cpp:58) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_algorithmic' into 'top' (Multiplexor/top.cpp:62) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_binary2onehot_opt.cpp:3:35) to (Multiplexor/top.cpp:51:9) in function 'top'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_onehot_if.cpp:3:27) to (Multiplexor/mux_onehot_if.cpp:24:5) in function 'mux_onehot_if'... converting 17 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_onehot.cpp:3:24) to (Multiplexor/mux_onehot.cpp:35:5) in function 'mux_onehot'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones_bruteforce.cpp:12:6) to (Multiplexor/leading_ones_bruteforce.cpp:19:6) in function 'leading_ones_bruteforce'... converting 17 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones_tmpl.h:9:36) in function 'leading_ones<8>'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones.cpp:10:6) to (Multiplexor/leading_ones.cpp:17:5) in function 'leading_ones'... converting 33 basic blocks.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<8>' into 'leading_ones<32>' (Multiplexor/leading_ones_tmpl.h:23->Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_onehot' into 'top' (Multiplexor/top.cpp:42) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_onehot_if' into 'top' (Multiplexor/top.cpp:46) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:01:35 . Memory (MB): peak = 208.707 ; gain = 119.281
+WARNING: [XFORM 203-631] Renaming function 'leading_ones_bruteforce' to 'leading_ones_brutefo' (Multiplexor/leading_ones_bruteforce.cpp:12:6)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:04 ; elapsed = 00:01:36 . Memory (MB): peak = 237.223 ; gain = 147.797
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'top' ...
+WARNING: [SYN 201-103] Legalizing function name 'leading_ones<32>' to 'leading_ones_32_s'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones_32_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 95.995 seconds; current allocated memory: 182.970 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.089 seconds; current allocated memory: 183.365 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones_brutefo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.116 seconds; current allocated memory: 183.648 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.071 seconds; current allocated memory: 184.081 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.174 seconds; current allocated memory: 184.274 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.07 seconds; current allocated memory: 184.714 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'top' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.134 seconds; current allocated memory: 185.416 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.221 seconds; current allocated memory: 186.332 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones_32_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones_32_s'.
+INFO: [HLS 200-111]  Elapsed time: 0.277 seconds; current allocated memory: 187.174 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones_brutefo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones_brutefo'.
+INFO: [HLS 200-111]  Elapsed time: 0.658 seconds; current allocated memory: 187.950 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones'.
+INFO: [HLS 200-111]  Elapsed time: 0.224 seconds; current allocated memory: 188.596 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'top' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_in_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_out_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_ret' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_V' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel_onehot_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel0_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel1_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_s' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_ret_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_out' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mode' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'top' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'top'.
+INFO: [HLS 200-111]  Elapsed time: 0.276 seconds; current allocated memory: 190.077 MB.
+INFO: [HLS 200-789] **** Estimated Fmax: 121.88 MHz
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:07 ; elapsed = 00:01:40 . Memory (MB): peak = 263.309 ; gain = 173.883
+INFO: [VHDL 208-304] Generating VHDL RTL for top.
+INFO: [VLOG 209-307] Generating Verilog RTL for top.
+INFO: [HLS 200-112] Total elapsed time: 100.012 seconds; peak allocated memory: 190.077 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/top.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_onehot_if.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_onehot.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary_opt.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary2onehot_opt.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_2to1.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/max_algorithmic.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/max.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_template.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_log2.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_bruteforce.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:02 ; elapsed = 00:01:32 . Memory (MB): peak = 177.359 ; gain = 87.914
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:02 ; elapsed = 00:01:32 . Memory (MB): peak = 177.359 ; gain = 87.914
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:01:32 . Memory (MB): peak = 177.359 ; gain = 87.914
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'leading_ones<1>' into 'leading_ones<2>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<2>' into 'leading_ones<4>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<32>' into 'leading_ones_template' (Multiplexor/leading_ones_template.cpp:7) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<1>::max<int>' into 'max_s<2>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<2>::max<int>' into 'max_s<4>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<4>::max<int>' into 'max_s<8>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<8>::max<int>' into 'max<8, int>' (Multiplexor/max_tmpl.h:25) automatically.
+INFO: [XFORM 203-602] Inlining function 'max<8, int>' into 'max' (Multiplexor/max.cpp:5) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones' into 'top' (Multiplexor/top.cpp:20) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones_template' into 'top' (Multiplexor/top.cpp:32) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_2to1' into 'top' (Multiplexor/top.cpp:36) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary' into 'top' (Multiplexor/top.cpp:40) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary2onehot_opt' into 'top' (Multiplexor/top.cpp:52) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary_opt' into 'top' (Multiplexor/top.cpp:56) automatically.
+INFO: [XFORM 203-602] Inlining function 'max' into 'top' (Multiplexor/top.cpp:60) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_algorithmic' into 'top' (Multiplexor/top.cpp:64) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:02 ; elapsed = 00:01:33 . Memory (MB): peak = 177.359 ; gain = 87.914
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones_log2.cpp:17) in function 'leading_ones_log2' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones_bruteforce.cpp:10) in function 'leading_ones_bruteforce' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Loop-2' (Multiplexor/leading_ones_bruteforce.cpp:17) in function 'leading_ones_bruteforce' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones.cpp:8) in function 'leading_ones' completely with a factor of 32.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/max_algorithmic.cpp:8) in function 'max_algorithmic' completely with a factor of 8.
+INFO: [XFORM 203-101] Partitioning array 'max_in' (Multiplexor/top.cpp:12) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mux_in.V' (Multiplexor/top.cpp:6) in dimension 1 completely.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<1>' into 'leading_ones<2>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<2>' into 'leading_ones<4>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<4>' into 'leading_ones<8>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<16>' into 'leading_ones<32>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<1>::max<int>' into 'max_s<2>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<2>::max<int>' into 'max_s<4>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<4>::max<int>' into 'max_s<8>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<8>::max<int>' into 'max<8, int>' (Multiplexor/max_tmpl.h:25) automatically.
+INFO: [XFORM 203-602] Inlining function 'max<8, int>' into 'max' (Multiplexor/max.cpp:5) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones_log2' into 'top' (Multiplexor/top.cpp:28) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones_template' into 'top' (Multiplexor/top.cpp:32) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_2to1' into 'top' (Multiplexor/top.cpp:36) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary' into 'top' (Multiplexor/top.cpp:40) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_onehot' into 'top' (Multiplexor/top.cpp:44) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary2onehot_opt' into 'top' (Multiplexor/top.cpp:52) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary_opt' into 'top' (Multiplexor/top.cpp:56) automatically.
+INFO: [XFORM 203-602] Inlining function 'max' into 'top' (Multiplexor/top.cpp:60) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_onehot.cpp:3:24) to (Multiplexor/top.cpp:45:9) in function 'top'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_binary2onehot_opt.cpp:3:35) to (Multiplexor/top.cpp:53:9) in function 'top'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_onehot_if.cpp:3:27) to (Multiplexor/mux_onehot_if.cpp:24:5) in function 'mux_onehot_if'... converting 9 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones_bruteforce.cpp:12:6) to (Multiplexor/leading_ones_bruteforce.cpp:19:6) in function 'leading_ones_bruteforce'... converting 17 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones_tmpl.h:9:36) in function 'leading_ones<8>'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones.cpp:10:6) to (Multiplexor/leading_ones.cpp:17:5) in function 'leading_ones'... converting 33 basic blocks.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<8>' into 'leading_ones<32>' (Multiplexor/leading_ones_tmpl.h:23->Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_onehot_if' into 'top' (Multiplexor/top.cpp:48) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_algorithmic' into 'top' (Multiplexor/top.cpp:64) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:01:33 . Memory (MB): peak = 209.648 ; gain = 120.203
+WARNING: [XFORM 203-631] Renaming function 'leading_ones_bruteforce' to 'leading_ones_brutefo' (Multiplexor/leading_ones_bruteforce.cpp:12:6)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:04 ; elapsed = 00:01:34 . Memory (MB): peak = 237.109 ; gain = 147.664
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'top' ...
+WARNING: [SYN 201-103] Legalizing function name 'leading_ones<32>' to 'leading_ones_32_s'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones_32_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 94.28 seconds; current allocated memory: 183.204 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.098 seconds; current allocated memory: 183.600 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones_brutefo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.13 seconds; current allocated memory: 183.847 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.073 seconds; current allocated memory: 184.316 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.099 seconds; current allocated memory: 184.509 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.071 seconds; current allocated memory: 184.949 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'top' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.122 seconds; current allocated memory: 185.461 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.185 seconds; current allocated memory: 186.268 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones_32_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones_32_s'.
+INFO: [HLS 200-111]  Elapsed time: 0.245 seconds; current allocated memory: 187.111 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones_brutefo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones_brutefo'.
+INFO: [HLS 200-111]  Elapsed time: 0.55 seconds; current allocated memory: 187.820 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones'.
+INFO: [HLS 200-111]  Elapsed time: 0.226 seconds; current allocated memory: 188.503 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'top' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_in_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_out_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_ret' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_0_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_1_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_2_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_3_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_4_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_5_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_6_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_7_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel_onehot_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel0_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel1_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_s' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_ret_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_4' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_5' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_6' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_7' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_out' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mode' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'top' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Generating core module 'top_mux_83_32_1_1': 6 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'top_mux_83_8_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'top'.
+INFO: [HLS 200-111]  Elapsed time: 0.311 seconds; current allocated memory: 190.011 MB.
+INFO: [HLS 200-789] **** Estimated Fmax: 115.38 MHz
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:07 ; elapsed = 00:01:38 . Memory (MB): peak = 262.793 ; gain = 173.348
+INFO: [VHDL 208-304] Generating VHDL RTL for top.
+INFO: [VLOG 209-307] Generating Verilog RTL for top.
+INFO: [HLS 200-112] Total elapsed time: 98.123 seconds; peak allocated memory: 190.011 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+INFO: [COSIM 212-302] Starting C TB testing ... 
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [COSIM 212-316] Starting C post checking ...
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/top.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_onehot_if.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_onehot.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary_opt.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary2onehot_opt.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_2to1.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/max_algorithmic.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/max.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_template.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_log2.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_bruteforce.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:02 ; elapsed = 00:01:32 . Memory (MB): peak = 176.961 ; gain = 87.063
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:02 ; elapsed = 00:01:32 . Memory (MB): peak = 176.961 ; gain = 87.063
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:03 ; elapsed = 00:01:33 . Memory (MB): peak = 176.961 ; gain = 87.063
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'leading_ones<1>' into 'leading_ones<2>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<2>' into 'leading_ones<4>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<32>' into 'leading_ones_template' (Multiplexor/leading_ones_template.cpp:7) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<1>::max<int>' into 'max_s<2>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<2>::max<int>' into 'max_s<4>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<4>::max<int>' into 'max_s<8>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<8>::max<int>' into 'max<8, int>' (Multiplexor/max_tmpl.h:25) automatically.
+INFO: [XFORM 203-602] Inlining function 'max<8, int>' into 'max' (Multiplexor/max.cpp:5) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones' into 'top' (Multiplexor/top.cpp:21) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones_template' into 'top' (Multiplexor/top.cpp:33) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_2to1' into 'top' (Multiplexor/top.cpp:37) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary' into 'top' (Multiplexor/top.cpp:41) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary2onehot_opt' into 'top' (Multiplexor/top.cpp:53) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary_opt' into 'top' (Multiplexor/top.cpp:57) automatically.
+INFO: [XFORM 203-602] Inlining function 'max' into 'top' (Multiplexor/top.cpp:61) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_algorithmic' into 'top' (Multiplexor/top.cpp:65) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:03 ; elapsed = 00:01:33 . Memory (MB): peak = 176.961 ; gain = 87.063
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones_log2.cpp:17) in function 'leading_ones_log2' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones_bruteforce.cpp:10) in function 'leading_ones_bruteforce' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Loop-2' (Multiplexor/leading_ones_bruteforce.cpp:17) in function 'leading_ones_bruteforce' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones.cpp:8) in function 'leading_ones' completely with a factor of 32.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/max_algorithmic.cpp:8) in function 'max_algorithmic' completely with a factor of 8.
+INFO: [XFORM 203-101] Partitioning array 'max_in' (Multiplexor/top.cpp:12) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mux_in.V' (Multiplexor/top.cpp:6) in dimension 1 completely.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<1>' into 'leading_ones<2>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<2>' into 'leading_ones<4>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<4>' into 'leading_ones<8>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<16>' into 'leading_ones<32>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<1>::max<int>' into 'max_s<2>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<2>::max<int>' into 'max_s<4>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<4>::max<int>' into 'max_s<8>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<8>::max<int>' into 'max<8, int>' (Multiplexor/max_tmpl.h:25) automatically.
+INFO: [XFORM 203-602] Inlining function 'max<8, int>' into 'max' (Multiplexor/max.cpp:5) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones_log2' into 'top' (Multiplexor/top.cpp:29) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones_template' into 'top' (Multiplexor/top.cpp:33) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_2to1' into 'top' (Multiplexor/top.cpp:37) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary' into 'top' (Multiplexor/top.cpp:41) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_onehot' into 'top' (Multiplexor/top.cpp:45) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary2onehot_opt' into 'top' (Multiplexor/top.cpp:53) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary_opt' into 'top' (Multiplexor/top.cpp:57) automatically.
+INFO: [XFORM 203-602] Inlining function 'max' into 'top' (Multiplexor/top.cpp:61) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_onehot.cpp:3:24) to (Multiplexor/top.cpp:46:9) in function 'top'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_binary2onehot_opt.cpp:3:35) to (Multiplexor/top.cpp:54:9) in function 'top'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_onehot_if.cpp:3:27) to (Multiplexor/mux_onehot_if.cpp:24:5) in function 'mux_onehot_if'... converting 9 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones_bruteforce.cpp:12:6) to (Multiplexor/leading_ones_bruteforce.cpp:19:6) in function 'leading_ones_bruteforce'... converting 17 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones_tmpl.h:9:36) in function 'leading_ones<8>'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones.cpp:10:6) to (Multiplexor/leading_ones.cpp:17:5) in function 'leading_ones'... converting 33 basic blocks.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<8>' into 'leading_ones<32>' (Multiplexor/leading_ones_tmpl.h:23->Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_onehot_if' into 'top' (Multiplexor/top.cpp:49) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_algorithmic' into 'top' (Multiplexor/top.cpp:65) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:04 ; elapsed = 00:01:34 . Memory (MB): peak = 208.996 ; gain = 119.098
+WARNING: [XFORM 203-631] Renaming function 'leading_ones_bruteforce' to 'leading_ones_brutefo' (Multiplexor/leading_ones_bruteforce.cpp:12:6)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:04 ; elapsed = 00:01:34 . Memory (MB): peak = 237.359 ; gain = 147.461
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'top' ...
+WARNING: [SYN 201-103] Legalizing function name 'leading_ones<32>' to 'leading_ones_32_s'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones_32_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 94.565 seconds; current allocated memory: 183.143 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.082 seconds; current allocated memory: 183.554 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones_brutefo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.117 seconds; current allocated memory: 183.869 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.073 seconds; current allocated memory: 184.302 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.098 seconds; current allocated memory: 184.510 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.071 seconds; current allocated memory: 184.950 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'top' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.123 seconds; current allocated memory: 185.462 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.182 seconds; current allocated memory: 186.254 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones_32_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones_32_s'.
+INFO: [HLS 200-111]  Elapsed time: 0.238 seconds; current allocated memory: 187.097 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones_brutefo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones_brutefo'.
+INFO: [HLS 200-111]  Elapsed time: 0.555 seconds; current allocated memory: 187.821 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones'.
+INFO: [HLS 200-111]  Elapsed time: 0.232 seconds; current allocated memory: 188.535 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'top' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_in_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_out_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_ret' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_0_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_1_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_2_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_3_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_4_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_5_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_6_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_7_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel_onehot_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel0_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel1_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_s' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_ret_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_4' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_5' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_6' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_7' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_out' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mode' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'top' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Generating core module 'top_mux_83_32_1_1': 6 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'top_mux_83_8_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'top'.
+INFO: [HLS 200-111]  Elapsed time: 0.315 seconds; current allocated memory: 190.044 MB.
+INFO: [HLS 200-789] **** Estimated Fmax: 115.38 MHz
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:07 ; elapsed = 00:01:38 . Memory (MB): peak = 262.512 ; gain = 172.613
+INFO: [VHDL 208-304] Generating VHDL RTL for top.
+INFO: [VLOG 209-307] Generating Verilog RTL for top.
+INFO: [HLS 200-112] Total elapsed time: 98.397 seconds; peak allocated memory: 190.044 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/top.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_onehot_if.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_onehot.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary_opt.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary2onehot_opt.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_2to1.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/max_algorithmic.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/max.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_template.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_log2.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_bruteforce.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:02 ; elapsed = 00:01:32 . Memory (MB): peak = 177.559 ; gain = 87.227
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:02 ; elapsed = 00:01:32 . Memory (MB): peak = 177.559 ; gain = 87.227
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:01:33 . Memory (MB): peak = 177.559 ; gain = 87.227
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'leading_ones<1>' into 'leading_ones<2>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<2>' into 'leading_ones<4>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<32>' into 'leading_ones_template' (Multiplexor/leading_ones_template.cpp:7) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<1>::max<int>' into 'max_s<2>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<2>::max<int>' into 'max_s<4>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<4>::max<int>' into 'max_s<8>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<8>::max<int>' into 'max<8, int>' (Multiplexor/max_tmpl.h:25) automatically.
+INFO: [XFORM 203-602] Inlining function 'max<8, int>' into 'max' (Multiplexor/max.cpp:5) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones' into 'top' (Multiplexor/top.cpp:21) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones_template' into 'top' (Multiplexor/top.cpp:33) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_2to1' into 'top' (Multiplexor/top.cpp:37) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary' into 'top' (Multiplexor/top.cpp:41) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary2onehot_opt' into 'top' (Multiplexor/top.cpp:53) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary_opt' into 'top' (Multiplexor/top.cpp:57) automatically.
+INFO: [XFORM 203-602] Inlining function 'max' into 'top' (Multiplexor/top.cpp:61) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_algorithmic' into 'top' (Multiplexor/top.cpp:65) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:03 ; elapsed = 00:01:33 . Memory (MB): peak = 177.559 ; gain = 87.227
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones_log2.cpp:17) in function 'leading_ones_log2' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones_bruteforce.cpp:10) in function 'leading_ones_bruteforce' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Loop-2' (Multiplexor/leading_ones_bruteforce.cpp:17) in function 'leading_ones_bruteforce' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones.cpp:8) in function 'leading_ones' completely with a factor of 32.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/max_algorithmic.cpp:8) in function 'max_algorithmic' completely with a factor of 8.
+INFO: [XFORM 203-101] Partitioning array 'max_in' (Multiplexor/top.cpp:12) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mux_in.V' (Multiplexor/top.cpp:6) in dimension 1 completely.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<1>' into 'leading_ones<2>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<2>' into 'leading_ones<4>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<4>' into 'leading_ones<8>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<16>' into 'leading_ones<32>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<1>::max<int>' into 'max_s<2>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<2>::max<int>' into 'max_s<4>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<4>::max<int>' into 'max_s<8>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<8>::max<int>' into 'max<8, int>' (Multiplexor/max_tmpl.h:25) automatically.
+INFO: [XFORM 203-602] Inlining function 'max<8, int>' into 'max' (Multiplexor/max.cpp:5) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones_log2' into 'top' (Multiplexor/top.cpp:29) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones_template' into 'top' (Multiplexor/top.cpp:33) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_2to1' into 'top' (Multiplexor/top.cpp:37) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary' into 'top' (Multiplexor/top.cpp:41) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_onehot' into 'top' (Multiplexor/top.cpp:45) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary2onehot_opt' into 'top' (Multiplexor/top.cpp:53) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary_opt' into 'top' (Multiplexor/top.cpp:57) automatically.
+INFO: [XFORM 203-602] Inlining function 'max' into 'top' (Multiplexor/top.cpp:61) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_onehot.cpp:3:24) to (Multiplexor/top.cpp:46:9) in function 'top'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_binary2onehot_opt.cpp:3:35) to (Multiplexor/top.cpp:54:9) in function 'top'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_onehot_if.cpp:3:27) to (Multiplexor/mux_onehot_if.cpp:24:5) in function 'mux_onehot_if'... converting 9 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones_bruteforce.cpp:12:6) to (Multiplexor/leading_ones_bruteforce.cpp:19:6) in function 'leading_ones_bruteforce'... converting 17 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones_tmpl.h:9:36) in function 'leading_ones<8>'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones.cpp:10:6) to (Multiplexor/leading_ones.cpp:17:5) in function 'leading_ones'... converting 33 basic blocks.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<8>' into 'leading_ones<32>' (Multiplexor/leading_ones_tmpl.h:23->Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_onehot_if' into 'top' (Multiplexor/top.cpp:49) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_algorithmic' into 'top' (Multiplexor/top.cpp:65) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:01:34 . Memory (MB): peak = 209.559 ; gain = 119.227
+WARNING: [XFORM 203-631] Renaming function 'leading_ones_bruteforce' to 'leading_ones_brutefo' (Multiplexor/leading_ones_bruteforce.cpp:12:6)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:04 ; elapsed = 00:01:34 . Memory (MB): peak = 237.309 ; gain = 146.977
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'top' ...
+WARNING: [SYN 201-103] Legalizing function name 'leading_ones<32>' to 'leading_ones_32_s'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones_32_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 94.472 seconds; current allocated memory: 183.190 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.085 seconds; current allocated memory: 183.585 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones_brutefo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.118 seconds; current allocated memory: 183.884 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.072 seconds; current allocated memory: 184.317 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.099 seconds; current allocated memory: 184.525 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.071 seconds; current allocated memory: 184.965 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'top' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.123 seconds; current allocated memory: 185.462 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.181 seconds; current allocated memory: 186.269 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones_32_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones_32_s'.
+INFO: [HLS 200-111]  Elapsed time: 0.241 seconds; current allocated memory: 187.096 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones_brutefo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones_brutefo'.
+INFO: [HLS 200-111]  Elapsed time: 0.545 seconds; current allocated memory: 187.805 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones'.
+INFO: [HLS 200-111]  Elapsed time: 0.226 seconds; current allocated memory: 188.488 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'top' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_in_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_out_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_ret' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_0_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_1_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_2_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_3_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_4_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_5_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_6_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_7_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel_onehot_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel0_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel1_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_s' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_ret_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_4' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_5' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_6' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_7' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_out' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mode' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'top' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Generating core module 'top_mux_83_32_1_1': 6 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'top_mux_83_8_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'top'.
+INFO: [HLS 200-111]  Elapsed time: 0.31 seconds; current allocated memory: 189.997 MB.
+INFO: [HLS 200-789] **** Estimated Fmax: 115.38 MHz
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:07 ; elapsed = 00:01:38 . Memory (MB): peak = 262.371 ; gain = 172.039
+INFO: [VHDL 208-304] Generating VHDL RTL for top.
+INFO: [VLOG 209-307] Generating Verilog RTL for top.
+INFO: [HLS 200-112] Total elapsed time: 98.292 seconds; peak allocated memory: 189.997 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+INFO: [COSIM 212-302] Starting C TB testing ... 
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [COSIM 212-316] Starting C post checking ...
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+ERROR: [COSIM 212-366] Cannot delete directory  'sim/verilog': it is being used by another program. Please close the program and try again.
+ERROR: [COSIM 212-5] *** C/RTL co-simulation file generation failed. ***
+ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+ERROR: [COSIM 212-366] Cannot delete directory  'sim/verilog': it is being used by another program. Please close the program and try again.
+ERROR: [COSIM 212-5] *** C/RTL co-simulation file generation failed. ***
+ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+INFO: [COSIM 212-302] Starting C TB testing ... 
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [COSIM 212-316] Starting C post checking ...
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/top.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_onehot_if.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_onehot.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary_opt.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary2onehot_opt.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_2to1.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/max_algorithmic.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/max.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_template.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_log2.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_bruteforce.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:02 ; elapsed = 00:01:34 . Memory (MB): peak = 177.363 ; gain = 86.816
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:02 ; elapsed = 00:01:34 . Memory (MB): peak = 177.363 ; gain = 86.816
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:01:35 . Memory (MB): peak = 177.363 ; gain = 86.816
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'leading_ones<1>' into 'leading_ones<2>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<2>' into 'leading_ones<4>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<32>' into 'leading_ones_template' (Multiplexor/leading_ones_template.cpp:7) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<1>::max<int>' into 'max_s<2>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<2>::max<int>' into 'max_s<4>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<4>::max<int>' into 'max_s<8>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<8>::max<int>' into 'max<8, int>' (Multiplexor/max_tmpl.h:25) automatically.
+INFO: [XFORM 203-602] Inlining function 'max<8, int>' into 'max' (Multiplexor/max.cpp:5) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones' into 'top' (Multiplexor/top.cpp:21) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones_template' into 'top' (Multiplexor/top.cpp:33) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_2to1' into 'top' (Multiplexor/top.cpp:37) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary' into 'top' (Multiplexor/top.cpp:41) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary2onehot_opt' into 'top' (Multiplexor/top.cpp:53) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary_opt' into 'top' (Multiplexor/top.cpp:57) automatically.
+INFO: [XFORM 203-602] Inlining function 'max' into 'top' (Multiplexor/top.cpp:61) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_algorithmic' into 'top' (Multiplexor/top.cpp:65) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:03 ; elapsed = 00:01:35 . Memory (MB): peak = 177.363 ; gain = 86.816
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones_log2.cpp:17) in function 'leading_ones_log2' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones_bruteforce.cpp:10) in function 'leading_ones_bruteforce' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Loop-2' (Multiplexor/leading_ones_bruteforce.cpp:17) in function 'leading_ones_bruteforce' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones.cpp:8) in function 'leading_ones' completely with a factor of 32.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/max_algorithmic.cpp:8) in function 'max_algorithmic' completely with a factor of 8.
+INFO: [XFORM 203-101] Partitioning array 'max_in' (Multiplexor/top.cpp:12) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mux_in.V' (Multiplexor/top.cpp:6) in dimension 1 completely.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<1>' into 'leading_ones<2>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<2>' into 'leading_ones<4>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<4>' into 'leading_ones<8>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<16>' into 'leading_ones<32>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<1>::max<int>' into 'max_s<2>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<2>::max<int>' into 'max_s<4>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<4>::max<int>' into 'max_s<8>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<8>::max<int>' into 'max<8, int>' (Multiplexor/max_tmpl.h:25) automatically.
+INFO: [XFORM 203-602] Inlining function 'max<8, int>' into 'max' (Multiplexor/max.cpp:5) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones_log2' into 'top' (Multiplexor/top.cpp:29) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones_template' into 'top' (Multiplexor/top.cpp:33) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_2to1' into 'top' (Multiplexor/top.cpp:37) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary' into 'top' (Multiplexor/top.cpp:41) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_onehot' into 'top' (Multiplexor/top.cpp:45) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary2onehot_opt' into 'top' (Multiplexor/top.cpp:53) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_binary_opt' into 'top' (Multiplexor/top.cpp:57) automatically.
+INFO: [XFORM 203-602] Inlining function 'max' into 'top' (Multiplexor/top.cpp:61) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_onehot.cpp:3:24) to (Multiplexor/top.cpp:46:9) in function 'top'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_binary2onehot_opt.cpp:3:35) to (Multiplexor/top.cpp:54:9) in function 'top'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_onehot_if.cpp:3:27) to (Multiplexor/mux_onehot_if.cpp:24:5) in function 'mux_onehot_if'... converting 9 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones_bruteforce.cpp:12:6) to (Multiplexor/leading_ones_bruteforce.cpp:19:6) in function 'leading_ones_bruteforce'... converting 17 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones_tmpl.h:9:36) in function 'leading_ones<8>'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones.cpp:10:6) to (Multiplexor/leading_ones.cpp:17:5) in function 'leading_ones'... converting 33 basic blocks.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<8>' into 'leading_ones<32>' (Multiplexor/leading_ones_tmpl.h:23->Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'mux_onehot_if' into 'top' (Multiplexor/top.cpp:49) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_algorithmic' into 'top' (Multiplexor/top.cpp:65) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:01:36 . Memory (MB): peak = 209.375 ; gain = 118.828
+WARNING: [XFORM 203-631] Renaming function 'leading_ones_bruteforce' to 'leading_ones_brutefo' (Multiplexor/leading_ones_bruteforce.cpp:12:6)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:04 ; elapsed = 00:01:37 . Memory (MB): peak = 237.570 ; gain = 147.023
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'top' ...
+WARNING: [SYN 201-103] Legalizing function name 'leading_ones<32>' to 'leading_ones_32_s'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones_32_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 96.732 seconds; current allocated memory: 183.174 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.126 seconds; current allocated memory: 183.570 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones_brutefo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.118 seconds; current allocated memory: 183.832 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.072 seconds; current allocated memory: 184.302 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.098 seconds; current allocated memory: 184.510 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.07 seconds; current allocated memory: 184.950 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'top' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.126 seconds; current allocated memory: 185.462 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.184 seconds; current allocated memory: 186.270 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones_32_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones_32_s'.
+INFO: [HLS 200-111]  Elapsed time: 0.256 seconds; current allocated memory: 187.112 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones_brutefo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones_brutefo'.
+INFO: [HLS 200-111]  Elapsed time: 0.559 seconds; current allocated memory: 187.837 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones'.
+INFO: [HLS 200-111]  Elapsed time: 0.225 seconds; current allocated memory: 188.519 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'top' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_in_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_out_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_ret' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_0_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_1_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_2_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_3_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_4_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_5_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_6_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_7_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel_onehot_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel0_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel1_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_s' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_ret_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_4' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_5' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_6' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_7' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_out' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mode' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'top' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Generating core module 'top_mux_83_32_1_1': 6 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'top_mux_83_8_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'top'.
+INFO: [HLS 200-111]  Elapsed time: 0.315 seconds; current allocated memory: 190.012 MB.
+INFO: [HLS 200-789] **** Estimated Fmax: 115.38 MHz
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:07 ; elapsed = 00:01:41 . Memory (MB): peak = 263.168 ; gain = 172.621
+INFO: [VHDL 208-304] Generating VHDL RTL for top.
+INFO: [VLOG 209-307] Generating Verilog RTL for top.
+INFO: [HLS 200-112] Total elapsed time: 100.634 seconds; peak allocated memory: 190.012 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+ERROR: [COSIM 212-366] Cannot delete directory  'sim/verilog': it is being used by another program. Please close the program and try again.
+ERROR: [COSIM 212-5] *** C/RTL co-simulation file generation failed. ***
+ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+INFO: [COSIM 212-302] Starting C TB testing ... 
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [COSIM 212-316] Starting C post checking ...
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_bruteforce.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_log2.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/leading_ones_template.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/max.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/max_algorithmic.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_2to1.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary2onehot_opt.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_binary_opt.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_onehot.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/mux_onehot_if.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Multiplexor/top.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:02 ; elapsed = 00:01:34 . Memory (MB): peak = 177.324 ; gain = 87.777
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:02 ; elapsed = 00:01:34 . Memory (MB): peak = 177.324 ; gain = 87.777
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:01:35 . Memory (MB): peak = 177.324 ; gain = 87.777
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'leading_ones<1>' into 'leading_ones<2>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<2>' into 'leading_ones<4>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<32>' into 'leading_ones_template' (Multiplexor/leading_ones_template.cpp:8) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<1>::max<int>' into 'max_s<2>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<2>::max<int>' into 'max_s<4>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<4>::max<int>' into 'max_s<8>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<8>::max<int>' into 'max<8, int>' (Multiplexor/max_tmpl.h:25) automatically.
+INFO: [XFORM 203-602] Inlining function 'max<8, int>' into 'max' (Multiplexor/max.cpp:6) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:03 ; elapsed = 00:01:35 . Memory (MB): peak = 177.324 ; gain = 87.777
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones_log2.cpp:18) in function 'leading_ones_log2' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones_bruteforce.cpp:11) in function 'leading_ones_bruteforce' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Loop-2' (Multiplexor/leading_ones_bruteforce.cpp:18) in function 'leading_ones_bruteforce' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/leading_ones.cpp:9) in function 'leading_ones' completely with a factor of 32.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (Multiplexor/max_algorithmic.cpp:9) in function 'max_algorithmic' completely with a factor of 8.
+INFO: [XFORM 203-101] Partitioning array 'max_in' (Multiplexor/top.cpp:12) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mux_in.V' (Multiplexor/top.cpp:6) in dimension 1 completely.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<1>' into 'leading_ones<2>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<2>' into 'leading_ones<4>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<4>' into 'leading_ones<8>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<16>' into 'leading_ones<32>' (Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<1>::max<int>' into 'max_s<2>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<2>::max<int>' into 'max_s<4>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<4>::max<int>' into 'max_s<8>::max<int>' (Multiplexor/max_tmpl.h:6) automatically.
+INFO: [XFORM 203-602] Inlining function 'max_s<8>::max<int>' into 'max<8, int>' (Multiplexor/max_tmpl.h:25) automatically.
+INFO: [XFORM 203-602] Inlining function 'max<8, int>' into 'max' (Multiplexor/max.cpp:6) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_onehot_if.cpp:3:27) to (Multiplexor/mux_onehot_if.cpp:25:5) in function 'mux_onehot_if'... converting 9 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_onehot.cpp:3:24) to (Multiplexor/mux_onehot.cpp:36:5) in function 'mux_onehot'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/mux_binary2onehot_opt.cpp:3:35) to (Multiplexor/mux_binary2onehot_opt.cpp:12:5) in function 'mux_binary2onehot_opt'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones_bruteforce.cpp:7:1) to (Multiplexor/leading_ones_bruteforce.cpp:20:6) in function 'leading_ones_bruteforce'... converting 17 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones_tmpl.h:9:36) in function 'leading_ones<8>'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Multiplexor/leading_ones.cpp:6:1) to (Multiplexor/leading_ones.cpp:18:5) in function 'leading_ones'... converting 33 basic blocks.
+INFO: [XFORM 203-602] Inlining function 'leading_ones<8>' into 'leading_ones<32>' (Multiplexor/leading_ones_tmpl.h:23->Multiplexor/leading_ones_tmpl.h:23) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:04 ; elapsed = 00:01:36 . Memory (MB): peak = 211.188 ; gain = 121.641
+WARNING: [XFORM 203-631] Renaming function 'mux_binary2onehot_opt' to 'mux_binary2onehot_op' (Multiplexor/mux_binary2onehot_opt.cpp:3:5)
+WARNING: [XFORM 203-631] Renaming function 'leading_ones_template' to 'leading_ones_templat' (Multiplexor/leading_ones_template.cpp:8:9)
+WARNING: [XFORM 203-631] Renaming function 'leading_ones_bruteforce' to 'leading_ones_brutefo' (Multiplexor/leading_ones_bruteforce.cpp:13:6)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:05 ; elapsed = 00:01:38 . Memory (MB): peak = 333.887 ; gain = 244.340
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'top' ...
+WARNING: [SYN 201-103] Legalizing function name 'leading_ones<32>' to 'leading_ones_32_s'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'max' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 97.648 seconds; current allocated memory: 279.195 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.086 seconds; current allocated memory: 279.291 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'mux_binary_opt' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.073 seconds; current allocated memory: 279.342 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.045 seconds; current allocated memory: 279.415 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'mux_binary2onehot_op' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.056 seconds; current allocated memory: 279.473 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.08 seconds; current allocated memory: 279.557 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'mux_onehot_if' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.193 seconds; current allocated memory: 279.672 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.168 seconds; current allocated memory: 279.885 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'mux_onehot' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.101 seconds; current allocated memory: 280.016 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.059 seconds; current allocated memory: 280.185 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'mux_binary' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.073 seconds; current allocated memory: 280.230 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.046 seconds; current allocated memory: 280.293 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'mux_2to1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.053 seconds; current allocated memory: 280.307 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.045 seconds; current allocated memory: 280.345 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones_32_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.074 seconds; current allocated memory: 280.647 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.089 seconds; current allocated memory: 281.037 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones_templat' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.103 seconds; current allocated memory: 281.100 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.052 seconds; current allocated memory: 281.131 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones_log2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.072 seconds; current allocated memory: 281.266 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.062 seconds; current allocated memory: 281.404 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones_brutefo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.091 seconds; current allocated memory: 281.650 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.083 seconds; current allocated memory: 282.083 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'leading_ones' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.11 seconds; current allocated memory: 282.276 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.077 seconds; current allocated memory: 282.716 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'max_algorithmic' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.091 seconds; current allocated memory: 282.791 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.068 seconds; current allocated memory: 282.997 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'top' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.101 seconds; current allocated memory: 283.291 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.324 seconds; current allocated memory: 284.091 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'max' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'max'.
+INFO: [HLS 200-111]  Elapsed time: 0.219 seconds; current allocated memory: 284.445 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'mux_binary_opt' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'top_mux_83_8_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'mux_binary_opt'.
+INFO: [HLS 200-111]  Elapsed time: 0.569 seconds; current allocated memory: 284.729 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'mux_binary2onehot_op' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'top_mux_83_8_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'mux_binary2onehot_op'.
+INFO: [HLS 200-111]  Elapsed time: 0.086 seconds; current allocated memory: 284.941 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'mux_onehot_if' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'mux_onehot_if'.
+INFO: [HLS 200-111]  Elapsed time: 0.101 seconds; current allocated memory: 285.326 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'mux_onehot' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'mux_onehot'.
+INFO: [HLS 200-111]  Elapsed time: 0.275 seconds; current allocated memory: 285.664 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'mux_binary' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'top_mux_83_8_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'mux_binary'.
+INFO: [HLS 200-111]  Elapsed time: 0.148 seconds; current allocated memory: 285.875 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'mux_2to1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'mux_2to1'.
+INFO: [HLS 200-111]  Elapsed time: 0.085 seconds; current allocated memory: 286.007 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones_32_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones_32_s'.
+INFO: [HLS 200-111]  Elapsed time: 0.088 seconds; current allocated memory: 286.650 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones_templat' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones_templat'.
+INFO: [HLS 200-111]  Elapsed time: 0.234 seconds; current allocated memory: 286.802 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones_log2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones_log2'.
+INFO: [HLS 200-111]  Elapsed time: 0.106 seconds; current allocated memory: 287.124 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones_brutefo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones_brutefo'.
+INFO: [HLS 200-111]  Elapsed time: 0.161 seconds; current allocated memory: 287.792 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'leading_ones' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'leading_ones'.
+INFO: [HLS 200-111]  Elapsed time: 0.244 seconds; current allocated memory: 288.479 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'max_algorithmic' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'top_mux_83_32_1_1': 6 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'max_algorithmic'.
+INFO: [HLS 200-111]  Elapsed time: 0.238 seconds; current allocated memory: 289.007 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'top' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_in_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_out_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/leadone_ret' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_0_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_1_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_2_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_3_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_4_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_5_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_6_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_in_7_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel_onehot_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel0_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_sel1_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_s' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mux_ret_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_4' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_5' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_6' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_in_7' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/max_out' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'top/mode' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'top' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'top'.
+INFO: [HLS 200-111]  Elapsed time: 0.31 seconds; current allocated memory: 289.900 MB.
+INFO: [HLS 200-789] **** Estimated Fmax: 118.71 MHz
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:10 ; elapsed = 00:01:45 . Memory (MB): peak = 365.496 ; gain = 275.949
+INFO: [VHDL 208-304] Generating VHDL RTL for top.
+INFO: [VLOG 209-307] Generating Verilog RTL for top.
+INFO: [HLS 200-112] Total elapsed time: 104.825 seconds; peak allocated memory: 289.900 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+INFO: [COSIM 212-302] Starting C TB testing ... 
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [COSIM 212-316] Starting C post checking ...
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.

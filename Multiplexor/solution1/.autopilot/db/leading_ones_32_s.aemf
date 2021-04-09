@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1617832203285">
+  <ports id="1" name="din_V_read" type="PortType" originalName="din.V" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="11" name="ap_return_0" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="12" name="ap_return_1" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <edges id="119" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.0"/>
+  <edges id="127" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="133" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@blocks.0/@node_objs.3"/>
+  <edges id="134" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@blocks.0/@node_objs.3"/>
+  <edges id="135" edge_type="CtrlEdge" source_obj="//@blocks.5" sink_obj="//@blocks.0/@node_objs.3"/>
+  <edges id="145" source_obj="//@blocks.1/@node_objs.0" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="146" edge_type="CtrlEdge" source_obj="//@blocks.2" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="147" edge_type="CtrlEdge" source_obj="//@blocks.3" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="199" source_obj="//@blocks.2/@node_objs.1" sink_obj="//@blocks.2/@node_objs.3"/>
+  <edges id="203" source_obj="//@blocks.2/@node_objs.2" sink_obj="//@blocks.2/@node_objs.4"/>
+  <edges id="210" source_obj="//@blocks.2/@node_objs.0" sink_obj="//@blocks.2/@node_objs.5"/>
+  <edges id="217" edge_type="CtrlEdge" source_obj="//@blocks.4" sink_obj="//@blocks.2/@node_objs.6"/>
+  <edges id="263" source_obj="//@blocks.3/@node_objs.1" sink_obj="//@blocks.3/@node_objs.3"/>
+  <edges id="267" source_obj="//@blocks.3/@node_objs.2" sink_obj="//@blocks.3/@node_objs.4"/>
+  <edges id="273" source_obj="//@blocks.3/@node_objs.0" sink_obj="//@blocks.3/@node_objs.5"/>
+  <edges id="277" edge_type="CtrlEdge" source_obj="//@blocks.4" sink_obj="//@blocks.3/@node_objs.6"/>
+  <edges id="279" edge_type="CtrlEdge" source_obj="//@blocks.2" sink_obj="//@blocks.4/@node_objs.0"/>
+  <edges id="281" edge_type="CtrlEdge" source_obj="//@blocks.3" sink_obj="//@blocks.4/@node_objs.0"/>
+  <edges id="286" edge_type="CtrlEdge" source_obj="//@blocks.9" sink_obj="//@blocks.4/@node_objs.1"/>
+  <edges id="295" source_obj="//@blocks.5/@node_objs.0" sink_obj="//@blocks.5/@node_objs.1"/>
+  <edges id="296" edge_type="CtrlEdge" source_obj="//@blocks.6" sink_obj="//@blocks.5/@node_objs.1"/>
+  <edges id="297" edge_type="CtrlEdge" source_obj="//@blocks.7" sink_obj="//@blocks.5/@node_objs.1"/>
+  <edges id="342" source_obj="//@blocks.6/@node_objs.1" sink_obj="//@blocks.6/@node_objs.3"/>
+  <edges id="346" source_obj="//@blocks.6/@node_objs.2" sink_obj="//@blocks.6/@node_objs.4"/>
+  <edges id="352" source_obj="//@blocks.6/@node_objs.0" sink_obj="//@blocks.6/@node_objs.5"/>
+  <edges id="358" edge_type="CtrlEdge" source_obj="//@blocks.8" sink_obj="//@blocks.6/@node_objs.6"/>
+  <edges id="404" source_obj="//@blocks.7/@node_objs.1" sink_obj="//@blocks.7/@node_objs.3"/>
+  <edges id="408" source_obj="//@blocks.7/@node_objs.2" sink_obj="//@blocks.7/@node_objs.4"/>
+  <edges id="414" source_obj="//@blocks.7/@node_objs.0" sink_obj="//@blocks.7/@node_objs.5"/>
+  <edges id="418" edge_type="CtrlEdge" source_obj="//@blocks.8" sink_obj="//@blocks.7/@node_objs.6"/>
+  <edges id="420" edge_type="CtrlEdge" source_obj="//@blocks.6" sink_obj="//@blocks.8/@node_objs.0"/>
+  <edges id="422" edge_type="CtrlEdge" source_obj="//@blocks.7" sink_obj="//@blocks.8/@node_objs.0"/>
+  <edges id="424" edge_type="CtrlEdge" source_obj="//@blocks.9" sink_obj="//@blocks.8/@node_objs.1"/>
+  <edges id="426" edge_type="CtrlEdge" source_obj="//@blocks.4" sink_obj="//@blocks.9/@node_objs.0"/>
+  <edges id="428" edge_type="CtrlEdge" source_obj="//@blocks.8" sink_obj="//@blocks.9/@node_objs.0"/>
+  <edges id="435" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@blocks.5"/>
+  <edges id="436" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@blocks.1"/>
+  <edges id="437" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@blocks.3"/>
+  <edges id="438" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@blocks.2"/>
+  <edges id="439" edge_type="CtrlEdge" source_obj="//@blocks.2" sink_obj="//@blocks.4"/>
+  <edges id="440" edge_type="CtrlEdge" source_obj="//@blocks.3" sink_obj="//@blocks.4"/>
+  <edges id="441" edge_type="CtrlEdge" source_obj="//@blocks.4" sink_obj="//@blocks.9"/>
+  <edges id="442" edge_type="CtrlEdge" source_obj="//@blocks.5" sink_obj="//@blocks.7"/>
+  <edges id="443" edge_type="CtrlEdge" source_obj="//@blocks.5" sink_obj="//@blocks.6"/>
+  <edges id="444" edge_type="CtrlEdge" source_obj="//@blocks.6" sink_obj="//@blocks.8"/>
+  <edges id="445" edge_type="CtrlEdge" source_obj="//@blocks.7" sink_obj="//@blocks.8"/>
+  <edges id="446" edge_type="CtrlEdge" source_obj="//@blocks.8" sink_obj="//@blocks.9"/>
+  <edges source_obj="//@blocks.9/@node_objs.1" sink_obj="//@ports.1"/>
+  <edges source_obj="//@blocks.9/@node_objs.1" sink_obj="//@ports.2"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.1/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.2/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.2/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.2/@node_objs.2"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.2/@node_objs.3"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.2/@node_objs.3"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.2/@node_objs.4"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.2/@node_objs.4"/>
+  <edges id="-1" source_obj="//@blocks.2/@node_objs.3" sink_obj="//@blocks.2/@node_objs.5"/>
+  <edges id="-1" source_obj="//@blocks.2/@node_objs.4" sink_obj="//@blocks.2/@node_objs.5"/>
+  <edges id="-1" source_obj="//@blocks.2/@node_objs.5" sink_obj="//@blocks.4/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.3/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.3/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.3/@node_objs.2"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.3/@node_objs.3"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.3/@node_objs.3"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.3/@node_objs.4"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.3/@node_objs.4"/>
+  <edges id="-1" source_obj="//@blocks.3/@node_objs.3" sink_obj="//@blocks.3/@node_objs.5"/>
+  <edges id="-1" source_obj="//@blocks.3/@node_objs.4" sink_obj="//@blocks.3/@node_objs.5"/>
+  <edges id="-1" source_obj="//@blocks.3/@node_objs.5" sink_obj="//@blocks.4/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.4/@node_objs.0" sink_obj="//@blocks.9/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.5/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.6/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.6/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.6/@node_objs.2"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.6/@node_objs.3"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.6/@node_objs.3"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.6/@node_objs.4"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.6/@node_objs.4"/>
+  <edges id="-1" source_obj="//@blocks.6/@node_objs.3" sink_obj="//@blocks.6/@node_objs.5"/>
+  <edges id="-1" source_obj="//@blocks.6/@node_objs.4" sink_obj="//@blocks.6/@node_objs.5"/>
+  <edges id="-1" source_obj="//@blocks.6/@node_objs.5" sink_obj="//@blocks.8/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.7/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.7/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.7/@node_objs.2"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.7/@node_objs.3"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.7/@node_objs.3"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.7/@node_objs.4"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.7/@node_objs.4"/>
+  <edges id="-1" source_obj="//@blocks.7/@node_objs.3" sink_obj="//@blocks.7/@node_objs.5"/>
+  <edges id="-1" source_obj="//@blocks.7/@node_objs.4" sink_obj="//@blocks.7/@node_objs.5"/>
+  <edges id="-1" source_obj="//@blocks.7/@node_objs.5" sink_obj="//@blocks.8/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.8/@node_objs.0" sink_obj="//@blocks.9/@node_objs.0"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.9/@node_objs.1"/>
+  <edges id="-1" source_obj="//@blocks.9/@node_objs.0" sink_obj="//@blocks.9/@node_objs.1"/>
+  <blocks id="7" name="_ZrsILi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT_EXT0_EE4arg1ERKS1_i.exit" type="BlockType">
+    <controlOutputObjs>block_63</controlOutputObjs>
+    <controlOutputObjs>block_11</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="2" name="din_V_read_2" lineNumber="9" originalName="din.V" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." contextFuncName="leading_ones&amp;lt;32&amp;gt;" bitwidth="32" opcode="read" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="9" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <dataInputObjs>din_V_read</dataInputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>icmp</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="4" name="icmp_ln883" lineNumber="21" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln883_fu_141_p2" contextFuncName="leading_ones&amp;lt;32&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.47" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="21" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="5" name="icmp_ln22" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln22_fu_147_p2" contextFuncName="leading_ones&amp;lt;32&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.42" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="6" name="_ln22" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." contextFuncName="leading_ones&amp;lt;32&amp;gt;" opcode="br" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <controlInputObjs>block_11</controlInputObjs>
+      <controlInputObjs>block_63</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_tmpl.h">
+      <validLinenumbers>9</validLinenumbers>
+      <validLinenumbers>21</validLinenumbers>
+      <validLinenumbers>22</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="11" name="block_11" type="BlockType">
+    <controlInputObjs>_ZrsILi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT_EXT0_EE4arg1ERKS1_i.exit</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>block_55</controlOutputObjs>
+    <controlOutputObjs>block_33</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="9" name="icmp_ln22_2" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln22_2_fu_163_p2" contextFuncName="leading_ones&amp;lt;16&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.55" m_topoIndex="7" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="10" name="_ln22" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." contextFuncName="leading_ones&amp;lt;16&amp;gt;" opcode="br" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <controlInputObjs>block_33</controlInputObjs>
+      <controlInputObjs>block_55</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_tmpl.h">
+      <validLinenumbers>22</validLinenumbers>
+      <validLinenumbers>23</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="33" name="block_33" type="BlockType">
+    <controlInputObjs>block_11</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>leading_ones&lt;16>.exit</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="icmp_ln22_12" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln22_12_fu_179_p2" contextFuncName="leading_ones&amp;lt;8&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.3" m_topoIndex="10" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="15" name="icmp_ln22_13" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln22_13_fu_195_p2" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="0.95" m_topoIndex="12" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="17" name="icmp_ln22_14" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln22_14_fu_211_p2" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="0.95" m_topoIndex="14" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="26" name="idxl_V_13" lineNumber="22" originalName="ssdm_int&amp;lt;2 + 1024 * 0, false&amp;gt;.V" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="idxl_V_13_fu_273_p3" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="2" opcode="select" m_display="0" m_topoIndex="23" m_clusterGroupNumber="1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="28" name="idxu_V_12" lineNumber="22" originalName="ssdm_int&amp;lt;2 + 1024 * 0, false&amp;gt;.V" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="idxu_V_12_fu_285_p3" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="2" opcode="select" m_display="0" m_topoIndex="25" m_clusterGroupNumber="2">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="30" name="idx_V_34" lineNumber="22" originalName="idx.V" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="idx_V_34_fu_301_p3" contextFuncName="leading_ones&amp;lt;8&amp;gt;" bitwidth="3" opcode="select" m_display="0" m_delay="0.99" m_topoIndex="27" m_clusterGroupNumber="1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>select</dataInputObjs>
+      <dataInputObjs>select</dataInputObjs>
+      <dataOutputObjs>phi</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="32" name="_ln25" lineNumber="25" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." contextFuncName="leading_ones&amp;lt;16&amp;gt;" opcode="br" m_display="0" m_delay="1.76" m_topoIndex="29" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <controlInputObjs>leading_ones&lt;16>.exit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_tmpl.h">
+      <validLinenumbers>22</validLinenumbers>
+      <validLinenumbers>25</validLinenumbers>
+      <validLinenumbers>23</validLinenumbers>
+      <validLinenumbers>26</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="55" name="block_55" type="BlockType">
+    <controlInputObjs>block_11</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>leading_ones&lt;16>.exit</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="35" name="icmp_ln22_9" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln22_9_fu_328_p2" contextFuncName="leading_ones&amp;lt;8&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.3" m_topoIndex="31" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="37" name="icmp_ln22_10" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln22_10_fu_344_p2" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="0.95" m_topoIndex="33" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="39" name="icmp_ln22_11" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln22_11_fu_360_p2" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="0.95" m_topoIndex="35" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="48" name="idxl_V_9" lineNumber="22" originalName="ssdm_int&amp;lt;2 + 1024 * 0, false&amp;gt;.V" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="idxl_V_9_fu_422_p3" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="2" opcode="select" m_display="0" m_topoIndex="44" m_clusterGroupNumber="3">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="50" name="idxu_V_9" lineNumber="22" originalName="ssdm_int&amp;lt;2 + 1024 * 0, false&amp;gt;.V" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="idxu_V_9_fu_434_p3" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="2" opcode="select" m_display="0" m_topoIndex="46" m_clusterGroupNumber="4">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="52" name="idx_V_35" lineNumber="22" originalName="idx.V" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="idx_V_35_fu_450_p3" contextFuncName="leading_ones&amp;lt;8&amp;gt;" bitwidth="3" opcode="select" m_display="0" m_delay="0.99" m_topoIndex="48" m_clusterGroupNumber="3">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>select</dataInputObjs>
+      <dataInputObjs>select</dataInputObjs>
+      <dataOutputObjs>phi</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="54" name="_ln0" opcode="br" m_display="0" m_delay="1.76" m_topoIndex="50" m_clusterGroupNumber="-1">
+      <controlInputObjs>leading_ones&lt;16>.exit</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_tmpl.h">
+      <validLinenumbers>22</validLinenumbers>
+      <validLinenumbers>26</validLinenumbers>
+      <validLinenumbers>23</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="59" name="leading_ones&lt;16>.exit" type="BlockType">
+    <controlInputObjs>block_33</controlInputObjs>
+    <controlInputObjs>block_55</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>block_116</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="56" name="idxu_V_14" originalName="idx.V" bitwidth="4" opcode="phi" m_display="0" m_topoIndex="51" m_clusterGroupNumber="-1">
+      <dataInputObjs>select</dataInputObjs>
+      <dataInputObjs>select</dataInputObjs>
+      <dataOutputObjs>phi</dataOutputObjs>
+      <controlInputObjs>block_33</controlInputObjs>
+      <controlInputObjs>block_55</controlInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="58" name="_ln25" lineNumber="25" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." contextFuncName="leading_ones&amp;lt;32&amp;gt;" opcode="br" m_display="0" m_delay="1.76" m_topoIndex="53" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <controlInputObjs>block_116</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_tmpl.h">
+      <validLinenumbers>25</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="63" name="block_63" type="BlockType">
+    <controlInputObjs>_ZrsILi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT_EXT0_EE4arg1ERKS1_i.exit</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>block_107</controlOutputObjs>
+    <controlOutputObjs>block_85</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="61" name="icmp_ln22_1" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln22_1_fu_482_p2" contextFuncName="leading_ones&amp;lt;16&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.55" m_topoIndex="55" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>br</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="62" name="_ln22" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." contextFuncName="leading_ones&amp;lt;16&amp;gt;" opcode="br" m_display="0" m_topoIndex="56" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <controlInputObjs>block_85</controlInputObjs>
+      <controlInputObjs>block_107</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_tmpl.h">
+      <validLinenumbers>22</validLinenumbers>
+      <validLinenumbers>26</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="85" name="block_85" type="BlockType">
+    <controlInputObjs>block_63</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>leading_ones&lt;16>.exit13</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="65" name="icmp_ln22_6" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln22_6_fu_498_p2" contextFuncName="leading_ones&amp;lt;8&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.3" m_topoIndex="58" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="67" name="icmp_ln22_7" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln22_7_fu_514_p2" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="0.95" m_topoIndex="60" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="69" name="icmp_ln22_8" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln22_8_fu_530_p2" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="0.95" m_topoIndex="62" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="78" name="idxl_V_6" lineNumber="22" originalName="ssdm_int&amp;lt;2 + 1024 * 0, false&amp;gt;.V" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="idxl_V_6_fu_592_p3" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="2" opcode="select" m_display="0" m_topoIndex="71" m_clusterGroupNumber="5">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="80" name="idxu_V_5" lineNumber="22" originalName="ssdm_int&amp;lt;2 + 1024 * 0, false&amp;gt;.V" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="idxu_V_5_fu_604_p3" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="2" opcode="select" m_display="0" m_topoIndex="73" m_clusterGroupNumber="6">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="82" name="idx_V_36" lineNumber="22" originalName="idx.V" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="idx_V_36_fu_620_p3" contextFuncName="leading_ones&amp;lt;8&amp;gt;" bitwidth="3" opcode="select" m_display="0" m_delay="0.99" m_topoIndex="75" m_clusterGroupNumber="5">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>select</dataInputObjs>
+      <dataInputObjs>select</dataInputObjs>
+      <dataOutputObjs>phi</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="84" name="_ln25" lineNumber="25" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." contextFuncName="leading_ones&amp;lt;16&amp;gt;" opcode="br" m_display="0" m_delay="1.76" m_topoIndex="77" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <controlInputObjs>leading_ones&lt;16>.exit13</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_tmpl.h">
+      <validLinenumbers>22</validLinenumbers>
+      <validLinenumbers>25</validLinenumbers>
+      <validLinenumbers>23</validLinenumbers>
+      <validLinenumbers>26</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="107" name="block_107" type="BlockType">
+    <controlInputObjs>block_63</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>leading_ones&lt;16>.exit13</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="87" name="icmp_ln22_3" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln22_3_fu_647_p2" contextFuncName="leading_ones&amp;lt;8&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.3" m_topoIndex="79" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="89" name="icmp_ln22_4" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln22_4_fu_663_p2" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="0.95" m_topoIndex="81" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="91" name="icmp_ln22_5" lineNumber="22" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="icmp_ln22_5_fu_679_p2" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="1" opcode="icmp" m_display="0" m_delay="0.95" m_topoIndex="83" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="100" name="idxl_V_2" lineNumber="22" originalName="ssdm_int&amp;lt;2 + 1024 * 0, false&amp;gt;.V" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="idxl_V_2_fu_741_p3" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="2" opcode="select" m_display="0" m_topoIndex="92" m_clusterGroupNumber="7">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="102" name="idxu_V_2" lineNumber="22" originalName="ssdm_int&amp;lt;2 + 1024 * 0, false&amp;gt;.V" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="idxu_V_2_fu_753_p3" contextFuncName="leading_ones&amp;lt;4&amp;gt;" bitwidth="2" opcode="select" m_display="0" m_topoIndex="94" m_clusterGroupNumber="8">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;4&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="23" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="104" name="idx_V_37" lineNumber="22" originalName="idx.V" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." rtlName="idx_V_37_fu_769_p3" contextFuncName="leading_ones&amp;lt;8&amp;gt;" bitwidth="3" opcode="select" m_display="0" m_delay="0.99" m_topoIndex="96" m_clusterGroupNumber="7">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;16&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="22" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;8&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>select</dataInputObjs>
+      <dataInputObjs>select</dataInputObjs>
+      <dataOutputObjs>phi</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="106" name="_ln0" opcode="br" m_display="0" m_delay="1.76" m_topoIndex="98" m_clusterGroupNumber="-1">
+      <controlInputObjs>leading_ones&lt;16>.exit13</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_tmpl.h">
+      <validLinenumbers>22</validLinenumbers>
+      <validLinenumbers>26</validLinenumbers>
+      <validLinenumbers>23</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="111" name="leading_ones&lt;16>.exit13" type="BlockType">
+    <controlInputObjs>block_85</controlInputObjs>
+    <controlInputObjs>block_107</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>block_116</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="108" name="idxl_V_14" originalName="idx.V" bitwidth="4" opcode="phi" m_display="0" m_topoIndex="99" m_clusterGroupNumber="-1">
+      <dataInputObjs>select</dataInputObjs>
+      <dataInputObjs>select</dataInputObjs>
+      <dataOutputObjs>phi</dataOutputObjs>
+      <controlInputObjs>block_85</controlInputObjs>
+      <controlInputObjs>block_107</controlInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="110" name="_ln0" opcode="br" m_display="0" m_delay="1.76" m_topoIndex="101" m_clusterGroupNumber="-1">
+      <controlInputObjs>block_116</controlInputObjs>
+    </node_objs>
+  </blocks>
+  <blocks id="116" name="block_116" type="BlockType">
+    <controlInputObjs>leading_ones&lt;16>.exit</controlInputObjs>
+    <controlInputObjs>leading_ones&lt;16>.exit13</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="112" name="ssdm_int_V_write_ass" originalName="idx.V" bitwidth="5" opcode="phi" m_display="0" m_topoIndex="102" m_clusterGroupNumber="-1">
+      <dataInputObjs>phi</dataInputObjs>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+      <controlInputObjs>leading_ones&lt;16>.exit</controlInputObjs>
+      <controlInputObjs>leading_ones&lt;16>.exit13</controlInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="115" name="_ln30" lineNumber="30" fileName="Multiplexor/leading_ones_tmpl.h" fileDirectory=".." contextFuncName="leading_ones&amp;lt;32&amp;gt;" opcode="ret" m_display="0" m_topoIndex="105" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_tmpl.h" linenumber="30" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones&amp;lt;32&amp;gt;"/>
+      <dataInputObjs>icmp</dataInputObjs>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataOutputObjs>ap_return_0</dataOutputObjs>
+      <dataOutputObjs>ap_return_1</dataOutputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_tmpl.h">
+      <validLinenumbers>30</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <ScheduleInfo time="0"/>
+  <regnodes realName="idxu_V_14_reg_104">
+    <nodeIds>56</nodeIds>
+  </regnodes>
+  <regnodes realName="idxl_V_14_reg_113">
+    <nodeIds>108</nodeIds>
+  </regnodes>
+  <regnodes realName="ssdm_int_V_write_ass_reg_122">
+    <nodeIds>112</nodeIds>
+  </regnodes>
+  <expressionNodes realName="upper_V_31_fu_217">
+    <nodeIds>18</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln22_4_fu_663">
+    <nodeIds>89</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_6_fu_761">
+    <nodeIds>103</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_32_fu_309">
+    <nodeIds>31</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_12_fu_584">
+    <nodeIds>77</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_27_fu_253">
+    <nodeIds>23</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idxl_V_6_fu_592">
+    <nodeIds>78</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_fu_782">
+    <nodeIds>109</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_45_fu_713">
+    <nodeIds>96</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_3_fu_721">
+    <nodeIds>97</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_4_fu_653">
+    <nodeIds>88</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln883_fu_141">
+    <nodeIds>4</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idxu_V_9_fu_434">
+    <nodeIds>50</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_1_fu_793">
+    <nodeIds>114</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_41_fu_564">
+    <nodeIds>74</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_43_fu_685">
+    <nodeIds>92</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_24_fu_169">
+    <nodeIds>12</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_fu_131">
+    <nodeIds>3</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_24_fu_458">
+    <nodeIds>53</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idxl_V_13_fu_273">
+    <nodeIds>26</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_26_fu_201">
+    <nodeIds>16</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idxu_V_12_fu_285">
+    <nodeIds>28</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idxu_V_2_fu_753">
+    <nodeIds>102</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_12_fu_520">
+    <nodeIds>68</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_29_fu_281">
+    <nodeIds>27</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_14_fu_612">
+    <nodeIds>81</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_28_fu_265">
+    <nodeIds>25</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idxu_V_14_phi_fu_107">
+    <nodeIds>56</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_10_fu_488">
+    <nodeIds>64</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_32_fu_229">
+    <nodeIds>20</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idxl_V_9_fu_422">
+    <nodeIds>48</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="ssdm_int_V_write_ass_phi_fu_125">
+    <nodeIds>112</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_46_fu_725">
+    <nodeIds>98</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_fu_787">
+    <nodeIds>113</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_33_fu_463">
+    <nodeIds>57</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_2_fu_705">
+    <nodeIds>95</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln22_13_fu_195">
+    <nodeIds>15</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_1_fu_693">
+    <nodeIds>93</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_42_fu_576">
+    <nodeIds>76</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_44_fu_697">
+    <nodeIds>94</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_39_fu_536">
+    <nodeIds>70</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idxl_V_14_phi_fu_116">
+    <nodeIds>108</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln22_1_fu_482">
+    <nodeIds>61</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idxu_V_5_fu_604">
+    <nodeIds>80</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln22_fu_147">
+    <nodeIds>5</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_13_fu_600">
+    <nodeIds>79</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln22_14_fu_211">
+    <nodeIds>17</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_17_fu_374">
+    <nodeIds>41</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln22_12_fu_179">
+    <nodeIds>13</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln22_2_fu_163">
+    <nodeIds>9</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_9_fu_544">
+    <nodeIds>71</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_30_fu_293">
+    <nodeIds>29</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_1_fu_472">
+    <nodeIds>60</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_2_fu_153">
+    <nodeIds>8</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_35_fu_366">
+    <nodeIds>40</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_26_fu_237">
+    <nodeIds>21</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_38_fu_406">
+    <nodeIds>46</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_21_fu_430">
+    <nodeIds>49</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_25_fu_185">
+    <nodeIds>14</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_35_fu_450">
+    <nodeIds>52</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_11_fu_504">
+    <nodeIds>66</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_3_fu_637">
+    <nodeIds>86</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln22_3_fu_647">
+    <nodeIds>87</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_33_fu_245">
+    <nodeIds>22</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln22_9_fu_328">
+    <nodeIds>35</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_40_fu_548">
+    <nodeIds>72</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_10_fu_556">
+    <nodeIds>73</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_8_fu_777">
+    <nodeIds>105</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_20_fu_414">
+    <nodeIds>47</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln22_7_fu_514">
+    <nodeIds>67</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln22_11_fu_360">
+    <nodeIds>39</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln22_5_fu_679">
+    <nodeIds>91</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idxl_V_2_fu_741">
+    <nodeIds>100</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln22_6_fu_498">
+    <nodeIds>65</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln22_8_fu_530">
+    <nodeIds>69</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_19_fu_350">
+    <nodeIds>38</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_18_fu_386">
+    <nodeIds>43</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln22_10_fu_344">
+    <nodeIds>37</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_4_fu_733">
+    <nodeIds>99</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_11_fu_572">
+    <nodeIds>75</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_37_fu_769">
+    <nodeIds>104</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_25_fu_225">
+    <nodeIds>19</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_36_fu_378">
+    <nodeIds>42</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_18_fu_334">
+    <nodeIds>36</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_5_fu_749">
+    <nodeIds>101</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_19_fu_402">
+    <nodeIds>45</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_22_fu_442">
+    <nodeIds>51</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_37_fu_394">
+    <nodeIds>44</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_16_fu_628">
+    <nodeIds>83</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_34_fu_257">
+    <nodeIds>24</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_17_fu_318">
+    <nodeIds>34</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="upper_V_5_fu_669">
+    <nodeIds>90</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_34_fu_301">
+    <nodeIds>30</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idx_V_36_fu_620">
+    <nodeIds>82</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="din_V_read_2_read_fu_98">
+    <nodeIds>2</nodeIds>
+  </ioNodes>
+  <ioPorts name="din_V_read">
+    <contents name="read">
+      <nodeIds>2</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_0">
+    <contents name="ret">
+      <nodeIds>115</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_1">
+    <contents name="ret">
+      <nodeIds>115</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="2" stage="1" latency="1"/>
+      <operations id="3" stage="1" latency="1"/>
+      <operations id="4" stage="1" latency="1"/>
+      <operations id="5" stage="1" latency="1"/>
+      <operations id="6" stage="1" latency="1"/>
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="35" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="38" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="41" stage="1" latency="1"/>
+      <operations id="42" stage="1" latency="1"/>
+      <operations id="43" stage="1" latency="1"/>
+      <operations id="44" stage="1" latency="1"/>
+      <operations id="45" stage="1" latency="1"/>
+      <operations id="46" stage="1" latency="1"/>
+      <operations id="47" stage="1" latency="1"/>
+      <operations id="48" stage="1" latency="1"/>
+      <operations id="49" stage="1" latency="1"/>
+      <operations id="50" stage="1" latency="1"/>
+      <operations id="51" stage="1" latency="1"/>
+      <operations id="52" stage="1" latency="1"/>
+      <operations id="53" stage="1" latency="1"/>
+      <operations id="54" stage="1" latency="1"/>
+      <operations id="56" stage="1" latency="1"/>
+      <operations id="57" stage="1" latency="1"/>
+      <operations id="58" stage="1" latency="1"/>
+      <operations id="60" stage="1" latency="1"/>
+      <operations id="61" stage="1" latency="1"/>
+      <operations id="62" stage="1" latency="1"/>
+      <operations id="64" stage="1" latency="1"/>
+      <operations id="65" stage="1" latency="1"/>
+      <operations id="66" stage="1" latency="1"/>
+      <operations id="67" stage="1" latency="1"/>
+      <operations id="68" stage="1" latency="1"/>
+      <operations id="69" stage="1" latency="1"/>
+      <operations id="70" stage="1" latency="1"/>
+      <operations id="71" stage="1" latency="1"/>
+      <operations id="72" stage="1" latency="1"/>
+      <operations id="73" stage="1" latency="1"/>
+      <operations id="74" stage="1" latency="1"/>
+      <operations id="75" stage="1" latency="1"/>
+      <operations id="76" stage="1" latency="1"/>
+      <operations id="77" stage="1" latency="1"/>
+      <operations id="78" stage="1" latency="1"/>
+      <operations id="79" stage="1" latency="1"/>
+      <operations id="80" stage="1" latency="1"/>
+      <operations id="81" stage="1" latency="1"/>
+      <operations id="82" stage="1" latency="1"/>
+      <operations id="83" stage="1" latency="1"/>
+      <operations id="84" stage="1" latency="1"/>
+      <operations id="86" stage="1" latency="1"/>
+      <operations id="87" stage="1" latency="1"/>
+      <operations id="88" stage="1" latency="1"/>
+      <operations id="89" stage="1" latency="1"/>
+      <operations id="90" stage="1" latency="1"/>
+      <operations id="91" stage="1" latency="1"/>
+      <operations id="92" stage="1" latency="1"/>
+      <operations id="93" stage="1" latency="1"/>
+      <operations id="94" stage="1" latency="1"/>
+      <operations id="95" stage="1" latency="1"/>
+      <operations id="96" stage="1" latency="1"/>
+      <operations id="97" stage="1" latency="1"/>
+      <operations id="98" stage="1" latency="1"/>
+      <operations id="99" stage="1" latency="1"/>
+      <operations id="100" stage="1" latency="1"/>
+      <operations id="101" stage="1" latency="1"/>
+      <operations id="102" stage="1" latency="1"/>
+      <operations id="103" stage="1" latency="1"/>
+      <operations id="104" stage="1" latency="1"/>
+      <operations id="105" stage="1" latency="1"/>
+      <operations id="106" stage="1" latency="1"/>
+      <operations id="108" stage="1" latency="1"/>
+      <operations id="109" stage="1" latency="1"/>
+      <operations id="110" stage="1" latency="1"/>
+      <operations id="112" stage="1" latency="1"/>
+      <operations id="113" stage="1" latency="1"/>
+      <operations id="114" stage="1" latency="1"/>
+      <operations id="115" stage="1" latency="1"/>
+    </states>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="leading_ones&lt;32>" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>7</basicBlocks>
+      <basicBlocks>11</basicBlocks>
+      <basicBlocks>33</basicBlocks>
+      <basicBlocks>55</basicBlocks>
+      <basicBlocks>59</basicBlocks>
+      <basicBlocks>63</basicBlocks>
+      <basicBlocks>85</basicBlocks>
+      <basicBlocks>107</basicBlocks>
+      <basicBlocks>111</basicBlocks>
+      <basicBlocks>116</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

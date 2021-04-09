@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1617836722807">
+  <ports id="1" name="din0" type="PortType" originalName="din0" bitwidth="8">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="2" name="din1" type="PortType" originalName="din1" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="12" name="ap_return_0" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="13" name="ap_return_1" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="14" name="ap_return_10" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="15" name="ap_return_11" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="16" name="ap_return_2" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="17" name="ap_return_3" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="18" name="ap_return_4" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="19" name="ap_return_5" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="20" name="ap_return_6" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="21" name="ap_return_7" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="22" name="ap_return_8" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="23" name="ap_return_9" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <edges id="53" source_obj="//@ports.1" sink_obj="//@blocks.0/@node_objs.0"/>
+  <edges id="56" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="57" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="58" sink_obj="//@blocks.0/@node_objs.3"/>
+  <edges id="59" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.4"/>
+  <edges id="60" sink_obj="//@blocks.0/@node_objs.4"/>
+  <edges id="61" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="62" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.6"/>
+  <edges id="63" sink_obj="//@blocks.0/@node_objs.6"/>
+  <edges id="64" sink_obj="//@blocks.0/@node_objs.7"/>
+  <edges id="65" source_obj="//@blocks.0/@node_objs.7" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="66" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="67" sink_obj="//@blocks.0/@node_objs.9"/>
+  <edges id="68" source_obj="//@blocks.0/@node_objs.9" sink_obj="//@blocks.0/@node_objs.10"/>
+  <edges id="69" sink_obj="//@blocks.0/@node_objs.10"/>
+  <edges id="70" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="71" source_obj="//@blocks.0/@node_objs.11" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="72" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="73" sink_obj="//@blocks.0/@node_objs.13"/>
+  <edges id="74" source_obj="//@blocks.0/@node_objs.13" sink_obj="//@blocks.0/@node_objs.14"/>
+  <edges id="75" sink_obj="//@blocks.0/@node_objs.14"/>
+  <edges id="76" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="77" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="78" sink_obj="//@blocks.0/@node_objs.16"/>
+  <edges id="79" sink_obj="//@blocks.0/@node_objs.17"/>
+  <edges id="80" source_obj="//@blocks.0/@node_objs.17" sink_obj="//@blocks.0/@node_objs.18"/>
+  <edges id="81" sink_obj="//@blocks.0/@node_objs.18"/>
+  <edges id="82" sink_obj="//@blocks.0/@node_objs.19"/>
+  <edges id="83" source_obj="//@blocks.0/@node_objs.19" sink_obj="//@blocks.0/@node_objs.20"/>
+  <edges id="84" sink_obj="//@blocks.0/@node_objs.20"/>
+  <edges id="85" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.21"/>
+  <edges id="86" sink_obj="//@blocks.0/@node_objs.21"/>
+  <edges source_obj="//@blocks.0/@node_objs.22" sink_obj="//@ports.2"/>
+  <edges source_obj="//@blocks.0/@node_objs.22" sink_obj="//@ports.3"/>
+  <edges source_obj="//@blocks.0/@node_objs.22" sink_obj="//@ports.4"/>
+  <edges source_obj="//@blocks.0/@node_objs.22" sink_obj="//@ports.5"/>
+  <edges source_obj="//@blocks.0/@node_objs.22" sink_obj="//@ports.6"/>
+  <edges source_obj="//@blocks.0/@node_objs.22" sink_obj="//@ports.7"/>
+  <edges source_obj="//@blocks.0/@node_objs.22" sink_obj="//@ports.8"/>
+  <edges source_obj="//@blocks.0/@node_objs.22" sink_obj="//@ports.9"/>
+  <edges source_obj="//@blocks.0/@node_objs.22" sink_obj="//@ports.10"/>
+  <edges source_obj="//@blocks.0/@node_objs.22" sink_obj="//@ports.11"/>
+  <edges source_obj="//@blocks.0/@node_objs.22" sink_obj="//@ports.12"/>
+  <edges source_obj="//@blocks.0/@node_objs.22" sink_obj="//@ports.13"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.22"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.13" sink_obj="//@blocks.0/@node_objs.22"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.11" sink_obj="//@blocks.0/@node_objs.22"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.9" sink_obj="//@blocks.0/@node_objs.22"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.7" sink_obj="//@blocks.0/@node_objs.22"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.22"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.22"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@blocks.0/@node_objs.22"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.22"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.19" sink_obj="//@blocks.0/@node_objs.22"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.17" sink_obj="//@blocks.0/@node_objs.22"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.16" sink_obj="//@blocks.0/@node_objs.22"/>
+  <blocks id="50" name="shift_reg_template" type="BlockType">
+    <node_objs xsi:type="cdfg:CdfgNode" id="15" name="din1_read" lineNumber="4" originalName="din1" fileName="Shift_Register/shift_reg_template.cpp" fileDirectory=".." contextFuncName="shift_reg_template" bitwidth="32" opcode="read" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="4" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <dataInputObjs>din1</dataInputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="16" name="din0_read" lineNumber="4" originalName="din0" fileName="Shift_Register/shift_reg_template.cpp" fileDirectory=".." contextFuncName="shift_reg_template" bitwidth="8" opcode="read" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="4" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <dataInputObjs>din0</dataInputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="17" name="regs_9_6_load" lineNumber="15" originalName="dout[7]" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;1, signed char, 8&amp;gt;" bitwidth="8" opcode="load" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="10" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;1, signed char, 8&amp;gt;"/>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="18" name="regs_9_5_load" lineNumber="15" originalName="dout[6]" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;1, signed char, 8&amp;gt;" bitwidth="8" opcode="load" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="10" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;1, signed char, 8&amp;gt;"/>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="19" name="regs_9_6_write_ln15" lineNumber="15" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;1, signed char, 8&amp;gt;" opcode="store" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="10" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;1, signed char, 8&amp;gt;"/>
+      <dataInputObjs>load</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="20" name="regs_9_4_load" lineNumber="15" originalName="dout[5]" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;1, signed char, 8&amp;gt;" bitwidth="8" opcode="load" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="10" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;1, signed char, 8&amp;gt;"/>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="21" name="regs_9_5_write_ln15" lineNumber="15" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;1, signed char, 8&amp;gt;" opcode="store" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="10" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;1, signed char, 8&amp;gt;"/>
+      <dataInputObjs>load</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="22" name="regs_9_3_load" lineNumber="15" originalName="dout[4]" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;1, signed char, 8&amp;gt;" bitwidth="8" opcode="load" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="10" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;1, signed char, 8&amp;gt;"/>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="23" name="regs_9_4_write_ln15" lineNumber="15" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;1, signed char, 8&amp;gt;" opcode="store" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="10" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;1, signed char, 8&amp;gt;"/>
+      <dataInputObjs>load</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="24" name="regs_9_2_load" lineNumber="15" originalName="dout[3]" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;1, signed char, 8&amp;gt;" bitwidth="8" opcode="load" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="10" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;1, signed char, 8&amp;gt;"/>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="25" name="regs_9_3_write_ln15" lineNumber="15" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;1, signed char, 8&amp;gt;" opcode="store" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="10" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;1, signed char, 8&amp;gt;"/>
+      <dataInputObjs>load</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="26" name="regs_9_1_load" lineNumber="15" originalName="dout[2]" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;1, signed char, 8&amp;gt;" bitwidth="8" opcode="load" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="10" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;1, signed char, 8&amp;gt;"/>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="27" name="regs_9_2_write_ln15" lineNumber="15" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;1, signed char, 8&amp;gt;" opcode="store" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="10" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;1, signed char, 8&amp;gt;"/>
+      <dataInputObjs>load</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="28" name="regs_9_0_load" lineNumber="15" originalName="dout[1]" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;1, signed char, 8&amp;gt;" bitwidth="8" opcode="load" m_display="0" m_topoIndex="14" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="10" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;1, signed char, 8&amp;gt;"/>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="29" name="regs_9_1_write_ln15" lineNumber="15" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;1, signed char, 8&amp;gt;" opcode="store" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="10" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;1, signed char, 8&amp;gt;"/>
+      <dataInputObjs>load</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="30" name="regs_9_0_write_ln13" lineNumber="13" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;1, signed char, 8&amp;gt;" opcode="store" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="10" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;1, signed char, 8&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="31" name="regs_2_load" lineNumber="15" originalName="dout[3]" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;2, int, 4&amp;gt;" bitwidth="32" opcode="load" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="11" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;2, int, 4&amp;gt;"/>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="32" name="regs_1_load" lineNumber="15" originalName="dout[2]" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;2, int, 4&amp;gt;" bitwidth="32" opcode="load" m_display="0" m_topoIndex="18" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="11" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;2, int, 4&amp;gt;"/>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="33" name="regs_2_write_ln15" lineNumber="15" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;2, int, 4&amp;gt;" opcode="store" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="11" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;2, int, 4&amp;gt;"/>
+      <dataInputObjs>load</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="34" name="regs_0_load" lineNumber="15" originalName="dout[1]" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;2, int, 4&amp;gt;" bitwidth="32" opcode="load" m_display="0" m_topoIndex="20" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="11" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;2, int, 4&amp;gt;"/>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="35" name="regs_1_write_ln15" lineNumber="15" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;2, int, 4&amp;gt;" opcode="store" m_display="0" m_topoIndex="21" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="11" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="15" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;2, int, 4&amp;gt;"/>
+      <dataInputObjs>load</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="36" name="regs_0_write_ln13" lineNumber="13" fileName="Shift_Register/shift_reg_tmpl.h" fileDirectory=".." contextFuncName="shift_reg&amp;lt;2, int, 4&amp;gt;" opcode="store" m_display="0" m_topoIndex="22" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="11" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <inlineStackInfo fileName="Shift_Register/shift_reg_tmpl.h" linenumber="13" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg&amp;lt;2, int, 4&amp;gt;"/>
+      <dataInputObjs>read</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="49" name="_ln12" lineNumber="12" fileName="Shift_Register/shift_reg_template.cpp" fileDirectory=".." contextFuncName="shift_reg_template" opcode="ret" m_display="0" m_topoIndex="35" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_template.cpp" linenumber="12" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_template"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataInputObjs>load</dataInputObjs>
+      <dataOutputObjs>ap_return_0</dataOutputObjs>
+      <dataOutputObjs>ap_return_1</dataOutputObjs>
+      <dataOutputObjs>ap_return_10</dataOutputObjs>
+      <dataOutputObjs>ap_return_11</dataOutputObjs>
+      <dataOutputObjs>ap_return_2</dataOutputObjs>
+      <dataOutputObjs>ap_return_3</dataOutputObjs>
+      <dataOutputObjs>ap_return_4</dataOutputObjs>
+      <dataOutputObjs>ap_return_5</dataOutputObjs>
+      <dataOutputObjs>ap_return_6</dataOutputObjs>
+      <dataOutputObjs>ap_return_7</dataOutputObjs>
+      <dataOutputObjs>ap_return_8</dataOutputObjs>
+      <dataOutputObjs>ap_return_9</dataOutputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Shift_Register/shift_reg_template.cpp">
+      <validLinenumbers>4</validLinenumbers>
+      <validLinenumbers>12</validLinenumbers>
+      <validLinenumbers>10</validLinenumbers>
+      <validLinenumbers>11</validLinenumbers>
+    </fileValidLineNumbers>
+    <fileValidLineNumbers fileName="Shift_Register/shift_reg_tmpl.h">
+      <validLinenumbers>15</validLinenumbers>
+      <validLinenumbers>13</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <ScheduleInfo time="0"/>
+  <expressionNodes realName="mrv_10_fu_208">
+    <nodeIds>48</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_s_fu_202">
+    <nodeIds>47</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_3_fu_160">
+    <nodeIds>40</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_7_fu_184">
+    <nodeIds>44</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_5_fu_172">
+    <nodeIds>42</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_4_fu_166">
+    <nodeIds>41</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_fu_142">
+    <nodeIds>37</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_8_fu_190">
+    <nodeIds>45</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_9_fu_196">
+    <nodeIds>46</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_2_fu_154">
+    <nodeIds>39</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_6_fu_178">
+    <nodeIds>43</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_1_fu_148">
+    <nodeIds>38</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="regs_9_3_load_load_fu_66">
+    <nodeIds>22</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln15_store_fu_50">
+    <nodeIds>19</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln15_store_fu_70">
+    <nodeIds>23</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln15_store_fu_60">
+    <nodeIds>21</nodeIds>
+  </ioNodes>
+  <ioNodes realName="regs_9_6_load_load_fu_42">
+    <nodeIds>17</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln15_store_fu_130">
+    <nodeIds>35</nodeIds>
+  </ioNodes>
+  <ioNodes realName="din1_read_read_fu_30">
+    <nodeIds>15</nodeIds>
+  </ioNodes>
+  <ioNodes realName="regs_9_2_load_load_fu_76">
+    <nodeIds>24</nodeIds>
+  </ioNodes>
+  <ioNodes realName="regs_9_4_load_load_fu_56">
+    <nodeIds>20</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln13_store_fu_136">
+    <nodeIds>36</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln15_store_fu_120">
+    <nodeIds>33</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln15_store_fu_100">
+    <nodeIds>29</nodeIds>
+  </ioNodes>
+  <ioNodes realName="regs_0_load_load_fu_126">
+    <nodeIds>34</nodeIds>
+  </ioNodes>
+  <ioNodes realName="regs_9_1_load_load_fu_86">
+    <nodeIds>26</nodeIds>
+  </ioNodes>
+  <ioNodes realName="regs_9_5_load_load_fu_46">
+    <nodeIds>18</nodeIds>
+  </ioNodes>
+  <ioNodes realName="regs_2_load_load_fu_112">
+    <nodeIds>31</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln13_store_fu_106">
+    <nodeIds>30</nodeIds>
+  </ioNodes>
+  <ioNodes realName="regs_9_0_load_load_fu_96">
+    <nodeIds>28</nodeIds>
+  </ioNodes>
+  <ioNodes realName="din0_read_read_fu_36">
+    <nodeIds>16</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln15_store_fu_90">
+    <nodeIds>27</nodeIds>
+  </ioNodes>
+  <ioNodes realName="regs_1_load_load_fu_116">
+    <nodeIds>32</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln15_store_fu_80">
+    <nodeIds>25</nodeIds>
+  </ioNodes>
+  <ioPorts name="din0">
+    <contents name="read">
+      <nodeIds>16</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="din1">
+    <contents name="read">
+      <nodeIds>15</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_0">
+    <contents name="ret">
+      <nodeIds>49</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_1">
+    <contents name="ret">
+      <nodeIds>49</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_10">
+    <contents name="ret">
+      <nodeIds>49</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_11">
+    <contents name="ret">
+      <nodeIds>49</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_2">
+    <contents name="ret">
+      <nodeIds>49</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_3">
+    <contents name="ret">
+      <nodeIds>49</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_4">
+    <contents name="ret">
+      <nodeIds>49</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_5">
+    <contents name="ret">
+      <nodeIds>49</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_6">
+    <contents name="ret">
+      <nodeIds>49</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_7">
+    <contents name="ret">
+      <nodeIds>49</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_8">
+    <contents name="ret">
+      <nodeIds>49</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_9">
+    <contents name="ret">
+      <nodeIds>49</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="35" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="38" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="41" stage="1" latency="1"/>
+      <operations id="42" stage="1" latency="1"/>
+      <operations id="43" stage="1" latency="1"/>
+      <operations id="44" stage="1" latency="1"/>
+      <operations id="45" stage="1" latency="1"/>
+      <operations id="46" stage="1" latency="1"/>
+      <operations id="47" stage="1" latency="1"/>
+      <operations id="48" stage="1" latency="1"/>
+      <operations id="49" stage="1" latency="1"/>
+    </states>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="shift_reg_template" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>50</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

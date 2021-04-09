@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1617832202432">
+  <ports id="1" name="din_0_V_read" type="PortType" originalName="din[0].V" bitwidth="8">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="2" name="din_1_V_read" type="PortType" originalName="din[1].V" bitwidth="8">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="3" name="din_2_V_read" type="PortType" originalName="din[2].V" bitwidth="8">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="4" name="din_3_V_read" type="PortType" originalName="din[3].V" bitwidth="8">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="5" name="din_4_V_read" type="PortType" originalName="din[4].V" bitwidth="8">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="6" name="din_5_V_read" type="PortType" originalName="din[5].V" bitwidth="8">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="7" name="din_6_V_read" type="PortType" originalName="din[6].V" bitwidth="8">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="8" name="din_7_V_read" type="PortType" originalName="din[7].V" bitwidth="8">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="9" name="sel0_V" type="PortType" bitwidth="3">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="10" name="sel1_V" type="PortType" bitwidth="3">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="11" name="s" type="PortType" originalName="s" bitwidth="1">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="21" name="ap_return" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <edges id="30" source_obj="//@ports.10" sink_obj="//@blocks.0/@node_objs.0"/>
+  <edges id="33" source_obj="//@ports.9" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="35" source_obj="//@ports.8" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="38" source_obj="//@ports.7" sink_obj="//@blocks.0/@node_objs.3"/>
+  <edges id="40" source_obj="//@ports.6" sink_obj="//@blocks.0/@node_objs.4"/>
+  <edges id="42" source_obj="//@ports.5" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="44" source_obj="//@ports.4" sink_obj="//@blocks.0/@node_objs.6"/>
+  <edges id="46" source_obj="//@ports.3" sink_obj="//@blocks.0/@node_objs.7"/>
+  <edges id="48" source_obj="//@ports.2" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="50" source_obj="//@ports.1" sink_obj="//@blocks.0/@node_objs.9"/>
+  <edges id="52" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.10"/>
+  <edges id="55" source_obj="//@blocks.0/@node_objs.10" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="56" source_obj="//@blocks.0/@node_objs.9" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="57" source_obj="//@blocks.0/@node_objs.8" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="58" source_obj="//@blocks.0/@node_objs.7" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="59" source_obj="//@blocks.0/@node_objs.6" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="60" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="61" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="62" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="63" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="65" source_obj="//@blocks.0/@node_objs.10" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="66" source_obj="//@blocks.0/@node_objs.9" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="67" source_obj="//@blocks.0/@node_objs.8" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="68" source_obj="//@blocks.0/@node_objs.7" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="69" source_obj="//@blocks.0/@node_objs.6" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="70" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="71" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="72" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="73" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="74" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.13"/>
+  <edges id="75" source_obj="//@blocks.0/@node_objs.11" sink_obj="//@blocks.0/@node_objs.13"/>
+  <edges id="76" source_obj="//@blocks.0/@node_objs.12" sink_obj="//@blocks.0/@node_objs.13"/>
+  <edges id="77" source_obj="//@blocks.0/@node_objs.13" sink_obj="//@blocks.0/@node_objs.14"/>
+  <edges source_obj="//@blocks.0/@node_objs.14" sink_obj="//@ports.11"/>
+  <blocks id="27" name="mux_binary2onehot_op" type="BlockType">
+    <node_objs xsi:type="cdfg:CdfgNode" id="12" name="s_read" lineNumber="3" originalName="s" fileName="Multiplexor/mux_binary2onehot_opt.cpp" fileDirectory=".." contextFuncName="mux_binary2onehot_opt" bitwidth="1" opcode="read" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/mux_binary2onehot_opt.cpp" linenumber="3" fileDirectory="D:\Repo\hls\labA" functionName="mux_binary2onehot_opt"/>
+      <dataInputObjs>s</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="sel1_V_read" lineNumber="3" fileName="Multiplexor/mux_binary2onehot_opt.cpp" fileDirectory=".." contextFuncName="mux_binary2onehot_opt" bitwidth="3" opcode="read" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/mux_binary2onehot_opt.cpp" linenumber="3" fileDirectory="D:\Repo\hls\labA" functionName="mux_binary2onehot_opt"/>
+      <dataInputObjs>sel1_V</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="14" name="sel0_V_read" lineNumber="3" fileName="Multiplexor/mux_binary2onehot_opt.cpp" fileDirectory=".." contextFuncName="mux_binary2onehot_opt" bitwidth="3" opcode="read" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/mux_binary2onehot_opt.cpp" linenumber="3" fileDirectory="D:\Repo\hls\labA" functionName="mux_binary2onehot_opt"/>
+      <dataInputObjs>sel0_V</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="15" name="din_7_V_read_4" lineNumber="3" originalName="din[7].V" fileName="Multiplexor/mux_binary2onehot_opt.cpp" fileDirectory=".." contextFuncName="mux_binary2onehot_opt" bitwidth="8" opcode="read" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/mux_binary2onehot_opt.cpp" linenumber="3" fileDirectory="D:\Repo\hls\labA" functionName="mux_binary2onehot_opt"/>
+      <dataInputObjs>din_7_V_read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="16" name="din_6_V_read_4" lineNumber="3" originalName="din[6].V" fileName="Multiplexor/mux_binary2onehot_opt.cpp" fileDirectory=".." contextFuncName="mux_binary2onehot_opt" bitwidth="8" opcode="read" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/mux_binary2onehot_opt.cpp" linenumber="3" fileDirectory="D:\Repo\hls\labA" functionName="mux_binary2onehot_opt"/>
+      <dataInputObjs>din_6_V_read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="17" name="din_5_V_read_4" lineNumber="3" originalName="din[5].V" fileName="Multiplexor/mux_binary2onehot_opt.cpp" fileDirectory=".." contextFuncName="mux_binary2onehot_opt" bitwidth="8" opcode="read" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/mux_binary2onehot_opt.cpp" linenumber="3" fileDirectory="D:\Repo\hls\labA" functionName="mux_binary2onehot_opt"/>
+      <dataInputObjs>din_5_V_read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="18" name="din_4_V_read_4" lineNumber="3" originalName="din[4].V" fileName="Multiplexor/mux_binary2onehot_opt.cpp" fileDirectory=".." contextFuncName="mux_binary2onehot_opt" bitwidth="8" opcode="read" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/mux_binary2onehot_opt.cpp" linenumber="3" fileDirectory="D:\Repo\hls\labA" functionName="mux_binary2onehot_opt"/>
+      <dataInputObjs>din_4_V_read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="19" name="din_3_V_read_4" lineNumber="3" originalName="din[3].V" fileName="Multiplexor/mux_binary2onehot_opt.cpp" fileDirectory=".." contextFuncName="mux_binary2onehot_opt" bitwidth="8" opcode="read" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/mux_binary2onehot_opt.cpp" linenumber="3" fileDirectory="D:\Repo\hls\labA" functionName="mux_binary2onehot_opt"/>
+      <dataInputObjs>din_3_V_read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="20" name="din_2_V_read_4" lineNumber="3" originalName="din[2].V" fileName="Multiplexor/mux_binary2onehot_opt.cpp" fileDirectory=".." contextFuncName="mux_binary2onehot_opt" bitwidth="8" opcode="read" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/mux_binary2onehot_opt.cpp" linenumber="3" fileDirectory="D:\Repo\hls\labA" functionName="mux_binary2onehot_opt"/>
+      <dataInputObjs>din_2_V_read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="21" name="din_1_V_read_4" lineNumber="3" originalName="din[1].V" fileName="Multiplexor/mux_binary2onehot_opt.cpp" fileDirectory=".." contextFuncName="mux_binary2onehot_opt" bitwidth="8" opcode="read" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/mux_binary2onehot_opt.cpp" linenumber="3" fileDirectory="D:\Repo\hls\labA" functionName="mux_binary2onehot_opt"/>
+      <dataInputObjs>din_1_V_read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="22" name="din_0_V_read_4" lineNumber="3" originalName="din[0].V" fileName="Multiplexor/mux_binary2onehot_opt.cpp" fileDirectory=".." contextFuncName="mux_binary2onehot_opt" bitwidth="8" opcode="read" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/mux_binary2onehot_opt.cpp" linenumber="3" fileDirectory="D:\Repo\hls\labA" functionName="mux_binary2onehot_opt"/>
+      <dataInputObjs>din_0_V_read</dataInputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+      <dataOutputObjs>mux</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="23" name="tmp" lineNumber="9" fileName="Multiplexor/mux_binary2onehot_opt.cpp" fileDirectory=".." rtlName="top_mux_83_8_1_1_U22" contextFuncName="mux_binary2onehot_opt" bitwidth="8" opcode="mux" m_display="0" m_delay="2.47" m_topoIndex="12" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/mux_binary2onehot_opt.cpp" linenumber="9" fileDirectory="D:\Repo\hls\labA" functionName="mux_binary2onehot_opt"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="24" name="tmp_1" lineNumber="11" fileName="Multiplexor/mux_binary2onehot_opt.cpp" fileDirectory=".." rtlName="top_mux_83_8_1_1_U23" contextFuncName="mux_binary2onehot_opt" bitwidth="8" opcode="mux" m_display="0" m_delay="2.47" m_topoIndex="13" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/mux_binary2onehot_opt.cpp" linenumber="11" fileDirectory="D:\Repo\hls\labA" functionName="mux_binary2onehot_opt"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>select</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="25" name="tmp_V" lineNumber="3" originalName="tmp.V" fileName="Multiplexor/mux_binary2onehot_opt.cpp" fileDirectory=".." rtlName="ap_return" contextFuncName="mux_binary2onehot_opt" bitwidth="8" opcode="select" m_display="0" m_delay="1.24" m_topoIndex="14" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/mux_binary2onehot_opt.cpp" linenumber="3" fileDirectory="D:\Repo\hls\labA" functionName="mux_binary2onehot_opt"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>mux</dataInputObjs>
+      <dataInputObjs>mux</dataInputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="26" name="_ln12" lineNumber="12" fileName="Multiplexor/mux_binary2onehot_opt.cpp" fileDirectory=".." contextFuncName="mux_binary2onehot_opt" opcode="ret" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/mux_binary2onehot_opt.cpp" linenumber="12" fileDirectory="D:\Repo\hls\labA" functionName="mux_binary2onehot_opt"/>
+      <dataInputObjs>select</dataInputObjs>
+      <dataOutputObjs>ap_return</dataOutputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/mux_binary2onehot_opt.cpp">
+      <validLinenumbers>3</validLinenumbers>
+      <validLinenumbers>9</validLinenumbers>
+      <validLinenumbers>11</validLinenumbers>
+      <validLinenumbers>12</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <ScheduleInfo time="0"/>
+  <expressionNodes realName="tmp_1_fu_118">
+    <nodeIds>24</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_fu_96">
+    <nodeIds>23</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_V_fu_140">
+    <nodeIds>25</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="din_2_V_read_4_read_fu_78">
+    <nodeIds>20</nodeIds>
+  </ioNodes>
+  <ioNodes realName="sel0_V_read_read_fu_42">
+    <nodeIds>14</nodeIds>
+  </ioNodes>
+  <ioNodes realName="din_3_V_read_4_read_fu_72">
+    <nodeIds>19</nodeIds>
+  </ioNodes>
+  <ioNodes realName="s_read_read_fu_30">
+    <nodeIds>12</nodeIds>
+  </ioNodes>
+  <ioNodes realName="din_4_V_read_4_read_fu_66">
+    <nodeIds>18</nodeIds>
+  </ioNodes>
+  <ioNodes realName="din_7_V_read_4_read_fu_48">
+    <nodeIds>15</nodeIds>
+  </ioNodes>
+  <ioNodes realName="sel1_V_read_read_fu_36">
+    <nodeIds>13</nodeIds>
+  </ioNodes>
+  <ioNodes realName="din_6_V_read_4_read_fu_54">
+    <nodeIds>16</nodeIds>
+  </ioNodes>
+  <ioNodes realName="din_5_V_read_4_read_fu_60">
+    <nodeIds>17</nodeIds>
+  </ioNodes>
+  <ioNodes realName="din_0_V_read_4_read_fu_90">
+    <nodeIds>22</nodeIds>
+  </ioNodes>
+  <ioNodes realName="din_1_V_read_4_read_fu_84">
+    <nodeIds>21</nodeIds>
+  </ioNodes>
+  <ioPorts name="din_0_V_read">
+    <contents name="read">
+      <nodeIds>22</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="din_1_V_read">
+    <contents name="read">
+      <nodeIds>21</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="din_2_V_read">
+    <contents name="read">
+      <nodeIds>20</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="din_3_V_read">
+    <contents name="read">
+      <nodeIds>19</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="din_4_V_read">
+    <contents name="read">
+      <nodeIds>18</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="din_5_V_read">
+    <contents name="read">
+      <nodeIds>17</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="din_6_V_read">
+    <contents name="read">
+      <nodeIds>16</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="din_7_V_read">
+    <contents name="read">
+      <nodeIds>15</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="s">
+    <contents name="read">
+      <nodeIds>12</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="sel0_V">
+    <contents name="read">
+      <nodeIds>14</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="sel1_V">
+    <contents name="read">
+      <nodeIds>13</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return">
+    <contents name="ret">
+      <nodeIds>26</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+    </states>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="mux_binary2onehot_op" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>27</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

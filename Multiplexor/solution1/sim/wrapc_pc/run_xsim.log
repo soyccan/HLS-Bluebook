@@ -1,0 +1,357 @@
+Test passed
+
+D:\Repo\hls\labA\Multiplexor\solution1\sim\verilog>set PATH= 
+
+D:\Repo\hls\labA\Multiplexor\solution1\sim\verilog>call C:/Xilinx/Vivado/2019.2/bin/xelab xil_defaultlib.apatb_top_top glbl -prj top.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile "C:/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s top -debug wave 
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "C:/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_top_top glbl -prj top.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile C:/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s top -debug wave 
+Multi-threading is on. Using 4 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/leading_ones.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leading_ones
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/leading_ones_32_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leading_ones_32_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/leading_ones_brutefo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leading_ones_brutefo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/leading_ones_log2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leading_ones_log2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/leading_ones_templat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leading_ones_templat
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/max.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module max
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/max_algorithmic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module max_algorithmic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/mux_2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2to1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/mux_binary.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_binary
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/mux_binary2onehot_op.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_binary2onehot_op
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/mux_binary_opt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_binary_opt
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/mux_onehot.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_onehot
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/mux_onehot_if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_onehot_if
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/top.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_top_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/top_mux_83_32_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mux_83_32_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/top_mux_83_8_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mux_83_8_1_1
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.top_mux_83_32_1_1(ID=1,din8_WIDT...
+Compiling module xil_defaultlib.max_algorithmic
+Compiling module xil_defaultlib.max
+Compiling module xil_defaultlib.mux_onehot_if
+Compiling module xil_defaultlib.leading_ones_32_s
+Compiling module xil_defaultlib.leading_ones_templat
+Compiling module xil_defaultlib.mux_onehot
+Compiling module xil_defaultlib.leading_ones_brutefo
+Compiling module xil_defaultlib.leading_ones_log2
+Compiling module xil_defaultlib.top_mux_83_8_1_1(ID=1,din0_WIDTH...
+Compiling module xil_defaultlib.mux_binary2onehot_op
+Compiling module xil_defaultlib.leading_ones
+Compiling module xil_defaultlib.mux_binary_opt
+Compiling module xil_defaultlib.mux_binary
+Compiling module xil_defaultlib.mux_2to1
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.apatb_top_top
+Compiling module work.glbl
+Built simulation snapshot top
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/xsim.dir/top/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr  8 05:53:02 2021...
+
+****** xsim v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/top/xsim_script.tcl
+# xsim {top} -autoloadwcfg -tclbatch {top.tcl}
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source top.tcl
+## log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set max_out_group [add_wave_group max_out(wire) -into $coutputgroup]
+## add_wave /apatb_top_top/AESL_inst_top/max_out_ap_vld -into $max_out_group -color #ffff00 -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/max_out -into $max_out_group -radix hex
+## set mux_ret_group [add_wave_group mux_ret(wire) -into $coutputgroup]
+## add_wave /apatb_top_top/AESL_inst_top/mux_ret_V_ap_vld -into $mux_ret_group -color #ffff00 -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/mux_ret_V -into $mux_ret_group -radix hex
+## set leadone_ret_group [add_wave_group leadone_ret(wire) -into $coutputgroup]
+## add_wave /apatb_top_top/AESL_inst_top/leadone_ret_ap_vld -into $leadone_ret_group -color #ffff00 -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/leadone_ret -into $leadone_ret_group -radix hex
+## set leadone_out_group [add_wave_group leadone_out(wire) -into $coutputgroup]
+## add_wave /apatb_top_top/AESL_inst_top/leadone_out_V_ap_vld -into $leadone_out_group -color #ffff00 -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/leadone_out_V -into $leadone_out_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set mode_group [add_wave_group mode(wire) -into $cinputgroup]
+## add_wave /apatb_top_top/AESL_inst_top/mode -into $mode_group -radix hex
+## set max_in_group [add_wave_group max_in(wire) -into $cinputgroup]
+## add_wave /apatb_top_top/AESL_inst_top/max_in_7 -into $max_in_group -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/max_in_6 -into $max_in_group -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/max_in_5 -into $max_in_group -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/max_in_4 -into $max_in_group -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/max_in_3 -into $max_in_group -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/max_in_2 -into $max_in_group -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/max_in_1 -into $max_in_group -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/max_in_0 -into $max_in_group -radix hex
+## set mux_s_group [add_wave_group mux_s(wire) -into $cinputgroup]
+## add_wave /apatb_top_top/AESL_inst_top/mux_s -into $mux_s_group -radix hex
+## set mux_sel1_group [add_wave_group mux_sel1(wire) -into $cinputgroup]
+## add_wave /apatb_top_top/AESL_inst_top/mux_sel1_V -into $mux_sel1_group -radix hex
+## set mux_sel0_group [add_wave_group mux_sel0(wire) -into $cinputgroup]
+## add_wave /apatb_top_top/AESL_inst_top/mux_sel0_V -into $mux_sel0_group -radix hex
+## set mux_sel_onehot_group [add_wave_group mux_sel_onehot(wire) -into $cinputgroup]
+## add_wave /apatb_top_top/AESL_inst_top/mux_sel_onehot_V -into $mux_sel_onehot_group -radix hex
+## set mux_in_group [add_wave_group mux_in(wire) -into $cinputgroup]
+## add_wave /apatb_top_top/AESL_inst_top/mux_in_7_V -into $mux_in_group -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/mux_in_6_V -into $mux_in_group -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/mux_in_5_V -into $mux_in_group -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/mux_in_4_V -into $mux_in_group -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/mux_in_3_V -into $mux_in_group -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/mux_in_2_V -into $mux_in_group -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/mux_in_1_V -into $mux_in_group -radix hex
+## add_wave /apatb_top_top/AESL_inst_top/mux_in_0_V -into $mux_in_group -radix hex
+## set leadone_in_group [add_wave_group leadone_in(wire) -into $cinputgroup]
+## add_wave /apatb_top_top/AESL_inst_top/leadone_in_V -into $leadone_in_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_top_top/AESL_inst_top/ap_start -into $blocksiggroup
+## add_wave /apatb_top_top/AESL_inst_top/ap_done -into $blocksiggroup
+## add_wave /apatb_top_top/AESL_inst_top/ap_idle -into $blocksiggroup
+## add_wave /apatb_top_top/AESL_inst_top/ap_ready -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_top_top/AESL_inst_top/ap_rst -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_top_top/AESL_inst_top/ap_clk -into $clockgroup
+## set testbenchgroup [add_wave_group "Test Bench Signals"]
+## set tbinternalsiggroup [add_wave_group "Internal Signals" -into $testbenchgroup]
+## set tb_simstatus_group [add_wave_group "Simulation Status" -into $tbinternalsiggroup]
+## set tb_portdepth_group [add_wave_group "Port Depth" -into $tbinternalsiggroup]
+## add_wave /apatb_top_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
+## add_wave /apatb_top_top/ready_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_top_top/done_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_top_top/LENGTH_leadone_in_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_leadone_out_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_leadone_ret -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_mux_in_0_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_mux_in_1_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_mux_in_2_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_mux_in_3_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_mux_in_4_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_mux_in_5_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_mux_in_6_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_mux_in_7_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_mux_sel_onehot_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_mux_sel0_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_mux_sel1_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_mux_s -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_mux_ret_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_max_in_0 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_max_in_1 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_max_in_2 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_max_in_3 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_max_in_4 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_max_in_5 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_max_in_6 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_max_in_7 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_max_out -into $tb_portdepth_group -radix hex
+## add_wave /apatb_top_top/LENGTH_mode -into $tb_portdepth_group -radix hex
+## set tbcoutputgroup [add_wave_group "C Outputs" -into $testbenchgroup]
+## set tb_max_out_group [add_wave_group max_out(wire) -into $tbcoutputgroup]
+## add_wave /apatb_top_top/max_out_ap_vld -into $tb_max_out_group -color #ffff00 -radix hex
+## add_wave /apatb_top_top/max_out -into $tb_max_out_group -radix hex
+## set tb_mux_ret_group [add_wave_group mux_ret(wire) -into $tbcoutputgroup]
+## add_wave /apatb_top_top/mux_ret_V_ap_vld -into $tb_mux_ret_group -color #ffff00 -radix hex
+## add_wave /apatb_top_top/mux_ret_V -into $tb_mux_ret_group -radix hex
+## set tb_leadone_ret_group [add_wave_group leadone_ret(wire) -into $tbcoutputgroup]
+## add_wave /apatb_top_top/leadone_ret_ap_vld -into $tb_leadone_ret_group -color #ffff00 -radix hex
+## add_wave /apatb_top_top/leadone_ret -into $tb_leadone_ret_group -radix hex
+## set tb_leadone_out_group [add_wave_group leadone_out(wire) -into $tbcoutputgroup]
+## add_wave /apatb_top_top/leadone_out_V_ap_vld -into $tb_leadone_out_group -color #ffff00 -radix hex
+## add_wave /apatb_top_top/leadone_out_V -into $tb_leadone_out_group -radix hex
+## set tbcinputgroup [add_wave_group "C Inputs" -into $testbenchgroup]
+## set tb_mode_group [add_wave_group mode(wire) -into $tbcinputgroup]
+## add_wave /apatb_top_top/mode -into $tb_mode_group -radix hex
+## set tb_max_in_group [add_wave_group max_in(wire) -into $tbcinputgroup]
+## add_wave /apatb_top_top/max_in_7 -into $tb_max_in_group -radix hex
+## add_wave /apatb_top_top/max_in_6 -into $tb_max_in_group -radix hex
+## add_wave /apatb_top_top/max_in_5 -into $tb_max_in_group -radix hex
+## add_wave /apatb_top_top/max_in_4 -into $tb_max_in_group -radix hex
+## add_wave /apatb_top_top/max_in_3 -into $tb_max_in_group -radix hex
+## add_wave /apatb_top_top/max_in_2 -into $tb_max_in_group -radix hex
+## add_wave /apatb_top_top/max_in_1 -into $tb_max_in_group -radix hex
+## add_wave /apatb_top_top/max_in_0 -into $tb_max_in_group -radix hex
+## set tb_mux_s_group [add_wave_group mux_s(wire) -into $tbcinputgroup]
+## add_wave /apatb_top_top/mux_s -into $tb_mux_s_group -radix hex
+## set tb_mux_sel1_group [add_wave_group mux_sel1(wire) -into $tbcinputgroup]
+## add_wave /apatb_top_top/mux_sel1_V -into $tb_mux_sel1_group -radix hex
+## set tb_mux_sel0_group [add_wave_group mux_sel0(wire) -into $tbcinputgroup]
+## add_wave /apatb_top_top/mux_sel0_V -into $tb_mux_sel0_group -radix hex
+## set tb_mux_sel_onehot_group [add_wave_group mux_sel_onehot(wire) -into $tbcinputgroup]
+## add_wave /apatb_top_top/mux_sel_onehot_V -into $tb_mux_sel_onehot_group -radix hex
+## set tb_mux_in_group [add_wave_group mux_in(wire) -into $tbcinputgroup]
+## add_wave /apatb_top_top/mux_in_7_V -into $tb_mux_in_group -radix hex
+## add_wave /apatb_top_top/mux_in_6_V -into $tb_mux_in_group -radix hex
+## add_wave /apatb_top_top/mux_in_5_V -into $tb_mux_in_group -radix hex
+## add_wave /apatb_top_top/mux_in_4_V -into $tb_mux_in_group -radix hex
+## add_wave /apatb_top_top/mux_in_3_V -into $tb_mux_in_group -radix hex
+## add_wave /apatb_top_top/mux_in_2_V -into $tb_mux_in_group -radix hex
+## add_wave /apatb_top_top/mux_in_1_V -into $tb_mux_in_group -radix hex
+## add_wave /apatb_top_top/mux_in_0_V -into $tb_mux_in_group -radix hex
+## set tb_leadone_in_group [add_wave_group leadone_in(wire) -into $tbcinputgroup]
+## add_wave /apatb_top_top/leadone_in_V -into $tb_leadone_in_group -radix hex
+## save_wave_config top.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 120 [0.00%] @ "125000"
+// RTL Simulation : 1 / 120 [100.00%] @ "165000"
+// RTL Simulation : 2 / 120 [100.00%] @ "205000"
+// RTL Simulation : 3 / 120 [100.00%] @ "235000"
+// RTL Simulation : 4 / 120 [100.00%] @ "255000"
+// RTL Simulation : 5 / 120 [100.00%] @ "275000"
+// RTL Simulation : 6 / 120 [100.00%] @ "295000"
+// RTL Simulation : 7 / 120 [100.00%] @ "315000"
+// RTL Simulation : 8 / 120 [100.00%] @ "345000"
+// RTL Simulation : 9 / 120 [100.00%] @ "365000"
+// RTL Simulation : 10 / 120 [100.00%] @ "385000"
+// RTL Simulation : 11 / 120 [100.00%] @ "415000"
+// RTL Simulation : 12 / 120 [100.00%] @ "475000"
+// RTL Simulation : 13 / 120 [100.00%] @ "505000"
+// RTL Simulation : 14 / 120 [100.00%] @ "545000"
+// RTL Simulation : 15 / 120 [100.00%] @ "575000"
+// RTL Simulation : 16 / 120 [100.00%] @ "595000"
+// RTL Simulation : 17 / 120 [100.00%] @ "615000"
+// RTL Simulation : 18 / 120 [100.00%] @ "635000"
+// RTL Simulation : 19 / 120 [100.00%] @ "655000"
+// RTL Simulation : 20 / 120 [100.00%] @ "685000"
+// RTL Simulation : 21 / 120 [100.00%] @ "705000"
+// RTL Simulation : 22 / 120 [100.00%] @ "725000"
+// RTL Simulation : 23 / 120 [100.00%] @ "755000"
+// RTL Simulation : 24 / 120 [100.00%] @ "815000"
+// RTL Simulation : 25 / 120 [100.00%] @ "845000"
+// RTL Simulation : 26 / 120 [100.00%] @ "885000"
+// RTL Simulation : 27 / 120 [100.00%] @ "915000"
+// RTL Simulation : 28 / 120 [100.00%] @ "935000"
+// RTL Simulation : 29 / 120 [100.00%] @ "955000"
+// RTL Simulation : 30 / 120 [100.00%] @ "975000"
+// RTL Simulation : 31 / 120 [100.00%] @ "995000"
+// RTL Simulation : 32 / 120 [100.00%] @ "1025000"
+// RTL Simulation : 33 / 120 [100.00%] @ "1045000"
+// RTL Simulation : 34 / 120 [100.00%] @ "1065000"
+// RTL Simulation : 35 / 120 [100.00%] @ "1095000"
+// RTL Simulation : 36 / 120 [100.00%] @ "1155000"
+// RTL Simulation : 37 / 120 [100.00%] @ "1185000"
+// RTL Simulation : 38 / 120 [100.00%] @ "1225000"
+// RTL Simulation : 39 / 120 [100.00%] @ "1255000"
+// RTL Simulation : 40 / 120 [100.00%] @ "1275000"
+// RTL Simulation : 41 / 120 [100.00%] @ "1295000"
+// RTL Simulation : 42 / 120 [100.00%] @ "1315000"
+// RTL Simulation : 43 / 120 [100.00%] @ "1335000"
+// RTL Simulation : 44 / 120 [100.00%] @ "1365000"
+// RTL Simulation : 45 / 120 [100.00%] @ "1385000"
+// RTL Simulation : 46 / 120 [100.00%] @ "1405000"
+// RTL Simulation : 47 / 120 [100.00%] @ "1435000"
+// RTL Simulation : 48 / 120 [100.00%] @ "1495000"
+// RTL Simulation : 49 / 120 [100.00%] @ "1525000"
+// RTL Simulation : 50 / 120 [100.00%] @ "1565000"
+// RTL Simulation : 51 / 120 [100.00%] @ "1595000"
+// RTL Simulation : 52 / 120 [100.00%] @ "1615000"
+// RTL Simulation : 53 / 120 [100.00%] @ "1635000"
+// RTL Simulation : 54 / 120 [100.00%] @ "1655000"
+// RTL Simulation : 55 / 120 [100.00%] @ "1675000"
+// RTL Simulation : 56 / 120 [100.00%] @ "1705000"
+// RTL Simulation : 57 / 120 [100.00%] @ "1725000"
+// RTL Simulation : 58 / 120 [100.00%] @ "1745000"
+// RTL Simulation : 59 / 120 [100.00%] @ "1775000"
+// RTL Simulation : 60 / 120 [100.00%] @ "1835000"
+// RTL Simulation : 61 / 120 [100.00%] @ "1865000"
+// RTL Simulation : 62 / 120 [100.00%] @ "1905000"
+// RTL Simulation : 63 / 120 [100.00%] @ "1935000"
+// RTL Simulation : 64 / 120 [100.00%] @ "1955000"
+// RTL Simulation : 65 / 120 [100.00%] @ "1975000"
+// RTL Simulation : 66 / 120 [100.00%] @ "1995000"
+// RTL Simulation : 67 / 120 [100.00%] @ "2015000"
+// RTL Simulation : 68 / 120 [100.00%] @ "2045000"
+// RTL Simulation : 69 / 120 [100.00%] @ "2065000"
+// RTL Simulation : 70 / 120 [100.00%] @ "2085000"
+// RTL Simulation : 71 / 120 [100.00%] @ "2115000"
+// RTL Simulation : 72 / 120 [100.00%] @ "2175000"
+// RTL Simulation : 73 / 120 [100.00%] @ "2205000"
+// RTL Simulation : 74 / 120 [100.00%] @ "2245000"
+// RTL Simulation : 75 / 120 [100.00%] @ "2275000"
+// RTL Simulation : 76 / 120 [100.00%] @ "2295000"
+// RTL Simulation : 77 / 120 [100.00%] @ "2315000"
+// RTL Simulation : 78 / 120 [100.00%] @ "2335000"
+// RTL Simulation : 79 / 120 [100.00%] @ "2355000"
+// RTL Simulation : 80 / 120 [100.00%] @ "2385000"
+// RTL Simulation : 81 / 120 [100.00%] @ "2405000"
+// RTL Simulation : 82 / 120 [100.00%] @ "2425000"
+// RTL Simulation : 83 / 120 [100.00%] @ "2455000"
+// RTL Simulation : 84 / 120 [100.00%] @ "2515000"
+// RTL Simulation : 85 / 120 [100.00%] @ "2545000"
+// RTL Simulation : 86 / 120 [100.00%] @ "2585000"
+// RTL Simulation : 87 / 120 [100.00%] @ "2615000"
+// RTL Simulation : 88 / 120 [100.00%] @ "2635000"
+// RTL Simulation : 89 / 120 [100.00%] @ "2655000"
+// RTL Simulation : 90 / 120 [100.00%] @ "2675000"
+// RTL Simulation : 91 / 120 [100.00%] @ "2695000"
+// RTL Simulation : 92 / 120 [100.00%] @ "2725000"
+// RTL Simulation : 93 / 120 [100.00%] @ "2745000"
+// RTL Simulation : 94 / 120 [100.00%] @ "2765000"
+// RTL Simulation : 95 / 120 [100.00%] @ "2795000"
+// RTL Simulation : 96 / 120 [100.00%] @ "2855000"
+// RTL Simulation : 97 / 120 [100.00%] @ "2885000"
+// RTL Simulation : 98 / 120 [100.00%] @ "2925000"
+// RTL Simulation : 99 / 120 [100.00%] @ "2955000"
+// RTL Simulation : 100 / 120 [100.00%] @ "2975000"
+// RTL Simulation : 101 / 120 [100.00%] @ "2995000"
+// RTL Simulation : 102 / 120 [100.00%] @ "3015000"
+// RTL Simulation : 103 / 120 [100.00%] @ "3035000"
+// RTL Simulation : 104 / 120 [100.00%] @ "3065000"
+// RTL Simulation : 105 / 120 [100.00%] @ "3085000"
+// RTL Simulation : 106 / 120 [100.00%] @ "3105000"
+// RTL Simulation : 107 / 120 [100.00%] @ "3135000"
+// RTL Simulation : 108 / 120 [100.00%] @ "3195000"
+// RTL Simulation : 109 / 120 [100.00%] @ "3225000"
+// RTL Simulation : 110 / 120 [100.00%] @ "3265000"
+// RTL Simulation : 111 / 120 [100.00%] @ "3295000"
+// RTL Simulation : 112 / 120 [100.00%] @ "3315000"
+// RTL Simulation : 113 / 120 [100.00%] @ "3335000"
+// RTL Simulation : 114 / 120 [100.00%] @ "3355000"
+// RTL Simulation : 115 / 120 [100.00%] @ "3375000"
+// RTL Simulation : 116 / 120 [100.00%] @ "3405000"
+// RTL Simulation : 117 / 120 [100.00%] @ "3425000"
+// RTL Simulation : 118 / 120 [100.00%] @ "3445000"
+// RTL Simulation : 119 / 120 [100.00%] @ "3475000"
+// RTL Simulation : 120 / 120 [100.00%] @ "3535000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 3575 ns : File "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/top.autotb.v" Line 1724
+## quit
+INFO: [Common 17-206] Exiting xsim at Thu Apr  8 05:53:07 2021...
+Test passed

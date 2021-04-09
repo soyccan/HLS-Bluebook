@@ -1,0 +1,17 @@
+   Build using "C:/Xilinx/Vivado/2019.2/tps/win64/msys64/mingw64/bin/g++"
+   Compiling mux_binary_opt.cpp_pre.cpp.tb.cpp
+   Compiling leading_ones.cpp_pre.cpp.tb.cpp
+   Compiling mux_onehot.cpp_pre.cpp.tb.cpp
+   Compiling testbench.cpp_pre.cpp.tb.cpp
+   Compiling max.cpp_pre.cpp.tb.cpp
+   Compiling leading_ones_log2.cpp_pre.cpp.tb.cpp
+   Compiling leading_ones_bruteforce.cpp_pre.cpp.tb.cpp
+   Compiling apatb_top.cpp
+   Compiling top.cpp_pre.cpp.tb.cpp
+   Compiling mux_binary.cpp_pre.cpp.tb.cpp
+   Compiling mux_binary2onehot_opt.cpp_pre.cpp.tb.cpp
+   Compiling leading_ones_template.cpp_pre.cpp.tb.cpp
+   Compiling mux_onehot_if.cpp_pre.cpp.tb.cpp
+   Compiling mux_2to1.cpp_pre.cpp.tb.cpp
+   Compiling max_algorithmic.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

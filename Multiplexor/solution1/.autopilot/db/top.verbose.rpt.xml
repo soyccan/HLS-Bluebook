@@ -1,0 +1,190 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'top'" level="0">
+<item name = "Date">Thu Apr  8 05:50:04 2021
+</item>
+<item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
+<item name = "Project">Multiplexor</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 8.424 ns, 1.25 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">1, 5, 10.000 ns, 50.000 ns, 1, 5, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_max_algorithmic_fu_284">max_algorithmic, 4, 4, 40.000 ns, 40.000 ns, 4, 4, none</column>
+<column name="grp_max_fu_305">max, 1, 1, 10.000 ns, 10.000 ns, 1, 1, none</column>
+<column name="grp_mux_onehot_if_fu_326">mux_onehot_if, 1, 1, 10.000 ns, 10.000 ns, 1, 1, none</column>
+<column name="call_ret7_leading_ones_templat_fu_349">leading_ones_templat, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+<column name="op2_V_assign_2_s_mux_onehot_fu_355">mux_onehot, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+<column name="grp_leading_ones_brutefo_fu_378">leading_ones_brutefo, 2, 2, 20.000 ns, 20.000 ns, 2, 2, none</column>
+<column name="grp_leading_ones_log2_fu_384">leading_ones_log2, 1, 1, 10.000 ns, 10.000 ns, 1, 1, none</column>
+<column name="op2_V_assign_4_s_mux_binary2onehot_op_fu_390">mux_binary2onehot_op, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+<column name="grp_leading_ones_fu_417">leading_ones, 1, 1, 10.000 ns, 10.000 ns, 1, 1, none</column>
+<column name="op2_V_assign_5_s_mux_binary_opt_fu_423">mux_binary_opt, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+<column name="op2_V_assign_1_s_mux_binary_fu_450">mux_binary, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+<column name="op2_V_assign_s_mux_2to1_fu_473">mux_2to1, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP48E, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 4, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, -, 211, 2310, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, -, 122, -</column>
+<column name="Register">-, -, 328, -, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, ~0, 4, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP48E, FF, LUT, URAM</keys>
+<column name="grp_leading_ones_fu_417">leading_ones, 0, 0, 14, 243, 0</column>
+<column name="grp_leading_ones_brutefo_fu_378">leading_ones_brutefo, 0, 0, 20, 253, 0</column>
+<column name="grp_leading_ones_log2_fu_384">leading_ones_log2, 0, 0, 13, 142, 0</column>
+<column name="call_ret7_leading_ones_templat_fu_349">leading_ones_templat, 0, 0, 0, 226, 0</column>
+<column name="grp_max_fu_305">max, 0, 0, 66, 365, 0</column>
+<column name="grp_max_algorithmic_fu_284">max_algorithmic, 0, 0, 80, 488, 0</column>
+<column name="op2_V_assign_s_mux_2to1_fu_473">mux_2to1, 0, 0, 0, 8, 0</column>
+<column name="op2_V_assign_1_s_mux_binary_fu_450">mux_binary, 0, 0, 0, 45, 0</column>
+<column name="op2_V_assign_4_s_mux_binary2onehot_op_fu_390">mux_binary2onehot_op, 0, 0, 0, 98, 0</column>
+<column name="op2_V_assign_5_s_mux_binary_opt_fu_423">mux_binary_opt, 0, 0, 0, 48, 0</column>
+<column name="op2_V_assign_2_s_mux_onehot_fu_355">mux_onehot, 0, 0, 0, 168, 0</column>
+<column name="grp_mux_onehot_if_fu_326">mux_onehot_if, 0, 0, 18, 226, 0</column>
+</table>
+</item>
+<item name = "DSP48E"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="ap_condition_99">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_state2_on_subcall_done">or, 0, 0, 2, 1, 1</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_NS_fsm">15, 3, 1, 3</column>
+<column name="leadone_out_V">27, 5, 5, 25</column>
+<column name="leadone_ret">27, 5, 1, 5</column>
+<column name="max_out">15, 3, 32, 96</column>
+<column name="mux_ret_V">38, 7, 8, 56</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">2, 0, 2, 0</column>
+<column name="grp_leading_ones_brutefo_fu_378_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_leading_ones_fu_417_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_leading_ones_log2_fu_384_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_max_algorithmic_fu_284_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_max_fu_305_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_mux_onehot_if_fu_326_ap_start_reg">1, 0, 1, 0</column>
+<column name="mux_in_0_V_read_3_reg_588">8, 0, 8, 0</column>
+<column name="mux_in_1_V_read_3_reg_593">8, 0, 8, 0</column>
+<column name="mux_in_2_V_read_2_reg_598">8, 0, 8, 0</column>
+<column name="mux_in_3_V_read_2_reg_603">8, 0, 8, 0</column>
+<column name="mux_in_4_V_read_2_reg_608">8, 0, 8, 0</column>
+<column name="mux_in_5_V_read_2_reg_613">8, 0, 8, 0</column>
+<column name="mux_in_6_V_read_2_reg_618">8, 0, 8, 0</column>
+<column name="mux_in_7_V_read_2_reg_623">8, 0, 8, 0</column>
+<column name="reg_484">32, 0, 32, 0</column>
+<column name="reg_490">32, 0, 32, 0</column>
+<column name="reg_496">32, 0, 32, 0</column>
+<column name="reg_502">32, 0, 32, 0</column>
+<column name="reg_508">32, 0, 32, 0</column>
+<column name="reg_514">32, 0, 32, 0</column>
+<column name="reg_520">32, 0, 32, 0</column>
+<column name="reg_526">32, 0, 32, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, top, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, top, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, top, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, top, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, top, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, top, return value</column>
+<column name="leadone_in_V">in, 32, ap_none, leadone_in_V, pointer</column>
+<column name="leadone_out_V">out, 5, ap_vld, leadone_out_V, pointer</column>
+<column name="leadone_out_V_ap_vld">out, 1, ap_vld, leadone_out_V, pointer</column>
+<column name="leadone_ret">out, 1, ap_vld, leadone_ret, pointer</column>
+<column name="leadone_ret_ap_vld">out, 1, ap_vld, leadone_ret, pointer</column>
+<column name="mux_in_0_V">in, 8, ap_none, mux_in_0_V, pointer</column>
+<column name="mux_in_1_V">in, 8, ap_none, mux_in_1_V, pointer</column>
+<column name="mux_in_2_V">in, 8, ap_none, mux_in_2_V, pointer</column>
+<column name="mux_in_3_V">in, 8, ap_none, mux_in_3_V, pointer</column>
+<column name="mux_in_4_V">in, 8, ap_none, mux_in_4_V, pointer</column>
+<column name="mux_in_5_V">in, 8, ap_none, mux_in_5_V, pointer</column>
+<column name="mux_in_6_V">in, 8, ap_none, mux_in_6_V, pointer</column>
+<column name="mux_in_7_V">in, 8, ap_none, mux_in_7_V, pointer</column>
+<column name="mux_sel_onehot_V">in, 8, ap_none, mux_sel_onehot_V, scalar</column>
+<column name="mux_sel0_V">in, 3, ap_none, mux_sel0_V, scalar</column>
+<column name="mux_sel1_V">in, 3, ap_none, mux_sel1_V, scalar</column>
+<column name="mux_s">in, 1, ap_none, mux_s, scalar</column>
+<column name="mux_ret_V">out, 8, ap_vld, mux_ret_V, pointer</column>
+<column name="mux_ret_V_ap_vld">out, 1, ap_vld, mux_ret_V, pointer</column>
+<column name="max_in_0">in, 32, ap_none, max_in_0, pointer</column>
+<column name="max_in_1">in, 32, ap_none, max_in_1, pointer</column>
+<column name="max_in_2">in, 32, ap_none, max_in_2, pointer</column>
+<column name="max_in_3">in, 32, ap_none, max_in_3, pointer</column>
+<column name="max_in_4">in, 32, ap_none, max_in_4, pointer</column>
+<column name="max_in_5">in, 32, ap_none, max_in_5, pointer</column>
+<column name="max_in_6">in, 32, ap_none, max_in_6, pointer</column>
+<column name="max_in_7">in, 32, ap_none, max_in_7, pointer</column>
+<column name="max_out">out, 32, ap_vld, max_out, pointer</column>
+<column name="max_out_ap_vld">out, 1, ap_vld, max_out, pointer</column>
+<column name="mode">in, 32, ap_none, mode, scalar</column>
+</table>
+</item>
+</section>
+</profile>

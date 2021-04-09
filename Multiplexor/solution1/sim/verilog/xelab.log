@@ -1,0 +1,66 @@
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "C:/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_top_top glbl -prj top.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile C:/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s top -debug wave 
+Multi-threading is on. Using 4 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/leading_ones.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leading_ones
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/leading_ones_32_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leading_ones_32_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/leading_ones_brutefo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leading_ones_brutefo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/leading_ones_log2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leading_ones_log2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/leading_ones_templat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leading_ones_templat
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/max.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module max
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/max_algorithmic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module max_algorithmic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/mux_2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2to1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/mux_binary.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_binary
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/mux_binary2onehot_op.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_binary2onehot_op
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/mux_binary_opt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_binary_opt
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/mux_onehot.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_onehot
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/mux_onehot_if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_onehot_if
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/top.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_top_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/top_mux_83_32_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mux_83_32_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Multiplexor/solution1/sim/verilog/top_mux_83_8_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mux_83_8_1_1
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.top_mux_83_32_1_1(ID=1,din8_WIDT...
+Compiling module xil_defaultlib.max_algorithmic
+Compiling module xil_defaultlib.max
+Compiling module xil_defaultlib.mux_onehot_if
+Compiling module xil_defaultlib.leading_ones_32_s
+Compiling module xil_defaultlib.leading_ones_templat
+Compiling module xil_defaultlib.mux_onehot
+Compiling module xil_defaultlib.leading_ones_brutefo
+Compiling module xil_defaultlib.leading_ones_log2
+Compiling module xil_defaultlib.top_mux_83_8_1_1(ID=1,din0_WIDTH...
+Compiling module xil_defaultlib.mux_binary2onehot_op
+Compiling module xil_defaultlib.leading_ones
+Compiling module xil_defaultlib.mux_binary_opt
+Compiling module xil_defaultlib.mux_binary
+Compiling module xil_defaultlib.mux_2to1
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.apatb_top_top
+Compiling module work.glbl
+Built simulation snapshot top

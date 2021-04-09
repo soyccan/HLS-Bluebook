@@ -1,0 +1,185 @@
+
+
+================================================================
+== Vivado HLS Report for 'max_algorithmic'
+================================================================
+* Date:           Thu Apr  8 05:50:00 2021
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        Multiplexor
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 8.424 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |        4|        4| 40.000 ns | 40.000 ns |    4|    4|   none  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 5
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 5.93>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%din_2_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %din_2_read)" [Multiplexor/max_algorithmic.cpp:3]   --->   Operation 6 'read' 'din_2_read_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%din_1_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %din_1_read)" [Multiplexor/max_algorithmic.cpp:3]   --->   Operation 7 'read' 'din_1_read_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%din_0_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %din_0_read)" [Multiplexor/max_algorithmic.cpp:3]   --->   Operation 8 'read' 'din_0_read_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (2.47ns)   --->   "%icmp_ln15 = icmp sgt i32 %din_1_read_1, %din_0_read_1" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 9 'icmp' 'icmp_ln15' <Predicate = true> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 10 [1/1] (0.00ns) (grouped into LUT with out node icmp_ln15_1)   --->   "%select_ln15 = select i1 %icmp_ln15, i32 %din_1_read_1, i32 %din_0_read_1" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 10 'select' 'select_ln15' <Predicate = true> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.98> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 11 [1/1] (2.47ns) (out node of the LUT)   --->   "%icmp_ln15_1 = icmp slt i32 %select_ln15, %din_2_read_1" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 11 'icmp' 'icmp_ln15_1' <Predicate = true> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%zext_ln15 = zext i1 %icmp_ln15 to i2" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 12 'zext' 'zext_ln15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.99ns)   --->   "%select_ln15_1 = select i1 %icmp_ln15_1, i2 -2, i2 %zext_ln15" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 13 'select' 'select_ln15_1' <Predicate = true> <Delay = 0.99> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.98> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+
+State 2 <SV = 1> <Delay = 8.42>
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%din_3_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %din_3_read)" [Multiplexor/max_algorithmic.cpp:3]   --->   Operation 14 'read' 'din_3_read_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 15 [1/1] (0.00ns)   --->   "%zext_ln15_1 = zext i2 %select_ln15_1 to i3" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 15 'zext' 'zext_ln15_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 16 [1/1] (2.47ns)   --->   "%phi_ln15_1 = call i32 @_ssdm_op_Mux.ap_auto.8i32.i3(i32 %din_0_read_1, i32 %din_1_read_1, i32 %din_2_read_1, i32 %din_2_read_1, i32 %din_2_read_1, i32 %din_2_read_1, i32 %din_2_read_1, i32 %din_2_read_1, i3 %zext_ln15_1)" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 16 'mux' 'phi_ln15_1' <Predicate = true> <Delay = 2.47> <Core = "MuxnS">   --->   Core 31 'MuxnS' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 17 [1/1] (2.47ns)   --->   "%icmp_ln15_2 = icmp slt i32 %phi_ln15_1, %din_3_read_1" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 17 'icmp' 'icmp_ln15_2' <Predicate = true> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 18 [1/1] (0.99ns)   --->   "%select_ln15_2 = select i1 %icmp_ln15_2, i2 -1, i2 %select_ln15_1" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 18 'select' 'select_ln15_2' <Predicate = true> <Delay = 0.99> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.98> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 19 [1/1] (0.00ns)   --->   "%zext_ln15_2 = zext i2 %select_ln15_2 to i3" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 19 'zext' 'zext_ln15_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 20 [1/1] (2.47ns)   --->   "%phi_ln15_2 = call i32 @_ssdm_op_Mux.ap_auto.8i32.i3(i32 %din_0_read_1, i32 %din_1_read_1, i32 %din_2_read_1, i32 %din_3_read_1, i32 %din_3_read_1, i32 %din_3_read_1, i32 %din_3_read_1, i32 %din_3_read_1, i3 %zext_ln15_2)" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 20 'mux' 'phi_ln15_2' <Predicate = true> <Delay = 2.47> <Core = "MuxnS">   --->   Core 31 'MuxnS' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+
+State 3 <SV = 2> <Delay = 8.40>
+ST_3 : Operation 21 [1/1] (0.00ns)   --->   "%din_5_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %din_5_read)" [Multiplexor/max_algorithmic.cpp:3]   --->   Operation 21 'read' 'din_5_read_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 22 [1/1] (0.00ns)   --->   "%din_4_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %din_4_read)" [Multiplexor/max_algorithmic.cpp:3]   --->   Operation 22 'read' 'din_4_read_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 23 [1/1] (2.47ns)   --->   "%icmp_ln15_3 = icmp slt i32 %phi_ln15_2, %din_4_read_1" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 23 'icmp' 'icmp_ln15_3' <Predicate = true> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 24 [1/1] (0.98ns)   --->   "%select_ln14_1 = select i1 %icmp_ln15_3, i3 -4, i3 %zext_ln15_2" [Multiplexor/max_algorithmic.cpp:14]   --->   Operation 24 'select' 'select_ln14_1' <Predicate = true> <Delay = 0.98> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.98> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 25 [1/1] (2.47ns)   --->   "%phi_ln15_3 = call i32 @_ssdm_op_Mux.ap_auto.8i32.i3(i32 %din_0_read_1, i32 %din_1_read_1, i32 %din_2_read_1, i32 %din_3_read_1, i32 %din_4_read_1, i32 %din_4_read_1, i32 %din_4_read_1, i32 %din_4_read_1, i3 %select_ln14_1)" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 25 'mux' 'phi_ln15_3' <Predicate = true> <Delay = 2.47> <Core = "MuxnS">   --->   Core 31 'MuxnS' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 26 [1/1] (2.47ns)   --->   "%icmp_ln15_4 = icmp slt i32 %phi_ln15_3, %din_5_read_1" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 26 'icmp' 'icmp_ln15_4' <Predicate = true> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+
+State 4 <SV = 3> <Delay = 6.91>
+ST_4 : Operation 27 [1/1] (0.00ns)   --->   "%din_6_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %din_6_read)" [Multiplexor/max_algorithmic.cpp:3]   --->   Operation 27 'read' 'din_6_read_1' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 28 [1/1] (0.98ns)   --->   "%select_ln14_2 = select i1 %icmp_ln15_4, i3 -3, i3 %select_ln14_1" [Multiplexor/max_algorithmic.cpp:14]   --->   Operation 28 'select' 'select_ln14_2' <Predicate = true> <Delay = 0.98> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.98> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_4 : Operation 29 [1/1] (2.47ns)   --->   "%phi_ln15_4 = call i32 @_ssdm_op_Mux.ap_auto.8i32.i3(i32 %din_0_read_1, i32 %din_1_read_1, i32 %din_2_read_1, i32 %din_3_read_1, i32 %din_4_read_1, i32 %din_5_read_1, i32 %din_5_read_1, i32 %din_5_read_1, i3 %select_ln14_2)" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 29 'mux' 'phi_ln15_4' <Predicate = true> <Delay = 2.47> <Core = "MuxnS">   --->   Core 31 'MuxnS' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 30 [1/1] (2.47ns)   --->   "%icmp_ln15_5 = icmp slt i32 %phi_ln15_4, %din_6_read_1" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 30 'icmp' 'icmp_ln15_5' <Predicate = true> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 31 [1/1] (0.98ns)   --->   "%select_ln15_3 = select i1 %icmp_ln15_5, i3 -2, i3 %select_ln14_2" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 31 'select' 'select_ln15_3' <Predicate = true> <Delay = 0.98> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.98> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+
+State 5 <SV = 4> <Delay = 8.41>
+ST_5 : Operation 32 [1/1] (0.00ns)   --->   "%din_7_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %din_7_read)" [Multiplexor/max_algorithmic.cpp:3]   --->   Operation 32 'read' 'din_7_read_1' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 33 [1/1] (2.47ns)   --->   "%phi_ln15_5 = call i32 @_ssdm_op_Mux.ap_auto.8i32.i3(i32 %din_0_read_1, i32 %din_1_read_1, i32 %din_2_read_1, i32 %din_3_read_1, i32 %din_4_read_1, i32 %din_5_read_1, i32 %din_6_read_1, i32 %din_6_read_1, i3 %select_ln15_3)" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 33 'mux' 'phi_ln15_5' <Predicate = true> <Delay = 2.47> <Core = "MuxnS">   --->   Core 31 'MuxnS' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 34 [1/1] (2.47ns)   --->   "%icmp_ln15_6 = icmp slt i32 %phi_ln15_5, %din_7_read_1" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 34 'icmp' 'icmp_ln15_6' <Predicate = true> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 35 [1/1] (0.98ns)   --->   "%select_ln14 = select i1 %icmp_ln15_6, i3 -1, i3 %select_ln15_3" [Multiplexor/max_algorithmic.cpp:14]   --->   Operation 35 'select' 'select_ln14' <Predicate = true> <Delay = 0.98> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.98> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_5 : Operation 36 [1/1] (2.47ns)   --->   "%tmp = call i32 @_ssdm_op_Mux.ap_auto.8i32.i3(i32 %din_0_read_1, i32 %din_1_read_1, i32 %din_2_read_1, i32 %din_3_read_1, i32 %din_4_read_1, i32 %din_5_read_1, i32 %din_6_read_1, i32 %din_7_read_1, i3 %select_ln14)" [Multiplexor/max_algorithmic.cpp:15]   --->   Operation 36 'mux' 'tmp' <Predicate = true> <Delay = 2.47> <Core = "MuxnS">   --->   Core 31 'MuxnS' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 37 [1/1] (0.00ns)   --->   "ret i32 %tmp" [Multiplexor/max_algorithmic.cpp:20]   --->   Operation 37 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 5.94ns
+The critical path consists of the following:
+	wire read on port 'din_1_read' (Multiplexor/max_algorithmic.cpp:3) [15]  (0 ns)
+	'icmp' operation ('icmp_ln15', Multiplexor/max_algorithmic.cpp:15) [17]  (2.47 ns)
+	'select' operation ('select_ln15', Multiplexor/max_algorithmic.cpp:15) [18]  (0 ns)
+	'icmp' operation ('icmp_ln15_1', Multiplexor/max_algorithmic.cpp:15) [19]  (2.47 ns)
+	'select' operation ('select_ln15_1', Multiplexor/max_algorithmic.cpp:15) [21]  (0.993 ns)
+
+ <State 2>: 8.42ns
+The critical path consists of the following:
+	'mux' operation ('phi_ln15_1', Multiplexor/max_algorithmic.cpp:15) [23]  (2.48 ns)
+	'icmp' operation ('icmp_ln15_2', Multiplexor/max_algorithmic.cpp:15) [24]  (2.47 ns)
+	'select' operation ('select_ln15_2', Multiplexor/max_algorithmic.cpp:15) [25]  (0.993 ns)
+	'mux' operation ('phi_ln15_2', Multiplexor/max_algorithmic.cpp:15) [27]  (2.48 ns)
+
+ <State 3>: 8.41ns
+The critical path consists of the following:
+	wire read on port 'din_4_read' (Multiplexor/max_algorithmic.cpp:3) [12]  (0 ns)
+	'icmp' operation ('icmp_ln15_3', Multiplexor/max_algorithmic.cpp:15) [28]  (2.47 ns)
+	'select' operation ('select_ln14_1', Multiplexor/max_algorithmic.cpp:14) [29]  (0.98 ns)
+	'mux' operation ('phi_ln15_3', Multiplexor/max_algorithmic.cpp:15) [30]  (2.48 ns)
+	'icmp' operation ('icmp_ln15_4', Multiplexor/max_algorithmic.cpp:15) [31]  (2.47 ns)
+
+ <State 4>: 6.91ns
+The critical path consists of the following:
+	'select' operation ('select_ln14_2', Multiplexor/max_algorithmic.cpp:14) [32]  (0.98 ns)
+	'mux' operation ('phi_ln15_4', Multiplexor/max_algorithmic.cpp:15) [33]  (2.48 ns)
+	'icmp' operation ('icmp_ln15_5', Multiplexor/max_algorithmic.cpp:15) [34]  (2.47 ns)
+	'select' operation ('select_ln15_3', Multiplexor/max_algorithmic.cpp:15) [35]  (0.98 ns)
+
+ <State 5>: 8.41ns
+The critical path consists of the following:
+	'mux' operation ('phi_ln15_5', Multiplexor/max_algorithmic.cpp:15) [36]  (2.48 ns)
+	'icmp' operation ('icmp_ln15_6', Multiplexor/max_algorithmic.cpp:15) [37]  (2.47 ns)
+	'select' operation ('select_ln14', Multiplexor/max_algorithmic.cpp:14) [38]  (0.98 ns)
+	'mux' operation ('tmp', Multiplexor/max_algorithmic.cpp:15) [39]  (2.48 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

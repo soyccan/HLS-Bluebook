@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="shift_reg" xd:componentRef="shift_reg" xd:initiationInterval="14" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="din0" xd:originalName="din0" xd:direction="in" xd:interfaceRef="din0" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8"/>
+  <xd:arg xd:name="din1" xd:originalName="din1" xd:direction="in" xd:interfaceRef="din1" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="load_data[0]" xd:originalName="load_data0" xd:direction="in" xd:interfaceRef="load_data_0" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="load_data[1]" xd:originalName="load_data1" xd:direction="in" xd:interfaceRef="load_data_1" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="load_data[2]" xd:originalName="load_data2" xd:direction="in" xd:interfaceRef="load_data_2" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="load_data[3]" xd:originalName="load_data3" xd:direction="in" xd:interfaceRef="load_data_3" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="load_data[4]" xd:originalName="load_data4" xd:direction="in" xd:interfaceRef="load_data_4" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="load_data[5]" xd:originalName="load_data5" xd:direction="in" xd:interfaceRef="load_data_5" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="load_data[6]" xd:originalName="load_data6" xd:direction="in" xd:interfaceRef="load_data_6" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="load_data[7]" xd:originalName="load_data7" xd:direction="in" xd:interfaceRef="load_data_7" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="load_data[8]" xd:originalName="load_data8" xd:direction="in" xd:interfaceRef="load_data_8" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="load_data[9]" xd:originalName="load_data9" xd:direction="in" xd:interfaceRef="load_data_9" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="load_data[10]" xd:originalName="load_data10" xd:direction="in" xd:interfaceRef="load_data_10" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="load_data[11]" xd:originalName="load_data11" xd:direction="in" xd:interfaceRef="load_data_11" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="dout0[0]" xd:originalName="dout00" xd:direction="out" xd:interfaceRef="dout0_0" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="8" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="dout0[1]" xd:originalName="dout01" xd:direction="out" xd:interfaceRef="dout0_1" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="8" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="dout0[2]" xd:originalName="dout02" xd:direction="out" xd:interfaceRef="dout0_2" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="8" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="dout0[3]" xd:originalName="dout03" xd:direction="out" xd:interfaceRef="dout0_3" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="8" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="dout0[4]" xd:originalName="dout04" xd:direction="out" xd:interfaceRef="dout0_4" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="8" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="dout0[5]" xd:originalName="dout05" xd:direction="out" xd:interfaceRef="dout0_5" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="8" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="dout0[6]" xd:originalName="dout06" xd:direction="out" xd:interfaceRef="dout0_6" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="8" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="dout0[7]" xd:originalName="dout07" xd:direction="out" xd:interfaceRef="dout0_7" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="8" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="dout0[8]" xd:originalName="dout08" xd:direction="out" xd:interfaceRef="dout0_8" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="8" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="dout0[9]" xd:originalName="dout09" xd:direction="out" xd:interfaceRef="dout0_9" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="8" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="dout0[10]" xd:originalName="dout010" xd:direction="out" xd:interfaceRef="dout0_10" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="8" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="dout0[11]" xd:originalName="dout011" xd:direction="out" xd:interfaceRef="dout0_11" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="8" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="dout1[0]" xd:originalName="dout10" xd:direction="out" xd:interfaceRef="dout1_0" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="dout1[1]" xd:originalName="dout11" xd:direction="out" xd:interfaceRef="dout1_1" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="dout1[2]" xd:originalName="dout12" xd:direction="out" xd:interfaceRef="dout1_2" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="dout1[3]" xd:originalName="dout13" xd:direction="out" xd:interfaceRef="dout1_3" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="1" xd:arraySize="1"/>
+  <xd:arg xd:name="srst" xd:originalName="srst" xd:direction="in" xd:interfaceRef="srst" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1" xd:firstOut="1"/>
+  <xd:arg xd:name="load" xd:originalName="load" xd:direction="in" xd:interfaceRef="load" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1" xd:firstOut="1"/>
+  <xd:arg xd:name="en" xd:originalName="en" xd:direction="in" xd:interfaceRef="en" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1" xd:firstOut="1"/>
+  <xd:arg xd:name="select" xd:originalName="select" xd:direction="in" xd:interfaceRef="select_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="3" xd:firstOut="1"/>
+  <xd:latencyEstimates xd:best-case="1" xd:worst-case="13" xd:average-case="3"/>
+  <xd:resourceEstimates xd:LUT="1862" xd:FF="1634" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>

@@ -1,0 +1,9 @@
+- leading_ones_tmpl.cpp
+Change ac_int.h to ap_int.h
+
+- Write testbench for Multiplexor
+
+- Use Xilinx library for:
+  - Log2Ceil
+  - NextPow2
+  - shift register

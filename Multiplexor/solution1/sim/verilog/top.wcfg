@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top.wdb" id="1">
+         <top_modules>
+            <top_module name="apatb_top_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   </zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group1" type="group">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group2" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group3" type="group">
+            <obj_property name="label">max_out(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/max_out_ap_vld" type="logic">
+               <obj_property name="ElementShortName">max_out_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">max_out_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/max_out" type="array">
+               <obj_property name="ElementShortName">max_out[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_out[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group6" type="group">
+            <obj_property name="label">mux_ret(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/mux_ret_V_ap_vld" type="logic">
+               <obj_property name="ElementShortName">mux_ret_V_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">mux_ret_V_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/mux_ret_V" type="array">
+               <obj_property name="ElementShortName">mux_ret_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_ret_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group9" type="group">
+            <obj_property name="label">leadone_ret(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/leadone_ret_ap_vld" type="logic">
+               <obj_property name="ElementShortName">leadone_ret_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">leadone_ret_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/leadone_ret" type="logic">
+               <obj_property name="ElementShortName">leadone_ret</obj_property>
+               <obj_property name="ObjectShortName">leadone_ret</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group12" type="group">
+            <obj_property name="label">leadone_out(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/leadone_out_V_ap_vld" type="logic">
+               <obj_property name="ElementShortName">leadone_out_V_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">leadone_out_V_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/leadone_out_V" type="array">
+               <obj_property name="ElementShortName">leadone_out_V[4:0]</obj_property>
+               <obj_property name="ObjectShortName">leadone_out_V[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group15" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group16" type="group">
+            <obj_property name="label">mode(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/mode" type="array">
+               <obj_property name="ElementShortName">mode[31:0]</obj_property>
+               <obj_property name="ObjectShortName">mode[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group18" type="group">
+            <obj_property name="label">max_in(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/max_in_7" type="array">
+               <obj_property name="ElementShortName">max_in_7[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_7[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/max_in_6" type="array">
+               <obj_property name="ElementShortName">max_in_6[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_6[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/max_in_5" type="array">
+               <obj_property name="ElementShortName">max_in_5[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_5[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/max_in_4" type="array">
+               <obj_property name="ElementShortName">max_in_4[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_4[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/max_in_3" type="array">
+               <obj_property name="ElementShortName">max_in_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/max_in_2" type="array">
+               <obj_property name="ElementShortName">max_in_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/max_in_1" type="array">
+               <obj_property name="ElementShortName">max_in_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/max_in_0" type="array">
+               <obj_property name="ElementShortName">max_in_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group27" type="group">
+            <obj_property name="label">mux_s(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/mux_s" type="logic">
+               <obj_property name="ElementShortName">mux_s</obj_property>
+               <obj_property name="ObjectShortName">mux_s</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group29" type="group">
+            <obj_property name="label">mux_sel1(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/mux_sel1_V" type="array">
+               <obj_property name="ElementShortName">mux_sel1_V[2:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_sel1_V[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group31" type="group">
+            <obj_property name="label">mux_sel0(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/mux_sel0_V" type="array">
+               <obj_property name="ElementShortName">mux_sel0_V[2:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_sel0_V[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group33" type="group">
+            <obj_property name="label">mux_sel_onehot(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/mux_sel_onehot_V" type="array">
+               <obj_property name="ElementShortName">mux_sel_onehot_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_sel_onehot_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group35" type="group">
+            <obj_property name="label">mux_in(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/mux_in_7_V" type="array">
+               <obj_property name="ElementShortName">mux_in_7_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_7_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/mux_in_6_V" type="array">
+               <obj_property name="ElementShortName">mux_in_6_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_6_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/mux_in_5_V" type="array">
+               <obj_property name="ElementShortName">mux_in_5_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_5_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/mux_in_4_V" type="array">
+               <obj_property name="ElementShortName">mux_in_4_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_4_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/mux_in_3_V" type="array">
+               <obj_property name="ElementShortName">mux_in_3_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_3_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/mux_in_2_V" type="array">
+               <obj_property name="ElementShortName">mux_in_2_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_2_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/mux_in_1_V" type="array">
+               <obj_property name="ElementShortName">mux_in_1_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_1_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/mux_in_0_V" type="array">
+               <obj_property name="ElementShortName">mux_in_0_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_0_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group44" type="group">
+            <obj_property name="label">leadone_in(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/AESL_inst_top/leadone_in_V" type="array">
+               <obj_property name="ElementShortName">leadone_in_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">leadone_in_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group46" type="group">
+         <obj_property name="label">Block-level IO Handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_top_top/AESL_inst_top/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_top_top/AESL_inst_top/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_top_top/AESL_inst_top/ap_idle" type="logic">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_top_top/AESL_inst_top/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group51" type="group">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_top_top/AESL_inst_top/ap_rst" type="logic">
+            <obj_property name="ElementShortName">ap_rst</obj_property>
+            <obj_property name="ObjectShortName">ap_rst</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group53" type="group">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_top_top/AESL_inst_top/ap_clk" type="logic">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group55" type="group">
+      <obj_property name="label">Test Bench Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group56" type="group">
+         <obj_property name="label">Internal Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group57" type="group">
+            <obj_property name="label">Simulation Status</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/AUTOTB_TRANSACTION_NUM" type="array">
+               <obj_property name="ElementShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/ready_cnt" type="array">
+               <obj_property name="ElementShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/done_cnt" type="array">
+               <obj_property name="ElementShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group58" type="group">
+            <obj_property name="label">Port Depth</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/LENGTH_leadone_in_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_leadone_in_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_leadone_in_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_leadone_out_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_leadone_out_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_leadone_out_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_leadone_ret" type="array">
+               <obj_property name="ElementShortName">LENGTH_leadone_ret[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_leadone_ret[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_mux_in_0_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_mux_in_0_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_mux_in_0_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_mux_in_1_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_mux_in_1_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_mux_in_1_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_mux_in_2_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_mux_in_2_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_mux_in_2_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_mux_in_3_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_mux_in_3_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_mux_in_3_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_mux_in_4_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_mux_in_4_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_mux_in_4_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_mux_in_5_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_mux_in_5_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_mux_in_5_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_mux_in_6_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_mux_in_6_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_mux_in_6_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_mux_in_7_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_mux_in_7_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_mux_in_7_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_mux_sel_onehot_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_mux_sel_onehot_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_mux_sel_onehot_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_mux_sel0_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_mux_sel0_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_mux_sel0_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_mux_sel1_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_mux_sel1_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_mux_sel1_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_mux_s" type="array">
+               <obj_property name="ElementShortName">LENGTH_mux_s[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_mux_s[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_mux_ret_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_mux_ret_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_mux_ret_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_max_in_0" type="array">
+               <obj_property name="ElementShortName">LENGTH_max_in_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_max_in_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_max_in_1" type="array">
+               <obj_property name="ElementShortName">LENGTH_max_in_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_max_in_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_max_in_2" type="array">
+               <obj_property name="ElementShortName">LENGTH_max_in_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_max_in_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_max_in_3" type="array">
+               <obj_property name="ElementShortName">LENGTH_max_in_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_max_in_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_max_in_4" type="array">
+               <obj_property name="ElementShortName">LENGTH_max_in_4[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_max_in_4[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_max_in_5" type="array">
+               <obj_property name="ElementShortName">LENGTH_max_in_5[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_max_in_5[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_max_in_6" type="array">
+               <obj_property name="ElementShortName">LENGTH_max_in_6[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_max_in_6[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_max_in_7" type="array">
+               <obj_property name="ElementShortName">LENGTH_max_in_7[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_max_in_7[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_max_out" type="array">
+               <obj_property name="ElementShortName">LENGTH_max_out[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_max_out[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/LENGTH_mode" type="array">
+               <obj_property name="ElementShortName">LENGTH_mode[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_mode[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group88" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group89" type="group">
+            <obj_property name="label">max_out(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/max_out_ap_vld" type="logic">
+               <obj_property name="ElementShortName">max_out_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">max_out_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/max_out" type="array">
+               <obj_property name="ElementShortName">max_out[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_out[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group92" type="group">
+            <obj_property name="label">mux_ret(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/mux_ret_V_ap_vld" type="logic">
+               <obj_property name="ElementShortName">mux_ret_V_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">mux_ret_V_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/mux_ret_V" type="array">
+               <obj_property name="ElementShortName">mux_ret_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_ret_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group95" type="group">
+            <obj_property name="label">leadone_ret(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/leadone_ret_ap_vld" type="logic">
+               <obj_property name="ElementShortName">leadone_ret_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">leadone_ret_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/leadone_ret" type="logic">
+               <obj_property name="ElementShortName">leadone_ret</obj_property>
+               <obj_property name="ObjectShortName">leadone_ret</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group98" type="group">
+            <obj_property name="label">leadone_out(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/leadone_out_V_ap_vld" type="logic">
+               <obj_property name="ElementShortName">leadone_out_V_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">leadone_out_V_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/leadone_out_V" type="array">
+               <obj_property name="ElementShortName">leadone_out_V[4:0]</obj_property>
+               <obj_property name="ObjectShortName">leadone_out_V[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group101" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group102" type="group">
+            <obj_property name="label">mode(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/mode" type="array">
+               <obj_property name="ElementShortName">mode[31:0]</obj_property>
+               <obj_property name="ObjectShortName">mode[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group104" type="group">
+            <obj_property name="label">max_in(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/max_in_7" type="array">
+               <obj_property name="ElementShortName">max_in_7[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_7[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/max_in_6" type="array">
+               <obj_property name="ElementShortName">max_in_6[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_6[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/max_in_5" type="array">
+               <obj_property name="ElementShortName">max_in_5[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_5[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/max_in_4" type="array">
+               <obj_property name="ElementShortName">max_in_4[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_4[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/max_in_3" type="array">
+               <obj_property name="ElementShortName">max_in_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/max_in_2" type="array">
+               <obj_property name="ElementShortName">max_in_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/max_in_1" type="array">
+               <obj_property name="ElementShortName">max_in_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/max_in_0" type="array">
+               <obj_property name="ElementShortName">max_in_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">max_in_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group113" type="group">
+            <obj_property name="label">mux_s(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/mux_s" type="logic">
+               <obj_property name="ElementShortName">mux_s</obj_property>
+               <obj_property name="ObjectShortName">mux_s</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group115" type="group">
+            <obj_property name="label">mux_sel1(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/mux_sel1_V" type="array">
+               <obj_property name="ElementShortName">mux_sel1_V[2:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_sel1_V[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group117" type="group">
+            <obj_property name="label">mux_sel0(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/mux_sel0_V" type="array">
+               <obj_property name="ElementShortName">mux_sel0_V[2:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_sel0_V[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group119" type="group">
+            <obj_property name="label">mux_sel_onehot(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/mux_sel_onehot_V" type="array">
+               <obj_property name="ElementShortName">mux_sel_onehot_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_sel_onehot_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group121" type="group">
+            <obj_property name="label">mux_in(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/mux_in_7_V" type="array">
+               <obj_property name="ElementShortName">mux_in_7_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_7_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/mux_in_6_V" type="array">
+               <obj_property name="ElementShortName">mux_in_6_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_6_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/mux_in_5_V" type="array">
+               <obj_property name="ElementShortName">mux_in_5_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_5_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/mux_in_4_V" type="array">
+               <obj_property name="ElementShortName">mux_in_4_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_4_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/mux_in_3_V" type="array">
+               <obj_property name="ElementShortName">mux_in_3_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_3_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/mux_in_2_V" type="array">
+               <obj_property name="ElementShortName">mux_in_2_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_2_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/mux_in_1_V" type="array">
+               <obj_property name="ElementShortName">mux_in_1_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_1_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_top_top/mux_in_0_V" type="array">
+               <obj_property name="ElementShortName">mux_in_0_V[7:0]</obj_property>
+               <obj_property name="ObjectShortName">mux_in_0_V[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group130" type="group">
+            <obj_property name="label">leadone_in(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_top_top/leadone_in_V" type="array">
+               <obj_property name="ElementShortName">leadone_in_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">leadone_in_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="top.cpp" path="D:\Repo\hls\labA\Multiplexor\top.cpp"/>
+    <originFiles name="nextpow2.h" path="D:\Repo\hls\labA\Multiplexor\nextpow2.h"/>
+    <originFiles name="mux_onehot_if.cpp" path="D:\Repo\hls\labA\Multiplexor\mux_onehot_if.cpp"/>
+    <originFiles name="mux_onehot.cpp" path="D:\Repo\hls\labA\Multiplexor\mux_onehot.cpp"/>
+    <originFiles name="mux_binary_opt.cpp" path="D:\Repo\hls\labA\Multiplexor\mux_binary_opt.cpp"/>
+    <originFiles name="mux_binary2onehot_opt.cpp" path="D:\Repo\hls\labA\Multiplexor\mux_binary2onehot_opt.cpp"/>
+    <originFiles name="mux_binary.cpp" path="D:\Repo\hls\labA\Multiplexor\mux_binary.cpp"/>
+    <originFiles name="mux_2to1.cpp" path="D:\Repo\hls\labA\Multiplexor\mux_2to1.cpp"/>
+    <originFiles name="mux.h" path="D:\Repo\hls\labA\Multiplexor\mux.h"/>
+    <originFiles name="max_tmpl.h" path="D:\Repo\hls\labA\Multiplexor\max_tmpl.h"/>
+    <originFiles name="max_algorithmic.cpp" path="D:\Repo\hls\labA\Multiplexor\max_algorithmic.cpp"/>
+    <originFiles name="max.h" path="D:\Repo\hls\labA\Multiplexor\max.h"/>
+    <originFiles name="max.cpp" path="D:\Repo\hls\labA\Multiplexor\max.cpp"/>
+    <originFiles name="log2ceil.h" path="D:\Repo\hls\labA\Multiplexor\log2ceil.h"/>
+    <originFiles name="leading_ones_tmpl.h" path="D:\Repo\hls\labA\Multiplexor\leading_ones_tmpl.h"/>
+    <originFiles name="leading_ones_template.cpp" path="D:\Repo\hls\labA\Multiplexor\leading_ones_template.cpp"/>
+    <originFiles name="leading_ones_log2.cpp" path="D:\Repo\hls\labA\Multiplexor\leading_ones_log2.cpp"/>
+    <originFiles name="leading_ones_bruteforce.cpp" path="D:\Repo\hls\labA\Multiplexor\leading_ones_bruteforce.cpp"/>
+    <originFiles name="leading_ones.h" path="D:\Repo\hls\labA\Multiplexor\leading_ones.h"/>
+    <originFiles name="leading_ones.cpp" path="D:\Repo\hls\labA\Multiplexor\leading_ones.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="testbench.cpp" path="D:\Repo\hls\labA\Multiplexor\testbench.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

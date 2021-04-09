@@ -1,0 +1,121 @@
+
+
+================================================================
+== Vivado HLS Report for 'mux_binary2onehot_op'
+================================================================
+* Date:           Thu Apr  8 05:49:59 2021
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        Multiplexor
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 3.727 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|   0 ns   |   0 ns   |    0|    0|   none  |
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 0
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 3.72>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%s_read = call i1 @_ssdm_op_Read.ap_auto.i1(i1 %s)" [Multiplexor/mux_binary2onehot_opt.cpp:3]   --->   Operation 2 'read' 's_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%sel1_V_read = call i3 @_ssdm_op_Read.ap_auto.i3(i3 %sel1_V)" [Multiplexor/mux_binary2onehot_opt.cpp:3]   --->   Operation 3 'read' 'sel1_V_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%sel0_V_read = call i3 @_ssdm_op_Read.ap_auto.i3(i3 %sel0_V)" [Multiplexor/mux_binary2onehot_opt.cpp:3]   --->   Operation 4 'read' 'sel0_V_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%din_7_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_7_V_read)" [Multiplexor/mux_binary2onehot_opt.cpp:3]   --->   Operation 5 'read' 'din_7_V_read_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%din_6_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_6_V_read)" [Multiplexor/mux_binary2onehot_opt.cpp:3]   --->   Operation 6 'read' 'din_6_V_read_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%din_5_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_5_V_read)" [Multiplexor/mux_binary2onehot_opt.cpp:3]   --->   Operation 7 'read' 'din_5_V_read_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%din_4_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_4_V_read)" [Multiplexor/mux_binary2onehot_opt.cpp:3]   --->   Operation 8 'read' 'din_4_V_read_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%din_3_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_3_V_read)" [Multiplexor/mux_binary2onehot_opt.cpp:3]   --->   Operation 9 'read' 'din_3_V_read_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%din_2_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_2_V_read)" [Multiplexor/mux_binary2onehot_opt.cpp:3]   --->   Operation 10 'read' 'din_2_V_read_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%din_1_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_1_V_read)" [Multiplexor/mux_binary2onehot_opt.cpp:3]   --->   Operation 11 'read' 'din_1_V_read_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%din_0_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_0_V_read)" [Multiplexor/mux_binary2onehot_opt.cpp:3]   --->   Operation 12 'read' 'din_0_V_read_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (2.47ns)   --->   "%tmp = call i8 @_ssdm_op_Mux.ap_auto.8i8.i3(i8 %din_0_V_read_4, i8 %din_1_V_read_4, i8 %din_2_V_read_4, i8 %din_3_V_read_4, i8 %din_4_V_read_4, i8 %din_5_V_read_4, i8 %din_6_V_read_4, i8 %din_7_V_read_4, i3 %sel0_V_read)" [Multiplexor/mux_binary2onehot_opt.cpp:9]   --->   Operation 13 'mux' 'tmp' <Predicate = (s_read)> <Delay = 2.47> <Core = "MuxnS">   --->   Core 31 'MuxnS' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 14 [1/1] (2.47ns)   --->   "%tmp_1 = call i8 @_ssdm_op_Mux.ap_auto.8i8.i3(i8 %din_0_V_read_4, i8 %din_1_V_read_4, i8 %din_2_V_read_4, i8 %din_3_V_read_4, i8 %din_4_V_read_4, i8 %din_5_V_read_4, i8 %din_6_V_read_4, i8 %din_7_V_read_4, i3 %sel1_V_read)" [Multiplexor/mux_binary2onehot_opt.cpp:11]   --->   Operation 14 'mux' 'tmp_1' <Predicate = (!s_read)> <Delay = 2.47> <Core = "MuxnS">   --->   Core 31 'MuxnS' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 15 [1/1] (1.24ns)   --->   "%tmp_V = select i1 %s_read, i8 %tmp, i8 %tmp_1" [Multiplexor/mux_binary2onehot_opt.cpp:3]   --->   Operation 15 'select' 'tmp_V' <Predicate = true> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "ret i8 %tmp_V" [Multiplexor/mux_binary2onehot_opt.cpp:12]   --->   Operation 16 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 3.73ns
+The critical path consists of the following:
+	wire read on port 'sel1_V' (Multiplexor/mux_binary2onehot_opt.cpp:3) [13]  (0 ns)
+	'mux' operation ('tmp_1', Multiplexor/mux_binary2onehot_opt.cpp:11) [24]  (2.48 ns)
+	'select' operation ('tmp.V', Multiplexor/mux_binary2onehot_opt.cpp:3) [25]  (1.25 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

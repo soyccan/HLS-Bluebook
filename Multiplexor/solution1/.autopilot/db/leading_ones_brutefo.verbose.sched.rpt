@@ -1,0 +1,199 @@
+
+
+================================================================
+== Vivado HLS Report for 'leading_ones_brutefo'
+================================================================
+* Date:           Thu Apr  8 05:50:00 2021
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        Multiplexor
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 2.199 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |        2|        2| 20.000 ns | 20.000 ns |    2|    2|   none  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 3
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 2.19>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%din_V_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %din_V)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 4 'read' 'din_V_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%tmp = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 31)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 5 'bitselect' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (2.19ns)   --->   "br i1 %tmp, label %.loopexit26, label %1" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 6 'br' <Predicate = true> <Delay = 2.19>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%tmp_3 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 30)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 7 'bitselect' 'tmp_3' <Predicate = (!tmp)> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (2.19ns)   --->   "br i1 %tmp_3, label %.loopexit26, label %2" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 8 'br' <Predicate = (!tmp)> <Delay = 2.19>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%tmp_4 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 29)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 9 'bitselect' 'tmp_4' <Predicate = (!tmp & !tmp_3)> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (2.19ns)   --->   "br i1 %tmp_4, label %.loopexit26, label %3" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 10 'br' <Predicate = (!tmp & !tmp_3)> <Delay = 2.19>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%tmp_5 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 28)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 11 'bitselect' 'tmp_5' <Predicate = (!tmp & !tmp_3 & !tmp_4)> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (2.19ns)   --->   "br i1 %tmp_5, label %.loopexit26, label %4" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 12 'br' <Predicate = (!tmp & !tmp_3 & !tmp_4)> <Delay = 2.19>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%tmp_6 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 27)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 13 'bitselect' 'tmp_6' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5)> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (2.19ns)   --->   "br i1 %tmp_6, label %.loopexit26, label %5" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 14 'br' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5)> <Delay = 2.19>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%tmp_7 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 26)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 15 'bitselect' 'tmp_7' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6)> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (2.19ns)   --->   "br i1 %tmp_7, label %.loopexit26, label %6" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 16 'br' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6)> <Delay = 2.19>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%tmp_8 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 25)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 17 'bitselect' 'tmp_8' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7)> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (2.19ns)   --->   "br i1 %tmp_8, label %.loopexit26, label %7" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 18 'br' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7)> <Delay = 2.19>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%tmp_9 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 24)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 19 'bitselect' 'tmp_9' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8)> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (2.19ns)   --->   "br i1 %tmp_9, label %.loopexit26, label %8" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 20 'br' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8)> <Delay = 2.19>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%tmp_10 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 23)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 21 'bitselect' 'tmp_10' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9)> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (2.19ns)   --->   "br i1 %tmp_10, label %.loopexit26, label %9" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 22 'br' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9)> <Delay = 2.19>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%tmp_11 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 22)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 23 'bitselect' 'tmp_11' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9 & !tmp_10)> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (2.19ns)   --->   "br i1 %tmp_11, label %.loopexit26, label %10" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 24 'br' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9 & !tmp_10)> <Delay = 2.19>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%tmp_12 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 21)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 25 'bitselect' 'tmp_12' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9 & !tmp_10 & !tmp_11)> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (2.19ns)   --->   "br i1 %tmp_12, label %.loopexit26, label %11" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 26 'br' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9 & !tmp_10 & !tmp_11)> <Delay = 2.19>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%tmp_13 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 20)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 27 'bitselect' 'tmp_13' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9 & !tmp_10 & !tmp_11 & !tmp_12)> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (2.19ns)   --->   "br i1 %tmp_13, label %.loopexit26, label %12" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 28 'br' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9 & !tmp_10 & !tmp_11 & !tmp_12)> <Delay = 2.19>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%tmp_14 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 19)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 29 'bitselect' 'tmp_14' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9 & !tmp_10 & !tmp_11 & !tmp_12 & !tmp_13)> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (2.19ns)   --->   "br i1 %tmp_14, label %.loopexit26, label %13" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 30 'br' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9 & !tmp_10 & !tmp_11 & !tmp_12 & !tmp_13)> <Delay = 2.19>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%tmp_15 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 18)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 31 'bitselect' 'tmp_15' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9 & !tmp_10 & !tmp_11 & !tmp_12 & !tmp_13 & !tmp_14)> <Delay = 0.00>
+ST_1 : Operation 32 [1/1] (2.19ns)   --->   "br i1 %tmp_15, label %.loopexit26, label %14" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 32 'br' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9 & !tmp_10 & !tmp_11 & !tmp_12 & !tmp_13 & !tmp_14)> <Delay = 2.19>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%tmp_16 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 17)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 33 'bitselect' 'tmp_16' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9 & !tmp_10 & !tmp_11 & !tmp_12 & !tmp_13 & !tmp_14 & !tmp_15)> <Delay = 0.00>
+ST_1 : Operation 34 [1/1] (2.19ns)   --->   "br i1 %tmp_16, label %.loopexit26, label %15" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 34 'br' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9 & !tmp_10 & !tmp_11 & !tmp_12 & !tmp_13 & !tmp_14 & !tmp_15)> <Delay = 2.19>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%tmp_17 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 16)" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 35 'bitselect' 'tmp_17' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9 & !tmp_10 & !tmp_11 & !tmp_12 & !tmp_13 & !tmp_14 & !tmp_15 & !tmp_16)> <Delay = 0.00>
+ST_1 : Operation 36 [1/1] (1.21ns)   --->   "%select_ln13 = select i1 %tmp_17, i5 -16, i5 0" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 36 'select' 'select_ln13' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9 & !tmp_10 & !tmp_11 & !tmp_12 & !tmp_13 & !tmp_14 & !tmp_15 & !tmp_16)> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 37 [1/1] (2.19ns)   --->   "br label %.loopexit26" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 37 'br' <Predicate = (!tmp & !tmp_3 & !tmp_4 & !tmp_5 & !tmp_6 & !tmp_7 & !tmp_8 & !tmp_9 & !tmp_10 & !tmp_11 & !tmp_12 & !tmp_13 & !tmp_14 & !tmp_15 & !tmp_16)> <Delay = 2.19>
+
+State 2 <SV = 1> <Delay = 2.17>
+ST_2 : Operation 38 [1/1] (0.00ns)   --->   "%phi_ln25 = phi i5 [ -1, %0 ], [ -2, %1 ], [ -3, %2 ], [ -4, %3 ], [ -5, %4 ], [ -6, %5 ], [ -7, %6 ], [ -8, %7 ], [ -9, %8 ], [ -10, %9 ], [ -11, %10 ], [ -12, %11 ], [ -13, %12 ], [ -14, %13 ], [ -15, %14 ], [ %select_ln13, %15 ]" [Multiplexor/leading_ones_bruteforce.cpp:25]   --->   Operation 38 'phi' 'phi_ln25' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 39 [1/1] (0.00ns)   --->   "%flagu_0 = phi i1 [ true, %0 ], [ true, %1 ], [ true, %2 ], [ true, %3 ], [ true, %4 ], [ true, %5 ], [ true, %6 ], [ true, %7 ], [ true, %8 ], [ true, %9 ], [ true, %10 ], [ true, %11 ], [ true, %12 ], [ true, %13 ], [ true, %14 ], [ %tmp_17, %15 ]" [Multiplexor/leading_ones_bruteforce.cpp:13]   --->   Operation 39 'phi' 'flagu_0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 40 [1/1] (0.00ns)   --->   "%tmp_18 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 15)" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 40 'bitselect' 'tmp_18' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 41 [1/1] (2.17ns)   --->   "br i1 %tmp_18, label %.loopexit, label %16" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 41 'br' <Predicate = true> <Delay = 2.17>
+ST_2 : Operation 42 [1/1] (0.00ns)   --->   "%tmp_19 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 14)" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 42 'bitselect' 'tmp_19' <Predicate = (!tmp_18)> <Delay = 0.00>
+ST_2 : Operation 43 [1/1] (2.17ns)   --->   "br i1 %tmp_19, label %.loopexit, label %17" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 43 'br' <Predicate = (!tmp_18)> <Delay = 2.17>
+ST_2 : Operation 44 [1/1] (0.00ns)   --->   "%tmp_20 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 13)" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 44 'bitselect' 'tmp_20' <Predicate = (!tmp_18 & !tmp_19)> <Delay = 0.00>
+ST_2 : Operation 45 [1/1] (2.17ns)   --->   "br i1 %tmp_20, label %.loopexit, label %18" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 45 'br' <Predicate = (!tmp_18 & !tmp_19)> <Delay = 2.17>
+ST_2 : Operation 46 [1/1] (0.00ns)   --->   "%tmp_21 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 12)" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 46 'bitselect' 'tmp_21' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20)> <Delay = 0.00>
+ST_2 : Operation 47 [1/1] (2.17ns)   --->   "br i1 %tmp_21, label %.loopexit, label %19" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 47 'br' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20)> <Delay = 2.17>
+ST_2 : Operation 48 [1/1] (0.00ns)   --->   "%tmp_22 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 11)" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 48 'bitselect' 'tmp_22' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21)> <Delay = 0.00>
+ST_2 : Operation 49 [1/1] (2.17ns)   --->   "br i1 %tmp_22, label %.loopexit, label %20" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 49 'br' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21)> <Delay = 2.17>
+ST_2 : Operation 50 [1/1] (0.00ns)   --->   "%tmp_23 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 10)" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 50 'bitselect' 'tmp_23' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22)> <Delay = 0.00>
+ST_2 : Operation 51 [1/1] (2.17ns)   --->   "br i1 %tmp_23, label %.loopexit, label %21" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 51 'br' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22)> <Delay = 2.17>
+ST_2 : Operation 52 [1/1] (0.00ns)   --->   "%tmp_24 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 9)" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 52 'bitselect' 'tmp_24' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23)> <Delay = 0.00>
+ST_2 : Operation 53 [1/1] (2.17ns)   --->   "br i1 %tmp_24, label %.loopexit, label %22" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 53 'br' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23)> <Delay = 2.17>
+ST_2 : Operation 54 [1/1] (0.00ns)   --->   "%tmp_25 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 8)" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 54 'bitselect' 'tmp_25' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24)> <Delay = 0.00>
+ST_2 : Operation 55 [1/1] (2.17ns)   --->   "br i1 %tmp_25, label %.loopexit, label %23" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 55 'br' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24)> <Delay = 2.17>
+ST_2 : Operation 56 [1/1] (0.00ns)   --->   "%tmp_26 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 7)" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 56 'bitselect' 'tmp_26' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25)> <Delay = 0.00>
+ST_2 : Operation 57 [1/1] (2.17ns)   --->   "br i1 %tmp_26, label %.loopexit, label %24" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 57 'br' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25)> <Delay = 2.17>
+ST_2 : Operation 58 [1/1] (0.00ns)   --->   "%tmp_27 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 6)" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 58 'bitselect' 'tmp_27' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25 & !tmp_26)> <Delay = 0.00>
+ST_2 : Operation 59 [1/1] (2.17ns)   --->   "br i1 %tmp_27, label %.loopexit, label %25" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 59 'br' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25 & !tmp_26)> <Delay = 2.17>
+ST_2 : Operation 60 [1/1] (0.00ns)   --->   "%tmp_28 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 5)" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 60 'bitselect' 'tmp_28' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25 & !tmp_26 & !tmp_27)> <Delay = 0.00>
+ST_2 : Operation 61 [1/1] (2.17ns)   --->   "br i1 %tmp_28, label %.loopexit, label %26" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 61 'br' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25 & !tmp_26 & !tmp_27)> <Delay = 2.17>
+ST_2 : Operation 62 [1/1] (0.00ns)   --->   "%tmp_29 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 4)" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 62 'bitselect' 'tmp_29' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25 & !tmp_26 & !tmp_27 & !tmp_28)> <Delay = 0.00>
+ST_2 : Operation 63 [1/1] (2.17ns)   --->   "br i1 %tmp_29, label %.loopexit, label %27" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 63 'br' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25 & !tmp_26 & !tmp_27 & !tmp_28)> <Delay = 2.17>
+ST_2 : Operation 64 [1/1] (0.00ns)   --->   "%tmp_30 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 3)" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 64 'bitselect' 'tmp_30' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25 & !tmp_26 & !tmp_27 & !tmp_28 & !tmp_29)> <Delay = 0.00>
+ST_2 : Operation 65 [1/1] (2.17ns)   --->   "br i1 %tmp_30, label %.loopexit, label %28" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 65 'br' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25 & !tmp_26 & !tmp_27 & !tmp_28 & !tmp_29)> <Delay = 2.17>
+ST_2 : Operation 66 [1/1] (0.00ns)   --->   "%tmp_31 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 2)" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 66 'bitselect' 'tmp_31' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25 & !tmp_26 & !tmp_27 & !tmp_28 & !tmp_29 & !tmp_30)> <Delay = 0.00>
+ST_2 : Operation 67 [1/1] (2.17ns)   --->   "br i1 %tmp_31, label %.loopexit, label %29" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 67 'br' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25 & !tmp_26 & !tmp_27 & !tmp_28 & !tmp_29 & !tmp_30)> <Delay = 2.17>
+ST_2 : Operation 68 [1/1] (0.00ns)   --->   "%tmp_32 = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %din_V_read, i32 1)" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 68 'bitselect' 'tmp_32' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25 & !tmp_26 & !tmp_27 & !tmp_28 & !tmp_29 & !tmp_30 & !tmp_31)> <Delay = 0.00>
+ST_2 : Operation 69 [1/1] (0.00ns)   --->   "%trunc_ln791 = trunc i32 %din_V_read to i1" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 69 'trunc' 'trunc_ln791' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25 & !tmp_26 & !tmp_27 & !tmp_28 & !tmp_29 & !tmp_30 & !tmp_31)> <Delay = 0.00>
+ST_2 : Operation 70 [1/1] (0.00ns)   --->   "%zext_ln20 = zext i1 %tmp_32 to i4" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 70 'zext' 'zext_ln20' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25 & !tmp_26 & !tmp_27 & !tmp_28 & !tmp_29 & !tmp_30 & !tmp_31)> <Delay = 0.00>
+ST_2 : Operation 71 [1/1] (0.97ns)   --->   "%or_ln20 = or i1 %trunc_ln791, %tmp_32" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 71 'or' 'or_ln20' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25 & !tmp_26 & !tmp_27 & !tmp_28 & !tmp_29 & !tmp_30 & !tmp_31)> <Delay = 0.97> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 72 [1/1] (2.17ns)   --->   "br label %.loopexit" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 72 'br' <Predicate = (!tmp_18 & !tmp_19 & !tmp_20 & !tmp_21 & !tmp_22 & !tmp_23 & !tmp_24 & !tmp_25 & !tmp_26 & !tmp_27 & !tmp_28 & !tmp_29 & !tmp_30 & !tmp_31)> <Delay = 2.17>
+
+State 3 <SV = 2> <Delay = 1.21>
+ST_3 : Operation 73 [1/1] (0.00ns) (grouped into LUT with out node select_ln25)   --->   "%phi_ln25_1 = phi i4 [ -1, %.loopexit26 ], [ -2, %16 ], [ -3, %17 ], [ -4, %18 ], [ -5, %19 ], [ -6, %20 ], [ -7, %21 ], [ -8, %22 ], [ 7, %23 ], [ 6, %24 ], [ 5, %25 ], [ 4, %26 ], [ 3, %27 ], [ 2, %28 ], [ %zext_ln20, %29 ]" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 73 'phi' 'phi_ln25_1' <Predicate = (!flagu_0)> <Delay = 0.00>
+ST_3 : Operation 74 [1/1] (0.00ns) (grouped into LUT with out node or_ln26)   --->   "%flagl_0 = phi i1 [ true, %.loopexit26 ], [ true, %16 ], [ true, %17 ], [ true, %18 ], [ true, %19 ], [ true, %20 ], [ true, %21 ], [ true, %22 ], [ true, %23 ], [ true, %24 ], [ true, %25 ], [ true, %26 ], [ true, %27 ], [ true, %28 ], [ %or_ln20, %29 ]" [Multiplexor/leading_ones_bruteforce.cpp:20]   --->   Operation 74 'phi' 'flagl_0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 75 [1/1] (0.00ns) (grouped into LUT with out node select_ln25)   --->   "%zext_ln25 = zext i4 %phi_ln25_1 to i5" [Multiplexor/leading_ones_bruteforce.cpp:25]   --->   Operation 75 'zext' 'zext_ln25' <Predicate = (!flagu_0)> <Delay = 0.00>
+ST_3 : Operation 76 [1/1] (1.21ns) (out node of the LUT)   --->   "%select_ln25 = select i1 %flagu_0, i5 %phi_ln25, i5 %zext_ln25" [Multiplexor/leading_ones_bruteforce.cpp:25]   --->   Operation 76 'select' 'select_ln25' <Predicate = true> <Delay = 1.21> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 77 [1/1] (0.97ns) (out node of the LUT)   --->   "%or_ln26 = or i1 %flagu_0, %flagl_0" [Multiplexor/leading_ones_bruteforce.cpp:26]   --->   Operation 77 'or' 'or_ln26' <Predicate = true> <Delay = 0.97> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 78 [1/1] (0.00ns)   --->   "%mrv = insertvalue { i1, i5 } undef, i1 %or_ln26, 0" [Multiplexor/leading_ones_bruteforce.cpp:26]   --->   Operation 78 'insertvalue' 'mrv' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 79 [1/1] (0.00ns)   --->   "%mrv_1 = insertvalue { i1, i5 } %mrv, i5 %select_ln25, 1" [Multiplexor/leading_ones_bruteforce.cpp:26]   --->   Operation 79 'insertvalue' 'mrv_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 80 [1/1] (0.00ns)   --->   "ret { i1, i5 } %mrv_1" [Multiplexor/leading_ones_bruteforce.cpp:26]   --->   Operation 80 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 2.2ns
+The critical path consists of the following:
+	wire read on port 'din_V' (Multiplexor/leading_ones_bruteforce.cpp:13) [2]  (0 ns)
+	multiplexor before 'phi' operation ('phi_ln25', Multiplexor/leading_ones_bruteforce.cpp:25) with incoming values : ('select_ln13', Multiplexor/leading_ones_bruteforce.cpp:13) [52]  (2.2 ns)
+
+ <State 2>: 2.17ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation ('phi_ln25_1', Multiplexor/leading_ones_bruteforce.cpp:20) with incoming values : ('zext_ln20', Multiplexor/leading_ones_bruteforce.cpp:20) [102]  (2.17 ns)
+
+ <State 3>: 1.22ns
+The critical path consists of the following:
+	'phi' operation ('phi_ln25_1', Multiplexor/leading_ones_bruteforce.cpp:20) with incoming values : ('zext_ln20', Multiplexor/leading_ones_bruteforce.cpp:20) [102]  (0 ns)
+	'select' operation ('ssdm_int<5 + 1024 * 0, false>.V', Multiplexor/leading_ones_bruteforce.cpp:25) [105]  (1.22 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

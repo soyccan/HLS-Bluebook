@@ -1,0 +1,212 @@
+
+
+================================================================
+== Vivado HLS Report for 'top'
+================================================================
+* Date:           Thu Apr  8 05:50:04 2021
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        Multiplexor
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 8.424 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |        1|        5| 10.000 ns | 50.000 ns |    1|    5|   none  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +----------------------------------------------+----------------------+---------+---------+-----------+-----------+-----+-----+---------+
+        |                                              |                      |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+        |                   Instance                   |        Module        |   min   |   max   |    min    |    max    | min | max |   Type  |
+        +----------------------------------------------+----------------------+---------+---------+-----------+-----------+-----+-----+---------+
+        |grp_max_algorithmic_fu_284                    |max_algorithmic       |        4|        4| 40.000 ns | 40.000 ns |    4|    4|   none  |
+        |grp_max_fu_305                                |max                   |        1|        1| 10.000 ns | 10.000 ns |    1|    1|   none  |
+        |grp_mux_onehot_if_fu_326                      |mux_onehot_if         |        1|        1| 10.000 ns | 10.000 ns |    1|    1|   none  |
+        |call_ret7_leading_ones_templat_fu_349         |leading_ones_templat  |        0|        0|    0 ns   |    0 ns   |    0|    0|   none  |
+        |op2_V_assign_2_s_mux_onehot_fu_355            |mux_onehot            |        0|        0|    0 ns   |    0 ns   |    0|    0|   none  |
+        |grp_leading_ones_brutefo_fu_378               |leading_ones_brutefo  |        2|        2| 20.000 ns | 20.000 ns |    2|    2|   none  |
+        |grp_leading_ones_log2_fu_384                  |leading_ones_log2     |        1|        1| 10.000 ns | 10.000 ns |    1|    1|   none  |
+        |op2_V_assign_4_s_mux_binary2onehot_op_fu_390  |mux_binary2onehot_op  |        0|        0|    0 ns   |    0 ns   |    0|    0|   none  |
+        |grp_leading_ones_fu_417                       |leading_ones          |        1|        1| 10.000 ns | 10.000 ns |    1|    1|   none  |
+        |op2_V_assign_5_s_mux_binary_opt_fu_423        |mux_binary_opt        |        0|        0|    0 ns   |    0 ns   |    0|    0|   none  |
+        |op2_V_assign_1_s_mux_binary_fu_450            |mux_binary            |        0|        0|    0 ns   |    0 ns   |    0|    0|   none  |
+        |op2_V_assign_s_mux_2to1_fu_473                |mux_2to1              |        0|        0|    0 ns   |    0 ns   |    0|    0|   none  |
+        +----------------------------------------------+----------------------+---------+---------+-----------+-----------+-----+-----+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+-----+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  | URAM|
++-----------------+---------+-------+--------+-------+-----+
+|DSP              |        -|      -|       -|      -|    -|
+|Expression       |        -|      -|       0|      4|    -|
+|FIFO             |        -|      -|       -|      -|    -|
+|Instance         |        -|      -|     211|   2310|    -|
+|Memory           |        -|      -|       -|      -|    -|
+|Multiplexer      |        -|      -|       -|    122|    -|
+|Register         |        -|      -|     328|      -|    -|
++-----------------+---------+-------+--------+-------+-----+
+|Total            |        0|      0|     539|   2436|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Available        |      280|    220|  106400|  53200|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Utilization (%)  |        0|      0|   ~0   |      4|    0|
++-----------------+---------+-------+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +----------------------------------------------+----------------------+---------+-------+----+-----+-----+
+    |                   Instance                   |        Module        | BRAM_18K| DSP48E| FF | LUT | URAM|
+    +----------------------------------------------+----------------------+---------+-------+----+-----+-----+
+    |grp_leading_ones_fu_417                       |leading_ones          |        0|      0|  14|  243|    0|
+    |grp_leading_ones_brutefo_fu_378               |leading_ones_brutefo  |        0|      0|  20|  253|    0|
+    |grp_leading_ones_log2_fu_384                  |leading_ones_log2     |        0|      0|  13|  142|    0|
+    |call_ret7_leading_ones_templat_fu_349         |leading_ones_templat  |        0|      0|   0|  226|    0|
+    |grp_max_fu_305                                |max                   |        0|      0|  66|  365|    0|
+    |grp_max_algorithmic_fu_284                    |max_algorithmic       |        0|      0|  80|  488|    0|
+    |op2_V_assign_s_mux_2to1_fu_473                |mux_2to1              |        0|      0|   0|    8|    0|
+    |op2_V_assign_1_s_mux_binary_fu_450            |mux_binary            |        0|      0|   0|   45|    0|
+    |op2_V_assign_4_s_mux_binary2onehot_op_fu_390  |mux_binary2onehot_op  |        0|      0|   0|   98|    0|
+    |op2_V_assign_5_s_mux_binary_opt_fu_423        |mux_binary_opt        |        0|      0|   0|   48|    0|
+    |op2_V_assign_2_s_mux_onehot_fu_355            |mux_onehot            |        0|      0|   0|  168|    0|
+    |grp_mux_onehot_if_fu_326                      |mux_onehot_if         |        0|      0|  18|  226|    0|
+    +----------------------------------------------+----------------------+---------+-------+----+-----+-----+
+    |Total                                         |                      |        0|      0| 211| 2310|    0|
+    +----------------------------------------------+----------------------+---------+-------+----+-----+-----+
+
+    * DSP48E: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------------------+----------+-------+---+----+------------+------------+
+    |          Variable Name          | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------------------+----------+-------+---+----+------------+------------+
+    |ap_condition_99                  |    and   |      0|  0|   2|           1|           1|
+    |ap_block_state2_on_subcall_done  |    or    |      0|  0|   2|           1|           1|
+    +---------------------------------+----------+-------+---+----+------------+------------+
+    |Total                            |          |      0|  0|   4|           2|           2|
+    +---------------------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +---------------+----+-----------+-----+-----------+
+    |      Name     | LUT| Input Size| Bits| Total Bits|
+    +---------------+----+-----------+-----+-----------+
+    |ap_NS_fsm      |  15|          3|    1|          3|
+    |leadone_out_V  |  27|          5|    5|         25|
+    |leadone_ret    |  27|          5|    1|          5|
+    |max_out        |  15|          3|   32|         96|
+    |mux_ret_V      |  38|          7|    8|         56|
+    +---------------+----+-----------+-----+-----------+
+    |Total          | 122|         23|   47|        185|
+    +---------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------------------------------------+----+----+-----+-----------+
+    |                     Name                     | FF | LUT| Bits| Const Bits|
+    +----------------------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                                     |   2|   0|    2|          0|
+    |grp_leading_ones_brutefo_fu_378_ap_start_reg  |   1|   0|    1|          0|
+    |grp_leading_ones_fu_417_ap_start_reg          |   1|   0|    1|          0|
+    |grp_leading_ones_log2_fu_384_ap_start_reg     |   1|   0|    1|          0|
+    |grp_max_algorithmic_fu_284_ap_start_reg       |   1|   0|    1|          0|
+    |grp_max_fu_305_ap_start_reg                   |   1|   0|    1|          0|
+    |grp_mux_onehot_if_fu_326_ap_start_reg         |   1|   0|    1|          0|
+    |mux_in_0_V_read_3_reg_588                     |   8|   0|    8|          0|
+    |mux_in_1_V_read_3_reg_593                     |   8|   0|    8|          0|
+    |mux_in_2_V_read_2_reg_598                     |   8|   0|    8|          0|
+    |mux_in_3_V_read_2_reg_603                     |   8|   0|    8|          0|
+    |mux_in_4_V_read_2_reg_608                     |   8|   0|    8|          0|
+    |mux_in_5_V_read_2_reg_613                     |   8|   0|    8|          0|
+    |mux_in_6_V_read_2_reg_618                     |   8|   0|    8|          0|
+    |mux_in_7_V_read_2_reg_623                     |   8|   0|    8|          0|
+    |reg_484                                       |  32|   0|   32|          0|
+    |reg_490                                       |  32|   0|   32|          0|
+    |reg_496                                       |  32|   0|   32|          0|
+    |reg_502                                       |  32|   0|   32|          0|
+    |reg_508                                       |  32|   0|   32|          0|
+    |reg_514                                       |  32|   0|   32|          0|
+    |reg_520                                       |  32|   0|   32|          0|
+    |reg_526                                       |  32|   0|   32|          0|
+    +----------------------------------------------+----+----+-----+-----------+
+    |Total                                         | 328|   0|  328|          0|
+    +----------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------+-----+-----+------------+------------------+--------------+
+|       RTL Ports      | Dir | Bits|  Protocol  |   Source Object  |    C Type    |
++----------------------+-----+-----+------------+------------------+--------------+
+|ap_clk                |  in |    1| ap_ctrl_hs |        top       | return value |
+|ap_rst                |  in |    1| ap_ctrl_hs |        top       | return value |
+|ap_start              |  in |    1| ap_ctrl_hs |        top       | return value |
+|ap_done               | out |    1| ap_ctrl_hs |        top       | return value |
+|ap_idle               | out |    1| ap_ctrl_hs |        top       | return value |
+|ap_ready              | out |    1| ap_ctrl_hs |        top       | return value |
+|leadone_in_V          |  in |   32|   ap_none  |   leadone_in_V   |    pointer   |
+|leadone_out_V         | out |    5|   ap_vld   |   leadone_out_V  |    pointer   |
+|leadone_out_V_ap_vld  | out |    1|   ap_vld   |   leadone_out_V  |    pointer   |
+|leadone_ret           | out |    1|   ap_vld   |    leadone_ret   |    pointer   |
+|leadone_ret_ap_vld    | out |    1|   ap_vld   |    leadone_ret   |    pointer   |
+|mux_in_0_V            |  in |    8|   ap_none  |    mux_in_0_V    |    pointer   |
+|mux_in_1_V            |  in |    8|   ap_none  |    mux_in_1_V    |    pointer   |
+|mux_in_2_V            |  in |    8|   ap_none  |    mux_in_2_V    |    pointer   |
+|mux_in_3_V            |  in |    8|   ap_none  |    mux_in_3_V    |    pointer   |
+|mux_in_4_V            |  in |    8|   ap_none  |    mux_in_4_V    |    pointer   |
+|mux_in_5_V            |  in |    8|   ap_none  |    mux_in_5_V    |    pointer   |
+|mux_in_6_V            |  in |    8|   ap_none  |    mux_in_6_V    |    pointer   |
+|mux_in_7_V            |  in |    8|   ap_none  |    mux_in_7_V    |    pointer   |
+|mux_sel_onehot_V      |  in |    8|   ap_none  | mux_sel_onehot_V |    scalar    |
+|mux_sel0_V            |  in |    3|   ap_none  |    mux_sel0_V    |    scalar    |
+|mux_sel1_V            |  in |    3|   ap_none  |    mux_sel1_V    |    scalar    |
+|mux_s                 |  in |    1|   ap_none  |       mux_s      |    scalar    |
+|mux_ret_V             | out |    8|   ap_vld   |     mux_ret_V    |    pointer   |
+|mux_ret_V_ap_vld      | out |    1|   ap_vld   |     mux_ret_V    |    pointer   |
+|max_in_0              |  in |   32|   ap_none  |     max_in_0     |    pointer   |
+|max_in_1              |  in |   32|   ap_none  |     max_in_1     |    pointer   |
+|max_in_2              |  in |   32|   ap_none  |     max_in_2     |    pointer   |
+|max_in_3              |  in |   32|   ap_none  |     max_in_3     |    pointer   |
+|max_in_4              |  in |   32|   ap_none  |     max_in_4     |    pointer   |
+|max_in_5              |  in |   32|   ap_none  |     max_in_5     |    pointer   |
+|max_in_6              |  in |   32|   ap_none  |     max_in_6     |    pointer   |
+|max_in_7              |  in |   32|   ap_none  |     max_in_7     |    pointer   |
+|max_out               | out |   32|   ap_vld   |      max_out     |    pointer   |
+|max_out_ap_vld        | out |    1|   ap_vld   |      max_out     |    pointer   |
+|mode                  |  in |   32|   ap_none  |       mode       |    scalar    |
++----------------------+-----+-----+------------+------------------+--------------+
+

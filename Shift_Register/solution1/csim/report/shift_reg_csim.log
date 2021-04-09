@@ -1,0 +1,14 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../shift_reg_tb.cpp in debug mode
+   Generating csim.exe
+--------------
+Testing shift_reg_tb
+Test passed
+--------------
+--------------
+Testing shift_reg_template_tb
+Test passed
+--------------
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

@@ -1,0 +1,57 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'top'" level="0">
+<item name = "Date">Thu Apr  8 05:50:01 2021
+</item>
+<item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
+<item name = "Project">Multiplexor</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 8.424 ns, 1.25 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">1, 5, 10.000 ns, 50.000 ns, 1, 5, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_max_algorithmic_fu_284">max_algorithmic, 4, 4, 40.000 ns, 40.000 ns, 4, 4, none</column>
+<column name="grp_max_fu_305">max, 1, 1, 10.000 ns, 10.000 ns, 1, 1, none</column>
+<column name="grp_mux_onehot_if_fu_326">mux_onehot_if, 1, 1, 10.000 ns, 10.000 ns, 1, 1, none</column>
+<column name="call_ret7_leading_ones_templat_fu_349">leading_ones_templat, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+<column name="op2_V_assign_2_s_mux_onehot_fu_355">mux_onehot, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+<column name="grp_leading_ones_brutefo_fu_378">leading_ones_brutefo, 2, 2, 20.000 ns, 20.000 ns, 2, 2, none</column>
+<column name="grp_leading_ones_log2_fu_384">leading_ones_log2, 1, 1, 10.000 ns, 10.000 ns, 1, 1, none</column>
+<column name="op2_V_assign_4_s_mux_binary2onehot_op_fu_390">mux_binary2onehot_op, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+<column name="grp_leading_ones_fu_417">leading_ones, 1, 1, 10.000 ns, 10.000 ns, 1, 1, none</column>
+<column name="op2_V_assign_5_s_mux_binary_opt_fu_423">mux_binary_opt, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+<column name="op2_V_assign_1_s_mux_binary_fu_450">mux_binary, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+<column name="op2_V_assign_s_mux_2to1_fu_473">mux_2to1, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

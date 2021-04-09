@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="shift_reg_tmpl.h" path="D:\Repo\hls\labA\Shift_Register\shift_reg_tmpl.h"/>
+    <originFiles name="shift_reg_template.cpp" path="D:\Repo\hls\labA\Shift_Register\shift_reg_template.cpp"/>
+    <originFiles name="shift_reg_sreset.cpp" path="D:\Repo\hls\labA\Shift_Register\shift_reg_sreset.cpp"/>
+    <originFiles name="shift_reg_load.cpp" path="D:\Repo\hls\labA\Shift_Register\shift_reg_load.cpp"/>
+    <originFiles name="shift_reg_ip.cpp" path="D:\Repo\hls\labA\Shift_Register\shift_reg_ip.cpp"/>
+    <originFiles name="shift_reg_en.cpp" path="D:\Repo\hls\labA\Shift_Register\shift_reg_en.cpp"/>
+    <originFiles name="shift_reg_class.cpp" path="D:\Repo\hls\labA\Shift_Register\shift_reg_class.cpp"/>
+    <originFiles name="shift_reg_basic.cpp" path="D:\Repo\hls\labA\Shift_Register\shift_reg_basic.cpp"/>
+    <originFiles name="shift_reg.h" path="D:\Repo\hls\labA\Shift_Register\shift_reg.h"/>
+    <originFiles name="shift_reg.cpp" path="D:\Repo\hls\labA\Shift_Register\shift_reg.cpp"/>
+    <originFiles name="shift_class.h" path="D:\Repo\hls\labA\Shift_Register\shift_class.h"/>
+  </source>
+  <testbench>
+    <originFiles name="shift_reg_tb.cpp" path="D:\Repo\hls\labA\Shift_Register\shift_reg_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

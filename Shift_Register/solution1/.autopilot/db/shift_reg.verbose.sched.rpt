@@ -1,0 +1,360 @@
+
+
+================================================================
+== Vivado HLS Report for 'shift_reg'
+================================================================
+* Date:           Thu Apr  8 07:05:20 2021
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        Shift_Register
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 3.017 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max   | min | max |   Type  |
+    +---------+---------+-----------+----------+-----+-----+---------+
+    |        1|       13| 10.000 ns | 0.130 us |    1|   13|   none  |
+    +---------+---------+-----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 3.01>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %load_data_11), !map !69"   --->   Operation 3 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %load_data_10), !map !75"   --->   Operation 4 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %load_data_9), !map !81"   --->   Operation 5 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %load_data_8), !map !87"   --->   Operation 6 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %load_data_7), !map !93"   --->   Operation 7 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %load_data_6), !map !99"   --->   Operation 8 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %load_data_5), !map !105"   --->   Operation 9 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %load_data_4), !map !111"   --->   Operation 10 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %load_data_3), !map !117"   --->   Operation 11 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %load_data_2), !map !123"   --->   Operation 12 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %load_data_1), !map !129"   --->   Operation 13 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %load_data_0), !map !135"   --->   Operation 14 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %dout0_11), !map !141"   --->   Operation 15 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %dout0_10), !map !145"   --->   Operation 16 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %dout0_9), !map !149"   --->   Operation 17 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %dout0_8), !map !153"   --->   Operation 18 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %dout0_7), !map !157"   --->   Operation 19 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %dout0_6), !map !161"   --->   Operation 20 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %dout0_5), !map !165"   --->   Operation 21 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %dout0_4), !map !169"   --->   Operation 22 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %dout0_3), !map !173"   --->   Operation 23 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %dout0_2), !map !177"   --->   Operation 24 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %dout0_1), !map !181"   --->   Operation 25 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %dout0_0), !map !185"   --->   Operation 26 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %dout1_3), !map !189"   --->   Operation 27 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %dout1_2), !map !193"   --->   Operation 28 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %dout1_1), !map !197"   --->   Operation 29 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %dout1_0), !map !201"   --->   Operation 30 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8 %din0), !map !205"   --->   Operation 31 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32 %din1), !map !211"   --->   Operation 32 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1 %srst), !map !215"   --->   Operation 33 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1 %load), !map !219"   --->   Operation 34 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1 %en), !map !223"   --->   Operation 35 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 36 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i3 %select_V), !map !227"   --->   Operation 36 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 37 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([10 x i8]* @shift_reg_str) nounwind"   --->   Operation 37 'spectopmodule' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 38 [1/1] (0.00ns)   --->   "%select_V_read = call i3 @_ssdm_op_Read.ap_auto.i3(i3 %select_V)" [Shift_Register/shift_reg.cpp:3]   --->   Operation 38 'read' 'select_V_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 39 [1/1] (0.00ns)   --->   "%en_read = call i1 @_ssdm_op_Read.ap_auto.i1(i1 %en)" [Shift_Register/shift_reg.cpp:3]   --->   Operation 39 'read' 'en_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 40 [1/1] (0.00ns)   --->   "%load_read = call i1 @_ssdm_op_Read.ap_auto.i1(i1 %load)" [Shift_Register/shift_reg.cpp:3]   --->   Operation 40 'read' 'load_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 41 [1/1] (0.00ns)   --->   "%srst_read = call i1 @_ssdm_op_Read.ap_auto.i1(i1 %srst)" [Shift_Register/shift_reg.cpp:3]   --->   Operation 41 'read' 'srst_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 42 [1/1] (0.00ns)   --->   "%din1_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %din1)" [Shift_Register/shift_reg.cpp:3]   --->   Operation 42 'read' 'din1_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 43 [1/1] (0.00ns)   --->   "%din0_read = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din0)" [Shift_Register/shift_reg.cpp:3]   --->   Operation 43 'read' 'din0_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 44 [1/1] (0.00ns)   --->   "%load_data_0_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %load_data_0)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 44 'read' 'load_data_0_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 45 [1/1] (0.00ns)   --->   "%load_data_1_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %load_data_1)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 45 'read' 'load_data_1_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 46 [1/1] (0.00ns)   --->   "%load_data_2_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %load_data_2)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 46 'read' 'load_data_2_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 47 [1/1] (0.00ns)   --->   "%load_data_3_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %load_data_3)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 47 'read' 'load_data_3_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 48 [1/1] (0.00ns)   --->   "%load_data_4_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %load_data_4)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 48 'read' 'load_data_4_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 49 [1/1] (0.00ns)   --->   "%load_data_5_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %load_data_5)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 49 'read' 'load_data_5_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 50 [1/1] (0.00ns)   --->   "%load_data_6_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %load_data_6)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 50 'read' 'load_data_6_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 51 [1/1] (0.00ns)   --->   "%load_data_7_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %load_data_7)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 51 'read' 'load_data_7_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 52 [1/1] (1.30ns)   --->   "switch i3 %select_V_read, label %7 [
+    i3 0, label %1
+    i3 1, label %2
+    i3 2, label %3
+    i3 3, label %4
+    i3 -4, label %5
+    i3 -3, label %6
+  ]" [Shift_Register/shift_reg.cpp:16]   --->   Operation 52 'switch' <Predicate = true> <Delay = 1.30>
+ST_1 : Operation 53 [2/2] (1.61ns)   --->   "%call_ret = call fastcc { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } @shift_reg_ip(i8 %din0_read, i1 %en_read)" [Shift_Register/shift_reg.cpp:38]   --->   Operation 53 'call' 'call_ret' <Predicate = (select_V_read == 5)> <Delay = 1.61> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 54 [2/2] (3.01ns)   --->   "%call_ret6 = call fastcc { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } @shift_reg_class(i8 %din0_read, i8 %load_data_0_read, i8 %load_data_1_read, i8 %load_data_2_read, i8 %load_data_3_read, i8 %load_data_4_read, i8 %load_data_5_read, i8 %load_data_6_read, i8 %load_data_7_read, i1 %srst_read, i1 %load_read, i1 %en_read)" [Shift_Register/shift_reg.cpp:34]   --->   Operation 54 'call' 'call_ret6' <Predicate = (select_V_read == 4)> <Delay = 3.01> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 55 [2/2] (1.76ns)   --->   "%call_ret3 = call fastcc { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } @shift_reg_en(i8 %din0_read, i1 %en_read)" [Shift_Register/shift_reg.cpp:22]   --->   Operation 55 'call' 'call_ret3' <Predicate = (select_V_read == 1)> <Delay = 1.76> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 2 <SV = 1> <Delay = 1.61>
+ST_2 : Operation 56 [1/2] (1.61ns)   --->   "%call_ret = call fastcc { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } @shift_reg_ip(i8 %din0_read, i1 %en_read)" [Shift_Register/shift_reg.cpp:38]   --->   Operation 56 'call' 'call_ret' <Predicate = (select_V_read == 5)> <Delay = 1.61> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 57 [1/1] (0.00ns)   --->   "%dout0_0_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret, 0" [Shift_Register/shift_reg.cpp:38]   --->   Operation 57 'extractvalue' 'dout0_0_ret' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 58 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_0, i8 %dout0_0_ret)" [Shift_Register/shift_reg.cpp:38]   --->   Operation 58 'write' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 59 [1/1] (0.00ns)   --->   "%dout0_1_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret, 1" [Shift_Register/shift_reg.cpp:38]   --->   Operation 59 'extractvalue' 'dout0_1_ret' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 60 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_1, i8 %dout0_1_ret)" [Shift_Register/shift_reg.cpp:38]   --->   Operation 60 'write' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 61 [1/1] (0.00ns)   --->   "%dout0_2_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret, 2" [Shift_Register/shift_reg.cpp:38]   --->   Operation 61 'extractvalue' 'dout0_2_ret' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 62 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_2, i8 %dout0_2_ret)" [Shift_Register/shift_reg.cpp:38]   --->   Operation 62 'write' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 63 [1/1] (0.00ns)   --->   "%dout0_3_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret, 3" [Shift_Register/shift_reg.cpp:38]   --->   Operation 63 'extractvalue' 'dout0_3_ret' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 64 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_3, i8 %dout0_3_ret)" [Shift_Register/shift_reg.cpp:38]   --->   Operation 64 'write' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 65 [1/1] (0.00ns)   --->   "%dout0_4_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret, 4" [Shift_Register/shift_reg.cpp:38]   --->   Operation 65 'extractvalue' 'dout0_4_ret' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 66 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_4, i8 %dout0_4_ret)" [Shift_Register/shift_reg.cpp:38]   --->   Operation 66 'write' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 67 [1/1] (0.00ns)   --->   "%dout0_5_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret, 5" [Shift_Register/shift_reg.cpp:38]   --->   Operation 67 'extractvalue' 'dout0_5_ret' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 68 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_5, i8 %dout0_5_ret)" [Shift_Register/shift_reg.cpp:38]   --->   Operation 68 'write' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 69 [1/1] (0.00ns)   --->   "%dout0_6_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret, 6" [Shift_Register/shift_reg.cpp:38]   --->   Operation 69 'extractvalue' 'dout0_6_ret' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 70 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_6, i8 %dout0_6_ret)" [Shift_Register/shift_reg.cpp:38]   --->   Operation 70 'write' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 71 [1/1] (0.00ns)   --->   "%dout0_7_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret, 7" [Shift_Register/shift_reg.cpp:38]   --->   Operation 71 'extractvalue' 'dout0_7_ret' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 72 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_7, i8 %dout0_7_ret)" [Shift_Register/shift_reg.cpp:38]   --->   Operation 72 'write' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 73 [1/1] (0.00ns)   --->   "%dout0_8_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret, 8" [Shift_Register/shift_reg.cpp:38]   --->   Operation 73 'extractvalue' 'dout0_8_ret' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 74 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_8, i8 %dout0_8_ret)" [Shift_Register/shift_reg.cpp:38]   --->   Operation 74 'write' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 75 [1/1] (0.00ns)   --->   "%dout0_9_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret, 9" [Shift_Register/shift_reg.cpp:38]   --->   Operation 75 'extractvalue' 'dout0_9_ret' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 76 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_9, i8 %dout0_9_ret)" [Shift_Register/shift_reg.cpp:38]   --->   Operation 76 'write' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 77 [1/1] (0.00ns)   --->   "%dout0_10_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret, 10" [Shift_Register/shift_reg.cpp:38]   --->   Operation 77 'extractvalue' 'dout0_10_ret' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 78 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_10, i8 %dout0_10_ret)" [Shift_Register/shift_reg.cpp:38]   --->   Operation 78 'write' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 79 [1/1] (0.00ns)   --->   "%dout0_11_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret, 11" [Shift_Register/shift_reg.cpp:38]   --->   Operation 79 'extractvalue' 'dout0_11_ret' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 80 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_11, i8 %dout0_11_ret)" [Shift_Register/shift_reg.cpp:38]   --->   Operation 80 'write' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 81 [1/1] (0.00ns)   --->   "br label %8" [Shift_Register/shift_reg.cpp:39]   --->   Operation 81 'br' <Predicate = (select_V_read == 5)> <Delay = 0.00>
+ST_2 : Operation 82 [1/2] (0.00ns)   --->   "%call_ret6 = call fastcc { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } @shift_reg_class(i8 %din0_read, i8 %load_data_0_read, i8 %load_data_1_read, i8 %load_data_2_read, i8 %load_data_3_read, i8 %load_data_4_read, i8 %load_data_5_read, i8 %load_data_6_read, i8 %load_data_7_read, i1 %srst_read, i1 %load_read, i1 %en_read)" [Shift_Register/shift_reg.cpp:34]   --->   Operation 82 'call' 'call_ret6' <Predicate = (select_V_read == 4)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 83 [1/1] (0.00ns)   --->   "%dout0_0_ret6 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret6, 0" [Shift_Register/shift_reg.cpp:34]   --->   Operation 83 'extractvalue' 'dout0_0_ret6' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 84 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_0, i8 %dout0_0_ret6)" [Shift_Register/shift_reg.cpp:34]   --->   Operation 84 'write' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 85 [1/1] (0.00ns)   --->   "%dout0_1_ret6 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret6, 1" [Shift_Register/shift_reg.cpp:34]   --->   Operation 85 'extractvalue' 'dout0_1_ret6' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 86 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_1, i8 %dout0_1_ret6)" [Shift_Register/shift_reg.cpp:34]   --->   Operation 86 'write' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 87 [1/1] (0.00ns)   --->   "%dout0_2_ret6 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret6, 2" [Shift_Register/shift_reg.cpp:34]   --->   Operation 87 'extractvalue' 'dout0_2_ret6' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 88 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_2, i8 %dout0_2_ret6)" [Shift_Register/shift_reg.cpp:34]   --->   Operation 88 'write' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 89 [1/1] (0.00ns)   --->   "%dout0_3_ret5 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret6, 3" [Shift_Register/shift_reg.cpp:34]   --->   Operation 89 'extractvalue' 'dout0_3_ret5' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 90 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_3, i8 %dout0_3_ret5)" [Shift_Register/shift_reg.cpp:34]   --->   Operation 90 'write' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 91 [1/1] (0.00ns)   --->   "%dout0_4_ret5 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret6, 4" [Shift_Register/shift_reg.cpp:34]   --->   Operation 91 'extractvalue' 'dout0_4_ret5' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 92 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_4, i8 %dout0_4_ret5)" [Shift_Register/shift_reg.cpp:34]   --->   Operation 92 'write' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 93 [1/1] (0.00ns)   --->   "%dout0_5_ret5 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret6, 5" [Shift_Register/shift_reg.cpp:34]   --->   Operation 93 'extractvalue' 'dout0_5_ret5' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 94 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_5, i8 %dout0_5_ret5)" [Shift_Register/shift_reg.cpp:34]   --->   Operation 94 'write' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 95 [1/1] (0.00ns)   --->   "%dout0_6_ret5 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret6, 6" [Shift_Register/shift_reg.cpp:34]   --->   Operation 95 'extractvalue' 'dout0_6_ret5' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 96 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_6, i8 %dout0_6_ret5)" [Shift_Register/shift_reg.cpp:34]   --->   Operation 96 'write' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 97 [1/1] (0.00ns)   --->   "%dout0_7_ret6 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret6, 7" [Shift_Register/shift_reg.cpp:34]   --->   Operation 97 'extractvalue' 'dout0_7_ret6' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 98 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_7, i8 %dout0_7_ret6)" [Shift_Register/shift_reg.cpp:34]   --->   Operation 98 'write' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 99 [1/1] (0.00ns)   --->   "%dout0_8_ret5 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret6, 8" [Shift_Register/shift_reg.cpp:34]   --->   Operation 99 'extractvalue' 'dout0_8_ret5' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 100 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_8, i8 %dout0_8_ret5)" [Shift_Register/shift_reg.cpp:34]   --->   Operation 100 'write' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 101 [1/1] (0.00ns)   --->   "%dout0_9_ret5 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret6, 9" [Shift_Register/shift_reg.cpp:34]   --->   Operation 101 'extractvalue' 'dout0_9_ret5' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 102 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_9, i8 %dout0_9_ret5)" [Shift_Register/shift_reg.cpp:34]   --->   Operation 102 'write' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 103 [1/1] (0.00ns)   --->   "%dout0_10_ret5 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret6, 10" [Shift_Register/shift_reg.cpp:34]   --->   Operation 103 'extractvalue' 'dout0_10_ret5' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 104 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_10, i8 %dout0_10_ret5)" [Shift_Register/shift_reg.cpp:34]   --->   Operation 104 'write' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 105 [1/1] (0.00ns)   --->   "%dout0_11_ret5 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret6, 11" [Shift_Register/shift_reg.cpp:34]   --->   Operation 105 'extractvalue' 'dout0_11_ret5' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 106 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_11, i8 %dout0_11_ret5)" [Shift_Register/shift_reg.cpp:34]   --->   Operation 106 'write' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 107 [1/1] (0.00ns)   --->   "br label %8" [Shift_Register/shift_reg.cpp:35]   --->   Operation 107 'br' <Predicate = (select_V_read == 4)> <Delay = 0.00>
+ST_2 : Operation 108 [1/1] (1.24ns)   --->   "%call_ret5 = call fastcc { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } @shift_reg_sreset(i8 %din0_read, i1 %srst_read)" [Shift_Register/shift_reg.cpp:30]   --->   Operation 108 'call' 'call_ret5' <Predicate = (select_V_read == 3)> <Delay = 1.24> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 109 [1/1] (0.00ns)   --->   "%dout0_0_ret3 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret5, 0" [Shift_Register/shift_reg.cpp:30]   --->   Operation 109 'extractvalue' 'dout0_0_ret3' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 110 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_0, i8 %dout0_0_ret3)" [Shift_Register/shift_reg.cpp:30]   --->   Operation 110 'write' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 111 [1/1] (0.00ns)   --->   "%dout0_1_ret4 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret5, 1" [Shift_Register/shift_reg.cpp:30]   --->   Operation 111 'extractvalue' 'dout0_1_ret4' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 112 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_1, i8 %dout0_1_ret4)" [Shift_Register/shift_reg.cpp:30]   --->   Operation 112 'write' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 113 [1/1] (0.00ns)   --->   "%dout0_2_ret5 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret5, 2" [Shift_Register/shift_reg.cpp:30]   --->   Operation 113 'extractvalue' 'dout0_2_ret5' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 114 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_2, i8 %dout0_2_ret5)" [Shift_Register/shift_reg.cpp:30]   --->   Operation 114 'write' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 115 [1/1] (0.00ns)   --->   "%dout0_3_ret6 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret5, 3" [Shift_Register/shift_reg.cpp:30]   --->   Operation 115 'extractvalue' 'dout0_3_ret6' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 116 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_3, i8 %dout0_3_ret6)" [Shift_Register/shift_reg.cpp:30]   --->   Operation 116 'write' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 117 [1/1] (0.00ns)   --->   "%dout0_4_ret7 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret5, 4" [Shift_Register/shift_reg.cpp:30]   --->   Operation 117 'extractvalue' 'dout0_4_ret7' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 118 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_4, i8 %dout0_4_ret7)" [Shift_Register/shift_reg.cpp:30]   --->   Operation 118 'write' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 119 [1/1] (0.00ns)   --->   "%dout0_5_ret8 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret5, 5" [Shift_Register/shift_reg.cpp:30]   --->   Operation 119 'extractvalue' 'dout0_5_ret8' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 120 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_5, i8 %dout0_5_ret8)" [Shift_Register/shift_reg.cpp:30]   --->   Operation 120 'write' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 121 [1/1] (0.00ns)   --->   "%dout0_6_ret9 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret5, 6" [Shift_Register/shift_reg.cpp:30]   --->   Operation 121 'extractvalue' 'dout0_6_ret9' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 122 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_6, i8 %dout0_6_ret9)" [Shift_Register/shift_reg.cpp:30]   --->   Operation 122 'write' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 123 [1/1] (0.00ns)   --->   "%dout0_7_ret5 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret5, 7" [Shift_Register/shift_reg.cpp:30]   --->   Operation 123 'extractvalue' 'dout0_7_ret5' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 124 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_7, i8 %dout0_7_ret5)" [Shift_Register/shift_reg.cpp:30]   --->   Operation 124 'write' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 125 [1/1] (0.00ns)   --->   "%dout0_8_ret4 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret5, 8" [Shift_Register/shift_reg.cpp:30]   --->   Operation 125 'extractvalue' 'dout0_8_ret4' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 126 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_8, i8 %dout0_8_ret4)" [Shift_Register/shift_reg.cpp:30]   --->   Operation 126 'write' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 127 [1/1] (0.00ns)   --->   "%dout0_9_ret4 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret5, 9" [Shift_Register/shift_reg.cpp:30]   --->   Operation 127 'extractvalue' 'dout0_9_ret4' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 128 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_9, i8 %dout0_9_ret4)" [Shift_Register/shift_reg.cpp:30]   --->   Operation 128 'write' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 129 [1/1] (0.00ns)   --->   "%dout0_10_ret4 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret5, 10" [Shift_Register/shift_reg.cpp:30]   --->   Operation 129 'extractvalue' 'dout0_10_ret4' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 130 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_10, i8 %dout0_10_ret4)" [Shift_Register/shift_reg.cpp:30]   --->   Operation 130 'write' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 131 [1/1] (0.00ns)   --->   "%dout0_11_ret4 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret5, 11" [Shift_Register/shift_reg.cpp:30]   --->   Operation 131 'extractvalue' 'dout0_11_ret4' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 132 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_11, i8 %dout0_11_ret4)" [Shift_Register/shift_reg.cpp:30]   --->   Operation 132 'write' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 133 [1/1] (0.00ns)   --->   "br label %8" [Shift_Register/shift_reg.cpp:31]   --->   Operation 133 'br' <Predicate = (select_V_read == 3)> <Delay = 0.00>
+ST_2 : Operation 134 [1/1] (0.00ns)   --->   "%load_data_8_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %load_data_8)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 134 'read' 'load_data_8_read' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 135 [1/1] (0.00ns)   --->   "%load_data_9_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %load_data_9)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 135 'read' 'load_data_9_read' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 136 [1/1] (0.00ns)   --->   "%load_data_10_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %load_data_10)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 136 'read' 'load_data_10_read' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 137 [1/1] (0.00ns)   --->   "%load_data_11_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %load_data_11)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 137 'read' 'load_data_11_read' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 138 [1/1] (1.24ns)   --->   "%call_ret4 = call fastcc { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } @shift_reg_load(i8 %din0_read, i8 %load_data_0_read, i8 %load_data_1_read, i8 %load_data_2_read, i8 %load_data_3_read, i8 %load_data_4_read, i8 %load_data_5_read, i8 %load_data_6_read, i8 %load_data_7_read, i8 %load_data_8_read, i8 %load_data_9_read, i8 %load_data_10_read, i8 %load_data_11_read, i1 %load_read)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 138 'call' 'call_ret4' <Predicate = (select_V_read == 2)> <Delay = 1.24> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 139 [1/1] (0.00ns)   --->   "%dout0_0_ret5 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret4, 0" [Shift_Register/shift_reg.cpp:26]   --->   Operation 139 'extractvalue' 'dout0_0_ret5' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 140 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_0, i8 %dout0_0_ret5)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 140 'write' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 141 [1/1] (0.00ns)   --->   "%dout0_1_ret5 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret4, 1" [Shift_Register/shift_reg.cpp:26]   --->   Operation 141 'extractvalue' 'dout0_1_ret5' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 142 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_1, i8 %dout0_1_ret5)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 142 'write' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 143 [1/1] (0.00ns)   --->   "%dout0_2_ret4 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret4, 2" [Shift_Register/shift_reg.cpp:26]   --->   Operation 143 'extractvalue' 'dout0_2_ret4' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 144 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_2, i8 %dout0_2_ret4)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 144 'write' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 145 [1/1] (0.00ns)   --->   "%dout0_3_ret4 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret4, 3" [Shift_Register/shift_reg.cpp:26]   --->   Operation 145 'extractvalue' 'dout0_3_ret4' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 146 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_3, i8 %dout0_3_ret4)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 146 'write' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 147 [1/1] (0.00ns)   --->   "%dout0_4_ret4 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret4, 4" [Shift_Register/shift_reg.cpp:26]   --->   Operation 147 'extractvalue' 'dout0_4_ret4' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 148 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_4, i8 %dout0_4_ret4)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 148 'write' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 149 [1/1] (0.00ns)   --->   "%dout0_5_ret4 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret4, 5" [Shift_Register/shift_reg.cpp:26]   --->   Operation 149 'extractvalue' 'dout0_5_ret4' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 150 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_5, i8 %dout0_5_ret4)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 150 'write' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 151 [1/1] (0.00ns)   --->   "%dout0_6_ret4 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret4, 6" [Shift_Register/shift_reg.cpp:26]   --->   Operation 151 'extractvalue' 'dout0_6_ret4' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 152 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_6, i8 %dout0_6_ret4)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 152 'write' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 153 [1/1] (0.00ns)   --->   "%dout0_7_ret4 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret4, 7" [Shift_Register/shift_reg.cpp:26]   --->   Operation 153 'extractvalue' 'dout0_7_ret4' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 154 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_7, i8 %dout0_7_ret4)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 154 'write' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 155 [1/1] (0.00ns)   --->   "%dout0_8_ret3 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret4, 8" [Shift_Register/shift_reg.cpp:26]   --->   Operation 155 'extractvalue' 'dout0_8_ret3' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 156 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_8, i8 %dout0_8_ret3)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 156 'write' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 157 [1/1] (0.00ns)   --->   "%dout0_9_ret3 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret4, 9" [Shift_Register/shift_reg.cpp:26]   --->   Operation 157 'extractvalue' 'dout0_9_ret3' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 158 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_9, i8 %dout0_9_ret3)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 158 'write' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 159 [1/1] (0.00ns)   --->   "%dout0_10_ret3 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret4, 10" [Shift_Register/shift_reg.cpp:26]   --->   Operation 159 'extractvalue' 'dout0_10_ret3' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 160 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_10, i8 %dout0_10_ret3)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 160 'write' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 161 [1/1] (0.00ns)   --->   "%dout0_11_ret3 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret4, 11" [Shift_Register/shift_reg.cpp:26]   --->   Operation 161 'extractvalue' 'dout0_11_ret3' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 162 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_11, i8 %dout0_11_ret3)" [Shift_Register/shift_reg.cpp:26]   --->   Operation 162 'write' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 163 [1/1] (0.00ns)   --->   "br label %8" [Shift_Register/shift_reg.cpp:27]   --->   Operation 163 'br' <Predicate = (select_V_read == 2)> <Delay = 0.00>
+ST_2 : Operation 164 [1/2] (0.00ns)   --->   "%call_ret3 = call fastcc { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } @shift_reg_en(i8 %din0_read, i1 %en_read)" [Shift_Register/shift_reg.cpp:22]   --->   Operation 164 'call' 'call_ret3' <Predicate = (select_V_read == 1)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 165 [1/1] (0.00ns)   --->   "%dout0_0_ret4 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret3, 0" [Shift_Register/shift_reg.cpp:22]   --->   Operation 165 'extractvalue' 'dout0_0_ret4' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 166 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_0, i8 %dout0_0_ret4)" [Shift_Register/shift_reg.cpp:22]   --->   Operation 166 'write' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 167 [1/1] (0.00ns)   --->   "%dout0_1_ret3 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret3, 1" [Shift_Register/shift_reg.cpp:22]   --->   Operation 167 'extractvalue' 'dout0_1_ret3' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 168 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_1, i8 %dout0_1_ret3)" [Shift_Register/shift_reg.cpp:22]   --->   Operation 168 'write' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 169 [1/1] (0.00ns)   --->   "%dout0_2_ret3 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret3, 2" [Shift_Register/shift_reg.cpp:22]   --->   Operation 169 'extractvalue' 'dout0_2_ret3' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 170 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_2, i8 %dout0_2_ret3)" [Shift_Register/shift_reg.cpp:22]   --->   Operation 170 'write' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 171 [1/1] (0.00ns)   --->   "%dout0_3_ret3 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret3, 3" [Shift_Register/shift_reg.cpp:22]   --->   Operation 171 'extractvalue' 'dout0_3_ret3' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 172 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_3, i8 %dout0_3_ret3)" [Shift_Register/shift_reg.cpp:22]   --->   Operation 172 'write' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 173 [1/1] (0.00ns)   --->   "%dout0_4_ret3 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret3, 4" [Shift_Register/shift_reg.cpp:22]   --->   Operation 173 'extractvalue' 'dout0_4_ret3' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 174 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_4, i8 %dout0_4_ret3)" [Shift_Register/shift_reg.cpp:22]   --->   Operation 174 'write' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 175 [1/1] (0.00ns)   --->   "%dout0_5_ret3 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret3, 5" [Shift_Register/shift_reg.cpp:22]   --->   Operation 175 'extractvalue' 'dout0_5_ret3' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 176 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_5, i8 %dout0_5_ret3)" [Shift_Register/shift_reg.cpp:22]   --->   Operation 176 'write' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 177 [1/1] (0.00ns)   --->   "%dout0_6_ret3 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret3, 6" [Shift_Register/shift_reg.cpp:22]   --->   Operation 177 'extractvalue' 'dout0_6_ret3' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 178 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_6, i8 %dout0_6_ret3)" [Shift_Register/shift_reg.cpp:22]   --->   Operation 178 'write' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 179 [1/1] (0.00ns)   --->   "%dout0_7_ret3 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret3, 7" [Shift_Register/shift_reg.cpp:22]   --->   Operation 179 'extractvalue' 'dout0_7_ret3' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 180 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_7, i8 %dout0_7_ret3)" [Shift_Register/shift_reg.cpp:22]   --->   Operation 180 'write' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 181 [1/1] (0.00ns)   --->   "%dout0_8_ret2 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret3, 8" [Shift_Register/shift_reg.cpp:22]   --->   Operation 181 'extractvalue' 'dout0_8_ret2' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 182 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_8, i8 %dout0_8_ret2)" [Shift_Register/shift_reg.cpp:22]   --->   Operation 182 'write' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 183 [1/1] (0.00ns)   --->   "%dout0_9_ret2 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret3, 9" [Shift_Register/shift_reg.cpp:22]   --->   Operation 183 'extractvalue' 'dout0_9_ret2' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 184 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_9, i8 %dout0_9_ret2)" [Shift_Register/shift_reg.cpp:22]   --->   Operation 184 'write' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 185 [1/1] (0.00ns)   --->   "%dout0_10_ret2 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret3, 10" [Shift_Register/shift_reg.cpp:22]   --->   Operation 185 'extractvalue' 'dout0_10_ret2' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 186 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_10, i8 %dout0_10_ret2)" [Shift_Register/shift_reg.cpp:22]   --->   Operation 186 'write' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 187 [1/1] (0.00ns)   --->   "%dout0_11_ret2 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret3, 11" [Shift_Register/shift_reg.cpp:22]   --->   Operation 187 'extractvalue' 'dout0_11_ret2' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 188 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_11, i8 %dout0_11_ret2)" [Shift_Register/shift_reg.cpp:22]   --->   Operation 188 'write' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 189 [1/1] (0.00ns)   --->   "br label %8" [Shift_Register/shift_reg.cpp:23]   --->   Operation 189 'br' <Predicate = (select_V_read == 1)> <Delay = 0.00>
+ST_2 : Operation 190 [1/1] (0.00ns)   --->   "%call_ret2 = call fastcc { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } @shift_reg_basic(i8 %din0_read)" [Shift_Register/shift_reg.cpp:18]   --->   Operation 190 'call' 'call_ret2' <Predicate = (select_V_read == 0)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 191 [1/1] (0.00ns)   --->   "%dout0_0_ret2 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret2, 0" [Shift_Register/shift_reg.cpp:18]   --->   Operation 191 'extractvalue' 'dout0_0_ret2' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 192 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_0, i8 %dout0_0_ret2)" [Shift_Register/shift_reg.cpp:18]   --->   Operation 192 'write' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 193 [1/1] (0.00ns)   --->   "%dout0_1_ret2 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret2, 1" [Shift_Register/shift_reg.cpp:18]   --->   Operation 193 'extractvalue' 'dout0_1_ret2' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 194 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_1, i8 %dout0_1_ret2)" [Shift_Register/shift_reg.cpp:18]   --->   Operation 194 'write' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 195 [1/1] (0.00ns)   --->   "%dout0_2_ret2 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret2, 2" [Shift_Register/shift_reg.cpp:18]   --->   Operation 195 'extractvalue' 'dout0_2_ret2' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 196 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_2, i8 %dout0_2_ret2)" [Shift_Register/shift_reg.cpp:18]   --->   Operation 196 'write' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 197 [1/1] (0.00ns)   --->   "%dout0_3_ret2 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret2, 3" [Shift_Register/shift_reg.cpp:18]   --->   Operation 197 'extractvalue' 'dout0_3_ret2' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 198 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_3, i8 %dout0_3_ret2)" [Shift_Register/shift_reg.cpp:18]   --->   Operation 198 'write' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 199 [1/1] (0.00ns)   --->   "%dout0_4_ret2 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret2, 4" [Shift_Register/shift_reg.cpp:18]   --->   Operation 199 'extractvalue' 'dout0_4_ret2' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 200 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_4, i8 %dout0_4_ret2)" [Shift_Register/shift_reg.cpp:18]   --->   Operation 200 'write' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 201 [1/1] (0.00ns)   --->   "%dout0_5_ret2 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret2, 5" [Shift_Register/shift_reg.cpp:18]   --->   Operation 201 'extractvalue' 'dout0_5_ret2' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 202 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_5, i8 %dout0_5_ret2)" [Shift_Register/shift_reg.cpp:18]   --->   Operation 202 'write' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 203 [1/1] (0.00ns)   --->   "%dout0_6_ret2 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret2, 6" [Shift_Register/shift_reg.cpp:18]   --->   Operation 203 'extractvalue' 'dout0_6_ret2' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 204 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_6, i8 %dout0_6_ret2)" [Shift_Register/shift_reg.cpp:18]   --->   Operation 204 'write' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 205 [1/1] (0.00ns)   --->   "%dout0_7_ret2 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret2, 7" [Shift_Register/shift_reg.cpp:18]   --->   Operation 205 'extractvalue' 'dout0_7_ret2' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 206 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_7, i8 %dout0_7_ret2)" [Shift_Register/shift_reg.cpp:18]   --->   Operation 206 'write' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 207 [1/1] (0.00ns)   --->   "%dout0_8_ret1 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret2, 8" [Shift_Register/shift_reg.cpp:18]   --->   Operation 207 'extractvalue' 'dout0_8_ret1' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 208 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_8, i8 %dout0_8_ret1)" [Shift_Register/shift_reg.cpp:18]   --->   Operation 208 'write' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 209 [1/1] (0.00ns)   --->   "%dout0_9_ret1 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret2, 9" [Shift_Register/shift_reg.cpp:18]   --->   Operation 209 'extractvalue' 'dout0_9_ret1' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 210 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_9, i8 %dout0_9_ret1)" [Shift_Register/shift_reg.cpp:18]   --->   Operation 210 'write' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 211 [1/1] (0.00ns)   --->   "%dout0_10_ret1 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret2, 10" [Shift_Register/shift_reg.cpp:18]   --->   Operation 211 'extractvalue' 'dout0_10_ret1' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 212 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_10, i8 %dout0_10_ret1)" [Shift_Register/shift_reg.cpp:18]   --->   Operation 212 'write' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 213 [1/1] (0.00ns)   --->   "%dout0_11_ret1 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %call_ret2, 11" [Shift_Register/shift_reg.cpp:18]   --->   Operation 213 'extractvalue' 'dout0_11_ret1' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 214 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_11, i8 %dout0_11_ret1)" [Shift_Register/shift_reg.cpp:18]   --->   Operation 214 'write' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 215 [1/1] (0.00ns)   --->   "br label %8" [Shift_Register/shift_reg.cpp:19]   --->   Operation 215 'br' <Predicate = (select_V_read == 0)> <Delay = 0.00>
+ST_2 : Operation 216 [1/1] (0.00ns)   --->   "%call_ret1 = call fastcc { i8, i8, i8, i8, i8, i8, i8, i8, i32, i32, i32, i32 } @shift_reg_template(i8 %din0_read, i32 %din1_read)" [Shift_Register/shift_reg.cpp:42]   --->   Operation 216 'call' 'call_ret1' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 217 [1/1] (0.00ns)   --->   "%dout0_0_ret1 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i32, i32, i32, i32 } %call_ret1, 0" [Shift_Register/shift_reg.cpp:42]   --->   Operation 217 'extractvalue' 'dout0_0_ret1' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 218 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_0, i8 %dout0_0_ret1)" [Shift_Register/shift_reg.cpp:42]   --->   Operation 218 'write' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 219 [1/1] (0.00ns)   --->   "%dout0_1_ret1 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i32, i32, i32, i32 } %call_ret1, 1" [Shift_Register/shift_reg.cpp:42]   --->   Operation 219 'extractvalue' 'dout0_1_ret1' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 220 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_1, i8 %dout0_1_ret1)" [Shift_Register/shift_reg.cpp:42]   --->   Operation 220 'write' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 221 [1/1] (0.00ns)   --->   "%dout0_2_ret1 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i32, i32, i32, i32 } %call_ret1, 2" [Shift_Register/shift_reg.cpp:42]   --->   Operation 221 'extractvalue' 'dout0_2_ret1' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 222 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_2, i8 %dout0_2_ret1)" [Shift_Register/shift_reg.cpp:42]   --->   Operation 222 'write' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 223 [1/1] (0.00ns)   --->   "%dout0_3_ret1 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i32, i32, i32, i32 } %call_ret1, 3" [Shift_Register/shift_reg.cpp:42]   --->   Operation 223 'extractvalue' 'dout0_3_ret1' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 224 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_3, i8 %dout0_3_ret1)" [Shift_Register/shift_reg.cpp:42]   --->   Operation 224 'write' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 225 [1/1] (0.00ns)   --->   "%dout0_4_ret1 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i32, i32, i32, i32 } %call_ret1, 4" [Shift_Register/shift_reg.cpp:42]   --->   Operation 225 'extractvalue' 'dout0_4_ret1' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 226 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_4, i8 %dout0_4_ret1)" [Shift_Register/shift_reg.cpp:42]   --->   Operation 226 'write' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 227 [1/1] (0.00ns)   --->   "%dout0_5_ret1 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i32, i32, i32, i32 } %call_ret1, 5" [Shift_Register/shift_reg.cpp:42]   --->   Operation 227 'extractvalue' 'dout0_5_ret1' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 228 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_5, i8 %dout0_5_ret1)" [Shift_Register/shift_reg.cpp:42]   --->   Operation 228 'write' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 229 [1/1] (0.00ns)   --->   "%dout0_6_ret1 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i32, i32, i32, i32 } %call_ret1, 6" [Shift_Register/shift_reg.cpp:42]   --->   Operation 229 'extractvalue' 'dout0_6_ret1' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 230 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_6, i8 %dout0_6_ret1)" [Shift_Register/shift_reg.cpp:42]   --->   Operation 230 'write' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 231 [1/1] (0.00ns)   --->   "%dout0_7_ret1 = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i32, i32, i32, i32 } %call_ret1, 7" [Shift_Register/shift_reg.cpp:42]   --->   Operation 231 'extractvalue' 'dout0_7_ret1' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 232 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %dout0_7, i8 %dout0_7_ret1)" [Shift_Register/shift_reg.cpp:42]   --->   Operation 232 'write' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 233 [1/1] (0.00ns)   --->   "%dout1_0_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i32, i32, i32, i32 } %call_ret1, 8" [Shift_Register/shift_reg.cpp:42]   --->   Operation 233 'extractvalue' 'dout1_0_ret' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 234 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i32P(i32* %dout1_0, i32 %dout1_0_ret)" [Shift_Register/shift_reg.cpp:42]   --->   Operation 234 'write' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 235 [1/1] (0.00ns)   --->   "%dout1_1_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i32, i32, i32, i32 } %call_ret1, 9" [Shift_Register/shift_reg.cpp:42]   --->   Operation 235 'extractvalue' 'dout1_1_ret' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 236 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i32P(i32* %dout1_1, i32 %dout1_1_ret)" [Shift_Register/shift_reg.cpp:42]   --->   Operation 236 'write' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 237 [1/1] (0.00ns)   --->   "%dout1_2_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i32, i32, i32, i32 } %call_ret1, 10" [Shift_Register/shift_reg.cpp:42]   --->   Operation 237 'extractvalue' 'dout1_2_ret' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 238 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i32P(i32* %dout1_2, i32 %dout1_2_ret)" [Shift_Register/shift_reg.cpp:42]   --->   Operation 238 'write' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 239 [1/1] (0.00ns)   --->   "%dout1_3_ret = extractvalue { i8, i8, i8, i8, i8, i8, i8, i8, i32, i32, i32, i32 } %call_ret1, 11" [Shift_Register/shift_reg.cpp:42]   --->   Operation 239 'extractvalue' 'dout1_3_ret' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 240 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i32P(i32* %dout1_3, i32 %dout1_3_ret)" [Shift_Register/shift_reg.cpp:42]   --->   Operation 240 'write' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 241 [1/1] (0.00ns)   --->   "br label %8" [Shift_Register/shift_reg.cpp:43]   --->   Operation 241 'br' <Predicate = (select_V_read == 7) | (select_V_read == 6)> <Delay = 0.00>
+ST_2 : Operation 242 [1/1] (0.00ns)   --->   "ret void" [Shift_Register/shift_reg.cpp:44]   --->   Operation 242 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 3.02ns
+The critical path consists of the following:
+	wire read on port 'en' (Shift_Register/shift_reg.cpp:3) [142]  (0 ns)
+	'call' operation ('call_ret6', Shift_Register/shift_reg.cpp:34) to 'shift_reg_class' [184]  (3.02 ns)
+
+ <State 2>: 1.62ns
+The critical path consists of the following:
+	'call' operation ('call_ret', Shift_Register/shift_reg.cpp:38) to 'shift_reg_ip' [157]  (1.62 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

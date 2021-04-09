@@ -1,0 +1,142 @@
+
+
+================================================================
+== Vivado HLS Report for 'mux_onehot'
+================================================================
+* Date:           Thu Apr  8 05:49:59 2021
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        Multiplexor
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 6.543 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|   0 ns   |   0 ns   |    0|    0|   none  |
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 0
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 6.54>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%sel_V_read = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %sel_V)" [Multiplexor/mux_onehot.cpp:3]   --->   Operation 2 'read' 'sel_V_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%din_7_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_7_V_read)" [Multiplexor/mux_onehot.cpp:3]   --->   Operation 3 'read' 'din_7_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%din_6_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_6_V_read)" [Multiplexor/mux_onehot.cpp:3]   --->   Operation 4 'read' 'din_6_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%din_5_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_5_V_read)" [Multiplexor/mux_onehot.cpp:3]   --->   Operation 5 'read' 'din_5_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%din_4_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_4_V_read)" [Multiplexor/mux_onehot.cpp:3]   --->   Operation 6 'read' 'din_4_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%din_3_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_3_V_read)" [Multiplexor/mux_onehot.cpp:3]   --->   Operation 7 'read' 'din_3_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%din_2_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_2_V_read)" [Multiplexor/mux_onehot.cpp:3]   --->   Operation 8 'read' 'din_2_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%din_1_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_1_V_read)" [Multiplexor/mux_onehot.cpp:3]   --->   Operation 9 'read' 'din_1_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%din_0_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_0_V_read)" [Multiplexor/mux_onehot.cpp:3]   --->   Operation 10 'read' 'din_0_V_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (1.55ns)   --->   "%icmp_ln7 = icmp eq i8 %sel_V_read, -128" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 11 'icmp' 'icmp_ln7' <Predicate = true> <Delay = 1.55> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.55> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 12 [1/1] (1.55ns)   --->   "%icmp_ln7_1 = icmp eq i8 %sel_V_read, 64" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 12 'icmp' 'icmp_ln7_1' <Predicate = true> <Delay = 1.55> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.55> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 13 [1/1] (1.55ns)   --->   "%icmp_ln7_2 = icmp eq i8 %sel_V_read, 32" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 13 'icmp' 'icmp_ln7_2' <Predicate = true> <Delay = 1.55> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.55> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 14 [1/1] (1.55ns)   --->   "%icmp_ln7_3 = icmp eq i8 %sel_V_read, 16" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 14 'icmp' 'icmp_ln7_3' <Predicate = true> <Delay = 1.55> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.55> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 15 [1/1] (1.55ns)   --->   "%icmp_ln7_4 = icmp eq i8 %sel_V_read, 8" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 15 'icmp' 'icmp_ln7_4' <Predicate = true> <Delay = 1.55> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.55> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 16 [1/1] (1.55ns)   --->   "%icmp_ln7_5 = icmp eq i8 %sel_V_read, 4" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 16 'icmp' 'icmp_ln7_5' <Predicate = true> <Delay = 1.55> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.55> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 17 [1/1] (1.55ns)   --->   "%icmp_ln7_6 = icmp eq i8 %sel_V_read, 2" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 17 'icmp' 'icmp_ln7_6' <Predicate = true> <Delay = 1.55> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.55> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 18 [1/1] (1.55ns)   --->   "%icmp_ln7_7 = icmp eq i8 %sel_V_read, 1" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 18 'icmp' 'icmp_ln7_7' <Predicate = true> <Delay = 1.55> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.55> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 19 [1/1] (0.00ns) (grouped into LUT with out node select_ln7_4)   --->   "%select_ln7 = select i1 %icmp_ln7_7, i8 %din_0_V_read_2, i8 %din_1_V_read_2" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 19 'select' 'select_ln7' <Predicate = (or_ln7 & or_ln7_4 & or_ln7_6)> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 20 [1/1] (0.97ns)   --->   "%or_ln7 = or i1 %icmp_ln7_7, %icmp_ln7_6" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 20 'or' 'or_ln7' <Predicate = true> <Delay = 0.97> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 21 [1/1] (1.24ns) (out node of the LUT)   --->   "%select_ln7_1 = select i1 %icmp_ln7_5, i8 %din_2_V_read_2, i8 %din_3_V_read_2" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 21 'select' 'select_ln7_1' <Predicate = (!or_ln7 & or_ln7_4 & or_ln7_6)> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 22 [1/1] (0.00ns) (grouped into LUT with out node or_ln7_4)   --->   "%or_ln7_1 = or i1 %icmp_ln7_5, %icmp_ln7_4" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 22 'or' 'or_ln7_1' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 23 [1/1] (0.00ns) (grouped into LUT with out node select_ln7_5)   --->   "%select_ln7_2 = select i1 %icmp_ln7_3, i8 %din_4_V_read_2, i8 %din_5_V_read_2" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 23 'select' 'select_ln7_2' <Predicate = (or_ln7_2 & !or_ln7_4 & or_ln7_6)> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 24 [1/1] (0.97ns)   --->   "%or_ln7_2 = or i1 %icmp_ln7_3, %icmp_ln7_2" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 24 'or' 'or_ln7_2' <Predicate = true> <Delay = 0.97> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 25 [1/1] (1.24ns) (out node of the LUT)   --->   "%select_ln7_3 = select i1 %icmp_ln7_1, i8 %din_6_V_read_2, i8 %din_7_V_read_2" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 25 'select' 'select_ln7_3' <Predicate = (!or_ln7_2 & !or_ln7_4 & or_ln7_6)> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 26 [1/1] (0.00ns) (grouped into LUT with out node tmp_V)   --->   "%or_ln7_3 = or i1 %icmp_ln7_1, %icmp_ln7" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 26 'or' 'or_ln7_3' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 27 [1/1] (1.24ns) (out node of the LUT)   --->   "%select_ln7_4 = select i1 %or_ln7, i8 %select_ln7, i8 %select_ln7_1" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 27 'select' 'select_ln7_4' <Predicate = (or_ln7_4 & or_ln7_6)> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 28 [1/1] (0.97ns) (out node of the LUT)   --->   "%or_ln7_4 = or i1 %or_ln7, %or_ln7_1" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 28 'or' 'or_ln7_4' <Predicate = true> <Delay = 0.97> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 29 [1/1] (1.24ns) (out node of the LUT)   --->   "%select_ln7_5 = select i1 %or_ln7_2, i8 %select_ln7_2, i8 %select_ln7_3" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 29 'select' 'select_ln7_5' <Predicate = (!or_ln7_4 & or_ln7_6)> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 30 [1/1] (0.00ns) (grouped into LUT with out node tmp_V)   --->   "%or_ln7_5 = or i1 %or_ln7_2, %or_ln7_3" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 30 'or' 'or_ln7_5' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 31 [1/1] (1.24ns) (out node of the LUT)   --->   "%select_ln7_6 = select i1 %or_ln7_4, i8 %select_ln7_4, i8 %select_ln7_5" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 31 'select' 'select_ln7_6' <Predicate = (or_ln7_6)> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 32 [1/1] (0.00ns) (grouped into LUT with out node tmp_V)   --->   "%or_ln7_6 = or i1 %or_ln7_4, %or_ln7_5" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 32 'or' 'or_ln7_6' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 33 [1/1] (1.24ns) (out node of the LUT)   --->   "%tmp_V = select i1 %or_ln7_6, i8 %select_ln7_6, i8 0" [Multiplexor/mux_onehot.cpp:7]   --->   Operation 33 'select' 'tmp_V' <Predicate = true> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "ret i8 %tmp_V" [Multiplexor/mux_onehot.cpp:36]   --->   Operation 34 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 6.54ns
+The critical path consists of the following:
+	wire read on port 'sel_V' (Multiplexor/mux_onehot.cpp:3) [10]  (0 ns)
+	'icmp' operation ('icmp_ln7_1', Multiplexor/mux_onehot.cpp:7) [20]  (1.55 ns)
+	'select' operation ('select_ln7_3', Multiplexor/mux_onehot.cpp:7) [33]  (1.25 ns)
+	'select' operation ('select_ln7_5', Multiplexor/mux_onehot.cpp:7) [37]  (1.25 ns)
+	'select' operation ('select_ln7_6', Multiplexor/mux_onehot.cpp:7) [39]  (1.25 ns)
+	'select' operation ('tmp.V', Multiplexor/mux_onehot.cpp:7) [41]  (1.25 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

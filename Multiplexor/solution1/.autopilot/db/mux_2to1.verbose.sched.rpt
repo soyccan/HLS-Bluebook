@@ -1,0 +1,110 @@
+
+
+================================================================
+== Vivado HLS Report for 'mux_2to1'
+================================================================
+* Date:           Thu Apr  8 05:50:00 2021
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        Multiplexor
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 1.248 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|   0 ns   |   0 ns   |    0|    0|   none  |
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 0
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.24>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%sel_read = call i1 @_ssdm_op_Read.ap_auto.i1(i1 %sel)" [Multiplexor/mux_2to1.cpp:3]   --->   Operation 2 'read' 'sel_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%din_1_V_read_6 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_1_V_read)" [Multiplexor/mux_2to1.cpp:3]   --->   Operation 3 'read' 'din_1_V_read_6' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%din_0_V_read_6 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_0_V_read)" [Multiplexor/mux_2to1.cpp:3]   --->   Operation 4 'read' 'din_0_V_read_6' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (1.24ns)   --->   "%select_ln6 = select i1 %sel_read, i8 %din_1_V_read_6, i8 %din_0_V_read_6" [Multiplexor/mux_2to1.cpp:6]   --->   Operation 5 'select' 'select_ln6' <Predicate = true> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "ret i8 %select_ln6" [Multiplexor/mux_2to1.cpp:6]   --->   Operation 6 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 1.25ns
+The critical path consists of the following:
+	wire read on port 'sel' (Multiplexor/mux_2to1.cpp:3) [4]  (0 ns)
+	'select' operation ('din[0].V', Multiplexor/mux_2to1.cpp:6) [7]  (1.25 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

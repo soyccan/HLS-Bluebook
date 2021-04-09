@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="top" xd:componentRef="top" xd:initiationInterval="6" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="leadone_in" xd:originalName="leadone_in" xd:direction="in" xd:interfaceRef="leadone_in_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="leadone_out" xd:originalName="leadone_out" xd:direction="out" xd:interfaceRef="leadone_out_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="5" xd:firstOut="0"/>
+  <xd:arg xd:name="leadone_ret" xd:originalName="leadone_ret" xd:direction="out" xd:interfaceRef="leadone_ret" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="1" xd:firstOut="0"/>
+  <xd:arg xd:name="mux_in[0]" xd:originalName="mux_in0" xd:direction="in" xd:interfaceRef="mux_in_0_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="mux_in[1]" xd:originalName="mux_in1" xd:direction="in" xd:interfaceRef="mux_in_1_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="mux_in[2]" xd:originalName="mux_in2" xd:direction="in" xd:interfaceRef="mux_in_2_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="mux_in[3]" xd:originalName="mux_in3" xd:direction="in" xd:interfaceRef="mux_in_3_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="mux_in[4]" xd:originalName="mux_in4" xd:direction="in" xd:interfaceRef="mux_in_4_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="mux_in[5]" xd:originalName="mux_in5" xd:direction="in" xd:interfaceRef="mux_in_5_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="mux_in[6]" xd:originalName="mux_in6" xd:direction="in" xd:interfaceRef="mux_in_6_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="mux_in[7]" xd:originalName="mux_in7" xd:direction="in" xd:interfaceRef="mux_in_7_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="mux_sel_onehot" xd:originalName="mux_sel_onehot" xd:direction="in" xd:interfaceRef="mux_sel_onehot_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:firstOut="0"/>
+  <xd:arg xd:name="mux_sel0" xd:originalName="mux_sel0" xd:direction="in" xd:interfaceRef="mux_sel0_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="3" xd:firstOut="0"/>
+  <xd:arg xd:name="mux_sel1" xd:originalName="mux_sel1" xd:direction="in" xd:interfaceRef="mux_sel1_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="3" xd:firstOut="0"/>
+  <xd:arg xd:name="mux_s" xd:originalName="mux_s" xd:direction="in" xd:interfaceRef="mux_s" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1" xd:firstOut="0"/>
+  <xd:arg xd:name="mux_ret" xd:originalName="mux_ret" xd:direction="out" xd:interfaceRef="mux_ret_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="8" xd:firstOut="0"/>
+  <xd:arg xd:name="max_in[0]" xd:originalName="max_in0" xd:direction="in" xd:interfaceRef="max_in_0" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="max_in[1]" xd:originalName="max_in1" xd:direction="in" xd:interfaceRef="max_in_1" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="max_in[2]" xd:originalName="max_in2" xd:direction="in" xd:interfaceRef="max_in_2" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="max_in[3]" xd:originalName="max_in3" xd:direction="in" xd:interfaceRef="max_in_3" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="max_in[4]" xd:originalName="max_in4" xd:direction="in" xd:interfaceRef="max_in_4" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="max_in[5]" xd:originalName="max_in5" xd:direction="in" xd:interfaceRef="max_in_5" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="max_in[6]" xd:originalName="max_in6" xd:direction="in" xd:interfaceRef="max_in_6" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="max_in[7]" xd:originalName="max_in7" xd:direction="in" xd:interfaceRef="max_in_7" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="0" xd:arraySize="1"/>
+  <xd:arg xd:name="max_out" xd:originalName="max_out" xd:direction="out" xd:interfaceRef="max_out" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="1"/>
+  <xd:arg xd:name="mode" xd:originalName="mode" xd:direction="in" xd:interfaceRef="mode" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="1"/>
+  <xd:latencyEstimates xd:best-case="1" xd:worst-case="5" xd:average-case="2"/>
+  <xd:resourceEstimates xd:LUT="2436" xd:FF="539" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>

@@ -1,0 +1,47 @@
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "C:/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_shift_reg_top glbl -prj shift_reg.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile C:/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s shift_reg -debug wave 
+Multi-threading is on. Using 4 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Shift_Register/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Shift_Register/solution1/sim/verilog/shift_reg.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_shift_reg_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Shift_Register/solution1/sim/verilog/shift_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Shift_Register/solution1/sim/verilog/shift_reg_basic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_reg_basic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Shift_Register/solution1/sim/verilog/shift_reg_class.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_reg_class
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Shift_Register/solution1/sim/verilog/shift_reg_en.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_reg_en
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Shift_Register/solution1/sim/verilog/shift_reg_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_reg_ip
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Shift_Register/solution1/sim/verilog/shift_reg_ip_Sregbkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_reg_ip_Sregbkb_core
+INFO: [VRFC 10-311] analyzing module shift_reg_ip_Sregbkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Shift_Register/solution1/sim/verilog/shift_reg_load.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_reg_load
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Shift_Register/solution1/sim/verilog/shift_reg_sreset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_reg_sreset
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Repo/hls/labA/Shift_Register/solution1/sim/verilog/shift_reg_template.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_reg_template
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.shift_reg_class
+Compiling module xil_defaultlib.shift_reg_en
+Compiling module xil_defaultlib.shift_reg_load
+Compiling module xil_defaultlib.shift_reg_sreset
+Compiling module xil_defaultlib.shift_reg_ip_Sregbkb_core(DATA_W...
+Compiling module xil_defaultlib.shift_reg_ip_Sregbkb(DataWidth=3...
+Compiling module xil_defaultlib.shift_reg_ip
+Compiling module xil_defaultlib.shift_reg_basic
+Compiling module xil_defaultlib.shift_reg_template
+Compiling module xil_defaultlib.shift_reg
+Compiling module xil_defaultlib.apatb_shift_reg_top
+Compiling module work.glbl
+Built simulation snapshot shift_reg

@@ -1,0 +1,139 @@
+
+
+================================================================
+== Vivado HLS Report for 'shift_reg_basic'
+================================================================
+* Date:           Thu Apr  8 07:05:20 2021
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        Shift_Register
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns |   0 ns   |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|   0 ns   |   0 ns   |    0|    0|   none  |
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 0
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.00>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%din_read = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din)" [Shift_Register/shift_reg_basic.cpp:3]   --->   Operation 2 'read' 'din_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%regs_5_10_load = load i8* @regs_5_10, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 3 'load' 'regs_5_10_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%regs_5_9_load = load i8* @regs_5_9, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 4 'load' 'regs_5_9_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "store i8 %regs_5_9_load, i8* @regs_5_10, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 5 'store' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%regs_5_8_load = load i8* @regs_5_8, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 6 'load' 'regs_5_8_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "store i8 %regs_5_8_load, i8* @regs_5_9, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 7 'store' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%regs_5_7_load = load i8* @regs_5_7, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 8 'load' 'regs_5_7_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "store i8 %regs_5_7_load, i8* @regs_5_8, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 9 'store' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%regs_5_6_load = load i8* @regs_5_6, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 10 'load' 'regs_5_6_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "store i8 %regs_5_6_load, i8* @regs_5_7, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 11 'store' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%regs_5_5_load = load i8* @regs_5_5, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 12 'load' 'regs_5_5_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "store i8 %regs_5_5_load, i8* @regs_5_6, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 13 'store' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%regs_5_4_load = load i8* @regs_5_4, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 14 'load' 'regs_5_4_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "store i8 %regs_5_4_load, i8* @regs_5_5, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 15 'store' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%regs_5_3_load = load i8* @regs_5_3, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 16 'load' 'regs_5_3_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "store i8 %regs_5_3_load, i8* @regs_5_4, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 17 'store' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%regs_5_2_load = load i8* @regs_5_2, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 18 'load' 'regs_5_2_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "store i8 %regs_5_2_load, i8* @regs_5_3, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 19 'store' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%regs_5_1_load = load i8* @regs_5_1, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 20 'load' 'regs_5_1_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "store i8 %regs_5_1_load, i8* @regs_5_2, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 21 'store' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%regs_5_0_load = load i8* @regs_5_0, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 22 'load' 'regs_5_0_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "store i8 %regs_5_0_load, i8* @regs_5_1, align 1" [Shift_Register/shift_reg_basic.cpp:15]   --->   Operation 23 'store' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "store i8 %din_read, i8* @regs_5_0, align 1" [Shift_Register/shift_reg_basic.cpp:13]   --->   Operation 24 'store' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%mrv = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } undef, i8 %din_read, 0" [Shift_Register/shift_reg_basic.cpp:23]   --->   Operation 25 'insertvalue' 'mrv' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%mrv_1 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv, i8 %regs_5_0_load, 1" [Shift_Register/shift_reg_basic.cpp:23]   --->   Operation 26 'insertvalue' 'mrv_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%mrv_2 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_1, i8 %regs_5_1_load, 2" [Shift_Register/shift_reg_basic.cpp:23]   --->   Operation 27 'insertvalue' 'mrv_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%mrv_3 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_2, i8 %regs_5_2_load, 3" [Shift_Register/shift_reg_basic.cpp:23]   --->   Operation 28 'insertvalue' 'mrv_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%mrv_4 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_3, i8 %regs_5_3_load, 4" [Shift_Register/shift_reg_basic.cpp:23]   --->   Operation 29 'insertvalue' 'mrv_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%mrv_5 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_4, i8 %regs_5_4_load, 5" [Shift_Register/shift_reg_basic.cpp:23]   --->   Operation 30 'insertvalue' 'mrv_5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%mrv_6 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_5, i8 %regs_5_5_load, 6" [Shift_Register/shift_reg_basic.cpp:23]   --->   Operation 31 'insertvalue' 'mrv_6' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%mrv_7 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_6, i8 %regs_5_6_load, 7" [Shift_Register/shift_reg_basic.cpp:23]   --->   Operation 32 'insertvalue' 'mrv_7' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%mrv_8 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_7, i8 %regs_5_7_load, 8" [Shift_Register/shift_reg_basic.cpp:23]   --->   Operation 33 'insertvalue' 'mrv_8' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "%mrv_9 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_8, i8 %regs_5_8_load, 9" [Shift_Register/shift_reg_basic.cpp:23]   --->   Operation 34 'insertvalue' 'mrv_9' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%mrv_10 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_9, i8 %regs_5_9_load, 10" [Shift_Register/shift_reg_basic.cpp:23]   --->   Operation 35 'insertvalue' 'mrv_10' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 36 [1/1] (0.00ns)   --->   "%mrv_s = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_10, i8 %regs_5_10_load, 11" [Shift_Register/shift_reg_basic.cpp:23]   --->   Operation 36 'insertvalue' 'mrv_s' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 37 [1/1] (0.00ns)   --->   "ret { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_s" [Shift_Register/shift_reg_basic.cpp:23]   --->   Operation 37 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

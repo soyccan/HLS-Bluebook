@@ -1,0 +1,188 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'shift_reg'" level="0">
+<item name = "Date">Thu Apr  8 07:05:23 2021
+</item>
+<item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
+<item name = "Project">Shift_Register</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 3.017 ns, 1.25 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">1, 13, 10.000 ns, 0.130 us, 1, 13, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_shift_reg_class_fu_470">shift_reg_class, 1, 1, 10.000 ns, 10.000 ns, 1, 1, none</column>
+<column name="grp_shift_reg_en_fu_522">shift_reg_en, 1, 1, 10.000 ns, 10.000 ns, 1, 1, none</column>
+<column name="call_ret4_shift_reg_load_fu_554">shift_reg_load, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+<column name="call_ret5_shift_reg_sreset_fu_598">shift_reg_sreset, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+<column name="grp_shift_reg_ip_fu_626">shift_reg_ip, 12, 12, 0.120 us, 0.120 us, 12, 12, none</column>
+<column name="call_ret2_shift_reg_basic_fu_636">shift_reg_basic, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+<column name="call_ret1_shift_reg_template_fu_663">shift_reg_template, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP48E, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 2, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">0, -, 1629, 1365, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, -, 495, -</column>
+<column name="Register">-, -, 5, -, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, 1, 3, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP48E, FF, LUT, URAM</keys>
+<column name="call_ret2_shift_reg_basic_fu_636">shift_reg_basic, 0, 0, 185, 108, 0</column>
+<column name="grp_shift_reg_class_fu_470">shift_reg_class, 0, 0, 282, 354, 0</column>
+<column name="grp_shift_reg_en_fu_522">shift_reg_en, 0, 0, 282, 222, 0</column>
+<column name="grp_shift_reg_ip_fu_626">shift_reg_ip, 0, 0, 165, 165, 0</column>
+<column name="call_ret4_shift_reg_load_fu_554">shift_reg_load, 0, 0, 185, 204, 0</column>
+<column name="call_ret5_shift_reg_sreset_fu_598">shift_reg_sreset, 0, 0, 185, 204, 0</column>
+<column name="call_ret1_shift_reg_template_fu_663">shift_reg_template, 0, 0, 345, 108, 0</column>
+</table>
+</item>
+<item name = "DSP48E"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="ap_block_state2_on_subcall_done">or, 0, 0, 2, 1, 1</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_NS_fsm">15, 3, 1, 3</column>
+<column name="dout0_0">41, 8, 8, 64</column>
+<column name="dout0_1">41, 8, 8, 64</column>
+<column name="dout0_10">38, 7, 8, 56</column>
+<column name="dout0_11">38, 7, 8, 56</column>
+<column name="dout0_2">41, 8, 8, 64</column>
+<column name="dout0_3">41, 8, 8, 64</column>
+<column name="dout0_4">41, 8, 8, 64</column>
+<column name="dout0_5">41, 8, 8, 64</column>
+<column name="dout0_6">41, 8, 8, 64</column>
+<column name="dout0_7">41, 8, 8, 64</column>
+<column name="dout0_8">38, 7, 8, 56</column>
+<column name="dout0_9">38, 7, 8, 56</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">2, 0, 2, 0</column>
+<column name="grp_shift_reg_class_fu_470_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_shift_reg_en_fu_522_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_shift_reg_ip_fu_626_ap_start_reg">1, 0, 1, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, shift_reg, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, shift_reg, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, shift_reg, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, shift_reg, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, shift_reg, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, shift_reg, return value</column>
+<column name="din0">in, 8, ap_none, din0, scalar</column>
+<column name="din1">in, 32, ap_none, din1, scalar</column>
+<column name="load_data_0">in, 8, ap_none, load_data_0, pointer</column>
+<column name="load_data_1">in, 8, ap_none, load_data_1, pointer</column>
+<column name="load_data_2">in, 8, ap_none, load_data_2, pointer</column>
+<column name="load_data_3">in, 8, ap_none, load_data_3, pointer</column>
+<column name="load_data_4">in, 8, ap_none, load_data_4, pointer</column>
+<column name="load_data_5">in, 8, ap_none, load_data_5, pointer</column>
+<column name="load_data_6">in, 8, ap_none, load_data_6, pointer</column>
+<column name="load_data_7">in, 8, ap_none, load_data_7, pointer</column>
+<column name="load_data_8">in, 8, ap_none, load_data_8, pointer</column>
+<column name="load_data_9">in, 8, ap_none, load_data_9, pointer</column>
+<column name="load_data_10">in, 8, ap_none, load_data_10, pointer</column>
+<column name="load_data_11">in, 8, ap_none, load_data_11, pointer</column>
+<column name="dout0_0">out, 8, ap_vld, dout0_0, pointer</column>
+<column name="dout0_0_ap_vld">out, 1, ap_vld, dout0_0, pointer</column>
+<column name="dout0_1">out, 8, ap_vld, dout0_1, pointer</column>
+<column name="dout0_1_ap_vld">out, 1, ap_vld, dout0_1, pointer</column>
+<column name="dout0_2">out, 8, ap_vld, dout0_2, pointer</column>
+<column name="dout0_2_ap_vld">out, 1, ap_vld, dout0_2, pointer</column>
+<column name="dout0_3">out, 8, ap_vld, dout0_3, pointer</column>
+<column name="dout0_3_ap_vld">out, 1, ap_vld, dout0_3, pointer</column>
+<column name="dout0_4">out, 8, ap_vld, dout0_4, pointer</column>
+<column name="dout0_4_ap_vld">out, 1, ap_vld, dout0_4, pointer</column>
+<column name="dout0_5">out, 8, ap_vld, dout0_5, pointer</column>
+<column name="dout0_5_ap_vld">out, 1, ap_vld, dout0_5, pointer</column>
+<column name="dout0_6">out, 8, ap_vld, dout0_6, pointer</column>
+<column name="dout0_6_ap_vld">out, 1, ap_vld, dout0_6, pointer</column>
+<column name="dout0_7">out, 8, ap_vld, dout0_7, pointer</column>
+<column name="dout0_7_ap_vld">out, 1, ap_vld, dout0_7, pointer</column>
+<column name="dout0_8">out, 8, ap_vld, dout0_8, pointer</column>
+<column name="dout0_8_ap_vld">out, 1, ap_vld, dout0_8, pointer</column>
+<column name="dout0_9">out, 8, ap_vld, dout0_9, pointer</column>
+<column name="dout0_9_ap_vld">out, 1, ap_vld, dout0_9, pointer</column>
+<column name="dout0_10">out, 8, ap_vld, dout0_10, pointer</column>
+<column name="dout0_10_ap_vld">out, 1, ap_vld, dout0_10, pointer</column>
+<column name="dout0_11">out, 8, ap_vld, dout0_11, pointer</column>
+<column name="dout0_11_ap_vld">out, 1, ap_vld, dout0_11, pointer</column>
+<column name="dout1_0">out, 32, ap_vld, dout1_0, pointer</column>
+<column name="dout1_0_ap_vld">out, 1, ap_vld, dout1_0, pointer</column>
+<column name="dout1_1">out, 32, ap_vld, dout1_1, pointer</column>
+<column name="dout1_1_ap_vld">out, 1, ap_vld, dout1_1, pointer</column>
+<column name="dout1_2">out, 32, ap_vld, dout1_2, pointer</column>
+<column name="dout1_2_ap_vld">out, 1, ap_vld, dout1_2, pointer</column>
+<column name="dout1_3">out, 32, ap_vld, dout1_3, pointer</column>
+<column name="dout1_3_ap_vld">out, 1, ap_vld, dout1_3, pointer</column>
+<column name="srst">in, 1, ap_none, srst, scalar</column>
+<column name="load">in, 1, ap_none, load, scalar</column>
+<column name="en">in, 1, ap_none, en, scalar</column>
+<column name="select_V">in, 3, ap_none, select_V, scalar</column>
+</table>
+</item>
+</section>
+</profile>

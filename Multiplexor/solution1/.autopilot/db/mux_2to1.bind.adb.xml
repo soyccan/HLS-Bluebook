@@ -1,0 +1,128 @@
+<stg><name>mux_2to1</name>
+
+
+<trans_list>
+</trans_list>
+
+
+
+<state_list>
+
+<state id="1" st_id="1">
+
+<operation id="2" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="4" bw="1" op_0_bw="1" op_1_bw="1">
+<![CDATA[
+:0  %sel_read = call i1 @_ssdm_op_Read.ap_auto.i1(i1 %sel)
+
+]]></Node>
+<StgValue><ssdm name="sel_read"/></StgValue>
+</operation>
+
+<operation id="3" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="5" bw="8" op_0_bw="8" op_1_bw="8">
+<![CDATA[
+:1  %din_1_V_read_6 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_1_V_read)
+
+]]></Node>
+<StgValue><ssdm name="din_1_V_read_6"/></StgValue>
+</operation>
+
+<operation id="4" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="6" bw="8" op_0_bw="8" op_1_bw="8">
+<![CDATA[
+:2  %din_0_V_read_6 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din_0_V_read)
+
+]]></Node>
+<StgValue><ssdm name="din_0_V_read_6"/></StgValue>
+</operation>
+
+<operation id="5" st_id="1" stage="1" lat="1">
+<core>Sel</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="7" bw="8" op_0_bw="1" op_1_bw="8" op_2_bw="8">
+<![CDATA[
+:3  %select_ln6 = select i1 %sel_read, i8 %din_1_V_read_6, i8 %din_0_V_read_6
+
+]]></Node>
+<StgValue><ssdm name="select_ln6"/></StgValue>
+</operation>
+
+<operation id="6" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="8" bw="0" op_0_bw="8">
+<![CDATA[
+:4  ret i8 %select_ln6
+
+]]></Node>
+<StgValue><ssdm name="ret_ln6"/></StgValue>
+</operation>
+</state>
+</state_list>
+
+
+<ports>
+<port id="7" name="din_0_V_read" dir="0" iftype="0">
+<core>NULL</core><StgValue><ssdm name="din_0_V_read"/></StgValue>
+</port>
+<port id="8" name="din_1_V_read" dir="0" iftype="0">
+<core>NULL</core><StgValue><ssdm name="din_1_V_read"/></StgValue>
+</port>
+<port id="9" name="sel" dir="0" iftype="0">
+<core>NULL</core><StgValue><ssdm name="sel"/></StgValue>
+</port>
+</ports>
+
+
+<dataflows>
+<dataflow id="11" from="_ssdm_op_Read.ap_auto.i1" to="sel_read" fromId="10" toId="2">
+</dataflow>
+<dataflow id="12" from="sel" to="sel_read" fromId="9" toId="2">
+</dataflow>
+<dataflow id="14" from="_ssdm_op_Read.ap_auto.i8" to="din_1_V_read_6" fromId="13" toId="3">
+</dataflow>
+<dataflow id="15" from="din_1_V_read" to="din_1_V_read_6" fromId="8" toId="3">
+</dataflow>
+<dataflow id="16" from="_ssdm_op_Read.ap_auto.i8" to="din_0_V_read_6" fromId="13" toId="4">
+</dataflow>
+<dataflow id="17" from="din_0_V_read" to="din_0_V_read_6" fromId="7" toId="4">
+</dataflow>
+<dataflow id="18" from="sel_read" to="select_ln6" fromId="2" toId="5">
+</dataflow>
+<dataflow id="19" from="din_1_V_read_6" to="select_ln6" fromId="3" toId="5">
+</dataflow>
+<dataflow id="20" from="din_0_V_read_6" to="select_ln6" fromId="4" toId="5">
+</dataflow>
+<dataflow id="21" from="select_ln6" to="ret_ln6" fromId="5" toId="6">
+</dataflow>
+</dataflows>
+
+
+</stg>

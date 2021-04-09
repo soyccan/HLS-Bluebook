@@ -1,0 +1,12 @@
+sv work "glbl.v"
+sv xil_defaultlib "shift_reg.autotb.v"
+sv xil_defaultlib "shift_reg.v"
+sv xil_defaultlib "shift_reg_basic.v"
+sv xil_defaultlib "shift_reg_class.v"
+sv xil_defaultlib "shift_reg_en.v"
+sv xil_defaultlib "shift_reg_ip.v"
+sv xil_defaultlib "shift_reg_ip_Sregbkb.v"
+sv xil_defaultlib "shift_reg_load.v"
+sv xil_defaultlib "shift_reg_sreset.v"
+sv xil_defaultlib "shift_reg_template.v"
+

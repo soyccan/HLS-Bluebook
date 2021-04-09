@@ -1,0 +1,12 @@
+   Build using "C:/Xilinx/Vivado/2019.2/tps/win64/msys64/mingw64/bin/g++"
+   Compiling shift_reg_sreset.cpp_pre.cpp.tb.cpp
+   Compiling shift_reg_en.cpp_pre.cpp.tb.cpp
+   Compiling shift_reg_ip.cpp_pre.cpp.tb.cpp
+   Compiling shift_reg_load.cpp_pre.cpp.tb.cpp
+   Compiling shift_reg_class.cpp_pre.cpp.tb.cpp
+   Compiling shift_reg.cpp_pre.cpp.tb.cpp
+   Compiling apatb_shift_reg.cpp
+   Compiling shift_reg_basic.cpp_pre.cpp.tb.cpp
+   Compiling shift_reg_tb.cpp_pre.cpp.tb.cpp
+   Compiling shift_reg_template.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

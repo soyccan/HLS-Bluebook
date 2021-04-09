@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1617832203387">
+  <ports id="1" name="din_V_read" type="PortType" originalName="din.V" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="11" name="ap_return_0" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="12" name="ap_return_1" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <edges id="8" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.0"/>
+  <edges id="11" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="12" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges source_obj="//@blocks.0/@node_objs.2" sink_obj="//@ports.1"/>
+  <edges source_obj="//@blocks.0/@node_objs.2" sink_obj="//@ports.2"/>
+  <blocks id="5" name="leading_ones_templat" type="BlockType">
+    <node_objs xsi:type="cdfg:CdfgNode" id="2" name="din_V_read_1" lineNumber="4" originalName="din.V" fileName="Multiplexor/leading_ones_template.cpp" fileDirectory=".." contextFuncName="leading_ones_template" bitwidth="32" opcode="read" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_template.cpp" linenumber="4" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_template"/>
+      <dataInputObjs>din_V_read</dataInputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="3" name="call_ret" lineNumber="8" fileName="Multiplexor/leading_ones_template.cpp" fileDirectory=".." rtlName="call_ret_leading_ones_32_s_fu_12" contextFuncName="leading_ones_template" bitwidth="6" opcode="call" m_display="0" m_delay="6.48" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_template.cpp" linenumber="8" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_template"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>ret</dataOutputObjs>
+      <constName>leading_ones_32_s</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="4" name="_ln8" lineNumber="8" fileName="Multiplexor/leading_ones_template.cpp" fileDirectory=".." contextFuncName="leading_ones_template" opcode="ret" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Multiplexor/leading_ones_template.cpp" linenumber="8" fileDirectory="D:\Repo\hls\labA" functionName="leading_ones_template"/>
+      <dataInputObjs>call</dataInputObjs>
+      <dataOutputObjs>ap_return_0</dataOutputObjs>
+      <dataOutputObjs>ap_return_1</dataOutputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Multiplexor/leading_ones_template.cpp">
+      <validLinenumbers>4</validLinenumbers>
+      <validLinenumbers>8</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <ScheduleInfo time="0"/>
+  <moduleNodes realName="call_ret_leading_ones_32_s_fu_12">
+    <nodeIds>3</nodeIds>
+  </moduleNodes>
+  <ioNodes realName="din_V_read_1_read_fu_6">
+    <nodeIds>2</nodeIds>
+  </ioNodes>
+  <ioPorts name="din_V_read">
+    <contents name="read">
+      <nodeIds>2</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_0">
+    <contents name="ret">
+      <nodeIds>4</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_1">
+    <contents name="ret">
+      <nodeIds>4</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="2" stage="1" latency="1"/>
+      <operations id="3" stage="1" latency="1"/>
+      <operations id="4" stage="1" latency="1"/>
+    </states>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="leading_ones_templat" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>5</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

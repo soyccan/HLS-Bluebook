@@ -1,0 +1,272 @@
+
+
+================================================================
+== Vivado HLS Report for 'top'
+================================================================
+* Date:           Thu Apr  8 05:50:01 2021
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        Multiplexor
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 8.424 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |        1|        5| 10.000 ns | 50.000 ns |    1|    5|   none  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 8.40>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %mux_in_7_V), !map !138"   --->   Operation 3 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %mux_in_6_V), !map !144"   --->   Operation 4 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %mux_in_5_V), !map !150"   --->   Operation 5 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %mux_in_4_V), !map !156"   --->   Operation 6 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %mux_in_3_V), !map !162"   --->   Operation 7 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %mux_in_2_V), !map !168"   --->   Operation 8 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %mux_in_1_V), !map !174"   --->   Operation 9 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %mux_in_0_V), !map !180"   --->   Operation 10 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %max_in_7), !map !186"   --->   Operation 11 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %max_in_6), !map !190"   --->   Operation 12 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %max_in_5), !map !194"   --->   Operation 13 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %max_in_4), !map !198"   --->   Operation 14 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %max_in_3), !map !202"   --->   Operation 15 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %max_in_2), !map !206"   --->   Operation 16 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %max_in_1), !map !210"   --->   Operation 17 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %max_in_0), !map !214"   --->   Operation 18 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %leadone_in_V), !map !218"   --->   Operation 19 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i5* %leadone_out_V), !map !224"   --->   Operation 20 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %leadone_ret), !map !228"   --->   Operation 21 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8 %mux_sel_onehot_V), !map !232"   --->   Operation 22 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i3 %mux_sel0_V), !map !238"   --->   Operation 23 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i3 %mux_sel1_V), !map !242"   --->   Operation 24 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1 %mux_s), !map !246"   --->   Operation 25 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %mux_ret_V), !map !250"   --->   Operation 26 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %max_out), !map !254"   --->   Operation 27 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32 %mode), !map !258"   --->   Operation 28 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([4 x i8]* @top_str) nounwind"   --->   Operation 29 'spectopmodule' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%mode_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %mode)" [Multiplexor/top.cpp:3]   --->   Operation 30 'read' 'mode_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%mux_s_read = call i1 @_ssdm_op_Read.ap_auto.i1(i1 %mux_s)" [Multiplexor/top.cpp:3]   --->   Operation 31 'read' 'mux_s_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%mux_sel1_V_read = call i3 @_ssdm_op_Read.ap_auto.i3(i3 %mux_sel1_V)" [Multiplexor/top.cpp:3]   --->   Operation 32 'read' 'mux_sel1_V_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%mux_sel0_V_read = call i3 @_ssdm_op_Read.ap_auto.i3(i3 %mux_sel0_V)" [Multiplexor/top.cpp:3]   --->   Operation 33 'read' 'mux_sel0_V_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "%mux_sel_onehot_V_rea = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %mux_sel_onehot_V)" [Multiplexor/top.cpp:3]   --->   Operation 34 'read' 'mux_sel_onehot_V_rea' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%leadone_in_V_read = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %leadone_in_V)" [Multiplexor/top.cpp:20]   --->   Operation 35 'read' 'leadone_in_V_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 36 [1/1] (1.36ns)   --->   "switch i32 %mode_read, label %12 [
+    i32 0, label %1
+    i32 1, label %2
+    i32 2, label %3
+    i32 3, label %4
+    i32 4, label %5
+    i32 5, label %6
+    i32 6, label %7
+    i32 7, label %8
+    i32 8, label %9
+    i32 9, label %10
+    i32 10, label %11
+  ]" [Multiplexor/top.cpp:18]   --->   Operation 36 'switch' <Predicate = true> <Delay = 1.36>
+ST_1 : Operation 37 [1/1] (0.00ns)   --->   "%max_in_0_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_0)" [Multiplexor/top.cpp:60]   --->   Operation 37 'read' 'max_in_0_read_1' <Predicate = (mode_read == 10)> <Delay = 0.00>
+ST_1 : Operation 38 [1/1] (0.00ns)   --->   "%max_in_1_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_1)" [Multiplexor/top.cpp:60]   --->   Operation 38 'read' 'max_in_1_read_1' <Predicate = (mode_read == 10)> <Delay = 0.00>
+ST_1 : Operation 39 [1/1] (0.00ns)   --->   "%max_in_2_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_2)" [Multiplexor/top.cpp:60]   --->   Operation 39 'read' 'max_in_2_read_1' <Predicate = (mode_read == 10)> <Delay = 0.00>
+ST_1 : Operation 40 [1/1] (0.00ns)   --->   "%max_in_3_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_3)" [Multiplexor/top.cpp:60]   --->   Operation 40 'read' 'max_in_3_read_1' <Predicate = (mode_read == 10)> <Delay = 0.00>
+ST_1 : Operation 41 [1/1] (0.00ns)   --->   "%max_in_4_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_4)" [Multiplexor/top.cpp:60]   --->   Operation 41 'read' 'max_in_4_read_1' <Predicate = (mode_read == 10)> <Delay = 0.00>
+ST_1 : Operation 42 [1/1] (0.00ns)   --->   "%max_in_5_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_5)" [Multiplexor/top.cpp:60]   --->   Operation 42 'read' 'max_in_5_read_1' <Predicate = (mode_read == 10)> <Delay = 0.00>
+ST_1 : Operation 43 [1/1] (0.00ns)   --->   "%max_in_6_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_6)" [Multiplexor/top.cpp:60]   --->   Operation 43 'read' 'max_in_6_read_1' <Predicate = (mode_read == 10)> <Delay = 0.00>
+ST_1 : Operation 44 [1/1] (0.00ns)   --->   "%max_in_7_read_1 = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_7)" [Multiplexor/top.cpp:60]   --->   Operation 44 'read' 'max_in_7_read_1' <Predicate = (mode_read == 10)> <Delay = 0.00>
+ST_1 : Operation 45 [2/2] (6.34ns)   --->   "%max_ret = call fastcc i32 @max(i32 %max_in_0_read_1, i32 %max_in_1_read_1, i32 %max_in_2_read_1, i32 %max_in_3_read_1, i32 %max_in_4_read_1, i32 %max_in_5_read_1, i32 %max_in_6_read_1, i32 %max_in_7_read_1)" [Multiplexor/top.cpp:60]   --->   Operation 45 'call' 'max_ret' <Predicate = (mode_read == 10)> <Delay = 6.34> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 46 [1/1] (0.00ns)   --->   "%mux_in_0_V_read_5 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_0_V)" [Multiplexor/top.cpp:56]   --->   Operation 46 'read' 'mux_in_0_V_read_5' <Predicate = (mode_read == 9)> <Delay = 0.00>
+ST_1 : Operation 47 [1/1] (0.00ns)   --->   "%mux_in_1_V_read_5 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_1_V)" [Multiplexor/top.cpp:56]   --->   Operation 47 'read' 'mux_in_1_V_read_5' <Predicate = (mode_read == 9)> <Delay = 0.00>
+ST_1 : Operation 48 [1/1] (0.00ns)   --->   "%mux_in_2_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_2_V)" [Multiplexor/top.cpp:56]   --->   Operation 48 'read' 'mux_in_2_V_read_4' <Predicate = (mode_read == 9)> <Delay = 0.00>
+ST_1 : Operation 49 [1/1] (0.00ns)   --->   "%mux_in_3_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_3_V)" [Multiplexor/top.cpp:56]   --->   Operation 49 'read' 'mux_in_3_V_read_4' <Predicate = (mode_read == 9)> <Delay = 0.00>
+ST_1 : Operation 50 [1/1] (0.00ns)   --->   "%mux_in_4_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_4_V)" [Multiplexor/top.cpp:56]   --->   Operation 50 'read' 'mux_in_4_V_read_4' <Predicate = (mode_read == 9)> <Delay = 0.00>
+ST_1 : Operation 51 [1/1] (0.00ns)   --->   "%mux_in_5_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_5_V)" [Multiplexor/top.cpp:56]   --->   Operation 51 'read' 'mux_in_5_V_read_4' <Predicate = (mode_read == 9)> <Delay = 0.00>
+ST_1 : Operation 52 [1/1] (0.00ns)   --->   "%mux_in_6_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_6_V)" [Multiplexor/top.cpp:56]   --->   Operation 52 'read' 'mux_in_6_V_read_4' <Predicate = (mode_read == 9)> <Delay = 0.00>
+ST_1 : Operation 53 [1/1] (0.00ns)   --->   "%mux_in_7_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_7_V)" [Multiplexor/top.cpp:56]   --->   Operation 53 'read' 'mux_in_7_V_read_4' <Predicate = (mode_read == 9)> <Delay = 0.00>
+ST_1 : Operation 54 [1/1] (3.45ns)   --->   "%op2_V_assign_5_s = call fastcc i8 @mux_binary_opt(i8 %mux_in_0_V_read_5, i8 %mux_in_1_V_read_5, i8 %mux_in_2_V_read_4, i8 %mux_in_3_V_read_4, i8 %mux_in_4_V_read_4, i8 %mux_in_5_V_read_4, i8 %mux_in_6_V_read_4, i8 %mux_in_7_V_read_4, i3 %mux_sel0_V_read, i3 %mux_sel1_V_read, i1 %mux_s_read)" [Multiplexor/top.cpp:56]   --->   Operation 54 'call' 'op2_V_assign_5_s' <Predicate = (mode_read == 9)> <Delay = 3.45> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 55 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %mux_ret_V, i8 %op2_V_assign_5_s)" [Multiplexor/top.cpp:56]   --->   Operation 55 'write' <Predicate = (mode_read == 9)> <Delay = 0.00>
+ST_1 : Operation 56 [1/1] (0.00ns)   --->   "br label %13" [Multiplexor/top.cpp:57]   --->   Operation 56 'br' <Predicate = (mode_read == 9)> <Delay = 0.00>
+ST_1 : Operation 57 [1/1] (0.00ns)   --->   "%mux_in_0_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_0_V)" [Multiplexor/top.cpp:52]   --->   Operation 57 'read' 'mux_in_0_V_read_4' <Predicate = (mode_read == 8)> <Delay = 0.00>
+ST_1 : Operation 58 [1/1] (0.00ns)   --->   "%mux_in_1_V_read_4 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_1_V)" [Multiplexor/top.cpp:52]   --->   Operation 58 'read' 'mux_in_1_V_read_4' <Predicate = (mode_read == 8)> <Delay = 0.00>
+ST_1 : Operation 59 [1/1] (0.00ns)   --->   "%mux_in_2_V_read_3 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_2_V)" [Multiplexor/top.cpp:52]   --->   Operation 59 'read' 'mux_in_2_V_read_3' <Predicate = (mode_read == 8)> <Delay = 0.00>
+ST_1 : Operation 60 [1/1] (0.00ns)   --->   "%mux_in_3_V_read_3 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_3_V)" [Multiplexor/top.cpp:52]   --->   Operation 60 'read' 'mux_in_3_V_read_3' <Predicate = (mode_read == 8)> <Delay = 0.00>
+ST_1 : Operation 61 [1/1] (0.00ns)   --->   "%mux_in_4_V_read_3 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_4_V)" [Multiplexor/top.cpp:52]   --->   Operation 61 'read' 'mux_in_4_V_read_3' <Predicate = (mode_read == 8)> <Delay = 0.00>
+ST_1 : Operation 62 [1/1] (0.00ns)   --->   "%mux_in_5_V_read_3 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_5_V)" [Multiplexor/top.cpp:52]   --->   Operation 62 'read' 'mux_in_5_V_read_3' <Predicate = (mode_read == 8)> <Delay = 0.00>
+ST_1 : Operation 63 [1/1] (0.00ns)   --->   "%mux_in_6_V_read_3 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_6_V)" [Multiplexor/top.cpp:52]   --->   Operation 63 'read' 'mux_in_6_V_read_3' <Predicate = (mode_read == 8)> <Delay = 0.00>
+ST_1 : Operation 64 [1/1] (0.00ns)   --->   "%mux_in_7_V_read_3 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_7_V)" [Multiplexor/top.cpp:52]   --->   Operation 64 'read' 'mux_in_7_V_read_3' <Predicate = (mode_read == 8)> <Delay = 0.00>
+ST_1 : Operation 65 [1/1] (3.72ns)   --->   "%op2_V_assign_4_s = call fastcc i8 @mux_binary2onehot_op(i8 %mux_in_0_V_read_4, i8 %mux_in_1_V_read_4, i8 %mux_in_2_V_read_3, i8 %mux_in_3_V_read_3, i8 %mux_in_4_V_read_3, i8 %mux_in_5_V_read_3, i8 %mux_in_6_V_read_3, i8 %mux_in_7_V_read_3, i3 %mux_sel0_V_read, i3 %mux_sel1_V_read, i1 %mux_s_read)" [Multiplexor/top.cpp:52]   --->   Operation 65 'call' 'op2_V_assign_4_s' <Predicate = (mode_read == 8)> <Delay = 3.72> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 66 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %mux_ret_V, i8 %op2_V_assign_4_s)" [Multiplexor/top.cpp:52]   --->   Operation 66 'write' <Predicate = (mode_read == 8)> <Delay = 0.00>
+ST_1 : Operation 67 [1/1] (0.00ns)   --->   "br label %13" [Multiplexor/top.cpp:53]   --->   Operation 67 'br' <Predicate = (mode_read == 8)> <Delay = 0.00>
+ST_1 : Operation 68 [1/1] (0.00ns)   --->   "%mux_in_0_V_read_3 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_0_V)" [Multiplexor/top.cpp:48]   --->   Operation 68 'read' 'mux_in_0_V_read_3' <Predicate = (mode_read == 7)> <Delay = 0.00>
+ST_1 : Operation 69 [1/1] (0.00ns)   --->   "%mux_in_1_V_read_3 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_1_V)" [Multiplexor/top.cpp:48]   --->   Operation 69 'read' 'mux_in_1_V_read_3' <Predicate = (mode_read == 7)> <Delay = 0.00>
+ST_1 : Operation 70 [1/1] (0.00ns)   --->   "%mux_in_2_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_2_V)" [Multiplexor/top.cpp:48]   --->   Operation 70 'read' 'mux_in_2_V_read_2' <Predicate = (mode_read == 7)> <Delay = 0.00>
+ST_1 : Operation 71 [1/1] (0.00ns)   --->   "%mux_in_3_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_3_V)" [Multiplexor/top.cpp:48]   --->   Operation 71 'read' 'mux_in_3_V_read_2' <Predicate = (mode_read == 7)> <Delay = 0.00>
+ST_1 : Operation 72 [1/1] (0.00ns)   --->   "%mux_in_4_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_4_V)" [Multiplexor/top.cpp:48]   --->   Operation 72 'read' 'mux_in_4_V_read_2' <Predicate = (mode_read == 7)> <Delay = 0.00>
+ST_1 : Operation 73 [1/1] (0.00ns)   --->   "%mux_in_5_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_5_V)" [Multiplexor/top.cpp:48]   --->   Operation 73 'read' 'mux_in_5_V_read_2' <Predicate = (mode_read == 7)> <Delay = 0.00>
+ST_1 : Operation 74 [1/1] (0.00ns)   --->   "%mux_in_6_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_6_V)" [Multiplexor/top.cpp:48]   --->   Operation 74 'read' 'mux_in_6_V_read_2' <Predicate = (mode_read == 7)> <Delay = 0.00>
+ST_1 : Operation 75 [1/1] (0.00ns)   --->   "%mux_in_7_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_7_V)" [Multiplexor/top.cpp:48]   --->   Operation 75 'read' 'mux_in_7_V_read_2' <Predicate = (mode_read == 7)> <Delay = 0.00>
+ST_1 : Operation 76 [2/2] (8.39ns)   --->   "%op2_V_assign_3_s = call fastcc i8 @mux_onehot_if(i8 %mux_in_0_V_read_3, i8 %mux_in_1_V_read_3, i8 %mux_in_2_V_read_2, i8 %mux_in_3_V_read_2, i8 %mux_in_4_V_read_2, i8 %mux_in_5_V_read_2, i8 %mux_in_6_V_read_2, i8 %mux_in_7_V_read_2, i8 %mux_sel_onehot_V_rea)" [Multiplexor/top.cpp:48]   --->   Operation 76 'call' 'op2_V_assign_3_s' <Predicate = (mode_read == 7)> <Delay = 8.39> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 77 [1/1] (0.00ns)   --->   "%mux_in_0_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_0_V)" [Multiplexor/top.cpp:44]   --->   Operation 77 'read' 'mux_in_0_V_read_2' <Predicate = (mode_read == 6)> <Delay = 0.00>
+ST_1 : Operation 78 [1/1] (0.00ns)   --->   "%mux_in_1_V_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_1_V)" [Multiplexor/top.cpp:44]   --->   Operation 78 'read' 'mux_in_1_V_read_2' <Predicate = (mode_read == 6)> <Delay = 0.00>
+ST_1 : Operation 79 [1/1] (0.00ns)   --->   "%mux_in_2_V_read_1 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_2_V)" [Multiplexor/top.cpp:44]   --->   Operation 79 'read' 'mux_in_2_V_read_1' <Predicate = (mode_read == 6)> <Delay = 0.00>
+ST_1 : Operation 80 [1/1] (0.00ns)   --->   "%mux_in_3_V_read_1 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_3_V)" [Multiplexor/top.cpp:44]   --->   Operation 80 'read' 'mux_in_3_V_read_1' <Predicate = (mode_read == 6)> <Delay = 0.00>
+ST_1 : Operation 81 [1/1] (0.00ns)   --->   "%mux_in_4_V_read_1 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_4_V)" [Multiplexor/top.cpp:44]   --->   Operation 81 'read' 'mux_in_4_V_read_1' <Predicate = (mode_read == 6)> <Delay = 0.00>
+ST_1 : Operation 82 [1/1] (0.00ns)   --->   "%mux_in_5_V_read_1 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_5_V)" [Multiplexor/top.cpp:44]   --->   Operation 82 'read' 'mux_in_5_V_read_1' <Predicate = (mode_read == 6)> <Delay = 0.00>
+ST_1 : Operation 83 [1/1] (0.00ns)   --->   "%mux_in_6_V_read_1 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_6_V)" [Multiplexor/top.cpp:44]   --->   Operation 83 'read' 'mux_in_6_V_read_1' <Predicate = (mode_read == 6)> <Delay = 0.00>
+ST_1 : Operation 84 [1/1] (0.00ns)   --->   "%mux_in_7_V_read_1 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_7_V)" [Multiplexor/top.cpp:44]   --->   Operation 84 'read' 'mux_in_7_V_read_1' <Predicate = (mode_read == 6)> <Delay = 0.00>
+ST_1 : Operation 85 [1/1] (6.54ns)   --->   "%op2_V_assign_2_s = call fastcc i8 @mux_onehot(i8 %mux_in_0_V_read_2, i8 %mux_in_1_V_read_2, i8 %mux_in_2_V_read_1, i8 %mux_in_3_V_read_1, i8 %mux_in_4_V_read_1, i8 %mux_in_5_V_read_1, i8 %mux_in_6_V_read_1, i8 %mux_in_7_V_read_1, i8 %mux_sel_onehot_V_rea)" [Multiplexor/top.cpp:44]   --->   Operation 85 'call' 'op2_V_assign_2_s' <Predicate = (mode_read == 6)> <Delay = 6.54> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 86 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %mux_ret_V, i8 %op2_V_assign_2_s)" [Multiplexor/top.cpp:44]   --->   Operation 86 'write' <Predicate = (mode_read == 6)> <Delay = 0.00>
+ST_1 : Operation 87 [1/1] (0.00ns)   --->   "br label %13" [Multiplexor/top.cpp:45]   --->   Operation 87 'br' <Predicate = (mode_read == 6)> <Delay = 0.00>
+ST_1 : Operation 88 [1/1] (0.00ns)   --->   "%mux_in_0_V_read_1 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_0_V)" [Multiplexor/top.cpp:40]   --->   Operation 88 'read' 'mux_in_0_V_read_1' <Predicate = (mode_read == 5)> <Delay = 0.00>
+ST_1 : Operation 89 [1/1] (0.00ns)   --->   "%mux_in_1_V_read_1 = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_1_V)" [Multiplexor/top.cpp:40]   --->   Operation 89 'read' 'mux_in_1_V_read_1' <Predicate = (mode_read == 5)> <Delay = 0.00>
+ST_1 : Operation 90 [1/1] (0.00ns)   --->   "%mux_in_2_V_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_2_V)" [Multiplexor/top.cpp:40]   --->   Operation 90 'read' 'mux_in_2_V_read' <Predicate = (mode_read == 5)> <Delay = 0.00>
+ST_1 : Operation 91 [1/1] (0.00ns)   --->   "%mux_in_3_V_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_3_V)" [Multiplexor/top.cpp:40]   --->   Operation 91 'read' 'mux_in_3_V_read' <Predicate = (mode_read == 5)> <Delay = 0.00>
+ST_1 : Operation 92 [1/1] (0.00ns)   --->   "%mux_in_4_V_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_4_V)" [Multiplexor/top.cpp:40]   --->   Operation 92 'read' 'mux_in_4_V_read' <Predicate = (mode_read == 5)> <Delay = 0.00>
+ST_1 : Operation 93 [1/1] (0.00ns)   --->   "%mux_in_5_V_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_5_V)" [Multiplexor/top.cpp:40]   --->   Operation 93 'read' 'mux_in_5_V_read' <Predicate = (mode_read == 5)> <Delay = 0.00>
+ST_1 : Operation 94 [1/1] (0.00ns)   --->   "%mux_in_6_V_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_6_V)" [Multiplexor/top.cpp:40]   --->   Operation 94 'read' 'mux_in_6_V_read' <Predicate = (mode_read == 5)> <Delay = 0.00>
+ST_1 : Operation 95 [1/1] (0.00ns)   --->   "%mux_in_7_V_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_7_V)" [Multiplexor/top.cpp:40]   --->   Operation 95 'read' 'mux_in_7_V_read' <Predicate = (mode_read == 5)> <Delay = 0.00>
+ST_1 : Operation 96 [1/1] (2.47ns)   --->   "%op2_V_assign_1_s = call fastcc i8 @mux_binary(i8 %mux_in_0_V_read_1, i8 %mux_in_1_V_read_1, i8 %mux_in_2_V_read, i8 %mux_in_3_V_read, i8 %mux_in_4_V_read, i8 %mux_in_5_V_read, i8 %mux_in_6_V_read, i8 %mux_in_7_V_read, i3 %mux_sel0_V_read)" [Multiplexor/top.cpp:40]   --->   Operation 96 'call' 'op2_V_assign_1_s' <Predicate = (mode_read == 5)> <Delay = 2.47> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 97 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %mux_ret_V, i8 %op2_V_assign_1_s)" [Multiplexor/top.cpp:40]   --->   Operation 97 'write' <Predicate = (mode_read == 5)> <Delay = 0.00>
+ST_1 : Operation 98 [1/1] (0.00ns)   --->   "br label %13" [Multiplexor/top.cpp:41]   --->   Operation 98 'br' <Predicate = (mode_read == 5)> <Delay = 0.00>
+ST_1 : Operation 99 [1/1] (0.00ns)   --->   "%mux_in_0_V_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_0_V)" [Multiplexor/top.cpp:36]   --->   Operation 99 'read' 'mux_in_0_V_read' <Predicate = (mode_read == 4)> <Delay = 0.00>
+ST_1 : Operation 100 [1/1] (0.00ns)   --->   "%mux_in_1_V_read = call i8 @_ssdm_op_Read.ap_auto.i8P(i8* %mux_in_1_V)" [Multiplexor/top.cpp:36]   --->   Operation 100 'read' 'mux_in_1_V_read' <Predicate = (mode_read == 4)> <Delay = 0.00>
+ST_1 : Operation 101 [1/1] (1.24ns)   --->   "%op2_V_assign_s = call fastcc i8 @mux_2to1(i8 %mux_in_0_V_read, i8 %mux_in_1_V_read, i1 %mux_s_read)" [Multiplexor/top.cpp:36]   --->   Operation 101 'call' 'op2_V_assign_s' <Predicate = (mode_read == 4)> <Delay = 1.24> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 102 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %mux_ret_V, i8 %op2_V_assign_s)" [Multiplexor/top.cpp:36]   --->   Operation 102 'write' <Predicate = (mode_read == 4)> <Delay = 0.00>
+ST_1 : Operation 103 [1/1] (0.00ns)   --->   "br label %13" [Multiplexor/top.cpp:37]   --->   Operation 103 'br' <Predicate = (mode_read == 4)> <Delay = 0.00>
+ST_1 : Operation 104 [1/1] (6.48ns)   --->   "%call_ret7 = call fastcc { i1, i5 } @leading_ones_templat(i32 %leadone_in_V_read)" [Multiplexor/top.cpp:32]   --->   Operation 104 'call' 'call_ret7' <Predicate = (mode_read == 3)> <Delay = 6.48> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 105 [1/1] (0.00ns)   --->   "%tmp_3 = extractvalue { i1, i5 } %call_ret7, 0" [Multiplexor/top.cpp:32]   --->   Operation 105 'extractvalue' 'tmp_3' <Predicate = (mode_read == 3)> <Delay = 0.00>
+ST_1 : Operation 106 [1/1] (0.00ns)   --->   "%leadone_out_V_ret5 = extractvalue { i1, i5 } %call_ret7, 1" [Multiplexor/top.cpp:32]   --->   Operation 106 'extractvalue' 'leadone_out_V_ret5' <Predicate = (mode_read == 3)> <Delay = 0.00>
+ST_1 : Operation 107 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i5P(i5* %leadone_out_V, i5 %leadone_out_V_ret5)" [Multiplexor/top.cpp:32]   --->   Operation 107 'write' <Predicate = (mode_read == 3)> <Delay = 0.00>
+ST_1 : Operation 108 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i1P(i1* %leadone_ret, i1 %tmp_3)" [Multiplexor/top.cpp:32]   --->   Operation 108 'write' <Predicate = (mode_read == 3)> <Delay = 0.00>
+ST_1 : Operation 109 [1/1] (0.00ns)   --->   "br label %13" [Multiplexor/top.cpp:33]   --->   Operation 109 'br' <Predicate = (mode_read == 3)> <Delay = 0.00>
+ST_1 : Operation 110 [2/2] (6.03ns)   --->   "%call_ret = call fastcc { i1, i5 } @leading_ones_log2(i32 %leadone_in_V_read)" [Multiplexor/top.cpp:28]   --->   Operation 110 'call' 'call_ret' <Predicate = (mode_read == 2)> <Delay = 6.03> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 111 [2/2] (3.41ns)   --->   "%call_ret3 = call fastcc { i1, i5 } @leading_ones_brutefo(i32 %leadone_in_V_read)" [Multiplexor/top.cpp:24]   --->   Operation 111 'call' 'call_ret3' <Predicate = (mode_read == 1)> <Delay = 3.41> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 112 [2/2] (3.67ns)   --->   "%call_ret4 = call fastcc { i1, i5 } @leading_ones(i32 %leadone_in_V_read)" [Multiplexor/top.cpp:20]   --->   Operation 112 'call' 'call_ret4' <Predicate = (mode_read == 0)> <Delay = 3.67> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 113 [1/1] (0.00ns)   --->   "%max_in_0_read = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_0)" [Multiplexor/top.cpp:64]   --->   Operation 113 'read' 'max_in_0_read' <Predicate = (mode_read != 0 & mode_read != 1 & mode_read != 2 & mode_read != 3 & mode_read != 4 & mode_read != 5 & mode_read != 6 & mode_read != 7 & mode_read != 8 & mode_read != 9 & mode_read != 10)> <Delay = 0.00>
+ST_1 : Operation 114 [1/1] (0.00ns)   --->   "%max_in_1_read = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_1)" [Multiplexor/top.cpp:64]   --->   Operation 114 'read' 'max_in_1_read' <Predicate = (mode_read != 0 & mode_read != 1 & mode_read != 2 & mode_read != 3 & mode_read != 4 & mode_read != 5 & mode_read != 6 & mode_read != 7 & mode_read != 8 & mode_read != 9 & mode_read != 10)> <Delay = 0.00>
+ST_1 : Operation 115 [1/1] (0.00ns)   --->   "%max_in_2_read = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_2)" [Multiplexor/top.cpp:64]   --->   Operation 115 'read' 'max_in_2_read' <Predicate = (mode_read != 0 & mode_read != 1 & mode_read != 2 & mode_read != 3 & mode_read != 4 & mode_read != 5 & mode_read != 6 & mode_read != 7 & mode_read != 8 & mode_read != 9 & mode_read != 10)> <Delay = 0.00>
+ST_1 : Operation 116 [1/1] (0.00ns)   --->   "%max_in_3_read = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_3)" [Multiplexor/top.cpp:64]   --->   Operation 116 'read' 'max_in_3_read' <Predicate = (mode_read != 0 & mode_read != 1 & mode_read != 2 & mode_read != 3 & mode_read != 4 & mode_read != 5 & mode_read != 6 & mode_read != 7 & mode_read != 8 & mode_read != 9 & mode_read != 10)> <Delay = 0.00>
+ST_1 : Operation 117 [1/1] (0.00ns)   --->   "%max_in_4_read = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_4)" [Multiplexor/top.cpp:64]   --->   Operation 117 'read' 'max_in_4_read' <Predicate = (mode_read != 0 & mode_read != 1 & mode_read != 2 & mode_read != 3 & mode_read != 4 & mode_read != 5 & mode_read != 6 & mode_read != 7 & mode_read != 8 & mode_read != 9 & mode_read != 10)> <Delay = 0.00>
+ST_1 : Operation 118 [1/1] (0.00ns)   --->   "%max_in_5_read = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_5)" [Multiplexor/top.cpp:64]   --->   Operation 118 'read' 'max_in_5_read' <Predicate = (mode_read != 0 & mode_read != 1 & mode_read != 2 & mode_read != 3 & mode_read != 4 & mode_read != 5 & mode_read != 6 & mode_read != 7 & mode_read != 8 & mode_read != 9 & mode_read != 10)> <Delay = 0.00>
+ST_1 : Operation 119 [1/1] (0.00ns)   --->   "%max_in_6_read = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_6)" [Multiplexor/top.cpp:64]   --->   Operation 119 'read' 'max_in_6_read' <Predicate = (mode_read != 0 & mode_read != 1 & mode_read != 2 & mode_read != 3 & mode_read != 4 & mode_read != 5 & mode_read != 6 & mode_read != 7 & mode_read != 8 & mode_read != 9 & mode_read != 10)> <Delay = 0.00>
+ST_1 : Operation 120 [1/1] (0.00ns)   --->   "%max_in_7_read = call i32 @_ssdm_op_Read.ap_auto.i32P(i32* %max_in_7)" [Multiplexor/top.cpp:64]   --->   Operation 120 'read' 'max_in_7_read' <Predicate = (mode_read != 0 & mode_read != 1 & mode_read != 2 & mode_read != 3 & mode_read != 4 & mode_read != 5 & mode_read != 6 & mode_read != 7 & mode_read != 8 & mode_read != 9 & mode_read != 10)> <Delay = 0.00>
+ST_1 : Operation 121 [2/2] (8.40ns)   --->   "%call_ret1 = call fastcc i32 @max_algorithmic(i32 %max_in_0_read, i32 %max_in_1_read, i32 %max_in_2_read, i32 %max_in_3_read, i32 %max_in_4_read, i32 %max_in_5_read, i32 %max_in_6_read, i32 %max_in_7_read)" [Multiplexor/top.cpp:64]   --->   Operation 121 'call' 'call_ret1' <Predicate = (mode_read != 0 & mode_read != 1 & mode_read != 2 & mode_read != 3 & mode_read != 4 & mode_read != 5 & mode_read != 6 & mode_read != 7 & mode_read != 8 & mode_read != 9 & mode_read != 10)> <Delay = 8.40> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 2 <SV = 1> <Delay = 8.41>
+ST_2 : Operation 122 [1/2] (3.17ns)   --->   "%max_ret = call fastcc i32 @max(i32 %max_in_0_read_1, i32 %max_in_1_read_1, i32 %max_in_2_read_1, i32 %max_in_3_read_1, i32 %max_in_4_read_1, i32 %max_in_5_read_1, i32 %max_in_6_read_1, i32 %max_in_7_read_1)" [Multiplexor/top.cpp:60]   --->   Operation 122 'call' 'max_ret' <Predicate = (mode_read == 10)> <Delay = 3.17> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 123 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i32P(i32* %max_out, i32 %max_ret)" [Multiplexor/top.cpp:60]   --->   Operation 123 'write' <Predicate = (mode_read == 10)> <Delay = 0.00>
+ST_2 : Operation 124 [1/1] (0.00ns)   --->   "br label %13" [Multiplexor/top.cpp:61]   --->   Operation 124 'br' <Predicate = (mode_read == 10)> <Delay = 0.00>
+ST_2 : Operation 125 [1/2] (4.99ns)   --->   "%op2_V_assign_3_s = call fastcc i8 @mux_onehot_if(i8 %mux_in_0_V_read_3, i8 %mux_in_1_V_read_3, i8 %mux_in_2_V_read_2, i8 %mux_in_3_V_read_2, i8 %mux_in_4_V_read_2, i8 %mux_in_5_V_read_2, i8 %mux_in_6_V_read_2, i8 %mux_in_7_V_read_2, i8 %mux_sel_onehot_V_rea)" [Multiplexor/top.cpp:48]   --->   Operation 125 'call' 'op2_V_assign_3_s' <Predicate = (mode_read == 7)> <Delay = 4.99> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 126 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i8P(i8* %mux_ret_V, i8 %op2_V_assign_3_s)" [Multiplexor/top.cpp:48]   --->   Operation 126 'write' <Predicate = (mode_read == 7)> <Delay = 0.00>
+ST_2 : Operation 127 [1/1] (0.00ns)   --->   "br label %13" [Multiplexor/top.cpp:49]   --->   Operation 127 'br' <Predicate = (mode_read == 7)> <Delay = 0.00>
+ST_2 : Operation 128 [1/2] (5.49ns)   --->   "%call_ret = call fastcc { i1, i5 } @leading_ones_log2(i32 %leadone_in_V_read)" [Multiplexor/top.cpp:28]   --->   Operation 128 'call' 'call_ret' <Predicate = (mode_read == 2)> <Delay = 5.49> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 129 [1/1] (0.00ns)   --->   "%tmp_2 = extractvalue { i1, i5 } %call_ret, 0" [Multiplexor/top.cpp:28]   --->   Operation 129 'extractvalue' 'tmp_2' <Predicate = (mode_read == 2)> <Delay = 0.00>
+ST_2 : Operation 130 [1/1] (0.00ns)   --->   "%leadone_out_V_ret = extractvalue { i1, i5 } %call_ret, 1" [Multiplexor/top.cpp:28]   --->   Operation 130 'extractvalue' 'leadone_out_V_ret' <Predicate = (mode_read == 2)> <Delay = 0.00>
+ST_2 : Operation 131 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i5P(i5* %leadone_out_V, i5 %leadone_out_V_ret)" [Multiplexor/top.cpp:28]   --->   Operation 131 'write' <Predicate = (mode_read == 2)> <Delay = 0.00>
+ST_2 : Operation 132 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i1P(i1* %leadone_ret, i1 %tmp_2)" [Multiplexor/top.cpp:28]   --->   Operation 132 'write' <Predicate = (mode_read == 2)> <Delay = 0.00>
+ST_2 : Operation 133 [1/1] (0.00ns)   --->   "br label %13" [Multiplexor/top.cpp:29]   --->   Operation 133 'br' <Predicate = (mode_read == 2)> <Delay = 0.00>
+ST_2 : Operation 134 [1/2] (1.21ns)   --->   "%call_ret3 = call fastcc { i1, i5 } @leading_ones_brutefo(i32 %leadone_in_V_read)" [Multiplexor/top.cpp:24]   --->   Operation 134 'call' 'call_ret3' <Predicate = (mode_read == 1)> <Delay = 1.21> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 135 [1/1] (0.00ns)   --->   "%tmp_1 = extractvalue { i1, i5 } %call_ret3, 0" [Multiplexor/top.cpp:24]   --->   Operation 135 'extractvalue' 'tmp_1' <Predicate = (mode_read == 1)> <Delay = 0.00>
+ST_2 : Operation 136 [1/1] (0.00ns)   --->   "%leadone_out_V_ret2 = extractvalue { i1, i5 } %call_ret3, 1" [Multiplexor/top.cpp:24]   --->   Operation 136 'extractvalue' 'leadone_out_V_ret2' <Predicate = (mode_read == 1)> <Delay = 0.00>
+ST_2 : Operation 137 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i5P(i5* %leadone_out_V, i5 %leadone_out_V_ret2)" [Multiplexor/top.cpp:24]   --->   Operation 137 'write' <Predicate = (mode_read == 1)> <Delay = 0.00>
+ST_2 : Operation 138 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i1P(i1* %leadone_ret, i1 %tmp_1)" [Multiplexor/top.cpp:24]   --->   Operation 138 'write' <Predicate = (mode_read == 1)> <Delay = 0.00>
+ST_2 : Operation 139 [1/1] (0.00ns)   --->   "br label %13" [Multiplexor/top.cpp:25]   --->   Operation 139 'br' <Predicate = (mode_read == 1)> <Delay = 0.00>
+ST_2 : Operation 140 [1/2] (0.00ns)   --->   "%call_ret4 = call fastcc { i1, i5 } @leading_ones(i32 %leadone_in_V_read)" [Multiplexor/top.cpp:20]   --->   Operation 140 'call' 'call_ret4' <Predicate = (mode_read == 0)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 141 [1/1] (0.00ns)   --->   "%tmp = extractvalue { i1, i5 } %call_ret4, 0" [Multiplexor/top.cpp:20]   --->   Operation 141 'extractvalue' 'tmp' <Predicate = (mode_read == 0)> <Delay = 0.00>
+ST_2 : Operation 142 [1/1] (0.00ns)   --->   "%leadone_out_V_ret4 = extractvalue { i1, i5 } %call_ret4, 1" [Multiplexor/top.cpp:20]   --->   Operation 142 'extractvalue' 'leadone_out_V_ret4' <Predicate = (mode_read == 0)> <Delay = 0.00>
+ST_2 : Operation 143 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i5P(i5* %leadone_out_V, i5 %leadone_out_V_ret4)" [Multiplexor/top.cpp:20]   --->   Operation 143 'write' <Predicate = (mode_read == 0)> <Delay = 0.00>
+ST_2 : Operation 144 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i1P(i1* %leadone_ret, i1 %tmp)" [Multiplexor/top.cpp:20]   --->   Operation 144 'write' <Predicate = (mode_read == 0)> <Delay = 0.00>
+ST_2 : Operation 145 [1/1] (0.00ns)   --->   "br label %13" [Multiplexor/top.cpp:21]   --->   Operation 145 'br' <Predicate = (mode_read == 0)> <Delay = 0.00>
+ST_2 : Operation 146 [1/2] (8.41ns)   --->   "%call_ret1 = call fastcc i32 @max_algorithmic(i32 %max_in_0_read, i32 %max_in_1_read, i32 %max_in_2_read, i32 %max_in_3_read, i32 %max_in_4_read, i32 %max_in_5_read, i32 %max_in_6_read, i32 %max_in_7_read)" [Multiplexor/top.cpp:64]   --->   Operation 146 'call' 'call_ret1' <Predicate = (mode_read != 0 & mode_read != 1 & mode_read != 2 & mode_read != 3 & mode_read != 4 & mode_read != 5 & mode_read != 6 & mode_read != 7 & mode_read != 8 & mode_read != 9 & mode_read != 10)> <Delay = 8.41> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 147 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i32P(i32* %max_out, i32 %call_ret1)" [Multiplexor/top.cpp:64]   --->   Operation 147 'write' <Predicate = (mode_read != 0 & mode_read != 1 & mode_read != 2 & mode_read != 3 & mode_read != 4 & mode_read != 5 & mode_read != 6 & mode_read != 7 & mode_read != 8 & mode_read != 9 & mode_read != 10)> <Delay = 0.00>
+ST_2 : Operation 148 [1/1] (0.00ns)   --->   "br label %13" [Multiplexor/top.cpp:65]   --->   Operation 148 'br' <Predicate = (mode_read != 0 & mode_read != 1 & mode_read != 2 & mode_read != 3 & mode_read != 4 & mode_read != 5 & mode_read != 6 & mode_read != 7 & mode_read != 8 & mode_read != 9 & mode_read != 10)> <Delay = 0.00>
+ST_2 : Operation 149 [1/1] (0.00ns)   --->   "ret void" [Multiplexor/top.cpp:67]   --->   Operation 149 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 8.41ns
+The critical path consists of the following:
+	wire read on port 'max_in_0' (Multiplexor/top.cpp:64) [168]  (0 ns)
+	'call' operation ('call_ret1', Multiplexor/top.cpp:64) to 'max_algorithmic' [176]  (8.41 ns)
+
+ <State 2>: 8.41ns
+The critical path consists of the following:
+	'call' operation ('call_ret1', Multiplexor/top.cpp:64) to 'max_algorithmic' [176]  (8.41 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

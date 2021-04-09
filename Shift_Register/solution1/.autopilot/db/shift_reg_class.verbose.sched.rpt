@@ -1,0 +1,192 @@
+
+
+================================================================
+== Vivado HLS Report for 'shift_reg_class'
+================================================================
+* Date:           Thu Apr  8 07:05:20 2021
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        Shift_Register
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 1.769 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |        1|        1| 10.000 ns | 10.000 ns |    1|    1|   none  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.76>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%en_read = call i1 @_ssdm_op_Read.ap_auto.i1(i1 %en)" [Shift_Register/shift_reg_class.cpp:4]   --->   Operation 3 'read' 'en_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%load_read = call i1 @_ssdm_op_Read.ap_auto.i1(i1 %load)" [Shift_Register/shift_reg_class.cpp:4]   --->   Operation 4 'read' 'load_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%srst_read = call i1 @_ssdm_op_Read.ap_auto.i1(i1 %srst)" [Shift_Register/shift_reg_class.cpp:4]   --->   Operation 5 'read' 'srst_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%load_data_7_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %load_data_7_read)" [Shift_Register/shift_reg_class.cpp:4]   --->   Operation 6 'read' 'load_data_7_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%load_data_6_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %load_data_6_read)" [Shift_Register/shift_reg_class.cpp:4]   --->   Operation 7 'read' 'load_data_6_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%load_data_5_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %load_data_5_read)" [Shift_Register/shift_reg_class.cpp:4]   --->   Operation 8 'read' 'load_data_5_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%load_data_4_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %load_data_4_read)" [Shift_Register/shift_reg_class.cpp:4]   --->   Operation 9 'read' 'load_data_4_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%load_data_3_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %load_data_3_read)" [Shift_Register/shift_reg_class.cpp:4]   --->   Operation 10 'read' 'load_data_3_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%load_data_2_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %load_data_2_read)" [Shift_Register/shift_reg_class.cpp:4]   --->   Operation 11 'read' 'load_data_2_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%load_data_1_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %load_data_1_read)" [Shift_Register/shift_reg_class.cpp:4]   --->   Operation 12 'read' 'load_data_1_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%load_data_0_read_2 = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %load_data_0_read)" [Shift_Register/shift_reg_class.cpp:4]   --->   Operation 13 'read' 'load_data_0_read_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%din_read = call i8 @_ssdm_op_Read.ap_auto.i8(i8 %din)" [Shift_Register/shift_reg_class.cpp:4]   --->   Operation 14 'read' 'din_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%shift_reg0_regs_7_lo = load i8* @shift_reg0_regs_7, align 1" [Shift_Register/shift_class.h:65->Shift_Register/shift_reg_class.cpp:40]   --->   Operation 15 'load' 'shift_reg0_regs_7_lo' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%shift_reg1_regs_2_lo = load i8* @shift_reg1_regs_2, align 1" [Shift_Register/shift_class.h:57->Shift_Register/shift_reg_class.cpp:40]   --->   Operation 16 'load' 'shift_reg1_regs_2_lo' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%shift_reg1_regs_1_lo = load i8* @shift_reg1_regs_1, align 1" [Shift_Register/shift_class.h:57->Shift_Register/shift_reg_class.cpp:40]   --->   Operation 17 'load' 'shift_reg1_regs_1_lo' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%shift_reg1_regs_0_lo = load i8* @shift_reg1_regs_0, align 1" [Shift_Register/shift_class.h:57->Shift_Register/shift_reg_class.cpp:40]   --->   Operation 18 'load' 'shift_reg1_regs_0_lo' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%shift_reg0_regs_6_lo = load i8* @shift_reg0_regs_6, align 1" [Shift_Register/shift_class.h:57->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 19 'load' 'shift_reg0_regs_6_lo' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%shift_reg0_regs_5_lo = load i8* @shift_reg0_regs_5, align 1" [Shift_Register/shift_class.h:57->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 20 'load' 'shift_reg0_regs_5_lo' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%shift_reg0_regs_4_lo = load i8* @shift_reg0_regs_4, align 1" [Shift_Register/shift_class.h:57->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 21 'load' 'shift_reg0_regs_4_lo' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%shift_reg0_regs_3_lo = load i8* @shift_reg0_regs_3, align 1" [Shift_Register/shift_class.h:57->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 22 'load' 'shift_reg0_regs_3_lo' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%shift_reg0_regs_2_lo = load i8* @shift_reg0_regs_2, align 1" [Shift_Register/shift_class.h:57->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 23 'load' 'shift_reg0_regs_2_lo' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%shift_reg0_regs_1_lo = load i8* @shift_reg0_regs_1, align 1" [Shift_Register/shift_class.h:57->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 24 'load' 'shift_reg0_regs_1_lo' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%shift_reg0_regs_0_lo = load i8* @shift_reg0_regs_0, align 1" [Shift_Register/shift_class.h:57->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 25 'load' 'shift_reg0_regs_0_lo' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (1.76ns)   --->   "br i1 %en_read, label %._crit_edge.i.0_ifconv, label %._crit_edge.i8.7" [Shift_Register/shift_class.h:49->Shift_Register/shift_reg_class.cpp:40]   --->   Operation 26 'br' <Predicate = true> <Delay = 1.76>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "store i8 %shift_reg1_regs_2_lo, i8* @shift_reg1_regs_3, align 1" [Shift_Register/shift_class.h:57->Shift_Register/shift_reg_class.cpp:40]   --->   Operation 27 'store' <Predicate = (en_read)> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "store i8 %shift_reg1_regs_1_lo, i8* @shift_reg1_regs_2, align 1" [Shift_Register/shift_class.h:57->Shift_Register/shift_reg_class.cpp:40]   --->   Operation 28 'store' <Predicate = (en_read)> <Delay = 0.00>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "store i8 %shift_reg1_regs_0_lo, i8* @shift_reg1_regs_1, align 1" [Shift_Register/shift_class.h:57->Shift_Register/shift_reg_class.cpp:40]   --->   Operation 29 'store' <Predicate = (en_read)> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "store i8 %shift_reg0_regs_7_lo, i8* @shift_reg1_regs_0, align 1" [Shift_Register/shift_class.h:55->Shift_Register/shift_reg_class.cpp:40]   --->   Operation 30 'store' <Predicate = (en_read)> <Delay = 0.00>
+ST_1 : Operation 31 [1/1] (0.00ns) (grouped into LUT with out node select_ln25)   --->   "%select_ln52 = select i1 %load_read, i8 %load_data_7_read_2, i8 %shift_reg0_regs_6_lo" [Shift_Register/shift_class.h:52->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 31 'select' 'select_ln52' <Predicate = (en_read)> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 32 [1/1] (1.24ns) (out node of the LUT)   --->   "%select_ln25 = select i1 %srst_read, i8 0, i8 %select_ln52" [Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26]   --->   Operation 32 'select' 'select_ln25' <Predicate = (en_read)> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "store i8 %select_ln25, i8* @shift_reg0_regs_7, align 1" [Shift_Register/shift_class.h:51->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 33 'store' <Predicate = (en_read)> <Delay = 0.00>
+ST_1 : Operation 34 [1/1] (0.00ns) (grouped into LUT with out node select_ln25_1)   --->   "%select_ln52_1 = select i1 %load_read, i8 %load_data_6_read_2, i8 %shift_reg0_regs_5_lo" [Shift_Register/shift_class.h:52->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 34 'select' 'select_ln52_1' <Predicate = (en_read)> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 35 [1/1] (1.24ns) (out node of the LUT)   --->   "%select_ln25_1 = select i1 %srst_read, i8 0, i8 %select_ln52_1" [Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26]   --->   Operation 35 'select' 'select_ln25_1' <Predicate = (en_read)> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 36 [1/1] (0.00ns)   --->   "store i8 %select_ln25_1, i8* @shift_reg0_regs_6, align 1" [Shift_Register/shift_class.h:51->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 36 'store' <Predicate = (en_read)> <Delay = 0.00>
+ST_1 : Operation 37 [1/1] (0.00ns) (grouped into LUT with out node select_ln25_2)   --->   "%select_ln52_2 = select i1 %load_read, i8 %load_data_5_read_2, i8 %shift_reg0_regs_4_lo" [Shift_Register/shift_class.h:52->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 37 'select' 'select_ln52_2' <Predicate = (en_read)> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 38 [1/1] (1.24ns) (out node of the LUT)   --->   "%select_ln25_2 = select i1 %srst_read, i8 0, i8 %select_ln52_2" [Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26]   --->   Operation 38 'select' 'select_ln25_2' <Predicate = (en_read)> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 39 [1/1] (0.00ns)   --->   "store i8 %select_ln25_2, i8* @shift_reg0_regs_5, align 1" [Shift_Register/shift_class.h:51->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 39 'store' <Predicate = (en_read)> <Delay = 0.00>
+ST_1 : Operation 40 [1/1] (0.00ns) (grouped into LUT with out node select_ln25_3)   --->   "%select_ln52_3 = select i1 %load_read, i8 %load_data_4_read_2, i8 %shift_reg0_regs_3_lo" [Shift_Register/shift_class.h:52->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 40 'select' 'select_ln52_3' <Predicate = (en_read)> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 41 [1/1] (1.24ns) (out node of the LUT)   --->   "%select_ln25_3 = select i1 %srst_read, i8 0, i8 %select_ln52_3" [Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26]   --->   Operation 41 'select' 'select_ln25_3' <Predicate = (en_read)> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 42 [1/1] (0.00ns)   --->   "store i8 %select_ln25_3, i8* @shift_reg0_regs_4, align 1" [Shift_Register/shift_class.h:51->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 42 'store' <Predicate = (en_read)> <Delay = 0.00>
+ST_1 : Operation 43 [1/1] (0.00ns) (grouped into LUT with out node select_ln25_4)   --->   "%select_ln52_4 = select i1 %load_read, i8 %load_data_3_read_2, i8 %shift_reg0_regs_2_lo" [Shift_Register/shift_class.h:52->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 43 'select' 'select_ln52_4' <Predicate = (en_read)> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 44 [1/1] (1.24ns) (out node of the LUT)   --->   "%select_ln25_4 = select i1 %srst_read, i8 0, i8 %select_ln52_4" [Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26]   --->   Operation 44 'select' 'select_ln25_4' <Predicate = (en_read)> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 45 [1/1] (0.00ns)   --->   "store i8 %select_ln25_4, i8* @shift_reg0_regs_3, align 1" [Shift_Register/shift_class.h:51->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 45 'store' <Predicate = (en_read)> <Delay = 0.00>
+ST_1 : Operation 46 [1/1] (0.00ns) (grouped into LUT with out node select_ln25_5)   --->   "%select_ln52_5 = select i1 %load_read, i8 %load_data_2_read_2, i8 %shift_reg0_regs_1_lo" [Shift_Register/shift_class.h:52->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 46 'select' 'select_ln52_5' <Predicate = (en_read)> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 47 [1/1] (1.24ns) (out node of the LUT)   --->   "%select_ln25_5 = select i1 %srst_read, i8 0, i8 %select_ln52_5" [Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26]   --->   Operation 47 'select' 'select_ln25_5' <Predicate = (en_read)> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 48 [1/1] (0.00ns)   --->   "store i8 %select_ln25_5, i8* @shift_reg0_regs_2, align 1" [Shift_Register/shift_class.h:51->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 48 'store' <Predicate = (en_read)> <Delay = 0.00>
+ST_1 : Operation 49 [1/1] (0.00ns) (grouped into LUT with out node select_ln25_6)   --->   "%select_ln52_6 = select i1 %load_read, i8 %load_data_1_read_2, i8 %shift_reg0_regs_0_lo" [Shift_Register/shift_class.h:52->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 49 'select' 'select_ln52_6' <Predicate = (en_read)> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 50 [1/1] (1.24ns) (out node of the LUT)   --->   "%select_ln25_6 = select i1 %srst_read, i8 0, i8 %select_ln52_6" [Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26]   --->   Operation 50 'select' 'select_ln25_6' <Predicate = (en_read)> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 51 [1/1] (0.00ns)   --->   "store i8 %select_ln25_6, i8* @shift_reg0_regs_1, align 1" [Shift_Register/shift_class.h:51->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 51 'store' <Predicate = (en_read)> <Delay = 0.00>
+ST_1 : Operation 52 [1/1] (0.00ns) (grouped into LUT with out node select_ln50_1)   --->   "%xor_ln50 = xor i1 %load_read, true" [Shift_Register/shift_class.h:50->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 52 'xor' 'xor_ln50' <Predicate = (en_read)> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 53 [1/1] (0.00ns) (grouped into LUT with out node select_ln50_1)   --->   "%or_ln50 = or i1 %srst_read, %xor_ln50" [Shift_Register/shift_class.h:50->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 53 'or' 'or_ln50' <Predicate = (en_read)> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 54 [1/1] (0.00ns) (grouped into LUT with out node select_ln50_1)   --->   "%select_ln50 = select i1 %srst_read, i8 0, i8 %din_read" [Shift_Register/shift_class.h:50->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 54 'select' 'select_ln50' <Predicate = (en_read)> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 55 [1/1] (1.24ns) (out node of the LUT)   --->   "%select_ln50_1 = select i1 %or_ln50, i8 %select_ln50, i8 %load_data_0_read_2" [Shift_Register/shift_class.h:50->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 55 'select' 'select_ln50_1' <Predicate = (en_read)> <Delay = 1.24> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 56 [1/1] (0.00ns)   --->   "store i8 %select_ln50_1, i8* @shift_reg0_regs_0, align 1" [Shift_Register/shift_class.h:51->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 56 'store' <Predicate = (en_read)> <Delay = 0.00>
+ST_1 : Operation 57 [1/1] (1.76ns)   --->   "br label %._crit_edge.i8.7" [Shift_Register/shift_class.h:58->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 57 'br' <Predicate = (en_read)> <Delay = 1.76>
+
+State 2 <SV = 1> <Delay = 0.00>
+ST_2 : Operation 58 [1/1] (0.00ns)   --->   "%dout0_7_write_assig = phi i8 [ %select_ln25, %._crit_edge.i.0_ifconv ], [ %shift_reg0_regs_7_lo, %codeRepl ]" [Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26]   --->   Operation 58 'phi' 'dout0_7_write_assig' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 59 [1/1] (0.00ns)   --->   "%dout0_10_write_assi = phi i8 [ %shift_reg1_regs_1_lo, %._crit_edge.i.0_ifconv ], [ %shift_reg1_regs_2_lo, %codeRepl ]" [Shift_Register/shift_class.h:57->Shift_Register/shift_reg_class.cpp:40]   --->   Operation 59 'phi' 'dout0_10_write_assi' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 60 [1/1] (0.00ns)   --->   "%dout0_9_write_assig = phi i8 [ %shift_reg1_regs_0_lo, %._crit_edge.i.0_ifconv ], [ %shift_reg1_regs_1_lo, %codeRepl ]" [Shift_Register/shift_class.h:57->Shift_Register/shift_reg_class.cpp:40]   --->   Operation 60 'phi' 'dout0_9_write_assig' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 61 [1/1] (0.00ns)   --->   "%dout0_8_write_assig = phi i8 [ %shift_reg0_regs_7_lo, %._crit_edge.i.0_ifconv ], [ %shift_reg1_regs_0_lo, %codeRepl ]" [Shift_Register/shift_class.h:65->Shift_Register/shift_reg_class.cpp:40]   --->   Operation 61 'phi' 'dout0_8_write_assig' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 62 [1/1] (0.00ns)   --->   "%dout0_6_write_assig = phi i8 [ %select_ln25_1, %._crit_edge.i.0_ifconv ], [ %shift_reg0_regs_6_lo, %codeRepl ]" [Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26]   --->   Operation 62 'phi' 'dout0_6_write_assig' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 63 [1/1] (0.00ns)   --->   "%dout0_5_write_assig = phi i8 [ %select_ln25_2, %._crit_edge.i.0_ifconv ], [ %shift_reg0_regs_5_lo, %codeRepl ]" [Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26]   --->   Operation 63 'phi' 'dout0_5_write_assig' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 64 [1/1] (0.00ns)   --->   "%dout0_4_write_assig = phi i8 [ %select_ln25_3, %._crit_edge.i.0_ifconv ], [ %shift_reg0_regs_4_lo, %codeRepl ]" [Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26]   --->   Operation 64 'phi' 'dout0_4_write_assig' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 65 [1/1] (0.00ns)   --->   "%dout0_3_write_assig = phi i8 [ %select_ln25_4, %._crit_edge.i.0_ifconv ], [ %shift_reg0_regs_3_lo, %codeRepl ]" [Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26]   --->   Operation 65 'phi' 'dout0_3_write_assig' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 66 [1/1] (0.00ns)   --->   "%dout0_2_write_assig = phi i8 [ %select_ln25_5, %._crit_edge.i.0_ifconv ], [ %shift_reg0_regs_2_lo, %codeRepl ]" [Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26]   --->   Operation 66 'phi' 'dout0_2_write_assig' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 67 [1/1] (0.00ns)   --->   "%dout0_1_write_assig = phi i8 [ %select_ln25_6, %._crit_edge.i.0_ifconv ], [ %shift_reg0_regs_1_lo, %codeRepl ]" [Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26]   --->   Operation 67 'phi' 'dout0_1_write_assig' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 68 [1/1] (0.00ns)   --->   "%dout0_0_write_assig = phi i8 [ %select_ln50_1, %._crit_edge.i.0_ifconv ], [ %shift_reg0_regs_0_lo, %codeRepl ]" [Shift_Register/shift_class.h:50->Shift_Register/shift_reg_class.cpp:41]   --->   Operation 68 'phi' 'dout0_0_write_assig' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 69 [1/1] (0.00ns)   --->   "%shift_reg1_regs_3_lo = load i8* @shift_reg1_regs_3, align 1" [Shift_Register/shift_class.h:65->Shift_Register/shift_reg_class.cpp:53]   --->   Operation 69 'load' 'shift_reg1_regs_3_lo' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 70 [1/1] (0.00ns)   --->   "%mrv = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } undef, i8 %dout0_0_write_assig, 0" [Shift_Register/shift_reg_class.cpp:54]   --->   Operation 70 'insertvalue' 'mrv' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 71 [1/1] (0.00ns)   --->   "%mrv_1 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv, i8 %dout0_1_write_assig, 1" [Shift_Register/shift_reg_class.cpp:54]   --->   Operation 71 'insertvalue' 'mrv_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 72 [1/1] (0.00ns)   --->   "%mrv_2 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_1, i8 %dout0_2_write_assig, 2" [Shift_Register/shift_reg_class.cpp:54]   --->   Operation 72 'insertvalue' 'mrv_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 73 [1/1] (0.00ns)   --->   "%mrv_3 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_2, i8 %dout0_3_write_assig, 3" [Shift_Register/shift_reg_class.cpp:54]   --->   Operation 73 'insertvalue' 'mrv_3' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 74 [1/1] (0.00ns)   --->   "%mrv_4 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_3, i8 %dout0_4_write_assig, 4" [Shift_Register/shift_reg_class.cpp:54]   --->   Operation 74 'insertvalue' 'mrv_4' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 75 [1/1] (0.00ns)   --->   "%mrv_5 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_4, i8 %dout0_5_write_assig, 5" [Shift_Register/shift_reg_class.cpp:54]   --->   Operation 75 'insertvalue' 'mrv_5' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 76 [1/1] (0.00ns)   --->   "%mrv_6 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_5, i8 %dout0_6_write_assig, 6" [Shift_Register/shift_reg_class.cpp:54]   --->   Operation 76 'insertvalue' 'mrv_6' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 77 [1/1] (0.00ns)   --->   "%mrv_7 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_6, i8 %dout0_7_write_assig, 7" [Shift_Register/shift_reg_class.cpp:54]   --->   Operation 77 'insertvalue' 'mrv_7' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 78 [1/1] (0.00ns)   --->   "%mrv_8 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_7, i8 %dout0_8_write_assig, 8" [Shift_Register/shift_reg_class.cpp:54]   --->   Operation 78 'insertvalue' 'mrv_8' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 79 [1/1] (0.00ns)   --->   "%mrv_9 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_8, i8 %dout0_9_write_assig, 9" [Shift_Register/shift_reg_class.cpp:54]   --->   Operation 79 'insertvalue' 'mrv_9' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 80 [1/1] (0.00ns)   --->   "%mrv_10 = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_9, i8 %dout0_10_write_assi, 10" [Shift_Register/shift_reg_class.cpp:54]   --->   Operation 80 'insertvalue' 'mrv_10' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 81 [1/1] (0.00ns)   --->   "%mrv_s = insertvalue { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_10, i8 %shift_reg1_regs_3_lo, 11" [Shift_Register/shift_reg_class.cpp:54]   --->   Operation 81 'insertvalue' 'mrv_s' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 82 [1/1] (0.00ns)   --->   "ret { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } %mrv_s" [Shift_Register/shift_reg_class.cpp:54]   --->   Operation 82 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 1.77ns
+The critical path consists of the following:
+	wire read on port 'en' (Shift_Register/shift_reg_class.cpp:4) [26]  (0 ns)
+	multiplexor before 'phi' operation ('dout0[7]', Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26) with incoming values : ('din', Shift_Register/shift_class.h:65->Shift_Register/shift_reg_class.cpp:40) ('select_ln25', Shift_Register/shift_class.h:25->Shift_Register/shift_reg_class.cpp:26) [83]  (1.77 ns)
+
+ <State 2>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

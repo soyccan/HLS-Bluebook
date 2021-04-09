@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="shift_reg.wdb" id="1">
+         <top_modules>
+            <top_module name="apatb_shift_reg_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   </zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group1" type="group">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group2" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group3" type="group">
+            <obj_property name="label">dout1(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout1_3_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout1_3_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout1_3_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout1_3" type="array">
+               <obj_property name="ElementShortName">dout1_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">dout1_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout1_2_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout1_2_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout1_2_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout1_2" type="array">
+               <obj_property name="ElementShortName">dout1_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">dout1_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout1_1_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout1_1_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout1_1_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout1_1" type="array">
+               <obj_property name="ElementShortName">dout1_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">dout1_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout1_0_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout1_0_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout1_0_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout1_0" type="array">
+               <obj_property name="ElementShortName">dout1_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">dout1_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group12" type="group">
+            <obj_property name="label">dout0(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_11_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_11_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_11_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_11" type="array">
+               <obj_property name="ElementShortName">dout0_11[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_11[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_10_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_10_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_10_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_10" type="array">
+               <obj_property name="ElementShortName">dout0_10[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_10[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_9_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_9_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_9_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_9" type="array">
+               <obj_property name="ElementShortName">dout0_9[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_9[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_8_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_8_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_8_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_8" type="array">
+               <obj_property name="ElementShortName">dout0_8[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_8[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_7_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_7_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_7_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_7" type="array">
+               <obj_property name="ElementShortName">dout0_7[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_7[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_6_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_6_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_6_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_6" type="array">
+               <obj_property name="ElementShortName">dout0_6[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_6[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_5_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_5_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_5_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_5" type="array">
+               <obj_property name="ElementShortName">dout0_5[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_5[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_4_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_4_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_4_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_4" type="array">
+               <obj_property name="ElementShortName">dout0_4[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_4[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_3_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_3_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_3_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_3" type="array">
+               <obj_property name="ElementShortName">dout0_3[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_3[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_2_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_2_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_2_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_2" type="array">
+               <obj_property name="ElementShortName">dout0_2[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_2[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_1_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_1_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_1_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_1" type="array">
+               <obj_property name="ElementShortName">dout0_1[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_1[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_0_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_0_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_0_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/dout0_0" type="array">
+               <obj_property name="ElementShortName">dout0_0[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_0[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group37" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group38" type="group">
+            <obj_property name="label">select(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/select_V" type="array">
+               <obj_property name="ElementShortName">select_V[2:0]</obj_property>
+               <obj_property name="ObjectShortName">select_V[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group40" type="group">
+            <obj_property name="label">en(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/en" type="logic">
+               <obj_property name="ElementShortName">en</obj_property>
+               <obj_property name="ObjectShortName">en</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group42" type="group">
+            <obj_property name="label">load(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/load" type="logic">
+               <obj_property name="ElementShortName">load</obj_property>
+               <obj_property name="ObjectShortName">load</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group44" type="group">
+            <obj_property name="label">srst(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/srst" type="logic">
+               <obj_property name="ElementShortName">srst</obj_property>
+               <obj_property name="ObjectShortName">srst</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group46" type="group">
+            <obj_property name="label">load_data(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/load_data_11" type="array">
+               <obj_property name="ElementShortName">load_data_11[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_11[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/load_data_10" type="array">
+               <obj_property name="ElementShortName">load_data_10[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_10[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/load_data_9" type="array">
+               <obj_property name="ElementShortName">load_data_9[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_9[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/load_data_8" type="array">
+               <obj_property name="ElementShortName">load_data_8[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_8[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/load_data_7" type="array">
+               <obj_property name="ElementShortName">load_data_7[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_7[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/load_data_6" type="array">
+               <obj_property name="ElementShortName">load_data_6[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_6[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/load_data_5" type="array">
+               <obj_property name="ElementShortName">load_data_5[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_5[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/load_data_4" type="array">
+               <obj_property name="ElementShortName">load_data_4[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_4[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/load_data_3" type="array">
+               <obj_property name="ElementShortName">load_data_3[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_3[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/load_data_2" type="array">
+               <obj_property name="ElementShortName">load_data_2[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_2[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/load_data_1" type="array">
+               <obj_property name="ElementShortName">load_data_1[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_1[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/load_data_0" type="array">
+               <obj_property name="ElementShortName">load_data_0[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_0[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group59" type="group">
+            <obj_property name="label">din1(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/din1" type="array">
+               <obj_property name="ElementShortName">din1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">din1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group61" type="group">
+            <obj_property name="label">din0(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/din0" type="array">
+               <obj_property name="ElementShortName">din0[7:0]</obj_property>
+               <obj_property name="ObjectShortName">din0[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group63" type="group">
+         <obj_property name="label">Block-level IO Handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/ap_idle" type="logic">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group68" type="group">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/ap_rst" type="logic">
+            <obj_property name="ElementShortName">ap_rst</obj_property>
+            <obj_property name="ObjectShortName">ap_rst</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group70" type="group">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_shift_reg_top/AESL_inst_shift_reg/ap_clk" type="logic">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group72" type="group">
+      <obj_property name="label">Test Bench Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group73" type="group">
+         <obj_property name="label">Internal Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group74" type="group">
+            <obj_property name="label">Simulation Status</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/AUTOTB_TRANSACTION_NUM" type="array">
+               <obj_property name="ElementShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/ready_cnt" type="array">
+               <obj_property name="ElementShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/done_cnt" type="array">
+               <obj_property name="ElementShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group75" type="group">
+            <obj_property name="label">Port Depth</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_din0" type="array">
+               <obj_property name="ElementShortName">LENGTH_din0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_din0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_din1" type="array">
+               <obj_property name="ElementShortName">LENGTH_din1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_din1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_load_data_0" type="array">
+               <obj_property name="ElementShortName">LENGTH_load_data_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_load_data_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_load_data_1" type="array">
+               <obj_property name="ElementShortName">LENGTH_load_data_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_load_data_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_load_data_2" type="array">
+               <obj_property name="ElementShortName">LENGTH_load_data_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_load_data_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_load_data_3" type="array">
+               <obj_property name="ElementShortName">LENGTH_load_data_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_load_data_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_load_data_4" type="array">
+               <obj_property name="ElementShortName">LENGTH_load_data_4[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_load_data_4[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_load_data_5" type="array">
+               <obj_property name="ElementShortName">LENGTH_load_data_5[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_load_data_5[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_load_data_6" type="array">
+               <obj_property name="ElementShortName">LENGTH_load_data_6[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_load_data_6[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_load_data_7" type="array">
+               <obj_property name="ElementShortName">LENGTH_load_data_7[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_load_data_7[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_load_data_8" type="array">
+               <obj_property name="ElementShortName">LENGTH_load_data_8[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_load_data_8[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_load_data_9" type="array">
+               <obj_property name="ElementShortName">LENGTH_load_data_9[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_load_data_9[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_load_data_10" type="array">
+               <obj_property name="ElementShortName">LENGTH_load_data_10[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_load_data_10[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_load_data_11" type="array">
+               <obj_property name="ElementShortName">LENGTH_load_data_11[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_load_data_11[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout0_0" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout0_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout0_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout0_1" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout0_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout0_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout0_2" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout0_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout0_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout0_3" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout0_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout0_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout0_4" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout0_4[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout0_4[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout0_5" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout0_5[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout0_5[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout0_6" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout0_6[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout0_6[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout0_7" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout0_7[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout0_7[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout0_8" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout0_8[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout0_8[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout0_9" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout0_9[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout0_9[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout0_10" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout0_10[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout0_10[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout0_11" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout0_11[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout0_11[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout1_0" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout1_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout1_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout1_1" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout1_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout1_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout1_2" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout1_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout1_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_dout1_3" type="array">
+               <obj_property name="ElementShortName">LENGTH_dout1_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_dout1_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_srst" type="array">
+               <obj_property name="ElementShortName">LENGTH_srst[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_srst[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_load" type="array">
+               <obj_property name="ElementShortName">LENGTH_load[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_load[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_en" type="array">
+               <obj_property name="ElementShortName">LENGTH_en[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_en[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/LENGTH_select_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_select_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_select_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group113" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group114" type="group">
+            <obj_property name="label">dout1(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/dout1_3_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout1_3_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout1_3_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout1_3" type="array">
+               <obj_property name="ElementShortName">dout1_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">dout1_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout1_2_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout1_2_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout1_2_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout1_2" type="array">
+               <obj_property name="ElementShortName">dout1_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">dout1_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout1_1_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout1_1_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout1_1_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout1_1" type="array">
+               <obj_property name="ElementShortName">dout1_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">dout1_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout1_0_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout1_0_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout1_0_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout1_0" type="array">
+               <obj_property name="ElementShortName">dout1_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">dout1_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group123" type="group">
+            <obj_property name="label">dout0(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_11_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_11_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_11_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_11" type="array">
+               <obj_property name="ElementShortName">dout0_11[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_11[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_10_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_10_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_10_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_10" type="array">
+               <obj_property name="ElementShortName">dout0_10[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_10[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_9_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_9_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_9_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_9" type="array">
+               <obj_property name="ElementShortName">dout0_9[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_9[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_8_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_8_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_8_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_8" type="array">
+               <obj_property name="ElementShortName">dout0_8[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_8[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_7_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_7_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_7_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_7" type="array">
+               <obj_property name="ElementShortName">dout0_7[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_7[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_6_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_6_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_6_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_6" type="array">
+               <obj_property name="ElementShortName">dout0_6[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_6[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_5_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_5_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_5_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_5" type="array">
+               <obj_property name="ElementShortName">dout0_5[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_5[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_4_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_4_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_4_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_4" type="array">
+               <obj_property name="ElementShortName">dout0_4[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_4[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_3_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_3_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_3_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_3" type="array">
+               <obj_property name="ElementShortName">dout0_3[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_3[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_2_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_2_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_2_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_2" type="array">
+               <obj_property name="ElementShortName">dout0_2[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_2[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_1_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_1_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_1_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_1" type="array">
+               <obj_property name="ElementShortName">dout0_1[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_1[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_0_ap_vld" type="logic">
+               <obj_property name="ElementShortName">dout0_0_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">dout0_0_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/dout0_0" type="array">
+               <obj_property name="ElementShortName">dout0_0[7:0]</obj_property>
+               <obj_property name="ObjectShortName">dout0_0[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group148" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group149" type="group">
+            <obj_property name="label">select(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/select_V" type="array">
+               <obj_property name="ElementShortName">select_V[2:0]</obj_property>
+               <obj_property name="ObjectShortName">select_V[2:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group151" type="group">
+            <obj_property name="label">en(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/en" type="logic">
+               <obj_property name="ElementShortName">en</obj_property>
+               <obj_property name="ObjectShortName">en</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group153" type="group">
+            <obj_property name="label">load(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/load" type="logic">
+               <obj_property name="ElementShortName">load</obj_property>
+               <obj_property name="ObjectShortName">load</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group155" type="group">
+            <obj_property name="label">srst(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/srst" type="logic">
+               <obj_property name="ElementShortName">srst</obj_property>
+               <obj_property name="ObjectShortName">srst</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group157" type="group">
+            <obj_property name="label">load_data(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/load_data_11" type="array">
+               <obj_property name="ElementShortName">load_data_11[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_11[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/load_data_10" type="array">
+               <obj_property name="ElementShortName">load_data_10[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_10[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/load_data_9" type="array">
+               <obj_property name="ElementShortName">load_data_9[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_9[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/load_data_8" type="array">
+               <obj_property name="ElementShortName">load_data_8[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_8[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/load_data_7" type="array">
+               <obj_property name="ElementShortName">load_data_7[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_7[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/load_data_6" type="array">
+               <obj_property name="ElementShortName">load_data_6[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_6[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/load_data_5" type="array">
+               <obj_property name="ElementShortName">load_data_5[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_5[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/load_data_4" type="array">
+               <obj_property name="ElementShortName">load_data_4[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_4[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/load_data_3" type="array">
+               <obj_property name="ElementShortName">load_data_3[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_3[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/load_data_2" type="array">
+               <obj_property name="ElementShortName">load_data_2[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_2[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/load_data_1" type="array">
+               <obj_property name="ElementShortName">load_data_1[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_1[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_shift_reg_top/load_data_0" type="array">
+               <obj_property name="ElementShortName">load_data_0[7:0]</obj_property>
+               <obj_property name="ObjectShortName">load_data_0[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group170" type="group">
+            <obj_property name="label">din1(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/din1" type="array">
+               <obj_property name="ElementShortName">din1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">din1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group172" type="group">
+            <obj_property name="label">din0(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_shift_reg_top/din0" type="array">
+               <obj_property name="ElementShortName">din0[7:0]</obj_property>
+               <obj_property name="ObjectShortName">din0[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1617836721544">
+  <ports id="1" name="din" type="PortType" originalName="din" bitwidth="8">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="2" name="en" type="PortType" originalName="en" bitwidth="1">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="12" name="ap_return_0" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="13" name="ap_return_1" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="14" name="ap_return_10" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="15" name="ap_return_11" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="16" name="ap_return_2" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="17" name="ap_return_3" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="18" name="ap_return_4" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="19" name="ap_return_5" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="20" name="ap_return_6" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="21" name="ap_return_7" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="22" name="ap_return_8" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <ports id="23" name="ap_return_9" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <edges id="47" source_obj="//@ports.1" sink_obj="//@blocks.0/@node_objs.0"/>
+  <edges id="50" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="60" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges source_obj="//@blocks.0/@node_objs.15" sink_obj="//@ports.2"/>
+  <edges source_obj="//@blocks.0/@node_objs.15" sink_obj="//@ports.3"/>
+  <edges source_obj="//@blocks.0/@node_objs.15" sink_obj="//@ports.4"/>
+  <edges source_obj="//@blocks.0/@node_objs.15" sink_obj="//@ports.5"/>
+  <edges source_obj="//@blocks.0/@node_objs.15" sink_obj="//@ports.6"/>
+  <edges source_obj="//@blocks.0/@node_objs.15" sink_obj="//@ports.7"/>
+  <edges source_obj="//@blocks.0/@node_objs.15" sink_obj="//@ports.8"/>
+  <edges source_obj="//@blocks.0/@node_objs.15" sink_obj="//@ports.9"/>
+  <edges source_obj="//@blocks.0/@node_objs.15" sink_obj="//@ports.10"/>
+  <edges source_obj="//@blocks.0/@node_objs.15" sink_obj="//@ports.11"/>
+  <edges source_obj="//@blocks.0/@node_objs.15" sink_obj="//@ports.12"/>
+  <edges source_obj="//@blocks.0/@node_objs.15" sink_obj="//@ports.13"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.6" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.7" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.8" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.9" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.10" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.11" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.12" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.13" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="-1" source_obj="//@blocks.0/@node_objs.14" sink_obj="//@blocks.0/@node_objs.15"/>
+  <blocks id="44" name="shift_reg_ip" type="BlockType">
+    <node_objs xsi:type="cdfg:CdfgNode" id="3" name="en_read" lineNumber="4" originalName="en" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" bitwidth="1" opcode="read" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="4" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataInputObjs>en</dataInputObjs>
+      <dataOutputObjs>memshiftread</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="4" name="din_read" lineNumber="4" originalName="din" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" bitwidth="8" opcode="read" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="4" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataInputObjs>din</dataInputObjs>
+      <dataOutputObjs>memshiftread</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="6" name="DataOut_0" lineNumber="20" originalName="DataOut" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" bitwidth="32" opcode="memshiftread" m_display="0" m_delay="1.61" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="20" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="7" name="DataOut" lineNumber="25" originalName="DataOut" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" bitwidth="32" opcode="memshiftread" nodeLabel="1.0" m_display="0" m_delay="1.61" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataOutputObjs>ret</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="9" name="DataOut_1" lineNumber="25" originalName="DataOut" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" bitwidth="32" opcode="memshiftread" nodeLabel="2.0" m_display="0" m_delay="1.61" m_topoIndex="7" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataOutputObjs>ret</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="11" name="DataOut_2" lineNumber="25" originalName="DataOut" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" bitwidth="32" opcode="memshiftread" nodeLabel="3.0" m_display="0" m_delay="1.61" m_topoIndex="9" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataOutputObjs>ret</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="DataOut_3" lineNumber="25" originalName="DataOut" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" bitwidth="32" opcode="memshiftread" nodeLabel="4.0" m_display="0" m_delay="1.61" m_topoIndex="11" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataOutputObjs>ret</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="15" name="DataOut_4" lineNumber="25" originalName="DataOut" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" bitwidth="32" opcode="memshiftread" nodeLabel="5.0" m_display="0" m_delay="1.61" m_topoIndex="13" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataOutputObjs>ret</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="17" name="DataOut_5" lineNumber="25" originalName="DataOut" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" bitwidth="32" opcode="memshiftread" nodeLabel="6.0" m_display="0" m_delay="1.61" m_topoIndex="15" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataOutputObjs>ret</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="19" name="DataOut_6" lineNumber="25" originalName="DataOut" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" bitwidth="32" opcode="memshiftread" nodeLabel="7.0" m_display="0" m_delay="1.61" m_topoIndex="17" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataOutputObjs>ret</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="21" name="DataOut_7" lineNumber="25" originalName="DataOut" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" bitwidth="32" opcode="memshiftread" nodeLabel="8.0" m_display="0" m_delay="1.61" m_topoIndex="19" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataOutputObjs>ret</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="23" name="DataOut_8" lineNumber="25" originalName="DataOut" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" bitwidth="32" opcode="memshiftread" nodeLabel="9.0" m_display="0" m_delay="1.61" m_topoIndex="21" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataOutputObjs>ret</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="25" name="DataOut_9" lineNumber="25" originalName="DataOut" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" bitwidth="32" opcode="memshiftread" nodeLabel="10.0" m_display="0" m_delay="1.61" m_topoIndex="23" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataOutputObjs>ret</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="27" name="DataOut_10" lineNumber="25" originalName="DataOut" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" bitwidth="32" opcode="memshiftread" nodeLabel="11.0" m_display="0" m_delay="1.61" m_topoIndex="25" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataOutputObjs>ret</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="29" name="DataOut_11" lineNumber="25" originalName="DataOut" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" bitwidth="32" opcode="memshiftread" nodeLabel="12.0" m_display="0" m_delay="1.61" m_topoIndex="27" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="25" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataOutputObjs>ret</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="43" name="_ln26" lineNumber="26" fileName="Shift_Register/shift_reg_ip.cpp" fileDirectory=".." contextFuncName="shift_reg_ip" opcode="ret" nodeLabel="12.0" m_display="0" m_topoIndex="41" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Shift_Register/shift_reg_ip.cpp" linenumber="26" fileDirectory="D:\Repo\hls\labA" functionName="shift_reg_ip"/>
+      <dataInputObjs>memshiftread</dataInputObjs>
+      <dataInputObjs>memshiftread</dataInputObjs>
+      <dataInputObjs>memshiftread</dataInputObjs>
+      <dataInputObjs>memshiftread</dataInputObjs>
+      <dataInputObjs>memshiftread</dataInputObjs>
+      <dataInputObjs>memshiftread</dataInputObjs>
+      <dataInputObjs>memshiftread</dataInputObjs>
+      <dataInputObjs>memshiftread</dataInputObjs>
+      <dataInputObjs>memshiftread</dataInputObjs>
+      <dataInputObjs>memshiftread</dataInputObjs>
+      <dataInputObjs>memshiftread</dataInputObjs>
+      <dataInputObjs>memshiftread</dataInputObjs>
+      <dataOutputObjs>ap_return_0</dataOutputObjs>
+      <dataOutputObjs>ap_return_1</dataOutputObjs>
+      <dataOutputObjs>ap_return_10</dataOutputObjs>
+      <dataOutputObjs>ap_return_11</dataOutputObjs>
+      <dataOutputObjs>ap_return_2</dataOutputObjs>
+      <dataOutputObjs>ap_return_3</dataOutputObjs>
+      <dataOutputObjs>ap_return_4</dataOutputObjs>
+      <dataOutputObjs>ap_return_5</dataOutputObjs>
+      <dataOutputObjs>ap_return_6</dataOutputObjs>
+      <dataOutputObjs>ap_return_7</dataOutputObjs>
+      <dataOutputObjs>ap_return_8</dataOutputObjs>
+      <dataOutputObjs>ap_return_9</dataOutputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="Shift_Register/shift_reg_ip.cpp">
+      <validLinenumbers>4</validLinenumbers>
+      <validLinenumbers>20</validLinenumbers>
+      <validLinenumbers>25</validLinenumbers>
+      <validLinenumbers>26</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <ScheduleInfo time="2"/>
+  <ScheduleInfo time="3"/>
+  <ScheduleInfo time="4"/>
+  <ScheduleInfo time="5"/>
+  <ScheduleInfo time="6"/>
+  <ScheduleInfo time="7"/>
+  <ScheduleInfo time="8"/>
+  <ScheduleInfo time="9"/>
+  <ScheduleInfo time="10"/>
+  <ScheduleInfo time="11"/>
+  <ScheduleInfo time="12"/>
+  <regnodes realName="trunc_ln25_3_reg_312">
+    <nodeIds>14</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln25_7_reg_332">
+    <nodeIds>22</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln25_8_reg_337">
+    <nodeIds>24</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln25_10_reg_347">
+    <nodeIds>28</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln25_4_reg_317">
+    <nodeIds>16</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln25_1_reg_302">
+    <nodeIds>10</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln25_5_reg_322">
+    <nodeIds>18</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln25_9_reg_342">
+    <nodeIds>26</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln25_reg_297">
+    <nodeIds>8</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln25_2_reg_307">
+    <nodeIds>12</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln25_6_reg_327">
+    <nodeIds>20</nodeIds>
+  </regnodes>
+  <expressionNodes realName="mrv_8_fu_276">
+    <nodeIds>39</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="DataOut_7_fu_166">
+    <nodeIds>21</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln25_2_fu_106">
+    <nodeIds>12</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_7_fu_271">
+    <nodeIds>38</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="DataOut_10_fu_208">
+    <nodeIds>27</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_s_fu_291">
+    <nodeIds>42</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln25_10_fu_218">
+    <nodeIds>28</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_3_fu_251">
+    <nodeIds>34</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="DataOut_4_fu_124">
+    <nodeIds>15</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="DataOut_fu_68">
+    <nodeIds>7</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln25_5_fu_148">
+    <nodeIds>18</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln25_3_fu_120">
+    <nodeIds>14</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln25_fu_78">
+    <nodeIds>8</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="DataOut_11_fu_222">
+    <nodeIds>29</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_4_fu_256">
+    <nodeIds>35</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln25_6_fu_162">
+    <nodeIds>20</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="DataOut_9_fu_194">
+    <nodeIds>25</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln25_1_fu_92">
+    <nodeIds>10</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_fu_236">
+    <nodeIds>31</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="DataOut_3_fu_110">
+    <nodeIds>13</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_5_fu_261">
+    <nodeIds>36</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="DataOut_6_fu_152">
+    <nodeIds>19</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_6_fu_266">
+    <nodeIds>37</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="DataOut_5_fu_138">
+    <nodeIds>17</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_10_fu_286">
+    <nodeIds>41</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_2_fu_246">
+    <nodeIds>33</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln25_4_fu_134">
+    <nodeIds>16</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln25_7_fu_176">
+    <nodeIds>22</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="sext_ln20_fu_54">
+    <nodeIds>5</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln25_11_fu_232">
+    <nodeIds>30</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln25_9_fu_204">
+    <nodeIds>26</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_1_fu_241">
+    <nodeIds>32</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="DataOut_1_fu_82">
+    <nodeIds>9</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mrv_9_fu_281">
+    <nodeIds>40</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="DataOut_0_fu_58">
+    <nodeIds>6</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="DataOut_2_fu_96">
+    <nodeIds>11</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln25_8_fu_190">
+    <nodeIds>24</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="DataOut_8_fu_180">
+    <nodeIds>23</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="din_read_read_fu_48">
+    <nodeIds>4</nodeIds>
+  </ioNodes>
+  <ioNodes realName="en_read_read_fu_42">
+    <nodeIds>3</nodeIds>
+  </ioNodes>
+  <ioPorts name="din">
+    <contents name="read">
+      <nodeIds>4</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="en">
+    <contents name="read">
+      <nodeIds>3</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_0">
+    <contents name="ret">
+      <nodeIds>43</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_1">
+    <contents name="ret">
+      <nodeIds>43</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_10">
+    <contents name="ret">
+      <nodeIds>43</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_11">
+    <contents name="ret">
+      <nodeIds>43</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_2">
+    <contents name="ret">
+      <nodeIds>43</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_3">
+    <contents name="ret">
+      <nodeIds>43</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_4">
+    <contents name="ret">
+      <nodeIds>43</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_5">
+    <contents name="ret">
+      <nodeIds>43</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_6">
+    <contents name="ret">
+      <nodeIds>43</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_7">
+    <contents name="ret">
+      <nodeIds>43</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_8">
+    <contents name="ret">
+      <nodeIds>43</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return_9">
+    <contents name="ret">
+      <nodeIds>43</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="3" stage="1" latency="1"/>
+      <operations id="4" stage="1" latency="1"/>
+      <operations id="5" stage="1" latency="1"/>
+      <operations id="6" stage="1" latency="1"/>
+    </states>
+    <states id="2">
+      <operations id="7" stage="1" latency="1"/>
+      <operations id="8" stage="1" latency="1"/>
+    </states>
+    <states id="3">
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+    </states>
+    <states id="4">
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+    </states>
+    <states id="5">
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+    </states>
+    <states id="6">
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+    </states>
+    <states id="7">
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+    </states>
+    <states id="8">
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+    </states>
+    <states id="9">
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+    </states>
+    <states id="10">
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+    </states>
+    <states id="11">
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+    </states>
+    <states id="12">
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+    </states>
+    <states id="13">
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="35" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="38" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="41" stage="1" latency="1"/>
+      <operations id="42" stage="1" latency="1"/>
+      <operations id="43" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="2" outState="3">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="3" outState="4">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="4" outState="5">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="5" outState="6">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="6" outState="7">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="7" outState="8">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="8" outState="9">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="9" outState="10">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="10" outState="11">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="11" outState="12">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="12" outState="13">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="shift_reg_ip" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="12" mMaxLatency="12">
+      <basicBlocks>44</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>
