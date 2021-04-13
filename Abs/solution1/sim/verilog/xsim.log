@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# xsim v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Apr 13 11:44:51 2021
+# Process ID: 14496
+# Current directory: C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/top/xsim_script.tcl}
+# Log file: C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog/xsim.log
+# Journal file: C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/top/xsim_script.tcl
+# xsim {top} -autoloadwcfg -tclbatch {top.tcl}
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source top.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 45 [0.00%] @ "113000"
+// RTL Simulation : 1 / 45 [100.00%] @ "128000"
+// RTL Simulation : 2 / 45 [100.00%] @ "138000"
+// RTL Simulation : 3 / 45 [100.00%] @ "148000"
+// RTL Simulation : 4 / 45 [100.00%] @ "158000"
+// RTL Simulation : 5 / 45 [100.00%] @ "168000"
+// RTL Simulation : 6 / 45 [100.00%] @ "178000"
+// RTL Simulation : 7 / 45 [100.00%] @ "188000"
+// RTL Simulation : 8 / 45 [100.00%] @ "198000"
+// RTL Simulation : 9 / 45 [100.00%] @ "208000"
+// RTL Simulation : 10 / 45 [100.00%] @ "218000"
+// RTL Simulation : 11 / 45 [100.00%] @ "228000"
+// RTL Simulation : 12 / 45 [100.00%] @ "238000"
+// RTL Simulation : 13 / 45 [100.00%] @ "248000"
+// RTL Simulation : 14 / 45 [100.00%] @ "258000"
+// RTL Simulation : 15 / 45 [100.00%] @ "268000"
+// RTL Simulation : 16 / 45 [100.00%] @ "278000"
+// RTL Simulation : 17 / 45 [100.00%] @ "288000"
+// RTL Simulation : 18 / 45 [100.00%] @ "298000"
+// RTL Simulation : 19 / 45 [100.00%] @ "308000"
+// RTL Simulation : 20 / 45 [100.00%] @ "318000"
+// RTL Simulation : 21 / 45 [100.00%] @ "328000"
+// RTL Simulation : 22 / 45 [100.00%] @ "338000"
+// RTL Simulation : 23 / 45 [100.00%] @ "348000"
+// RTL Simulation : 24 / 45 [100.00%] @ "358000"
+// RTL Simulation : 25 / 45 [100.00%] @ "368000"
+// RTL Simulation : 26 / 45 [100.00%] @ "378000"
+// RTL Simulation : 27 / 45 [100.00%] @ "388000"
+// RTL Simulation : 28 / 45 [100.00%] @ "398000"
+// RTL Simulation : 29 / 45 [100.00%] @ "408000"
+// RTL Simulation : 30 / 45 [100.00%] @ "418000"
+// RTL Simulation : 31 / 45 [100.00%] @ "428000"
+// RTL Simulation : 32 / 45 [100.00%] @ "438000"
+// RTL Simulation : 33 / 45 [100.00%] @ "448000"
+// RTL Simulation : 34 / 45 [100.00%] @ "458000"
+// RTL Simulation : 35 / 45 [100.00%] @ "468000"
+// RTL Simulation : 36 / 45 [100.00%] @ "478000"
+// RTL Simulation : 37 / 45 [100.00%] @ "488000"
+// RTL Simulation : 38 / 45 [100.00%] @ "498000"
+// RTL Simulation : 39 / 45 [100.00%] @ "508000"
+// RTL Simulation : 40 / 45 [100.00%] @ "518000"
+// RTL Simulation : 41 / 45 [100.00%] @ "528000"
+// RTL Simulation : 42 / 45 [100.00%] @ "538000"
+// RTL Simulation : 43 / 45 [100.00%] @ "548000"
+// RTL Simulation : 44 / 45 [100.00%] @ "558000"
+// RTL Simulation : 45 / 45 [100.00%] @ "568000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 587500 ps : File "C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog/top.autotb.v" Line 320
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue Apr 13 11:45:03 2021...

@@ -1,0 +1,199 @@
+>> Start test!
+(-128, 0) -> -128
+(-128, 1) -> -128
+(-128, 2) -> 0
+(-112, 0) -> 112
+(-112, 1) -> 112
+(-112, 2) -> 112
+(-96, 0) -> 96
+(-96, 1) -> 96
+(-96, 2) -> 96
+(-80, 0) -> 80
+(-80, 1) -> 80
+(-80, 2) -> 80
+(-64, 0) -> 64
+(-64, 1) -> 64
+(-64, 2) -> 64
+(-48, 0) -> 48
+(-48, 1) -> 48
+(-48, 2) -> 48
+(-32, 0) -> 32
+(-32, 1) -> 32
+(-32, 2) -> 32
+(-16, 0) -> 16
+(-16, 1) -> 16
+(-16, 2) -> 16
+(0, 0) -> 0
+(0, 1) -> 0
+(0, 2) -> 0
+(16, 0) -> 16
+(16, 1) -> 16
+(16, 2) -> 16
+(32, 0) -> 32
+(32, 1) -> 32
+(32, 2) -> 32
+(48, 0) -> 48
+(48, 1) -> 48
+(48, 2) -> 48
+(64, 0) -> 64
+(64, 1) -> 64
+(64, 2) -> 64
+(80, 0) -> 80
+(80, 1) -> 80
+(80, 2) -> 80
+(96, 0) -> 96
+(96, 1) -> 96
+(96, 2) -> 96
+------------------------
+>> Test passed!
+------------------------
+
+C:\data\ACA\LabA\LabA-HLS\solution1\sim\verilog>set PATH= 
+
+C:\data\ACA\LabA\LabA-HLS\solution1\sim\verilog>call C:/Xilinx/Vivado/2019.2/bin/xelab xil_defaultlib.apatb_top_top glbl -prj top.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile "C:/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s top  
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "C:/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_top_top glbl -prj top.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile C:/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s top 
+Multi-threading is on. Using 6 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog/top.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_top_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.apatb_top_top
+Compiling module work.glbl
+Built simulation snapshot top
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog/xsim.dir/top/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 13 11:44:49 2021...
+
+****** xsim v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/top/xsim_script.tcl
+# xsim {top} -autoloadwcfg -tclbatch {top.tcl}
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source top.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 45 [0.00%] @ "113000"
+// RTL Simulation : 1 / 45 [100.00%] @ "128000"
+// RTL Simulation : 2 / 45 [100.00%] @ "138000"
+// RTL Simulation : 3 / 45 [100.00%] @ "148000"
+// RTL Simulation : 4 / 45 [100.00%] @ "158000"
+// RTL Simulation : 5 / 45 [100.00%] @ "168000"
+// RTL Simulation : 6 / 45 [100.00%] @ "178000"
+// RTL Simulation : 7 / 45 [100.00%] @ "188000"
+// RTL Simulation : 8 / 45 [100.00%] @ "198000"
+// RTL Simulation : 9 / 45 [100.00%] @ "208000"
+// RTL Simulation : 10 / 45 [100.00%] @ "218000"
+// RTL Simulation : 11 / 45 [100.00%] @ "228000"
+// RTL Simulation : 12 / 45 [100.00%] @ "238000"
+// RTL Simulation : 13 / 45 [100.00%] @ "248000"
+// RTL Simulation : 14 / 45 [100.00%] @ "258000"
+// RTL Simulation : 15 / 45 [100.00%] @ "268000"
+// RTL Simulation : 16 / 45 [100.00%] @ "278000"
+// RTL Simulation : 17 / 45 [100.00%] @ "288000"
+// RTL Simulation : 18 / 45 [100.00%] @ "298000"
+// RTL Simulation : 19 / 45 [100.00%] @ "308000"
+// RTL Simulation : 20 / 45 [100.00%] @ "318000"
+// RTL Simulation : 21 / 45 [100.00%] @ "328000"
+// RTL Simulation : 22 / 45 [100.00%] @ "338000"
+// RTL Simulation : 23 / 45 [100.00%] @ "348000"
+// RTL Simulation : 24 / 45 [100.00%] @ "358000"
+// RTL Simulation : 25 / 45 [100.00%] @ "368000"
+// RTL Simulation : 26 / 45 [100.00%] @ "378000"
+// RTL Simulation : 27 / 45 [100.00%] @ "388000"
+// RTL Simulation : 28 / 45 [100.00%] @ "398000"
+// RTL Simulation : 29 / 45 [100.00%] @ "408000"
+// RTL Simulation : 30 / 45 [100.00%] @ "418000"
+// RTL Simulation : 31 / 45 [100.00%] @ "428000"
+// RTL Simulation : 32 / 45 [100.00%] @ "438000"
+// RTL Simulation : 33 / 45 [100.00%] @ "448000"
+// RTL Simulation : 34 / 45 [100.00%] @ "458000"
+// RTL Simulation : 35 / 45 [100.00%] @ "468000"
+// RTL Simulation : 36 / 45 [100.00%] @ "478000"
+// RTL Simulation : 37 / 45 [100.00%] @ "488000"
+// RTL Simulation : 38 / 45 [100.00%] @ "498000"
+// RTL Simulation : 39 / 45 [100.00%] @ "508000"
+// RTL Simulation : 40 / 45 [100.00%] @ "518000"
+// RTL Simulation : 41 / 45 [100.00%] @ "528000"
+// RTL Simulation : 42 / 45 [100.00%] @ "538000"
+// RTL Simulation : 43 / 45 [100.00%] @ "548000"
+// RTL Simulation : 44 / 45 [100.00%] @ "558000"
+// RTL Simulation : 45 / 45 [100.00%] @ "568000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 587500 ps : File "C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog/top.autotb.v" Line 320
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue Apr 13 11:45:03 2021...
+>> Start test!
+(-128, 0) -> -128
+(-128, 1) -> -128
+(-128, 2) -> 0
+(-112, 0) -> 112
+(-112, 1) -> 112
+(-112, 2) -> 112
+(-96, 0) -> 96
+(-96, 1) -> 96
+(-96, 2) -> 96
+(-80, 0) -> 80
+(-80, 1) -> 80
+(-80, 2) -> 80
+(-64, 0) -> 64
+(-64, 1) -> 64
+(-64, 2) -> 64
+(-48, 0) -> 48
+(-48, 1) -> 48
+(-48, 2) -> 48
+(-32, 0) -> 32
+(-32, 1) -> 32
+(-32, 2) -> 32
+(-16, 0) -> 16
+(-16, 1) -> 16
+(-16, 2) -> 16
+(0, 0) -> 0
+(0, 1) -> 0
+(0, 2) -> 0
+(16, 0) -> 16
+(16, 1) -> 16
+(16, 2) -> 16
+(32, 0) -> 32
+(32, 1) -> 32
+(32, 2) -> 32
+(48, 0) -> 48
+(48, 1) -> 48
+(48, 2) -> 48
+(64, 0) -> 64
+(64, 1) -> 64
+(64, 2) -> 64
+(80, 0) -> 80
+(80, 1) -> 80
+(80, 2) -> 80
+(96, 0) -> 96
+(96, 1) -> 96
+(96, 2) -> 96
+------------------------
+>> Test passed!
+------------------------

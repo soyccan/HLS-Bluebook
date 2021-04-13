@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Apr 13 11:45:00 2021
+# Process ID: 11496
+# Current directory: C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog
+# Command line: wbtcv.exe -mode batch -source C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog/xsim.dir/top/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog/webtalk.log
+# Journal file: C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog\webtalk.jou
+#-----------------------------------------------------------
+source C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog/xsim.dir/top/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 13 11:45:03 2021...
