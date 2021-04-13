@@ -1,6 +1,0 @@
-0.6
-2019.2
-Nov  6 2019
-21:57:16
-C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog/top.autotb.v,1618285478,systemVerilog,,,,apatb_top_top,C:/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini,axi_protocol_checker_v1_1_12;axi_protocol_checker_v1_1_13;axis_protocol_checker_v1_1_11;axis_protocol_checker_v1_1_12;ieee_proposed=./ieee_proposed;smartconnect_v1_0;unisims_ver;xil_defaultlib;xpm,,,,,,
-C:/data/ACA/LabA/LabA-HLS/solution1/sim/verilog/top.v,1618285393,systemVerilog,,,,top,C:/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini,axi_protocol_checker_v1_1_12;axi_protocol_checker_v1_1_13;axis_protocol_checker_v1_1_11;axis_protocol_checker_v1_1_12;ieee_proposed=./ieee_proposed;smartconnect_v1_0;unisims_ver;xil_defaultlib;xpm,,,,,,

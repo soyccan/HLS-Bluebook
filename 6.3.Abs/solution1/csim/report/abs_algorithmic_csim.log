@@ -1,0 +1,11 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../AbsTester.cpp in debug mode
+   Compiling ../../../Abs.cpp in debug mode
+   Generating csim.exe
+>> Start test!
+-128 -> -128
+------------------------
+>> Test failed!
+ERR: [SIM 100] 'csim_design' failed: nonzero return value.
+INFO: [SIM 3] *************** CSIM finish ***************

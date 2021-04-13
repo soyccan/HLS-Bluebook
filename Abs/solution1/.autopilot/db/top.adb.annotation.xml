@@ -1,8 +1,0 @@
-<annotationInfo>
-<annotationInfo>
-<item  id="8" filename="LabA-HLS/Top.cpp" linenumber="4" name="xs_V_1" contextFuncName="top" moduleName="top" rtlName="xs_V_1_fu_28_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="15" fileDirectory="C:\data\ACA\LabA"><\/item>
-<item  id="9" filename="LabA-HLS/Top.cpp" linenumber="5" name="p_Result_1" contextFuncName="top" moduleName="top" rtlName="p_Result_1_fu_34_p4" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\data\ACA\LabA"><\/item>
-<item  id="10" filename="LabA-HLS/Top.cpp" linenumber="6" name="p_Result_s" contextFuncName="top" moduleName="top" rtlName="p_Result_s_fu_44_p3" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\data\ACA\LabA"><\/item>
-<item  id="11" filename="LabA-HLS/Top.cpp" linenumber="6" name="select_ln6" contextFuncName="top" moduleName="top" rtlName="ap_return" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="8" fileDirectory="C:\data\ACA\LabA"><\/item>
-<\/annotationInfo>
-</annotationInfo>
